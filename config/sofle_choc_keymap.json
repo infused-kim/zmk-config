@@ -313,7 +313,7 @@
          "x":100,
          "y":90,
          "angle":0,
-         "active":false,
+         "active":true,
          "row":2,
          "column":2,
          "side":"left",
@@ -632,7 +632,7 @@
          "x":454,
          "y":234,
          "angle":-21,
-         "active":true,
+         "active":false,
          "row":4,
          "column":7,
          "side":"right",
@@ -2131,9 +2131,9 @@
       },
       {
          "keyNumber":25,
-         "type":"&none",
+         "type":"man ",
          "values":[
-
+            "&rgb_ug RGB_BRD"
          ],
          "keys":[
 
@@ -2187,9 +2187,9 @@
       },
       {
          "keyNumber":26,
-         "type":"&none",
+         "type":"man ",
          "values":[
-
+            "&rgb_ug RGB_BRI"
          ],
          "keys":[
 
