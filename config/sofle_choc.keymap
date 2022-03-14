@@ -79,7 +79,7 @@
 
     Base_layer {
       bindings = <
-        &kp GRAVE &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &kp NUMBER_4 &kp NUMBER_5 &kp NUMBER_6 &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &kp NUMBER_0 &none &kp ESCAPE &kp Q &kp W &kp F &kp P &kp B &kp J &kp L &kp U &kp Y &kp SEMICOLON &kp BACKSPACE &kp TAB &kp A &kp R &kp S &kp T &kp G &kp M &kp N &kp E &kp I &kp O &kp SINGLE_QUOTE &kp LEFT_SHIFT &kp Z &kp X &kp C &kp D &kp V &kp K_MUTE &kp K_MUTE &kp K &kp H &kp COMMA &kp DOT &kp SLASH &kp RIGHT_SHIFT &kp LEFT_CONTROL &kp LEFT_ALT &kp LEFT_GUI &kp SPACE &to LOWER &to RAISE &kp RETURN &kp RIGHT_GUI &kp RIGHT_ALT &kp RIGHT_CONTROL
+        &kp GRAVE &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &kp NUMBER_4 &kp NUMBER_5 &kp NUMBER_6 &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &kp NUMBER_0 &none &kp ESCAPE &kp Q &kp W &kp F &kp P &kp B &kp J &kp L &kp U &kp Y &kp SEMICOLON &kp BACKSPACE &kp TAB &kp A &kp R &kp S &kp T &kp G &kp M &kp N &kp E &kp I &kp O &kp SINGLE_QUOTE &kp LEFT_SHIFT &kp Z &kp X &kp C &kp D &kp V &kp K_MUTE &kp K_MUTE &kp K &kp H &kp COMMA &kp DOT &kp SLASH &kp RIGHT_SHIFT &kp LEFT_CONTROL &kp LEFT_ALT &kp LEFT_GUI &kp SPACE &mo LOWER &mo RAISE &kp RETURN &kp RIGHT_GUI &kp RIGHT_ALT &kp RIGHT_CONTROL
       >;
       sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
     };

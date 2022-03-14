@@ -555,7 +555,7 @@
          "x":692,
          "y":150,
          "angle":0,
-         "active":true,
+         "active":false,
          "row":3,
          "column":12,
          "side":"right",
@@ -632,7 +632,7 @@
          "x":454,
          "y":234,
          "angle":-21,
-         "active":false,
+         "active":true,
          "row":4,
          "column":7,
          "side":"right",
@@ -3715,7 +3715,7 @@
       },
       {
          "keyNumber":54,
-         "type":"&to ",
+         "type":"&mo ",
          "values":[
             null
          ],
@@ -3771,7 +3771,7 @@
       },
       {
          "keyNumber":55,
-         "type":"&to ",
+         "type":"&mo ",
          "values":[
 
          ],
