@@ -1,0 +1,4057 @@
+{
+   "githubUrl":"https://github.com/josefadamcik/SofleKeyboard",
+   "rows":5,
+   "cols":14,
+   "split":true,
+   "layers":[
+      {
+         "name":"Base",
+         "id":"3b78f6ec-e664-4d4b-9c5b-89a9f89f698d"
+      },
+      {
+         "name":"Lower",
+         "id":"181b0427-f15f-456b-8965-791e56917621"
+      },
+      {
+         "name":"Raise",
+         "id":"91856afb-3fff-4a76-90b2-9629b6e31974"
+      },
+      {
+         "name":"Adjust",
+         "id":"06d57e77-9266-4682-bf0c-195bb12f1c07"
+      }
+   ],
+   "keyConfigs":[
+      {
+         "keyNumber":0,
+         "x":0,
+         "y":0,
+         "angle":0,
+         "active":false,
+         "row":0,
+         "column":0,
+         "side":"left",
+         "label":"0"
+      },
+      {
+         "keyNumber":1,
+         "x":50,
+         "y":0,
+         "angle":0,
+         "active":false,
+         "row":0,
+         "column":1,
+         "side":"left",
+         "label":"1"
+      },
+      {
+         "keyNumber":2,
+         "x":100,
+         "y":-10,
+         "angle":0,
+         "active":false,
+         "row":0,
+         "column":2,
+         "side":"left",
+         "label":"2"
+      },
+      {
+         "keyNumber":3,
+         "x":150,
+         "y":-22,
+         "angle":0,
+         "active":false,
+         "row":0,
+         "column":3,
+         "side":"left",
+         "label":"3"
+      },
+      {
+         "keyNumber":4,
+         "x":200,
+         "y":-12,
+         "angle":0,
+         "active":false,
+         "row":0,
+         "column":4,
+         "side":"left",
+         "label":"4"
+      },
+      {
+         "keyNumber":5,
+         "x":250,
+         "y":0,
+         "angle":0,
+         "active":false,
+         "row":0,
+         "column":5,
+         "side":"left",
+         "label":"5"
+      },
+      {
+         "keyNumber":6,
+         "x":492,
+         "y":0,
+         "angle":0,
+         "active":false,
+         "row":0,
+         "column":8,
+         "side":"right",
+         "label":"8"
+      },
+      {
+         "keyNumber":7,
+         "x":542,
+         "y":-12,
+         "angle":0,
+         "active":false,
+         "row":0,
+         "column":9,
+         "side":"right",
+         "label":"9"
+      },
+      {
+         "keyNumber":8,
+         "x":592,
+         "y":-22,
+         "angle":0,
+         "active":false,
+         "row":0,
+         "column":10,
+         "side":"right",
+         "label":"10"
+      },
+      {
+         "keyNumber":9,
+         "x":642,
+         "y":-10,
+         "angle":0,
+         "active":false,
+         "row":0,
+         "column":11,
+         "side":"right",
+         "label":"11"
+      },
+      {
+         "keyNumber":10,
+         "x":692,
+         "y":0,
+         "angle":0,
+         "active":false,
+         "row":0,
+         "column":12,
+         "side":"right",
+         "label":"12"
+      },
+      {
+         "keyNumber":11,
+         "x":742,
+         "y":0,
+         "angle":0,
+         "active":false,
+         "row":0,
+         "column":13,
+         "side":"right",
+         "label":"13"
+      },
+      {
+         "keyNumber":12,
+         "x":0,
+         "y":50,
+         "angle":0,
+         "active":false,
+         "row":1,
+         "column":0,
+         "side":"left",
+         "label":"14"
+      },
+      {
+         "keyNumber":13,
+         "x":50,
+         "y":50,
+         "angle":0,
+         "active":false,
+         "row":1,
+         "column":1,
+         "side":"left",
+         "label":"15"
+      },
+      {
+         "keyNumber":14,
+         "x":100,
+         "y":40,
+         "angle":0,
+         "active":false,
+         "row":1,
+         "column":2,
+         "side":"left",
+         "label":"16"
+      },
+      {
+         "keyNumber":15,
+         "x":150,
+         "y":28,
+         "angle":0,
+         "active":false,
+         "row":1,
+         "column":3,
+         "side":"left",
+         "label":"17"
+      },
+      {
+         "keyNumber":16,
+         "x":200,
+         "y":38,
+         "angle":0,
+         "active":false,
+         "row":1,
+         "column":4,
+         "side":"left",
+         "label":"18"
+      },
+      {
+         "keyNumber":17,
+         "x":250,
+         "y":50,
+         "angle":0,
+         "active":false,
+         "row":1,
+         "column":5,
+         "side":"left",
+         "label":"19"
+      },
+      {
+         "keyNumber":18,
+         "x":492,
+         "y":50,
+         "angle":0,
+         "active":false,
+         "row":1,
+         "column":8,
+         "side":"right",
+         "label":"22"
+      },
+      {
+         "keyNumber":19,
+         "x":542,
+         "y":38,
+         "angle":0,
+         "active":false,
+         "row":1,
+         "column":9,
+         "side":"right",
+         "label":"23"
+      },
+      {
+         "keyNumber":20,
+         "x":592,
+         "y":28,
+         "angle":0,
+         "active":false,
+         "row":1,
+         "column":10,
+         "side":"right",
+         "label":"24"
+      },
+      {
+         "keyNumber":21,
+         "x":642,
+         "y":40,
+         "angle":0,
+         "active":false,
+         "row":1,
+         "column":11,
+         "side":"right",
+         "label":"25"
+      },
+      {
+         "keyNumber":22,
+         "x":692,
+         "y":50,
+         "angle":0,
+         "active":false,
+         "row":1,
+         "column":12,
+         "side":"right",
+         "label":"26"
+      },
+      {
+         "keyNumber":23,
+         "x":742,
+         "y":50,
+         "angle":0,
+         "active":false,
+         "row":1,
+         "column":13,
+         "side":"right",
+         "label":"27"
+      },
+      {
+         "keyNumber":24,
+         "x":0,
+         "y":100,
+         "angle":0,
+         "active":false,
+         "row":2,
+         "column":0,
+         "side":"left",
+         "label":"28"
+      },
+      {
+         "keyNumber":25,
+         "x":50,
+         "y":100,
+         "angle":0,
+         "active":false,
+         "row":2,
+         "column":1,
+         "side":"left",
+         "label":"29"
+      },
+      {
+         "keyNumber":26,
+         "x":100,
+         "y":90,
+         "angle":0,
+         "active":false,
+         "row":2,
+         "column":2,
+         "side":"left",
+         "label":"30"
+      },
+      {
+         "keyNumber":27,
+         "x":150,
+         "y":78,
+         "angle":0,
+         "active":false,
+         "row":2,
+         "column":3,
+         "side":"left",
+         "label":"31"
+      },
+      {
+         "keyNumber":28,
+         "x":200,
+         "y":88,
+         "angle":0,
+         "active":false,
+         "row":2,
+         "column":4,
+         "side":"left",
+         "label":"32"
+      },
+      {
+         "keyNumber":29,
+         "x":250,
+         "y":100,
+         "angle":0,
+         "active":false,
+         "row":2,
+         "column":5,
+         "side":"left",
+         "label":"33"
+      },
+      {
+         "keyNumber":30,
+         "x":492,
+         "y":100,
+         "angle":0,
+         "active":false,
+         "row":2,
+         "column":8,
+         "side":"right",
+         "label":"36"
+      },
+      {
+         "keyNumber":31,
+         "x":542,
+         "y":88,
+         "angle":0,
+         "active":false,
+         "row":2,
+         "column":9,
+         "side":"right",
+         "label":"37"
+      },
+      {
+         "keyNumber":32,
+         "x":592,
+         "y":78,
+         "angle":0,
+         "active":false,
+         "row":2,
+         "column":10,
+         "side":"right",
+         "label":"38"
+      },
+      {
+         "keyNumber":33,
+         "x":642,
+         "y":90,
+         "angle":0,
+         "active":false,
+         "row":2,
+         "column":11,
+         "side":"right",
+         "label":"39"
+      },
+      {
+         "keyNumber":34,
+         "x":692,
+         "y":100,
+         "angle":0,
+         "active":false,
+         "row":2,
+         "column":12,
+         "side":"right",
+         "label":"40"
+      },
+      {
+         "keyNumber":35,
+         "x":742,
+         "y":100,
+         "angle":0,
+         "active":false,
+         "row":2,
+         "column":13,
+         "side":"right",
+         "label":"41"
+      },
+      {
+         "keyNumber":36,
+         "x":0,
+         "y":150,
+         "angle":0,
+         "active":false,
+         "row":3,
+         "column":0,
+         "side":"left",
+         "label":"42"
+      },
+      {
+         "keyNumber":37,
+         "x":50,
+         "y":150,
+         "angle":0,
+         "active":false,
+         "row":3,
+         "column":1,
+         "side":"left",
+         "label":"43"
+      },
+      {
+         "keyNumber":38,
+         "x":100,
+         "y":140,
+         "angle":0,
+         "active":false,
+         "row":3,
+         "column":2,
+         "side":"left",
+         "label":"44"
+      },
+      {
+         "keyNumber":39,
+         "x":150,
+         "y":128,
+         "angle":0,
+         "active":false,
+         "row":3,
+         "column":3,
+         "side":"left",
+         "label":"45"
+      },
+      {
+         "keyNumber":40,
+         "x":200,
+         "y":138,
+         "angle":0,
+         "active":false,
+         "row":3,
+         "column":4,
+         "side":"left",
+         "label":"46"
+      },
+      {
+         "keyNumber":41,
+         "x":250,
+         "y":150,
+         "angle":0,
+         "active":false,
+         "row":3,
+         "column":5,
+         "side":"left",
+         "label":"47"
+      },
+      {
+         "keyNumber":42,
+         "x":300,
+         "y":150,
+         "angle":0,
+         "active":false,
+         "row":3,
+         "column":6,
+         "side":"left",
+         "label":"48"
+      },
+      {
+         "keyNumber":43,
+         "x":442,
+         "y":150,
+         "angle":0,
+         "active":false,
+         "row":3,
+         "column":7,
+         "side":"right",
+         "label":"49"
+      },
+      {
+         "keyNumber":44,
+         "x":492,
+         "y":150,
+         "angle":0,
+         "active":false,
+         "row":3,
+         "column":8,
+         "side":"right",
+         "label":"50"
+      },
+      {
+         "keyNumber":45,
+         "x":542,
+         "y":138,
+         "angle":0,
+         "active":false,
+         "row":3,
+         "column":9,
+         "side":"right",
+         "label":"51"
+      },
+      {
+         "keyNumber":46,
+         "x":592,
+         "y":128,
+         "angle":0,
+         "active":false,
+         "row":3,
+         "column":10,
+         "side":"right",
+         "label":"52"
+      },
+      {
+         "keyNumber":47,
+         "x":642,
+         "y":140,
+         "angle":0,
+         "active":false,
+         "row":3,
+         "column":11,
+         "side":"right",
+         "label":"53"
+      },
+      {
+         "keyNumber":48,
+         "x":692,
+         "y":150,
+         "angle":0,
+         "active":false,
+         "row":3,
+         "column":12,
+         "side":"right",
+         "label":"54"
+      },
+      {
+         "keyNumber":49,
+         "x":742,
+         "y":150,
+         "angle":0,
+         "active":false,
+         "row":3,
+         "column":13,
+         "side":"right",
+         "label":"55"
+      },
+      {
+         "keyNumber":50,
+         "x":92,
+         "y":212,
+         "angle":0,
+         "active":false,
+         "row":4,
+         "column":2,
+         "side":"left",
+         "label":"58"
+      },
+      {
+         "keyNumber":51,
+         "x":142,
+         "y":204,
+         "angle":0,
+         "active":false,
+         "row":4,
+         "column":3,
+         "side":"left",
+         "label":"59"
+      },
+      {
+         "keyNumber":52,
+         "x":192,
+         "y":204,
+         "angle":0,
+         "active":false,
+         "row":4,
+         "column":4,
+         "side":"left",
+         "label":"60"
+      },
+      {
+         "keyNumber":53,
+         "x":250,
+         "y":218,
+         "angle":10,
+         "active":false,
+         "row":4,
+         "column":5,
+         "side":"left",
+         "label":"61"
+      },
+      {
+         "keyNumber":54,
+         "x":302,
+         "y":238,
+         "angle":20,
+         "active":false,
+         "row":4,
+         "column":6,
+         "side":"left",
+         "label":"62"
+      },
+      {
+         "keyNumber":55,
+         "x":454,
+         "y":234,
+         "angle":-21,
+         "active":false,
+         "row":4,
+         "column":7,
+         "side":"right",
+         "label":"63"
+      },
+      {
+         "keyNumber":56,
+         "x":506,
+         "y":216,
+         "angle":-7,
+         "active":false,
+         "row":4,
+         "column":8,
+         "side":"right",
+         "label":"64"
+      },
+      {
+         "keyNumber":57,
+         "x":560,
+         "y":208,
+         "angle":0,
+         "active":false,
+         "row":4,
+         "column":9,
+         "side":"right",
+         "label":"65"
+      },
+      {
+         "keyNumber":58,
+         "x":610,
+         "y":206,
+         "angle":0,
+         "active":false,
+         "row":4,
+         "column":10,
+         "side":"right",
+         "label":"66"
+      },
+      {
+         "keyNumber":59,
+         "x":660,
+         "y":212,
+         "angle":0,
+         "active":false,
+         "row":4,
+         "column":11,
+         "side":"right",
+         "label":"67"
+      }
+   ],
+   "behaviors":[
+      {
+         "keyNumber":0,
+         "type":"&kp ",
+         "values":[
+            "GRAVE"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"dba820a3-432b-4d1c-b939-7773118f6b9d",
+         "layerId":"3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":0,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":0,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"91856afb-3fff-4a76-90b2-9629b6e31974",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":0,
+         "type":"&bt ",
+         "values":[
+            "BT_CLR"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"f2132607-cbdc-410f-90d9-3d19113528f4",
+         "layerId":"06d57e77-9266-4682-bf0c-195bb12f1c07",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":1,
+         "type":"&kp ",
+         "values":[
+            "NUMBER_1"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"4487e63f-ff10-475d-a282-e4f3e51dc523",
+         "layerId":"3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":1,
+         "type":"&kp ",
+         "values":[
+            "F1"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"20cee713-ed04-4b0e-bd78-ec4c056c0184",
+         "layerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":1,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"91856afb-3fff-4a76-90b2-9629b6e31974",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":1,
+         "type":"&bt ",
+         "values":[
+            "BT_SEL 1"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"670b10fc-5157-4f3a-9c15-f6d6ffe6d974",
+         "layerId":"06d57e77-9266-4682-bf0c-195bb12f1c07",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":2,
+         "type":"&kp ",
+         "values":[
+            "NUMBER_2"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"388777d6-6ff8-4a81-81e5-36c5395c3160",
+         "layerId":"3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":2,
+         "type":"&kp ",
+         "values":[
+            "F2"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"729e79a8-1f4e-4203-b918-8b47a4fedf33",
+         "layerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":2,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"91856afb-3fff-4a76-90b2-9629b6e31974",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":2,
+         "type":"&bt ",
+         "values":[
+            "BT_SEL 2"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"e3ab6b1e-1d4e-421b-aba9-aaf859cd47c6",
+         "layerId":"06d57e77-9266-4682-bf0c-195bb12f1c07",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":3,
+         "type":"&kp ",
+         "values":[
+            "NUMBER_3"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"d3507338-963e-43f6-854b-3ec0b0ee6f77",
+         "layerId":"3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":3,
+         "type":"&kp ",
+         "values":[
+            "F3"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"796024ad-48da-474c-803b-d8e0372e9f15",
+         "layerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":3,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"91856afb-3fff-4a76-90b2-9629b6e31974",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":3,
+         "type":"&bt ",
+         "values":[
+            "BT_SEL 3"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"bb7381a7-f57d-483b-8ba8-20bd74b64fb0",
+         "layerId":"06d57e77-9266-4682-bf0c-195bb12f1c07",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":4,
+         "type":"&kp ",
+         "values":[
+            "NUMBER_4"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"17915681-8b61-4cce-a17f-0f089a710833",
+         "layerId":"3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":4,
+         "type":"&kp ",
+         "values":[
+            "F4"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"25366b40-5e3d-455a-9751-eb2c3d1f1765",
+         "layerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":4,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"91856afb-3fff-4a76-90b2-9629b6e31974",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":4,
+         "type":"&bt ",
+         "values":[
+            "BT_SEL 4"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"324009e4-5b80-4849-88f9-1c0c37115633",
+         "layerId":"06d57e77-9266-4682-bf0c-195bb12f1c07",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":5,
+         "type":"&kp ",
+         "values":[
+            "NUMBER_5"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"aa145df8-da21-4251-b63b-64051b9522dd",
+         "layerId":"3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":5,
+         "type":"&kp ",
+         "values":[
+            "F5"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"6edb9d6f-4e6e-4128-b56e-7c45dc083633",
+         "layerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":5,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"91856afb-3fff-4a76-90b2-9629b6e31974",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":5,
+         "type":"&bt ",
+         "values":[
+            "BT_SEL 5"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"d3840e11-5a82-4778-b0e7-44ac507811a5",
+         "layerId":"06d57e77-9266-4682-bf0c-195bb12f1c07",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":6,
+         "type":"&kp ",
+         "values":[
+            "NUMBER_6"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"1b97124c-7b61-4442-aa78-88457ed5d40b",
+         "layerId":"3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":6,
+         "type":"&kp ",
+         "values":[
+            "F6"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"dff2e703-07d7-4fb8-95b9-091e7afb074c",
+         "layerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":6,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"91856afb-3fff-4a76-90b2-9629b6e31974",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":6,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"06d57e77-9266-4682-bf0c-195bb12f1c07",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":7,
+         "type":"&kp ",
+         "values":[
+            "NUMBER_7"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"c097ef1a-09f9-4616-a803-9b4da69d7735",
+         "layerId":"3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":7,
+         "type":"&kp ",
+         "values":[
+            "F7"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"67d00023-4fe7-4863-8194-a1f8db71e77d",
+         "layerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":7,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"91856afb-3fff-4a76-90b2-9629b6e31974",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":7,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"06d57e77-9266-4682-bf0c-195bb12f1c07",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":8,
+         "type":"&kp ",
+         "values":[
+            "NUMBER_8"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"5958d551-2aea-4034-ad88-722b9c515994",
+         "layerId":"3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":8,
+         "type":"&kp ",
+         "values":[
+            "F8"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"751bc52f-c81d-43ad-8816-ddb16ff9149a",
+         "layerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":8,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"91856afb-3fff-4a76-90b2-9629b6e31974",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":8,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"06d57e77-9266-4682-bf0c-195bb12f1c07",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":9,
+         "type":"&kp ",
+         "values":[
+            "NUMBER_9"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"5de7083b-43a6-43e0-b098-8d706a650cd5",
+         "layerId":"3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":9,
+         "type":"&kp ",
+         "values":[
+            "F9"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"dcc1d41f-69f7-4339-bccb-56542c630b2a",
+         "layerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":9,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"91856afb-3fff-4a76-90b2-9629b6e31974",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":9,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"06d57e77-9266-4682-bf0c-195bb12f1c07",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":10,
+         "type":"&kp ",
+         "values":[
+            "NUMBER_0"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"faf37fbe-6e6e-499c-83de-f5d50c603ed7",
+         "layerId":"3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":10,
+         "type":"&kp ",
+         "values":[
+            "F10"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"fdb8302b-a9d0-4535-823f-3a5599d5b7d8",
+         "layerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":10,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"91856afb-3fff-4a76-90b2-9629b6e31974",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":10,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"06d57e77-9266-4682-bf0c-195bb12f1c07",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":11,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":11,
+         "type":"&kp ",
+         "values":[
+            "F11"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"60106077-5b14-4428-b9a0-52c1f484a19e",
+         "layerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":11,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"91856afb-3fff-4a76-90b2-9629b6e31974",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":11,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"06d57e77-9266-4682-bf0c-195bb12f1c07",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":12,
+         "type":"&kp ",
+         "values":[
+            "ESCAPE"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"661abac9-968c-4fe5-90d3-4173f6ba2aaf",
+         "layerId":"3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":12,
+         "type":"&kp ",
+         "values":[
+            "TILDE"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"2f839c31-ad63-4838-849e-1e51b20e27f6",
+         "layerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":12,
+         "type":"&trans",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"91856afb-3fff-4a76-90b2-9629b6e31974",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":12,
+         "type":"&none",
+         "values":[
+            "&rgb_ug RGB_TOG"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"06d57e77-9266-4682-bf0c-195bb12f1c07",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":13,
+         "type":"&kp ",
+         "values":[
+            "Q"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"0e7cb4e2-dbdd-42da-b8d4-bc1d7d9d173d",
+         "layerId":"3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":13,
+         "type":"&kp ",
+         "values":[
+            "NUMBER_1"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"4487e63f-ff10-475d-a282-e4f3e51dc523",
+         "layerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":13,
+         "type":"&kp ",
+         "values":[
+            "INSERT"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"7d59d311-f527-4d37-af68-29dc6d9b420e",
+         "layerId":"91856afb-3fff-4a76-90b2-9629b6e31974",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":13,
+         "type":"man ",
+         "values":[
+            "&rgb_ug RGB_HUD"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"06d57e77-9266-4682-bf0c-195bb12f1c07",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":14,
+         "type":"&kp ",
+         "values":[
+            "W"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"d5c96faa-4936-4bf3-a278-8af85f8cbd9f",
+         "layerId":"3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":14,
+         "type":"&kp ",
+         "values":[
+            "NUMBER_2"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"388777d6-6ff8-4a81-81e5-36c5395c3160",
+         "layerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":14,
+         "type":"man ",
+         "values":[
+            "&kp PSCRN"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"ee4ffe93-d4e5-4ce0-b4d1-f7df9aa1a2b0",
+         "layerId":"91856afb-3fff-4a76-90b2-9629b6e31974",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":14,
+         "type":"man ",
+         "values":[
+            "&rgb_ug RGB_HUI"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"06d57e77-9266-4682-bf0c-195bb12f1c07",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":15,
+         "type":"&kp ",
+         "values":[
+            "F"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"f739b077-eed0-4a95-90d9-f2d1422c15f4",
+         "layerId":"3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":15,
+         "type":"&kp ",
+         "values":[
+            "NUMBER_3"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"d3507338-963e-43f6-854b-3ec0b0ee6f77",
+         "layerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":15,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"91856afb-3fff-4a76-90b2-9629b6e31974",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":15,
+         "type":"man ",
+         "values":[
+            "&rgb_ug RGB_SAD"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"06d57e77-9266-4682-bf0c-195bb12f1c07",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":16,
+         "type":"&kp ",
+         "values":[
+            "P"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"770591ba-ab57-48ea-b8bb-34a68ab7ccce",
+         "layerId":"3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":16,
+         "type":"&kp ",
+         "values":[
+            "NUMBER_4"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"17915681-8b61-4cce-a17f-0f089a710833",
+         "layerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":16,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"91856afb-3fff-4a76-90b2-9629b6e31974",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":16,
+         "type":"man ",
+         "values":[
+            "&rgb_ug RGB_SAI"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"06d57e77-9266-4682-bf0c-195bb12f1c07",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":17,
+         "type":"&kp ",
+         "values":[
+            "B"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"27467b7c-403a-435c-b315-8e4b2849867a",
+         "layerId":"3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":17,
+         "type":"&kp ",
+         "values":[
+            "NUMBER_5"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"aa145df8-da21-4251-b63b-64051b9522dd",
+         "layerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":17,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"91856afb-3fff-4a76-90b2-9629b6e31974",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":17,
+         "type":"man ",
+         "values":[
+            "&rgb_ug RGB_EFF"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"06d57e77-9266-4682-bf0c-195bb12f1c07",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":18,
+         "type":"&kp ",
+         "values":[
+            "J"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"d02c23c4-30a4-4a71-8316-5f31f62a8d06",
+         "layerId":"3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":18,
+         "type":"&kp ",
+         "values":[
+            "NUMBER_6"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"1b97124c-7b61-4442-aa78-88457ed5d40b",
+         "layerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":18,
+         "type":"&kp ",
+         "values":[
+            "PG_UP"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"f968898a-ad88-4cb7-aa4a-066eef977251",
+         "layerId":"91856afb-3fff-4a76-90b2-9629b6e31974",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":18,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"06d57e77-9266-4682-bf0c-195bb12f1c07",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":19,
+         "type":"&kp ",
+         "values":[
+            "L"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"462cdf14-4673-48df-9247-d9e5a79a7c6b",
+         "layerId":"3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":19,
+         "type":"&kp ",
+         "values":[
+            "NUMBER_7"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"c097ef1a-09f9-4616-a803-9b4da69d7735",
+         "layerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":19,
+         "type":"&hm ",
+         "values":[
+            "LEFT",
+            "LALT"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"4d675fa4-e7c2-4a56-b1ae-37bdb75de8f9",
+         "layerId":"91856afb-3fff-4a76-90b2-9629b6e31974",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":19,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"06d57e77-9266-4682-bf0c-195bb12f1c07",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":20,
+         "type":"&kp ",
+         "values":[
+            "U"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"c5f22922-28e3-4cfa-95db-131a84c645c6",
+         "layerId":"3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":20,
+         "type":"&kp ",
+         "values":[
+            "NUMBER_8"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"5958d551-2aea-4034-ad88-722b9c515994",
+         "layerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":20,
+         "type":"&kp ",
+         "values":[
+            "UP"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"a6b9e317-2a81-43b5-81b6-2e4b08cc1f98",
+         "layerId":"91856afb-3fff-4a76-90b2-9629b6e31974",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":20,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"06d57e77-9266-4682-bf0c-195bb12f1c07",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":21,
+         "type":"&kp ",
+         "values":[
+            "Y"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"5b985549-a74d-433c-a604-adcf34828349",
+         "layerId":"3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":21,
+         "type":"&kp ",
+         "values":[
+            "NUMBER_9"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"5de7083b-43a6-43e0-b098-8d706a650cd5",
+         "layerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":21,
+         "type":"&hm ",
+         "values":[
+            "RIGHT",
+            "LALT"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"0de74fdb-924c-4bc5-8ee3-8dd0d13d6b62",
+         "layerId":"91856afb-3fff-4a76-90b2-9629b6e31974",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":21,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"06d57e77-9266-4682-bf0c-195bb12f1c07",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":22,
+         "type":"&kp ",
+         "values":[
+            "SEMICOLON"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"e8e0ee32-ae8b-49c6-be96-afa20e866d59",
+         "layerId":"3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":22,
+         "type":"&kp ",
+         "values":[
+            "NUMBER_0"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"faf37fbe-6e6e-499c-83de-f5d50c603ed7",
+         "layerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":22,
+         "type":"&hm ",
+         "values":[
+            "BACKSPACE",
+            "LALT"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"feaeee56-7a95-4460-bf5e-5973830ed1f0",
+         "layerId":"91856afb-3fff-4a76-90b2-9629b6e31974",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":22,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"06d57e77-9266-4682-bf0c-195bb12f1c07",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":23,
+         "type":"&kp ",
+         "values":[
+            "BACKSPACE"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"feaeee56-7a95-4460-bf5e-5973830ed1f0",
+         "layerId":"3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":23,
+         "type":"&kp ",
+         "values":[
+            "F12"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"7b8f7860-ddf4-445f-968f-b2efd33c2423",
+         "layerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":23,
+         "type":"&trans",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"91856afb-3fff-4a76-90b2-9629b6e31974",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":23,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"06d57e77-9266-4682-bf0c-195bb12f1c07",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":24,
+         "type":"&kp ",
+         "values":[
+            "TAB"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"c80a4260-8a35-4d9a-9d5e-c3f642118708",
+         "layerId":"3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":24,
+         "type":"&trans",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":24,
+         "type":"&trans",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"91856afb-3fff-4a76-90b2-9629b6e31974",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":24,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"06d57e77-9266-4682-bf0c-195bb12f1c07",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":25,
+         "type":"&kp ",
+         "values":[
+            "A"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"82b825f6-0702-4d97-b1cb-41d57fddc36c",
+         "layerId":"3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":25,
+         "type":"&kp ",
+         "values":[
+            "EXCLAMATION"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"b7439c90-6645-44bc-a4d1-6551c688e4e5",
+         "layerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":25,
+         "type":"&kp ",
+         "values":[
+            "LEFT_ALT"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"5cd6b7b9-b596-4600-92a1-67054af8663a",
+         "layerId":"91856afb-3fff-4a76-90b2-9629b6e31974",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":25,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"06d57e77-9266-4682-bf0c-195bb12f1c07",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":26,
+         "type":"&kp ",
+         "values":[
+            "R"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"636d36d8-982f-4db3-a26a-c97c25925dee",
+         "layerId":"3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":26,
+         "type":"&kp ",
+         "values":[
+            "AT_SIGN"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"a04b2ffd-b520-4f2b-9985-7ef805b02067",
+         "layerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":26,
+         "type":"&kp ",
+         "values":[
+            "LEFT_CONTROL"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"8beb1c0e-ebfa-486d-967b-0157b13e90ae",
+         "layerId":"91856afb-3fff-4a76-90b2-9629b6e31974",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":26,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"06d57e77-9266-4682-bf0c-195bb12f1c07",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":27,
+         "type":"&kp ",
+         "values":[
+            "S"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"8b1f750f-8607-4a57-8590-04ab6a210a32",
+         "layerId":"3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":27,
+         "type":"&kp ",
+         "values":[
+            "HASH"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"8a238631-bf43-448a-829d-5c94db0a952d",
+         "layerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":27,
+         "type":"&kp ",
+         "values":[
+            "LEFT_SHIFT"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"d8bbb848-974a-4089-99c2-f98c663e983a",
+         "layerId":"91856afb-3fff-4a76-90b2-9629b6e31974",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":27,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"06d57e77-9266-4682-bf0c-195bb12f1c07",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":28,
+         "type":"&kp ",
+         "values":[
+            "T"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"15d2cd06-8863-44ff-9d60-aa13eda06f40",
+         "layerId":"3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":28,
+         "type":"&kp ",
+         "values":[
+            "DOLLAR"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"b0b159d8-c768-4392-8275-2b90ca9eb46c",
+         "layerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":28,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"91856afb-3fff-4a76-90b2-9629b6e31974",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":28,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"06d57e77-9266-4682-bf0c-195bb12f1c07",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":29,
+         "type":"&kp ",
+         "values":[
+            "G"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"7b1e01a3-e570-4c83-bc2e-d06c0a69707b",
+         "layerId":"3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":29,
+         "type":"&kp ",
+         "values":[
+            "PERCENT"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"411cade3-778a-45e8-bfc7-a9f25e3b9766",
+         "layerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":29,
+         "type":"&kp ",
+         "values":[
+            "K_LOCK"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"f0bcc464-f2fd-4143-b944-cbbdaa118963",
+         "layerId":"91856afb-3fff-4a76-90b2-9629b6e31974",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":29,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"06d57e77-9266-4682-bf0c-195bb12f1c07",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":30,
+         "type":"&kp ",
+         "values":[
+            "M"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"6573bc45-ba64-444d-aa68-a1f2eaed3c7b",
+         "layerId":"3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":30,
+         "type":"&kp ",
+         "values":[
+            "CARET"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"a5b76a88-6a8d-4768-822f-6690e0a9a921",
+         "layerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":30,
+         "type":"&kp ",
+         "values":[
+            "PG_DN"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"33ba417a-4441-4cfd-912e-30faec5e0e4a",
+         "layerId":"91856afb-3fff-4a76-90b2-9629b6e31974",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":30,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"06d57e77-9266-4682-bf0c-195bb12f1c07",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":31,
+         "type":"&kp ",
+         "values":[
+            "N"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"090fcbed-c783-4251-890e-c07cc36bb7e3",
+         "layerId":"3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":31,
+         "type":"&kp ",
+         "values":[
+            "AMPERSAND"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"51b819d3-1228-4c70-85d7-5b9a3a0fe079",
+         "layerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":31,
+         "type":"&kp ",
+         "values":[
+            "LEFT"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"4d675fa4-e7c2-4a56-b1ae-37bdb75de8f9",
+         "layerId":"91856afb-3fff-4a76-90b2-9629b6e31974",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":31,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"06d57e77-9266-4682-bf0c-195bb12f1c07",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":32,
+         "type":"&kp ",
+         "values":[
+            "E"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"a5d29484-28f1-4431-91a8-433a59ca550a",
+         "layerId":"3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":32,
+         "type":"&kp ",
+         "values":[
+            "ASTERISK"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"4563172b-02ec-42f9-9e01-0f6ef8b0a84a",
+         "layerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":32,
+         "type":"&kp ",
+         "values":[
+            "DOWN"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"9b5c4f2b-b54d-4f96-b53f-9e81c5e748ea",
+         "layerId":"91856afb-3fff-4a76-90b2-9629b6e31974",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":32,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"06d57e77-9266-4682-bf0c-195bb12f1c07",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":33,
+         "type":"&kp ",
+         "values":[
+            "I"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"0188f403-f3a6-47b0-8bf3-33ec96e3e15f",
+         "layerId":"3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":33,
+         "type":"&kp ",
+         "values":[
+            "LEFT_PARENTHESIS"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"ea02a95d-1bdb-4983-b6b3-a185442f7094",
+         "layerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":33,
+         "type":"&kp ",
+         "values":[
+            "RIGHT"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"0de74fdb-924c-4bc5-8ee3-8dd0d13d6b62",
+         "layerId":"91856afb-3fff-4a76-90b2-9629b6e31974",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":33,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"06d57e77-9266-4682-bf0c-195bb12f1c07",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":34,
+         "type":"&kp ",
+         "values":[
+            "O"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"c6b78646-4e09-4ac2-a84f-37e939f788e4",
+         "layerId":"3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":34,
+         "type":"&kp ",
+         "values":[
+            "RIGHT_PARENTHESIS"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"dbe6f896-bc3c-480c-978c-6f7b2293fd37",
+         "layerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":34,
+         "type":"&none",
+         "values":[
+            "DEL"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"16d9992b-3374-4e4a-926d-2b779a0695e4",
+         "layerId":"91856afb-3fff-4a76-90b2-9629b6e31974",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":34,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"06d57e77-9266-4682-bf0c-195bb12f1c07",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":35,
+         "type":"&kp ",
+         "values":[
+            "SINGLE_QUOTE"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"eeaee249-944b-49d6-ac9a-018aa88b6ce8",
+         "layerId":"3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":35,
+         "type":"&kp ",
+         "values":[
+            "PIPE"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"3a480911-2e01-4724-be17-193f0dfd0aa3",
+         "layerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":35,
+         "type":"&kp ",
+         "values":[
+            "DEL"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"16d9992b-3374-4e4a-926d-2b779a0695e4",
+         "layerId":"91856afb-3fff-4a76-90b2-9629b6e31974",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":35,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"06d57e77-9266-4682-bf0c-195bb12f1c07",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":36,
+         "type":"&kp ",
+         "values":[
+            "LEFT_SHIFT"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"d8bbb848-974a-4089-99c2-f98c663e983a",
+         "layerId":"3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":36,
+         "type":"&trans",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":36,
+         "type":"&trans",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"91856afb-3fff-4a76-90b2-9629b6e31974",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":36,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"06d57e77-9266-4682-bf0c-195bb12f1c07",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":37,
+         "type":"&kp ",
+         "values":[
+            "Z"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"41610484-4c09-4519-b2ac-cdebc680ae4e",
+         "layerId":"3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":37,
+         "type":"&kp ",
+         "values":[
+            "EQUAL"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"0e4454e5-dc02-47fa-ae7a-43570cc170ec",
+         "layerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":37,
+         "type":"&kp ",
+         "values":[
+            "K_UNDO"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"b85ac086-4d2a-427c-bf10-693d1d44a957",
+         "layerId":"91856afb-3fff-4a76-90b2-9629b6e31974",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":37,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"06d57e77-9266-4682-bf0c-195bb12f1c07",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":38,
+         "type":"&kp ",
+         "values":[
+            "X"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"8700b24a-1846-4db4-b6d7-618def2ef390",
+         "layerId":"3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":38,
+         "type":"&kp ",
+         "values":[
+            "MINUS"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"11ca7037-82bd-4197-8692-5e7fbe5c5870",
+         "layerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":38,
+         "type":"&kp ",
+         "values":[
+            "K_CUT"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"91af60ef-2a9c-4314-9ae7-96a1661cb885",
+         "layerId":"91856afb-3fff-4a76-90b2-9629b6e31974",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":38,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"06d57e77-9266-4682-bf0c-195bb12f1c07",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":39,
+         "type":"&kp ",
+         "values":[
+            "C"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"b1fef191-864a-4f81-9169-72fdb3cceed7",
+         "layerId":"3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":39,
+         "type":"&kp ",
+         "values":[
+            "PLUS"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"6d5562aa-881c-481a-9722-2739f03a5d86",
+         "layerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":39,
+         "type":"&kp ",
+         "values":[
+            "K_COPY"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"fb6f822b-96aa-4862-8fa8-1261f9510b8f",
+         "layerId":"91856afb-3fff-4a76-90b2-9629b6e31974",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":39,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"06d57e77-9266-4682-bf0c-195bb12f1c07",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":40,
+         "type":"&kp ",
+         "values":[
+            "D"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"023f6acf-1b20-44c6-8966-d402c5242abc",
+         "layerId":"3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":40,
+         "type":"&kp ",
+         "values":[
+            "LEFT_BRACE"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"e4a6e418-5762-4ef6-bf3b-b662cf7db72d",
+         "layerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":40,
+         "type":"&kp ",
+         "values":[
+            "K_PASTE"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"ee4ffe93-d4e5-4ce0-b4d1-f7df9aa1a2b0",
+         "layerId":"91856afb-3fff-4a76-90b2-9629b6e31974",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":40,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"06d57e77-9266-4682-bf0c-195bb12f1c07",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":41,
+         "type":"&kp ",
+         "values":[
+            "V"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"b1a06fa8-d21e-4dda-a516-97958202b045",
+         "layerId":"3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":41,
+         "type":"&kp ",
+         "values":[
+            "RIGHT_BRACE"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"9047d190-a475-4894-9ab1-697298d89961",
+         "layerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":41,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"91856afb-3fff-4a76-90b2-9629b6e31974",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":41,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"06d57e77-9266-4682-bf0c-195bb12f1c07",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":42,
+         "type":"&kp ",
+         "values":[
+            "K_MUTE"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"0594f883-c89d-4e55-ac90-7c2173ea3263",
+         "layerId":"3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":42,
+         "type":"&trans",
+         "values":[
+            "LEFT_BRACKET"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"bf3fe8cc-b18c-45e0-bd72-c248da86cc3e",
+         "layerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":42,
+         "type":"&trans",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"91856afb-3fff-4a76-90b2-9629b6e31974",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":42,
+         "type":"man ",
+         "values":[
+            "&rgb_ug RGB_TOG"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"06d57e77-9266-4682-bf0c-195bb12f1c07",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":43,
+         "type":"&kp ",
+         "values":[
+            "K_MUTE"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"0594f883-c89d-4e55-ac90-7c2173ea3263",
+         "layerId":"3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":43,
+         "type":"&trans",
+         "values":[
+            null
+         ],
+         "keys":[
+
+         ],
+         "codeId":"fea1aab8-5f17-4585-ad6f-e513dc36e6bc",
+         "layerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":43,
+         "type":"&trans",
+         "values":[
+            null
+         ],
+         "keys":[
+
+         ],
+         "codeId":"e41b46c2-99f0-4846-9a1b-e3d9f2a2a320",
+         "layerId":"91856afb-3fff-4a76-90b2-9629b6e31974",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":43,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"06d57e77-9266-4682-bf0c-195bb12f1c07",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":44,
+         "type":"&kp ",
+         "values":[
+            "K"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"1f4cff1b-0f26-4366-96be-6edf1805e50b",
+         "layerId":"3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":44,
+         "type":"&kp ",
+         "values":[
+            "LEFT_BRACKET"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"bf3fe8cc-b18c-45e0-bd72-c248da86cc3e",
+         "layerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":44,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"91856afb-3fff-4a76-90b2-9629b6e31974",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":44,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"06d57e77-9266-4682-bf0c-195bb12f1c07",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":45,
+         "type":"&kp ",
+         "values":[
+            "H"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"1cad1e86-18ce-42b4-9c7e-96e073c836c6",
+         "layerId":"3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":45,
+         "type":"&kp ",
+         "values":[
+            "RIGHT_BRACKET"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"fea1aab8-5f17-4585-ad6f-e513dc36e6bc",
+         "layerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":45,
+         "type":"&kp ",
+         "values":[
+            "HOME"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"e41b46c2-99f0-4846-9a1b-e3d9f2a2a320",
+         "layerId":"91856afb-3fff-4a76-90b2-9629b6e31974",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":45,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"06d57e77-9266-4682-bf0c-195bb12f1c07",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":46,
+         "type":"&kp ",
+         "values":[
+            "COMMA"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"64b5e5a6-cce7-49b2-8650-0acb23bb2948",
+         "layerId":"3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":46,
+         "type":"&kp ",
+         "values":[
+            "SEMICOLON"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"e8e0ee32-ae8b-49c6-be96-afa20e866d59",
+         "layerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":46,
+         "type":"&none",
+         "values":[
+            "BACKSPACE",
+            "RGUI"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"feaeee56-7a95-4460-bf5e-5973830ed1f0",
+         "layerId":"91856afb-3fff-4a76-90b2-9629b6e31974",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":46,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"06d57e77-9266-4682-bf0c-195bb12f1c07",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":47,
+         "type":"&kp ",
+         "values":[
+            "DOT"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"9cb5ca18-f5e3-4f27-9c88-7d9bf9bbeb2f",
+         "layerId":"3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":47,
+         "type":"&kp ",
+         "values":[
+            "COLON"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"e81e762f-f4d3-4c26-88b8-039082c6024b",
+         "layerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":47,
+         "type":"&kp ",
+         "values":[
+            "END"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"0d06e64f-d528-4cd4-8c47-5c1b8179c3ca",
+         "layerId":"91856afb-3fff-4a76-90b2-9629b6e31974",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":47,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"06d57e77-9266-4682-bf0c-195bb12f1c07",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":48,
+         "type":"&kp ",
+         "values":[
+            "SLASH"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"9ec5a902-b11a-4e3a-b2a2-b86f658c7a55",
+         "layerId":"3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":48,
+         "type":"&kp ",
+         "values":[
+            "BACKSLASH"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"874a6f5b-e701-4c8a-80c6-a590616f30be",
+         "layerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":48,
+         "type":"&hm ",
+         "values":[
+            "BACKSPACE",
+            "LGUI"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"feaeee56-7a95-4460-bf5e-5973830ed1f0",
+         "layerId":"91856afb-3fff-4a76-90b2-9629b6e31974",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":48,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"06d57e77-9266-4682-bf0c-195bb12f1c07",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":49,
+         "type":"&kp ",
+         "values":[
+            "RIGHT_SHIFT"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"545ae1f2-d19d-49b3-9905-199f0b2887a0",
+         "layerId":"3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":49,
+         "type":"&trans",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":49,
+         "type":"&trans",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"91856afb-3fff-4a76-90b2-9629b6e31974",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":49,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"06d57e77-9266-4682-bf0c-195bb12f1c07",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":50,
+         "type":"&kp ",
+         "values":[
+            "LEFT_CONTROL"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"8beb1c0e-ebfa-486d-967b-0157b13e90ae",
+         "layerId":"3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":50,
+         "type":"&trans",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":50,
+         "type":"&trans",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"91856afb-3fff-4a76-90b2-9629b6e31974",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":50,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"06d57e77-9266-4682-bf0c-195bb12f1c07",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":51,
+         "type":"&kp ",
+         "values":[
+            "LEFT_ALT"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"5cd6b7b9-b596-4600-92a1-67054af8663a",
+         "layerId":"3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":51,
+         "type":"&trans",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":51,
+         "type":"&trans",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"91856afb-3fff-4a76-90b2-9629b6e31974",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":51,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"06d57e77-9266-4682-bf0c-195bb12f1c07",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":52,
+         "type":"&kp ",
+         "values":[
+            "LEFT_GUI"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"7bdbaa7e-80b7-4276-9962-ca03869b4546",
+         "layerId":"3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+         "targetLayerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerName":"Lower"
+      },
+      {
+         "keyNumber":52,
+         "type":"&trans",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":52,
+         "type":"&trans",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"91856afb-3fff-4a76-90b2-9629b6e31974",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":52,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"06d57e77-9266-4682-bf0c-195bb12f1c07",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":53,
+         "type":"&kp ",
+         "values":[
+            "SPACE"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"ef6d37f3-cd7b-49af-be32-3cfb07ce7957",
+         "layerId":"3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":53,
+         "type":"&trans",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":53,
+         "type":"&trans",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"91856afb-3fff-4a76-90b2-9629b6e31974",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":53,
+         "type":"&none",
+         "values":[
+            "&rgb_ug RGB_TOG"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"06d57e77-9266-4682-bf0c-195bb12f1c07",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":54,
+         "type":"&to ",
+         "values":[
+            null
+         ],
+         "keys":[
+
+         ],
+         "codeId":"0594f883-c89d-4e55-ac90-7c2173ea3263",
+         "layerId":"3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+         "targetLayerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerName":"Lower"
+      },
+      {
+         "keyNumber":54,
+         "type":"&trans",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":54,
+         "type":"&trans",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"91856afb-3fff-4a76-90b2-9629b6e31974",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":54,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"06d57e77-9266-4682-bf0c-195bb12f1c07",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":55,
+         "type":"&to ",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+         "targetLayerId":"91856afb-3fff-4a76-90b2-9629b6e31974",
+         "targetLayerName":"Raise"
+      },
+      {
+         "keyNumber":55,
+         "type":"&trans",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":55,
+         "type":"&trans",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"91856afb-3fff-4a76-90b2-9629b6e31974",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":55,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"06d57e77-9266-4682-bf0c-195bb12f1c07",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":56,
+         "type":"&kp ",
+         "values":[
+            "RETURN"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"a4c8dad5-35fd-4a36-97fc-4ccaa537c7ba",
+         "layerId":"3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":56,
+         "type":"&trans",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":56,
+         "type":"&trans",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"91856afb-3fff-4a76-90b2-9629b6e31974",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":56,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"06d57e77-9266-4682-bf0c-195bb12f1c07",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":57,
+         "type":"&kp ",
+         "values":[
+            "RIGHT_GUI"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"5feb1413-1511-46c9-8455-5c0688496c36",
+         "layerId":"3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":57,
+         "type":"&trans",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":57,
+         "type":"&trans",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"91856afb-3fff-4a76-90b2-9629b6e31974",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":57,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"06d57e77-9266-4682-bf0c-195bb12f1c07",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":58,
+         "type":"&kp ",
+         "values":[
+            "RIGHT_ALT"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"010acc2f-271e-4d39-a03a-8c5f7c47ad7a",
+         "layerId":"3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":58,
+         "type":"&trans",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":58,
+         "type":"&trans",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"91856afb-3fff-4a76-90b2-9629b6e31974",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":58,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"06d57e77-9266-4682-bf0c-195bb12f1c07",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":59,
+         "type":"&kp ",
+         "values":[
+            "RIGHT_CONTROL"
+         ],
+         "keys":[
+
+         ],
+         "codeId":"66010cf3-72d2-4371-9774-d517585044d8",
+         "layerId":"3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":59,
+         "type":"&trans",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"181b0427-f15f-456b-8965-791e56917621",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":59,
+         "type":"&trans",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"91856afb-3fff-4a76-90b2-9629b6e31974",
+         "targetLayerId":"",
+         "targetLayerName":""
+      },
+      {
+         "keyNumber":59,
+         "type":"&none",
+         "values":[
+
+         ],
+         "keys":[
+
+         ],
+         "codeId":"",
+         "layerId":"06d57e77-9266-4682-bf0c-195bb12f1c07",
+         "targetLayerId":"",
+         "targetLayerName":""
+      }
+   ],
+   "combos":[
+
+   ],
+   "name":"Sofle"
+}
