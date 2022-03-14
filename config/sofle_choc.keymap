@@ -49,9 +49,6 @@
  */
 
 
-/*
- * Keymap generated using https://www.keymapper.dev/
- */
 
 #define BASE 0
 #define LOWER 1
@@ -59,6 +56,24 @@
 #define ADJUST 3
 
 / {
+
+  /*
+   * Activate adjust layer by pressing raise and lower
+   */
+
+  conditional_layers {
+      compatible = "zmk,conditional-layers";
+      adjust_layer {
+          if-layers = <LOWER RAISE>;
+          then-layer = <ADJUST>;
+      };
+  };
+
+
+  /*
+   * Keymap generated using https://www.keymapper.dev/
+   */
+
   keymap {
     compatible = "zmk,keymap";
 
@@ -90,19 +105,4 @@
     };
 
   };
-};
-
-
-/*
- * Activate adjust layer by pressing raise and lower
- */
-
-/ {
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-        tri_layer {
-            if-layers = <LOWER RAISE>;
-            then-layer = <ADJUST>;
-        };
-    };
 };
