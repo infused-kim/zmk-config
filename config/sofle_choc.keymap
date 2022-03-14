@@ -59,17 +59,6 @@
 #define ADJUST 3
 
 / {
-  behaviors {
-    hm: homerow_mods {
-      compatible = "zmk,behavior-hold-tap";
-      label = "HOMEROW_MODS";
-      #binding-cells = <2>;
-      tapping-term-ms = <250>;
-      quick_tap_ms = <0>;
-      flavor = "tap-preferred";
-      bindings = <&kp>, <&kp>;
-    };
-  };
   keymap {
     compatible = "zmk,keymap";
 
@@ -89,7 +78,7 @@
 
     Raise_layer {
       bindings = <
-        &none &none &none &none &none &none &none &none &none &none &none &none &trans &kp INSERT &kp PSCRN &none &none &none &kp PG_UP &hm LALT LEFT &kp UP &hm LALT RIGHT &hm LALT BACKSPACE &trans &trans &kp LEFT_ALT &kp LEFT_CONTROL &kp LEFT_SHIFT &none &kp K_LOCK &kp PG_DN &kp LEFT &kp DOWN &kp RIGHT &none &kp DEL &trans &kp K_UNDO &kp K_CUT &kp K_COPY &kp K_PASTE &none &trans &trans &none &kp HOME &none &kp END &hm LGUI BACKSPACE &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+        &none &none &none &none &none &none &none &none &none &none &none &none &trans &kp INSERT &kp PSCRN &none &none &none &kp PG_UP &kp LALT(LEFT) &kp UP &kp LALT(RIGHT) &kp LALT(BACKSPACE) &trans &trans &kp LEFT_ALT &kp LEFT_CONTROL &kp LEFT_SHIFT &none &kp K_LOCK &kp PG_DN &kp LEFT &kp DOWN &kp RIGHT &none &kp DEL &trans &kp K_UNDO &kp K_CUT &kp K_COPY &kp K_PASTE &none &trans &trans &none &kp HOME &none &kp END &kp LGUI(BACKSPACE) &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
       >;
       sensor-bindings = <&inc_dec_kp C_BRI_DN C_BRI_UP &inc_dec_kp PG_UP PG_DN>;
     };

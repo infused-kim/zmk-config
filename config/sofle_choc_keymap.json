@@ -1778,9 +1778,9 @@
       },
       {
          "keyNumber":19,
-         "type":"&hm ",
+         "type":"man ",
          "values":[
-            "LEFT",
+            "&kp LALT(LEFT)",
             "LALT"
          ],
          "keys":[
@@ -1891,9 +1891,9 @@
       },
       {
          "keyNumber":21,
-         "type":"&hm ",
+         "type":"man ",
          "values":[
-            "RIGHT",
+            "&kp LALT(RIGHT)",
             "LALT"
          ],
          "keys":[
@@ -1948,9 +1948,9 @@
       },
       {
          "keyNumber":22,
-         "type":"&hm ",
+         "type":"man ",
          "values":[
-            "BACKSPACE",
+            "&kp LALT(BACKSPACE)",
             "LALT"
          ],
          "keys":[
@@ -3406,9 +3406,9 @@
       },
       {
          "keyNumber":48,
-         "type":"&hm ",
+         "type":"man ",
          "values":[
-            "BACKSPACE",
+            "&kp LGUI(BACKSPACE)",
             "LGUI"
          ],
          "keys":[
