@@ -555,7 +555,7 @@
          "x":692,
          "y":150,
          "angle":0,
-         "active":false,
+         "active":true,
          "row":3,
          "column":12,
          "side":"right",
@@ -1778,7 +1778,7 @@
       },
       {
          "keyNumber":19,
-         "type":"man ",
+         "type":"&none",
          "values":[
             "&kp LALT(LEFT)",
             "LALT"
@@ -1891,7 +1891,7 @@
       },
       {
          "keyNumber":21,
-         "type":"man ",
+         "type":"&none",
          "values":[
             "&kp LALT(RIGHT)",
             "LALT"
@@ -1948,7 +1948,7 @@
       },
       {
          "keyNumber":22,
-         "type":"man ",
+         "type":"&none",
          "values":[
             "&kp LALT(BACKSPACE)",
             "LALT"
@@ -3406,7 +3406,7 @@
       },
       {
          "keyNumber":48,
-         "type":"man ",
+         "type":"&none",
          "values":[
             "&kp LGUI(BACKSPACE)",
             "LGUI"
