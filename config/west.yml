@@ -2,6 +2,8 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: zmkfirmware-infused-kim
+      url-base: https://github.com/infused-kim
     - name: zmkfirmware-berfarah
       url-base: https://github.com/berfarah
   projects:
@@ -10,7 +12,7 @@ manifest:
     #   revision: main
     #   import: app/west.yml
     - name: zmk
-      remote: zmkfirmware-berfarah
+      remote: zmkfirmware-infused-kim
       revision: berfarah-usb-ext-power
       import: app/west.yml
   self:
