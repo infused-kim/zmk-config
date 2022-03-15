@@ -159,7 +159,7 @@
          "x":0,
          "y":50,
          "angle":0,
-         "active":false,
+         "active":true,
          "row":1,
          "column":0,
          "side":"left",
@@ -313,7 +313,7 @@
          "x":100,
          "y":90,
          "angle":0,
-         "active":true,
+         "active":false,
          "row":2,
          "column":2,
          "side":"left",
@@ -1400,9 +1400,9 @@
       },
       {
          "keyNumber":12,
-         "type":"&none",
+         "type":"man ",
          "values":[
-            "&rgb_ug RGB_TOG"
+            "&ext_power EXT_POWER_TOGGLE_CMD"
          ],
          "keys":[
 
