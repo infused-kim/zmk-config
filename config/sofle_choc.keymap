@@ -94,7 +94,7 @@
 
     Raise_layer {
       bindings = <
-        &none &none &none &none &none &none &none &none &none &none &none &none &trans &kp INSERT &kp PSCRN &none &none &none &kp PG_UP &none &kp UP &none &none &trans &trans &kp LEFT_ALT &kp LEFT_CONTROL &kp LEFT_SHIFT &none &kp K_LOCK &kp PG_DN &kp LEFT &kp DOWN &kp RIGHT &none &kp DEL &trans &kp K_UNDO &kp K_CUT &kp K_COPY &kp K_PASTE &none &trans &trans &none &kp HOME &none &kp END &none &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+        &none &none &none &none &none &none &none &none &none &none &none &none &trans &kp INSERT &kp PSCRN &none &none &none &kp PG_UP &kp LA(LEFT) &kp UP &kp LA(RIGHT) &kp LA(BACKSPACE) &trans &trans &kp LEFT_ALT &kp LEFT_CONTROL &kp LEFT_SHIFT &none &kp K_LOCK &kp PG_DN &kp LEFT &kp DOWN &kp RIGHT &none &kp DEL &trans &kp K_UNDO &kp K_CUT &kp K_COPY &kp K_PASTE &none &trans &trans &none &kp HOME &none &kp END &kp LA(BACKSPACE) &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
       >;
       sensor-bindings = <&inc_dec_kp C_BRI_DN C_BRI_UP &inc_dec_kp PG_UP PG_DN>;
     };
