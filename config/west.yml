@@ -2,10 +2,16 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: zmkfirmware-berfarah
+      url-base: https://github.com/berfarah
   projects:
+    # - name: zmk
+    #   remote: zmkfirmware
+    #   revision: main
+    #   import: app/west.yml
     - name: zmk
-      remote: zmkfirmware
-      revision: main
+      remote: zmkfirmware-berfarah
+      revision: berfarah-usb-ext-power
       import: app/west.yml
   self:
     path: config
