@@ -13,7 +13,7 @@ manifest:
     #   import: app/west.yml
     - name: zmk
       remote: zmkfirmware-infused-kim
-      revision: my-changes/split-encoder
+      revision: my-changes/split-encoder-v2
       import: app/west.yml
   self:
     path: config
