@@ -1749,10 +1749,10 @@
             "keyNumber": 23,
             "type": "&kp ",
             "values": [
-                "F12"
+                "DEL"
             ],
             "keys": [],
-            "codeId": "7b8f7860-ddf4-445f-968f-b2efd33c2423",
+            "codeId": "16d9992b-3374-4e4a-926d-2b779a0695e4",
             "layerId": "181b0427-f15f-456b-8965-791e56917621",
             "targetLayerId": "",
             "targetLayerName": ""
@@ -2900,7 +2900,7 @@
             "keyNumber": 48,
             "type": "man ",
             "values": [
-                "&kp LA(BACKSPACE)",
+                "&kp LG(BACKSPACE)",
                 "LGUI"
             ],
             "keys": [],
