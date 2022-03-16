@@ -10,8 +10,8 @@ manifest:
     #   revision: main
     #   import: app/west.yml
     - name: zmk
-      remote: zmkfirmware-infused-kim
-      revision: aa-my-customizations
+      remote: zmkfirmware
+      revision: main
       import: app/west.yml
   self:
     path: config
