@@ -53,7 +53,7 @@
 
 #define BASE 0
 #define LOWER 1
-#define RAISE 2
+#define NAV 2
 #define ADJUST 3
 
 / {
@@ -65,7 +65,7 @@
   conditional_layers {
       compatible = "zmk,conditional-layers";
       adjust_layer {
-          if-layers = <LOWER RAISE>;
+          if-layers = <LOWER NAV>;
           then-layer = <ADJUST>;
       };
   };
@@ -74,6 +74,7 @@
   /*
    * Homerow Mods config
    */
+
   behaviors {
     hm: homerow_mods {
       compatible = "zmk,behavior-hold-tap";
@@ -95,7 +96,7 @@
 
     Base_layer {
       bindings = <
-        &kp GRAVE &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &kp NUMBER_4 &kp NUMBER_5 &kp NUMBER_6 &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &kp NUMBER_0 &none &kp ESCAPE &kp Q &kp W &kp F &kp P &kp B &kp J &kp L &kp U &kp Y &kp SINGLE_QUOTE &kp BACKSPACE &kp TAB &hm LALT A &hm LCTRL R &hm LGUI S &hm LSHFT T &kp G &kp M &kp N &kp E &kp I &kp O &kp GRAVE &kp LEFT_SHIFT &kp Z &kp X &kp C &kp D &kp V &kp K_MUTE &kp K_MUTE &kp K &kp H &kp COMMA &kp DOT &kp SLASH &kp RIGHT_SHIFT &kp LEFT_CONTROL &kp LEFT_GUI &kp ESCAPE &lt RAISE SPACE &lt LOWER TAB &lt LOWER LA(BACKSPACE) &lt RAISE RETURN &kp RIGHT_SHIFT &kp RIGHT_GUI &kp RIGHT_CONTROL
+        &kp GRAVE &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &kp NUMBER_4 &kp NUMBER_5 &kp NUMBER_6 &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &kp NUMBER_0 &none &kp ESCAPE &kp Q &kp W &kp F &kp P &kp B &kp J &kp L &kp U &kp Y &kp SINGLE_QUOTE &kp BACKSPACE &kp TAB &hm LALT A &hm LCTRL R &hm LGUI S &hm LSHFT T &kp G &kp M &kp N &kp E &kp I &kp O &kp GRAVE &kp LEFT_SHIFT &kp Z &kp X &kp C &kp D &kp V &kp K_MUTE &kp K_MUTE &kp K &kp H &kp COMMA &kp DOT &kp SLASH &kp RIGHT_SHIFT &kp LEFT_CONTROL &kp LEFT_GUI &kp ESCAPE &lt NAV SPACE &lt LOWER TAB &lt LOWER LA(BACKSPACE) &lt NAV RETURN &kp RIGHT_SHIFT &kp RIGHT_GUI &kp RIGHT_CONTROL
       >;
       sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
     };
@@ -107,7 +108,7 @@
       sensor-bindings = <&inc_dec_kp C_BRI_DN C_BRI_UP &inc_dec_kp PG_UP PG_DN>;
     };
 
-    Raise_layer {
+    Nav_layer {
       bindings = <
         &none &none &none &none &none &none &none &none &none &none &none &none &trans &kp INSERT &kp PSCRN &none &none &none &kp PG_UP &kp LA(LEFT) &kp UP &kp LA(RIGHT) &kp LA(BACKSPACE) &trans &trans &kp LEFT_ALT &kp LEFT_CONTROL &kp LEFT_GUI &kp LEFT_SHIFT &kp K_LOCK &kp PG_DN &kp LEFT &kp DOWN &kp RIGHT &none &kp DEL &trans &kp K_UNDO &kp K_CUT &kp K_COPY &kp K_PASTE &none &trans &trans &none &kp HOME &none &kp END &kp LG(BACKSPACE) &trans &trans &trans &trans &trans &trans &trans &kp RETURN &trans &trans &trans
       >;
