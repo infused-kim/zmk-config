@@ -55,14 +55,14 @@
 
     Base_layer {
       bindings = <
-        &kp GRAVE &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &kp NUMBER_4 &kp NUMBER_5 &kp NUMBER_6 &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &kp NUMBER_0 &none &kp ESCAPE &kp Q &kp W &kp F &kp P &kp B &kp J &kp L &kp U &kp Y &kp SINGLE_QUOTE &kp BACKSPACE &kp TAB &hm LALT A &hm LCTRL R &hm LGUI S &hm LSHFT T &kp G &kp M &kp N &kp E &kp I &kp O &kp GRAVE &kp LEFT_SHIFT &kp Z &kp X &kp C &kp D &kp V &kp K_MUTE &kp K_MUTE &kp K &kp H &kp COMMA &kp DOT &kp SLASH &kp RIGHT_SHIFT &kp LEFT_CONTROL &kp LEFT_GUI &kp ESCAPE &lt NAV SPACE &lt LOWER TAB &lt LOWER LA(BACKSPACE) &lt NAV RETURN &kp RIGHT_SHIFT &kp RIGHT_GUI &kp RIGHT_CONTROL
+        &kp GRAVE &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &kp NUMBER_4 &kp NUMBER_5 &kp NUMBER_6 &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &kp NUMBER_0 &none &kp ESCAPE &kp Q &kp W &kp F &kp P &kp B &kp J &kp L &kp U &kp Y &kp SINGLE_QUOTE &kp BACKSPACE &kp TAB &hm LALT A &hm LCTRL R &hm LGUI S &hm LSHFT T &kp G &kp M &hm RSHFT N &hm RGUI E &hm RCTRL I &hm RALT O &kp SEMICOLON &kp LEFT_SHIFT &kp Z &kp X &kp C &kp D &kp V &kp K_MUTE &kp K_MUTE &kp K &kp H &kp COMMA &kp DOT &kp SLASH &kp RIGHT_SHIFT &kp LEFT_CONTROL &kp LEFT_GUI &kp ESCAPE &lt NAV SPACE &lt LOWER TAB &lt LOWER LA(BACKSPACE) &lt NAV RETURN &kp RIGHT_SHIFT &kp RIGHT_GUI &kp RIGHT_CONTROL
       >;
       sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
     };
 
     Lower_layer {
       bindings = <
-        &none &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp TILDE &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &kp NUMBER_4 &kp NUMBER_5 &kp NUMBER_6 &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &kp NUMBER_0 &kp DEL &trans &kp EXCLAMATION &kp AT_SIGN &kp HASH &kp DOLLAR &kp PERCENT &kp CARET &kp AMPERSAND &kp ASTERISK &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp PIPE &trans &kp EQUAL &kp MINUS &kp PLUS &kp LEFT_BRACE &kp RIGHT_BRACE &trans &trans &kp LEFT_BRACKET &kp RIGHT_BRACKET &kp SEMICOLON &kp COLON &kp BACKSLASH &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+        &none &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp TILDE &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &kp NUMBER_4 &kp NUMBER_5 &kp NUMBER_6 &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &kp NUMBER_0 &kp DEL &trans &kp EXCLAMATION &kp AT_SIGN &kp HASH &kp DOLLAR &kp PERCENT &kp CARET &kp AMPERSAND &kp ASTERISK &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp PIPE &trans &kp EQUAL &kp MINUS &kp PLUS &kp LEFT_BRACE &kp RIGHT_BRACE &trans &trans &kp LEFT_BRACKET &kp RIGHT_BRACKET &kp SEMICOLON &kp COLON &kp BACKSLASH &trans &trans &trans &trans &trans &trans &kp DEL &trans &trans &trans &trans
       >;
       sensor-bindings = <&inc_dec_kp C_BRI_DN C_BRI_UP &inc_dec_kp PG_UP PG_DN>;
     };
