@@ -44,6 +44,15 @@
       flavor = "tap-preferred";
       bindings = <&kp>, <&kp>;
     };
+
+    td_shift: tap_dance_0 {
+        compatible = "zmk,behavior-tap-dance";
+        label = "TAP_DANCE_SHIFT";
+        #binding-cells = <0>;
+        tapping-term-ms = <200>;
+        bindings = <&kp RIGHT_SHIFT>, <&caps_word>, <&kp CAPSLOCK>;
+    };
+
   };
 
   /*
@@ -55,7 +64,7 @@
 
     Base_layer {
       bindings = <
-        &kp GRAVE &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &kp NUMBER_4 &kp NUMBER_5 &kp NUMBER_6 &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &kp NUMBER_0 &none &kp ESCAPE &kp Q &kp W &kp F &kp P &kp B &kp J &kp L &kp U &kp Y &kp SINGLE_QUOTE &kp BACKSPACE &kp TAB &hm LALT A &hm LCTRL R &hm LGUI S &hm LSHFT T &kp G &kp M &hm RSHFT N &hm RGUI E &hm RCTRL I &hm RALT O &kp SEMICOLON &kp LEFT_SHIFT &kp Z &kp X &kp C &kp D &kp V &kp K_MUTE &kp K_MUTE &kp K &kp H &kp COMMA &kp DOT &kp SLASH &kp RIGHT_SHIFT &kp LEFT_CONTROL &kp LEFT_GUI &kp ESCAPE &lt NAV SPACE &lt LOWER TAB &lt LOWER LA(BACKSPACE) &lt NAV RETURN &kp RIGHT_SHIFT &kp RIGHT_GUI &kp RIGHT_CONTROL
+        &kp GRAVE &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &kp NUMBER_4 &kp NUMBER_5 &kp NUMBER_6 &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &kp NUMBER_0 &none &kp ESCAPE &kp Q &kp W &kp F &kp P &kp B &kp J &kp L &kp U &kp Y &kp SINGLE_QUOTE &kp BACKSPACE &kp TAB &hm LALT A &hm LCTRL R &hm LGUI S &hm LSHFT T &kp G &kp M &hm RSHFT N &hm RGUI E &hm RCTRL I &hm RALT O &kp SEMICOLON &td_shift &kp Z &kp X &kp C &kp D &kp V &kp K_MUTE &kp K_MUTE &kp K &kp H &kp COMMA &kp DOT &kp SLASH &td_shift &kp LEFT_CONTROL &kp LEFT_GUI &kp ESCAPE &lt NAV SPACE &lt LOWER TAB &lt LOWER LA(BACKSPACE) &lt NAV RETURN &td_shift &kp RIGHT_GUI &kp RIGHT_CONTROL
       >;
       sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
     };
