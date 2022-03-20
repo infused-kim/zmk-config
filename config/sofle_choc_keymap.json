@@ -434,7 +434,7 @@
             "x": 50,
             "y": 150,
             "angle": 0,
-            "active": false,
+            "active": true,
             "row": 3,
             "column": 1,
             "side": "left",
@@ -2371,8 +2371,10 @@
         },
         {
             "keyNumber": 36,
-            "type": "&none",
-            "values": [],
+            "type": "man ",
+            "values": [
+                "&bl BL_TOG"
+            ],
             "keys": [],
             "codeId": "",
             "layerId": "06d57e77-9266-4682-bf0c-195bb12f1c07",
@@ -2417,8 +2419,10 @@
         },
         {
             "keyNumber": 37,
-            "type": "&none",
-            "values": [],
+            "type": "man ",
+            "values": [
+                "&bl BL_OFF"
+            ],
             "keys": [],
             "codeId": "",
             "layerId": "06d57e77-9266-4682-bf0c-195bb12f1c07",
@@ -2463,8 +2467,10 @@
         },
         {
             "keyNumber": 38,
-            "type": "&none",
-            "values": [],
+            "type": "man ",
+            "values": [
+                "&bl BL_ON"
+            ],
             "keys": [],
             "codeId": "",
             "layerId": "06d57e77-9266-4682-bf0c-195bb12f1c07",
@@ -2509,8 +2515,10 @@
         },
         {
             "keyNumber": 39,
-            "type": "&none",
-            "values": [],
+            "type": "man ",
+            "values": [
+                "&bl BL_DEC"
+            ],
             "keys": [],
             "codeId": "",
             "layerId": "06d57e77-9266-4682-bf0c-195bb12f1c07",
@@ -2555,8 +2563,10 @@
         },
         {
             "keyNumber": 40,
-            "type": "&none",
-            "values": [],
+            "type": "man ",
+            "values": [
+                "&bl BL_INC"
+            ],
             "keys": [],
             "codeId": "",
             "layerId": "06d57e77-9266-4682-bf0c-195bb12f1c07",
@@ -2599,8 +2609,10 @@
         },
         {
             "keyNumber": 41,
-            "type": "&none",
-            "values": [],
+            "type": "man ",
+            "values": [
+                "&bl BL_CYCLE"
+            ],
             "keys": [],
             "codeId": "",
             "layerId": "06d57e77-9266-4682-bf0c-195bb12f1c07",
