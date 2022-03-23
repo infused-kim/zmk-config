@@ -2655,12 +2655,12 @@
         },
         {
             "keyNumber": 43,
-            "type": "&kp ",
+            "type": "man ",
             "values": [
-                "K_MUTE"
+                "&kp C_PLAY_PAUSE"
             ],
             "keys": [],
-            "codeId": "0594f883-c89d-4e55-ac90-7c2173ea3263",
+            "codeId": "d7503c63-b9eb-4148-925b-74ec50d32286",
             "layerId": "3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
             "targetLayerId": "",
             "targetLayerName": ""
