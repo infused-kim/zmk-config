@@ -15,9 +15,13 @@
 #define NAV 2
 #define ADJUST 3
 
+/*
+ * Increase layer tap time
+ */
 &lt {
     tapping-term-ms = <300>;
 };
+
 
 / {
 
@@ -61,6 +65,7 @@
 
   /*
    * Keymap generated using https://www.keymapper.dev/
+   * Import sofle_choc_keymap.json to view it.
    */
 
   keymap {
@@ -92,7 +97,18 @@
         &bt BT_CLR &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_SEL 5 &none &none &none &none &none &none &ext_power EXT_POWER_TOGGLE_CMD &rgb_ug RGB_HUD &rgb_ug RGB_HUI &rgb_ug RGB_SAD &rgb_ug RGB_SAI &rgb_ug RGB_EFF &none &none &none &none &none &none &none &rgb_ug RGB_BRD &rgb_ug RGB_BRI &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &rgb_ug RGB_TOG &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none
       >;
     };
+  };
 
+  /*
+   * Make encoders more sensitive
+   */
+
+  left_encoder: encoder_left {
+      resolution = <2>;
+  };
+
+  right_encoder: encoder_right {
+      resolution = <2>;
   };
 };
 
