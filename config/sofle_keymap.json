@@ -4474,9 +4474,9 @@
         },
         {
             "keyNumber": 42,
-            "type": "&kp ",
+            "type": "man ",
             "values": [
-                "K_MUTE"
+                "&kp C_MUTE"
             ],
             "keys": [],
             "codeId": "0594f883-c89d-4e55-ac90-7c2173ea3263",
@@ -4756,9 +4756,9 @@
         },
         {
             "keyNumber": 45,
-            "type": "&kp ",
+            "type": "man ",
             "values": [
-                "HOME"
+                "&kp LG(LEFT)"
             ],
             "keys": [],
             "codeId": "e41b46c2-99f0-4846-9a1b-e3d9f2a2a320",
@@ -4933,9 +4933,9 @@
         },
         {
             "keyNumber": 47,
-            "type": "&kp ",
+            "type": "man ",
             "values": [
-                "END"
+                "&kp LG(RIGHT)"
             ],
             "keys": [],
             "codeId": "0d06e64f-d528-4cd4-8c47-5c1b8179c3ca",
