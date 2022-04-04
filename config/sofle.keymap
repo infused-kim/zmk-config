@@ -112,11 +112,11 @@
     /*
      * Shifted Backspace deletes
      *
-     * Usage: &bspc_del
-     * Backspace: Tap
-     * Delete: Shift + Tap
+     * Usage: &mm_bspc_del
+     * Tap: Backspace
+     * Shift-Tap: Delete
      */
-    bspc_del: bspc_del {
+    mm_bspc_del: bspc_del {
         compatible = "zmk,behavior-mod-morph";
         label = "BACKSPACE_DELETE";
         #binding-cells = <0>;
@@ -124,6 +124,37 @@
         mods = <(MOD_LSFT|MOD_RSFT)>;
     };
 
+    /*
+     * Shifted Backspace deletes + Layer Tap
+     *
+     * Usage: &mm_bspc_del_layer
+     * Tap: Backspace
+     * Shift-Tap: Delete
+     * Hold: Switch layer
+     */
+    mm_bspc_del_layer: bspc_del_layer {
+        compatible = "zmk,behavior-mod-morph";
+        label = "BACKSPACE_DELETE_LAYER";
+        #binding-cells = <0>;
+        bindings = <&lt SYM BSPC>, <&kp DEL>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+
+    /*
+     * Shifted Space underscores + Layer Tap
+     *
+     * Usage: &mm_spc_unds_layer
+     * Tap: Space
+     * Shift-Tap: Underscore
+     * Hold: Switch layer
+     */
+    mm_spc_unds_layer: mod_morph_underscore {
+        compatible = "zmk,behavior-mod-morph";
+        label = "MM_UNDERSCORE";
+        #binding-cells = <0>;
+        bindings = <&lt NAV SPACE>, <&kp UNDER>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
   };
 
   /*
@@ -137,7 +168,7 @@
     Base_layer {
       label = "Base";
       bindings = <
-        &kp GRAVE &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &kp NUMBER_4 &kp NUMBER_5 &kp NUMBER_6 &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &kp NUMBER_0 &none &kp ESCAPE &kp Q &kp W &kp F &kp P &kp B &kp J &kp L &kp U &kp Y &kp SINGLE_QUOTE &kp SEMICOLON &kp DEL &hm LALT A &hm LCTRL R &hm LGUI S &hm LSHFT T &kp G &kp M &hm RSHFT N &hm RGUI E &hm RCTRL I &hm RALT O &bspc_del &kp LEFT_SHIFT &kp Z &kp X &kp C &kp D &kp V &kp K_MUTE &kp C_PLAY_PAUSE &kp K &kp H &kp COMMA &kp DOT &kp SLASH &td_shift &kp LEFT_CONTROL &kp LEFT_GUI &hm LSHFT ESCAPE &lt NAV SPACE &lt DEV TAB &lt SYM BACKSPACE &lt NUM RETURN &td_shift &kp RIGHT_GUI &kp RIGHT_ALT
+        &kp GRAVE &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &kp NUMBER_4 &kp NUMBER_5 &kp NUMBER_6 &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &kp NUMBER_0 &none &kp ESCAPE &kp Q &kp W &kp F &kp P &kp B &kp J &kp L &kp U &kp Y &kp SINGLE_QUOTE &kp SEMICOLON &kp DEL &hm LALT A &hm LCTRL R &hm LGUI S &hm LSHFT T &kp G &kp M &hm RSHFT N &hm RGUI E &hm RCTRL I &hm RALT O &mm_bspc_del &kp LEFT_SHIFT &kp Z &kp X &kp C &kp D &kp V &kp C_MUTE &kp C_PLAY_PAUSE &kp K &kp H &kp COMMA &kp DOT &kp SLASH &td_shift &kp LEFT_ALT &kp LEFT_CONTROL &hm LGUI ESCAPE &mm_spc_unds_layer &lt DEV TAB &mm_bspc_del_layer &lt NUM RETURN &td_shift &kp RIGHT_GUI &kp RIGHT_ALT
       >;
       sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp C_PREV C_NEXT>;
     };
@@ -145,7 +176,7 @@
     Nav_layer {
       label = "Nav";
       bindings = <
-        &none &none &none &none &none &none &none &none &none &none &none &none &none &kp LG(Q) &kp LG(W) &kp LS(LC(TAB)) &kp LC(TAB) &none &kp PG_UP &kp LA(LEFT) &kp UP &kp LA(RIGHT) &none &none &trans &kp LEFT_ALT &kp LEFT_CONTROL &kp LEFT_GUI &kp LEFT_SHIFT &kp K_LOCK &kp PG_DN &kp LEFT &kp DOWN &kp RIGHT &none &trans &none &kp LG(Z) &kp LG(X) &kp LG(C) &kp LG(V) &kp LG(V) &trans &trans &none &kp HOME &none &kp END &none &none &trans &trans &trans &trans &trans &bspc_del &kp RETURN &trans &trans &trans
+        &none &none &none &none &none &none &none &none &none &none &none &none &none &kp LG(Q) &kp LG(W) &kp LS(LC(TAB)) &kp LC(TAB) &none &kp PG_UP &kp LA(LEFT) &kp UP &kp LA(RIGHT) &none &none &trans &kp LEFT_ALT &kp LEFT_CONTROL &kp LEFT_GUI &kp LEFT_SHIFT &kp K_LOCK &kp PG_DN &kp LEFT &kp DOWN &kp RIGHT &none &trans &none &kp LG(Z) &kp LG(X) &kp LG(C) &kp LG(V) &kp LG(V) &trans &trans &none &kp HOME &none &kp END &none &none &trans &trans &trans &trans &trans &mm_bspc_del &kp RETURN &trans &trans &trans
       >;
       sensor-bindings = <&inc_dec_kp C_BRI_DN C_BRI_UP &inc_dec_kp LEFT RIGHT>;
     };
