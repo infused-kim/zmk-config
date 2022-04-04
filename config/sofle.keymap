@@ -28,6 +28,12 @@
  */
 &lt {
     tapping-term-ms = <300>;
+
+    // Quickly tap-tap-holding the lt button will repeat the tap behavior
+    // For example enter-enter-hold, will output multiple enter while you
+    // keep holding the key.
+    // But holding enter without double tapping, will activate the layer.
+    quick_tap_ms = <200>;
 };
 
 
