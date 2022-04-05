@@ -78,6 +78,24 @@
       bindings = <&kp>, <&kp>;
     };
 
+
+    // Homerow mods with lower tapping term for shift
+    hm_fast: homerow_mods {
+      compatible = "zmk,behavior-hold-tap";
+      label = "HOMEROW_MODS_FAST";
+      #binding-cells = <2>;
+      tapping-term-ms = <200>;
+
+      // Quickly tap-tap-holding the homerow button will repeat the tap
+      // behavior.
+      // For example n-n-hold, will output multiple enwhile you
+      // keep holding the key.
+      // But holding n without double tapping, will activate the mod.
+      quick_tap_ms = <200>;
+      flavor = "tap-preferred";
+      bindings = <&kp>, <&kp>;
+    };
+
     /*
      * Auto Mod
      *
@@ -180,7 +198,7 @@
     Base_layer {
       label = "Base";
       bindings = <
-        &kp GRAVE &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &kp NUMBER_4 &kp NUMBER_5 &kp NUMBER_6 &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &kp NUMBER_0 &none &kp ESCAPE &kp Q &kp W &kp F &kp P &kp B &kp J &kp L &kp U &kp Y &kp SINGLE_QUOTE &kp SEMICOLON &kp DEL &hm LALT A &hm LCTRL R &hm LGUI S &hm LSHFT T &kp G &kp M &hm RSHFT N &hm RGUI E &hm RCTRL I &hm RALT O &mm_bspc_del &kp LEFT_SHIFT &kp Z &kp X &kp C &kp D &kp V &kp C_MUTE &kp C_PLAY_PAUSE &kp K &kp H &kp COMMA &kp DOT &kp SLASH &td_shift &kp LEFT_ALT &kp LEFT_CONTROL &hm LGUI ESCAPE &mm_spc_unds_layer &lt DEV TAB &mm_bspc_del_layer &lt NUM RETURN &td_shift &kp RIGHT_GUI &kp RIGHT_ALT
+        &kp GRAVE &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &kp NUMBER_4 &kp NUMBER_5 &kp NUMBER_6 &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &kp NUMBER_0 &none &kp ESCAPE &kp Q &kp W &kp F &kp P &kp B &kp J &kp L &kp U &kp Y &kp SINGLE_QUOTE &kp SEMICOLON &kp DEL &hm LALT A &hm LCTRL R &hm LGUI S &hm_fast LSHFT T &kp G &kp M &hm_fast RSHFT N &hm RGUI E &hm RCTRL I &hm RALT O &mm_bspc_del &kp LEFT_SHIFT &kp Z &kp X &kp C &kp D &kp V &kp C_MUTE &kp C_PLAY_PAUSE &kp K &kp H &kp COMMA &kp DOT &kp SLASH &td_shift &kp LEFT_ALT &kp LEFT_CONTROL &hm LGUI ESCAPE &mm_spc_unds_layer &lt DEV TAB &mm_bspc_del_layer &lt NUM RETURN &td_shift &kp RIGHT_GUI &kp RIGHT_ALT
       >;
       sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp C_PREV C_NEXT>;
     };

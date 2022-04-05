@@ -384,7 +384,7 @@
             "x": 542,
             "y": 88,
             "angle": 0,
-            "active": false,
+            "active": true,
             "row": 2,
             "column": 9,
             "side": "right",
@@ -3197,9 +3197,9 @@
         },
         {
             "keyNumber": 28,
-            "type": "&hm ",
+            "type": "man ",
             "values": [
-                "T",
+                "&hm_fast LSHFT T",
                 "LSHFT"
             ],
             "keys": [],
@@ -3472,9 +3472,9 @@
         },
         {
             "keyNumber": 31,
-            "type": "&hm ",
+            "type": "man ",
             "values": [
-                "N",
+                "&hm_fast RSHFT N",
                 "RSHFT"
             ],
             "keys": [],
