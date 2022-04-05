@@ -188,7 +188,7 @@
     Nav_layer {
       label = "Nav";
       bindings = <
-        &none &none &none &none &none &none &none &none &none &none &none &none &none &kp LG(Q) &kp LG(W) &kp LS(LC(TAB)) &kp LC(TAB) &kp LG(TAB) &kp PG_UP &kp LA(LEFT) &kp UP &kp LA(RIGHT) &none &none &trans &kp LEFT_ALT &kp LEFT_CONTROL &kp LEFT_GUI &kp LEFT_SHIFT &kp LG(GRAVE) &kp PG_DN &kp LEFT &kp DOWN &kp RIGHT &none &trans &none &kp LG(Z) &kp LG(X) &kp LG(C) &kp LG(V) &kp LG(V) &trans &trans &none &kp LG(LEFT) &none &kp LG(RIGHT) &none &none &trans &trans &trans &trans &trans &mm_bspc_del &kp RETURN &trans &trans &trans
+        &none &none &none &none &none &none &none &none &none &none &none &none &none &kp LG(Q) &kp LG(W) &kp LS(LC(TAB)) &kp LC(TAB) &kp LG(TAB) &kp PG_UP &kp LA(LEFT) &kp UP &kp LA(RIGHT) &none &none &trans &kp LEFT_ALT &kp LEFT_CONTROL &kp LEFT_GUI &kp LEFT_SHIFT &kp LG(GRAVE) &kp PG_DN &kp LEFT &kp DOWN &kp RIGHT &none &trans &none &kp LG(Z) &kp LG(X) &kp LG(C) &kp LG(V) &kp LG(V) &trans &kp SPACE &none &kp LG(LEFT) &none &kp LG(RIGHT) &none &none &trans &trans &trans &trans &trans &mm_bspc_del &kp RETURN &trans &trans &trans
       >;
       sensor-bindings = <&inc_dec_kp C_BRI_DN C_BRI_UP &inc_dec_kp LEFT RIGHT>;
     };
@@ -196,7 +196,7 @@
     Dev_layer {
       label = "Dev";
       bindings = <
-        &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &kp TILDE AM(RIGHT_BRACKET, LEFT_BRACKET) &kp AMPERSAND &kp PIPE AS(GRAVE) &none &none &kp LEFT_ALT &kp LEFT_CONTROL &kp LEFT_GUI &kp LEFT_SHIFT &none &kp ASTERISK AM(RIGHT_PARENTHESIS, LEFT_PARENTHESIS) AS(MINUS) AS(EQUAL) &kp HASH &trans &none &none &none &none &none &none &none &none &kp EXCLAMATION AM(RIGHT_BRACE, LEFT_BRACE) &kp SEMICOLON &kp COLON &kp BACKSLASH &none &none &none &none &none &none &kp LA(BACKSPACE) &kp RETURN &none &none &none
+        &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &kp TILDE AM(RIGHT_BRACKET, LEFT_BRACKET) &kp AMPERSAND &kp PIPE AS(GRAVE) &none &none &kp LEFT_ALT &kp LEFT_CONTROL &kp LEFT_GUI &kp LEFT_SHIFT &none &kp ASTERISK AM(RIGHT_PARENTHESIS, LEFT_PARENTHESIS) AS(MINUS) AS(EQUAL) &kp HASH &trans &none &none &none &none &none &none &trans &kp SPACE &kp EXCLAMATION AM(RIGHT_BRACE, LEFT_BRACE) &kp SEMICOLON &kp COLON &kp BACKSLASH &none &none &none &none &none &none &kp LA(BACKSPACE) &kp RETURN &none &none &none
       >;
       sensor-bindings = <&inc_dec_kp C_BRI_DN C_BRI_UP &inc_dec_kp LEFT RIGHT>;
     };
@@ -204,7 +204,7 @@
     Num_layer {
       label = "Num";
       bindings = <
-        &kp F12 &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &none AS(LEFT_BRACKET) AS(N4) AS(N5) AS(N6) AS(RIGHT_BRACKET) &none &none &none &none &none &none &none AS(SEMICOLON) AS(N1) AS(N2) AS(N3) AS(EQUAL) &none &kp RIGHT_SHIFT &kp RIGHT_GUI &kp RIGHT_CONTROL &kp RIGHT_ALT &none &none AS(GRAVE) AS(N7) AS(N8) AS(N9) AS(BACKSLASH) &none &none &none &none &none &none &none &none &none AS(COMMA) AS(DOT) AS(NUMBER_0) AS(MINUS) &none &none &none &none &none
+        &kp F12 &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &none AS(LEFT_BRACKET) AS(N4) AS(N5) AS(N6) AS(RIGHT_BRACKET) &none &none &none &none &none &none &none AS(SEMICOLON) AS(N1) AS(N2) AS(N3) AS(EQUAL) &none &kp RIGHT_SHIFT &kp RIGHT_GUI &kp RIGHT_CONTROL &kp RIGHT_ALT &none &none AS(GRAVE) AS(N7) AS(N8) AS(N9) AS(BACKSLASH) &none &kp SPACE &none &none &none &none &none &none &none AS(COMMA) AS(DOT) AS(NUMBER_0) AS(MINUS) &none &none &none &none &none
       >;
       sensor-bindings = <&inc_dec_kp C_BRI_DN C_BRI_UP &inc_dec_kp LEFT RIGHT>;
     };
@@ -212,7 +212,7 @@
     Sym_layer {
       label = "Sym";
       bindings = <
-        &none &none &none &none &none &none &none &none &none &none &none &none &none &kp LEFT_BRACE &kp DOLLAR &kp PERCENT &kp CARET &kp RIGHT_BRACE &none &none &none &none &none &none &none &kp COLON &kp EXCLAMATION &kp AT_SIGN &kp HASH &kp PLUS &none &kp RIGHT_SHIFT &kp RIGHT_GUI &kp RIGHT_CONTROL &kp RIGHT_ALT &none &none &kp TILDE &kp AMPERSAND &kp ASTERISK &kp LEFT_PARENTHESIS &kp PIPE &none &none &none &none &none &none &none &none &none &none &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp UNDERSCORE &none &none &none &none &none
+        &none &none &none &none &none &none &none &none &none &none &none &none &none &kp LEFT_BRACE &kp DOLLAR &kp PERCENT &kp CARET &kp RIGHT_BRACE &none &none &none &none &none &none &none &kp COLON &kp EXCLAMATION &kp AT_SIGN &kp HASH &kp PLUS &none &kp RIGHT_SHIFT &kp RIGHT_GUI &kp RIGHT_CONTROL &kp RIGHT_ALT &none &none &kp TILDE &kp AMPERSAND &kp ASTERISK &kp LEFT_PARENTHESIS &kp PIPE &trans &kp SPACE &none &none &none &none &none &none &none &none &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp UNDERSCORE &none &none &none &none &none
       >;
       sensor-bindings = <&inc_dec_kp C_BRI_DN C_BRI_UP &inc_dec_kp LEFT RIGHT>;
     };
@@ -220,7 +220,7 @@
     Fun_layer {
       label = "Fun";
       bindings = <
-        &none &none &none &none &none &none &none &none &none &none &none &none &none &none &kp F4 &kp F5 &kp F6 &kp F11 &none &none &none &none &none &none &none &none &kp F1 &kp F2 &kp F3 &kp F10 &none &kp RIGHT_SHIFT &kp RIGHT_GUI &kp RIGHT_CONTROL &kp RIGHT_ALT &none &none &none &kp F7 &kp F8 &kp F9 &kp F12 &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none
+        &none &none &none &none &none &none &none &none &none &none &none &none &none &none &kp F4 &kp F5 &kp F6 &kp F11 &none &none &none &none &none &none &none &none &kp F1 &kp F2 &kp F3 &kp F10 &none &kp RIGHT_SHIFT &kp RIGHT_GUI &kp RIGHT_CONTROL &kp RIGHT_ALT &none &none &none &kp F7 &kp F8 &kp F9 &kp F12 &trans &kp SPACE &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none
       >;
       sensor-bindings = <&inc_dec_kp C_BRI_DN C_BRI_UP &inc_dec_kp LEFT RIGHT>;
     };
@@ -228,7 +228,7 @@
     Adjust_layer {
       label = "Adjust";
       bindings = <
-        &bt BT_CLR &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_SEL 5 &none &none &none &none &none &none &ext_power EXT_POWER_TOGGLE_CMD &rgb_ug RGB_HUD &rgb_ug RGB_HUI &rgb_ug RGB_SAD &rgb_ug RGB_SAI &rgb_ug RGB_EFF &none &none &none &none &none &none &none &rgb_ug RGB_BRD &rgb_ug RGB_BRI &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &rgb_ug RGB_TOG &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none
+        &bt BT_CLR &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_SEL 5 &none &none &none &none &none &none &ext_power EXT_POWER_TOGGLE_CMD &rgb_ug RGB_HUD &rgb_ug RGB_HUI &rgb_ug RGB_SAD &rgb_ug RGB_SAI &rgb_ug RGB_EFF &none &none &none &none &none &none &none &rgb_ug RGB_BRD &rgb_ug RGB_BRI &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &rgb_ug RGB_TOG &kp SPACE &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none
       >;
       sensor-bindings = <&inc_dec_kp C_BRI_DN C_BRI_UP &inc_dec_kp LEFT RIGHT>;
     };
@@ -236,7 +236,7 @@
     Lower_layer {
       label = "Lower";
       bindings = <
-        &none &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp TILDE &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &kp NUMBER_4 &kp NUMBER_5 &kp NUMBER_6 &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &kp NUMBER_0 &kp DEL &trans &kp EXCLAMATION &kp AT_SIGN &kp HASH &kp DOLLAR &kp PERCENT &kp CARET &kp AMPERSAND &kp ASTERISK &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp PIPE &trans &kp EQUAL &kp MINUS &kp PLUS &kp LEFT_BRACE &kp RIGHT_BRACE &trans &trans &kp LEFT_BRACKET &kp RIGHT_BRACKET &kp SEMICOLON &kp COLON &kp BACKSLASH &trans &trans &trans &trans &trans &trans &kp DEL &trans &trans &trans &trans
+        &kp F12 &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp TILDE &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &kp NUMBER_4 &kp NUMBER_5 &kp NUMBER_6 &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &kp NUMBER_0 &kp DEL &trans &kp EXCLAMATION &kp AT_SIGN &kp HASH &kp DOLLAR &kp PERCENT &kp CARET &kp AMPERSAND &kp ASTERISK &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp PIPE &trans &kp EQUAL &kp MINUS &kp PLUS &kp LEFT_BRACE &kp RIGHT_BRACE &trans &kp SPACE &kp LEFT_BRACKET &kp RIGHT_BRACKET &kp SEMICOLON &kp COLON &kp BACKSLASH &trans &trans &trans &trans &kp UNDERSCORE &kp TILDE &kp DEL &trans &trans &trans &trans
       >;
       sensor-bindings = <&inc_dec_kp C_BRI_DN C_BRI_UP &inc_dec_kp LEFT RIGHT>;
     };
