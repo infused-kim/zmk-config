@@ -67,7 +67,13 @@
       label = "HOMEROW_MODS";
       #binding-cells = <2>;
       tapping-term-ms = <350>;
-      quick_tap_ms = <0>;
+
+      // Quickly tap-tap-holding the homerow button will repeat the tap
+      // behavior.
+      // For example n-n-hold, will output multiple enwhile you
+      // keep holding the key.
+      // But holding n without double tapping, will activate the mod.
+      quick_tap_ms = <200>;
       flavor = "tap-preferred";
       bindings = <&kp>, <&kp>;
     };
