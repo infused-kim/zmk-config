@@ -648,7 +648,7 @@
             "x": 454,
             "y": 234,
             "angle": -21,
-            "active": true,
+            "active": false,
             "row": 4,
             "column": 7,
             "side": "right",
@@ -2231,8 +2231,10 @@
         },
         {
             "keyNumber": 17,
-            "type": "&none",
-            "values": [],
+            "type": "man ",
+            "values": [
+                "&kp LG(TAB)"
+            ],
             "keys": [],
             "codeId": "",
             "layerId": "91856afb-3fff-4a76-90b2-9629b6e31974",
@@ -3314,9 +3316,9 @@
         },
         {
             "keyNumber": 29,
-            "type": "&kp ",
+            "type": "man ",
             "values": [
-                "K_LOCK"
+                "&kp LG(GRAVE)"
             ],
             "keys": [],
             "codeId": "f0bcc464-f2fd-4143-b944-cbbdaa118963",
@@ -4452,10 +4454,12 @@
         },
         {
             "keyNumber": 41,
-            "type": "&none",
-            "values": [],
+            "type": "&kp ",
+            "values": [
+                "PIPE"
+            ],
             "keys": [],
-            "codeId": "",
+            "codeId": "3a480911-2e01-4724-be17-193f0dfd0aa3",
             "layerId": "e04aa765-56df-4593-bf13-0bd89292153c",
             "targetLayerId": "",
             "targetLayerName": ""

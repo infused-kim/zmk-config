@@ -182,7 +182,7 @@
     Nav_layer {
       label = "Nav";
       bindings = <
-        &none &none &none &none &none &none &none &none &none &none &none &none &none &kp LG(Q) &kp LG(W) &kp LS(LC(TAB)) &kp LC(TAB) &none &kp PG_UP &kp LA(LEFT) &kp UP &kp LA(RIGHT) &none &none &trans &kp LEFT_ALT &kp LEFT_CONTROL &kp LEFT_GUI &kp LEFT_SHIFT &kp K_LOCK &kp PG_DN &kp LEFT &kp DOWN &kp RIGHT &none &trans &none &kp LG(Z) &kp LG(X) &kp LG(C) &kp LG(V) &kp LG(V) &trans &trans &none &kp LG(LEFT) &none &kp LG(RIGHT) &none &none &trans &trans &trans &trans &trans &mm_bspc_del &kp RETURN &trans &trans &trans
+        &none &none &none &none &none &none &none &none &none &none &none &none &none &kp LG(Q) &kp LG(W) &kp LS(LC(TAB)) &kp LC(TAB) &kp LG(TAB) &kp PG_UP &kp LA(LEFT) &kp UP &kp LA(RIGHT) &none &none &trans &kp LEFT_ALT &kp LEFT_CONTROL &kp LEFT_GUI &kp LEFT_SHIFT &kp LG(GRAVE) &kp PG_DN &kp LEFT &kp DOWN &kp RIGHT &none &trans &none &kp LG(Z) &kp LG(X) &kp LG(C) &kp LG(V) &kp LG(V) &trans &trans &none &kp LG(LEFT) &none &kp LG(RIGHT) &none &none &trans &trans &trans &trans &trans &mm_bspc_del &kp RETURN &trans &trans &trans
       >;
       sensor-bindings = <&inc_dec_kp C_BRI_DN C_BRI_UP &inc_dec_kp LEFT RIGHT>;
     };
@@ -206,7 +206,7 @@
     Sym_layer {
       label = "Sym";
       bindings = <
-        &none &none &none &none &none &none &none &none &none &none &none &none &none &kp LEFT_BRACE &kp DOLLAR &kp PERCENT &kp CARET &kp RIGHT_BRACE &none &none &none &none &none &none &none &kp COLON &kp EXCLAMATION &kp AT_SIGN &kp HASH &kp PLUS &none &kp RIGHT_SHIFT &kp RIGHT_GUI &kp RIGHT_CONTROL &kp RIGHT_ALT &none &none &kp TILDE &kp AMPERSAND &kp ASTERISK &kp LEFT_PARENTHESIS &none &none &none &none &none &none &none &none &none &none &none &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp UNDERSCORE &none &none &none &none &none
+        &none &none &none &none &none &none &none &none &none &none &none &none &none &kp LEFT_BRACE &kp DOLLAR &kp PERCENT &kp CARET &kp RIGHT_BRACE &none &none &none &none &none &none &none &kp COLON &kp EXCLAMATION &kp AT_SIGN &kp HASH &kp PLUS &none &kp RIGHT_SHIFT &kp RIGHT_GUI &kp RIGHT_CONTROL &kp RIGHT_ALT &none &none &kp TILDE &kp AMPERSAND &kp ASTERISK &kp LEFT_PARENTHESIS &kp PIPE &none &none &none &none &none &none &none &none &none &none &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp UNDERSCORE &none &none &none &none &none
       >;
       sensor-bindings = <&inc_dec_kp C_BRI_DN C_BRI_UP &inc_dec_kp LEFT RIGHT>;
     };
