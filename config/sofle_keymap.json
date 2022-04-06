@@ -384,7 +384,7 @@
             "x": 542,
             "y": 88,
             "angle": 0,
-            "active": true,
+            "active": false,
             "row": 2,
             "column": 9,
             "side": "right",
@@ -417,7 +417,7 @@
             "x": 692,
             "y": 100,
             "angle": 0,
-            "active": true,
+            "active": false,
             "row": 2,
             "column": 12,
             "side": "right",
@@ -428,7 +428,7 @@
             "x": 742,
             "y": 100,
             "angle": 0,
-            "active": false,
+            "active": true,
             "row": 2,
             "column": 13,
             "side": "right",
@@ -1744,9 +1744,9 @@
         },
         {
             "keyNumber": 12,
-            "type": "&kp ",
+            "type": "man ",
             "values": [
-                "ESCAPE"
+                "&grescm"
             ],
             "keys": [],
             "codeId": "661abac9-968c-4fe5-90d3-4173f6ba2aaf",
@@ -5348,9 +5348,9 @@
         },
         {
             "keyNumber": 52,
-            "type": "&hm ",
+            "type": "man ",
             "values": [
-                "ESCAPE",
+                "&grescm_gui",
                 "LGUI"
             ],
             "keys": [],

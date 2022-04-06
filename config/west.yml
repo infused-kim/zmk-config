@@ -11,7 +11,7 @@ manifest:
     #   import: app/west.yml
     - name: zmk
       remote: zmkfirmware-infused-kim
-      revision: aa-my-customizations
+      revision: testing/masked-mod-morphs
       import: app/west.yml
   self:
     path: config
