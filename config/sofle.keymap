@@ -19,10 +19,6 @@
 #define ADJUST 6
 #define LOWER 7
 
-// Macros for Auto Mod and Auto Shift behaviors
-#define AM(hold_keycode, tap_keycode) &am hold_keycode tap_keycode
-#define AS(keycode) &am LS(keycode) keycode
-
 /*
  * Increase layer tap time
  */
@@ -174,6 +170,8 @@
       flavor = "tap-preferred";
       bindings = <&kp>, <&kp>;
     };
+    #define AM(hold_keycode, tap_keycode) &am hold_keycode tap_keycode
+    #define AS(keycode) &am LS(keycode) keycode
 
     /*
      * Tap dancing shift
