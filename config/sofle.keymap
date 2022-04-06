@@ -264,15 +264,20 @@
      *
      * Usage: &mm_spc_unds_layer
      * Tap: Space
-     * Shift-Tap: Underscore
+     * LShift-Tap: -
+     * RShift-Tap: _
      * Hold: Switch layer
      */
     mm_spc_unds_layer: mod_morph_underscore {
         compatible = "zmk,behavior-mod-morph";
         label = "MM_UNDERSCORE";
         #binding-cells = <0>;
-        bindings = <&lt NAV SPACE>, <&kp UNDER>;
+        bindings = <&lt NAV SPACE>, <&kp MINUS>;
         mods = <(MOD_LSFT|MOD_RSFT)>;
+
+        // Requires forked zmk that supports this feature
+        // https://github.com/zmkfirmware/zmk/pull/1114
+        masked_mods = <(MOD_LSFT)>;
     };
 
 
