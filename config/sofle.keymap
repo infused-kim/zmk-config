@@ -19,8 +19,8 @@
 #define ADJUST 6
 #define LOWER 7
 
-#define TAPPING_TERM_MS 350
-#define TAPPING_TERM_MS_FAST 150
+#define TAPPING_TERM_MS 300
+#define TAPPING_TERM_MS_FAST 200
 
 /*
  * Increase layer tap time
