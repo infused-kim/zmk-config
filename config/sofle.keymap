@@ -23,9 +23,10 @@
 #define TAPPING_TERM_MS_FAST 200
 
 /*
- * Increase layer tap time
+ * Layer Tap Settings
  */
 &lt {
+    // Increase layer tap time
     tapping-term-ms = <TAPPING_TERM_MS>;
 
     // Quickly tap-tap-holding the lt button will repeat the tap behavior
@@ -35,6 +36,19 @@
     quick_tap_ms = <200>;
 };
 
+/*
+ * Caps Word Settings
+ */
+&caps_word {
+    // Allow caps word to continue even when minus or underscore
+    // are pressed.
+    // Also prevent mod presses from cancelling caps word.
+    continue-list = <
+      UNDERSCORE MINUS
+      LALT LCTRL LGUI LSHFT
+      RALT RCTRL RGUI RSHFT
+    >;
+};
 
 / {
 
