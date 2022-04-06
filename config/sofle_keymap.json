@@ -384,7 +384,7 @@
             "x": 542,
             "y": 88,
             "angle": 0,
-            "active": false,
+            "active": true,
             "row": 2,
             "column": 9,
             "side": "right",
@@ -428,7 +428,7 @@
             "x": 742,
             "y": 100,
             "angle": 0,
-            "active": true,
+            "active": false,
             "row": 2,
             "column": 13,
             "side": "right",
@@ -726,7 +726,7 @@
         },
         {
             "keyNumber": 0,
-            "type": "&none",
+            "type": "&trans",
             "values": [],
             "keys": [],
             "codeId": "",
@@ -748,7 +748,7 @@
         },
         {
             "keyNumber": 0,
-            "type": "&none",
+            "type": "&trans",
             "values": [],
             "keys": [],
             "codeId": "",
@@ -770,7 +770,7 @@
         },
         {
             "keyNumber": 0,
-            "type": "&none",
+            "type": "&trans",
             "values": [],
             "keys": [],
             "codeId": "",
@@ -780,7 +780,7 @@
         },
         {
             "keyNumber": 0,
-            "type": "&none",
+            "type": "&trans",
             "values": [],
             "keys": [],
             "codeId": "",
@@ -1660,10 +1660,12 @@
         },
         {
             "keyNumber": 11,
-            "type": "&none",
-            "values": [],
+            "type": "&kp ",
+            "values": [
+                "RETURN"
+            ],
             "keys": [],
-            "codeId": "",
+            "codeId": "a4c8dad5-35fd-4a36-97fc-4ccaa537c7ba",
             "layerId": "3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
             "targetLayerId": "",
             "targetLayerName": ""
@@ -1682,7 +1684,7 @@
         },
         {
             "keyNumber": 11,
-            "type": "&none",
+            "type": "&trans",
             "values": [],
             "keys": [],
             "codeId": "",
@@ -1702,7 +1704,7 @@
         },
         {
             "keyNumber": 11,
-            "type": "&none",
+            "type": "&trans",
             "values": [],
             "keys": [],
             "codeId": "",
@@ -1724,7 +1726,7 @@
         },
         {
             "keyNumber": 11,
-            "type": "&none",
+            "type": "&trans",
             "values": [],
             "keys": [],
             "codeId": "",
@@ -1734,7 +1736,7 @@
         },
         {
             "keyNumber": 11,
-            "type": "&none",
+            "type": "&trans",
             "values": [],
             "keys": [],
             "codeId": "",
@@ -1768,7 +1770,7 @@
         },
         {
             "keyNumber": 12,
-            "type": "&none",
+            "type": "&trans",
             "values": [],
             "keys": [],
             "codeId": "",
@@ -1790,7 +1792,7 @@
         },
         {
             "keyNumber": 12,
-            "type": "&none",
+            "type": "&trans",
             "values": [],
             "keys": [],
             "codeId": "",
@@ -1800,7 +1802,7 @@
         },
         {
             "keyNumber": 12,
-            "type": "&none",
+            "type": "&trans",
             "values": [],
             "keys": [],
             "codeId": "",
@@ -1810,7 +1812,7 @@
         },
         {
             "keyNumber": 12,
-            "type": "&none",
+            "type": "&trans",
             "values": [],
             "keys": [],
             "codeId": "",
@@ -1820,7 +1822,7 @@
         },
         {
             "keyNumber": 12,
-            "type": "&none",
+            "type": "&trans",
             "values": [],
             "keys": [],
             "codeId": "",
@@ -2744,21 +2746,21 @@
         },
         {
             "keyNumber": 23,
-            "type": "&kp ",
+            "type": "man ",
             "values": [
-                "SEMICOLON"
+                "&mm_bspc_del"
             ],
             "keys": [],
-            "codeId": "e8e0ee32-ae8b-49c6-be96-afa20e866d59",
+            "codeId": "eeaee249-944b-49d6-ac9a-018aa88b6ce8",
             "layerId": "3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
             "targetLayerId": "",
             "targetLayerName": ""
         },
         {
             "keyNumber": 23,
-            "type": "&kp ",
+            "type": "&trans",
             "values": [
-                "DEL"
+                null
             ],
             "keys": [],
             "codeId": "16d9992b-3374-4e4a-926d-2b779a0695e4",
@@ -2768,7 +2770,7 @@
         },
         {
             "keyNumber": 23,
-            "type": "&none",
+            "type": "&trans",
             "values": [],
             "keys": [],
             "codeId": "",
@@ -2788,7 +2790,7 @@
         },
         {
             "keyNumber": 23,
-            "type": "&none",
+            "type": "&trans",
             "values": [],
             "keys": [],
             "codeId": "",
@@ -2798,7 +2800,7 @@
         },
         {
             "keyNumber": 23,
-            "type": "&none",
+            "type": "&trans",
             "values": [],
             "keys": [],
             "codeId": "",
@@ -2808,7 +2810,7 @@
         },
         {
             "keyNumber": 23,
-            "type": "&none",
+            "type": "&trans",
             "values": [],
             "keys": [],
             "codeId": "",
@@ -2818,7 +2820,7 @@
         },
         {
             "keyNumber": 23,
-            "type": "&none",
+            "type": "&trans",
             "values": [],
             "keys": [],
             "codeId": "",
@@ -2830,10 +2832,10 @@
             "keyNumber": 24,
             "type": "&kp ",
             "values": [
-                "DEL"
+                "TAB"
             ],
             "keys": [],
-            "codeId": "16d9992b-3374-4e4a-926d-2b779a0695e4",
+            "codeId": "c80a4260-8a35-4d9a-9d5e-c3f642118708",
             "layerId": "3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
             "targetLayerId": "",
             "targetLayerName": ""
@@ -2870,7 +2872,7 @@
         },
         {
             "keyNumber": 24,
-            "type": "&none",
+            "type": "&trans",
             "values": [],
             "keys": [],
             "codeId": "",
@@ -2880,7 +2882,7 @@
         },
         {
             "keyNumber": 24,
-            "type": "&none",
+            "type": "&trans",
             "values": [],
             "keys": [],
             "codeId": "",
@@ -2890,7 +2892,7 @@
         },
         {
             "keyNumber": 24,
-            "type": "&none",
+            "type": "&trans",
             "values": [],
             "keys": [],
             "codeId": "",
@@ -2900,7 +2902,7 @@
         },
         {
             "keyNumber": 24,
-            "type": "&none",
+            "type": "&trans",
             "values": [],
             "keys": [],
             "codeId": "",
@@ -3199,7 +3201,7 @@
             "keyNumber": 28,
             "type": "man ",
             "values": [
-                "&hm_l LSHFT T",
+                "&hm_fast_l LSHFT T",
                 "LSHFT"
             ],
             "keys": [],
@@ -3474,7 +3476,7 @@
             "keyNumber": 31,
             "type": "man ",
             "values": [
-                "&hm_r RSHFT N",
+                "&hm_fast_r RSHFT N",
                 "RSHFT"
             ],
             "keys": [],
@@ -3852,12 +3854,12 @@
         },
         {
             "keyNumber": 35,
-            "type": "man ",
+            "type": "&kp ",
             "values": [
-                "&mm_bspc_del"
+                "SEMICOLON"
             ],
             "keys": [],
-            "codeId": "feaeee56-7a95-4460-bf5e-5973830ed1f0",
+            "codeId": "e8e0ee32-ae8b-49c6-be96-afa20e866d59",
             "layerId": "3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
             "targetLayerId": "",
             "targetLayerName": ""
@@ -3908,7 +3910,7 @@
         },
         {
             "keyNumber": 35,
-            "type": "&none",
+            "type": "&trans",
             "values": [],
             "keys": [],
             "codeId": "",
@@ -3918,7 +3920,7 @@
         },
         {
             "keyNumber": 35,
-            "type": "&none",
+            "type": "&trans",
             "values": [],
             "keys": [],
             "codeId": "",
@@ -3928,7 +3930,7 @@
         },
         {
             "keyNumber": 35,
-            "type": "&none",
+            "type": "&trans",
             "values": [],
             "keys": [],
             "codeId": "",
@@ -3960,7 +3962,7 @@
         },
         {
             "keyNumber": 36,
-            "type": "&none",
+            "type": "&trans",
             "values": [],
             "keys": [],
             "codeId": "",
@@ -3980,7 +3982,7 @@
         },
         {
             "keyNumber": 36,
-            "type": "&none",
+            "type": "&trans",
             "values": [],
             "keys": [],
             "codeId": "",
@@ -3990,7 +3992,7 @@
         },
         {
             "keyNumber": 36,
-            "type": "&none",
+            "type": "&trans",
             "values": [],
             "keys": [],
             "codeId": "",
@@ -4000,7 +4002,7 @@
         },
         {
             "keyNumber": 36,
-            "type": "&none",
+            "type": "&trans",
             "values": [],
             "keys": [],
             "codeId": "",
@@ -4010,7 +4012,7 @@
         },
         {
             "keyNumber": 36,
-            "type": "&none",
+            "type": "&trans",
             "values": [],
             "keys": [],
             "codeId": "",
@@ -5122,7 +5124,7 @@
         },
         {
             "keyNumber": 49,
-            "type": "&none",
+            "type": "&trans",
             "values": [],
             "keys": [],
             "codeId": "",
@@ -5142,7 +5144,7 @@
         },
         {
             "keyNumber": 49,
-            "type": "&none",
+            "type": "&trans",
             "values": [],
             "keys": [],
             "codeId": "",
@@ -5152,7 +5154,7 @@
         },
         {
             "keyNumber": 49,
-            "type": "&none",
+            "type": "&trans",
             "values": [],
             "keys": [],
             "codeId": "",
@@ -5162,7 +5164,7 @@
         },
         {
             "keyNumber": 49,
-            "type": "&none",
+            "type": "&trans",
             "values": [],
             "keys": [],
             "codeId": "",
@@ -5172,7 +5174,7 @@
         },
         {
             "keyNumber": 49,
-            "type": "&none",
+            "type": "&trans",
             "values": [],
             "keys": [],
             "codeId": "",
