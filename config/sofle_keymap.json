@@ -417,7 +417,7 @@
             "x": 692,
             "y": 100,
             "angle": 0,
-            "active": false,
+            "active": true,
             "row": 2,
             "column": 12,
             "side": "right",
@@ -2910,9 +2910,9 @@
         },
         {
             "keyNumber": 25,
-            "type": "&hm ",
+            "type": "man ",
             "values": [
-                "A",
+                "&hm_l LALT A",
                 "LALT"
             ],
             "keys": [],
@@ -3005,9 +3005,9 @@
         },
         {
             "keyNumber": 26,
-            "type": "&hm ",
+            "type": "man ",
             "values": [
-                "R",
+                "&hm_l LCTRL R",
                 "LCTRL"
             ],
             "keys": [],
@@ -3102,9 +3102,9 @@
         },
         {
             "keyNumber": 27,
-            "type": "&hm ",
+            "type": "man ",
             "values": [
-                "S",
+                "&hm_l LGUI S",
                 "LGUI"
             ],
             "keys": [],
@@ -3199,7 +3199,7 @@
             "keyNumber": 28,
             "type": "man ",
             "values": [
-                "&hm_fast LSHFT T",
+                "&hm_l LSHFT T",
                 "LSHFT"
             ],
             "keys": [],
@@ -3474,7 +3474,7 @@
             "keyNumber": 31,
             "type": "man ",
             "values": [
-                "&hm_fast RSHFT N",
+                "&hm_r RSHFT N",
                 "RSHFT"
             ],
             "keys": [],
@@ -3567,9 +3567,9 @@
         },
         {
             "keyNumber": 32,
-            "type": "&hm ",
+            "type": "man ",
             "values": [
-                "E",
+                "&hm_r RGUI E",
                 "RGUI"
             ],
             "keys": [],
@@ -3662,9 +3662,9 @@
         },
         {
             "keyNumber": 33,
-            "type": "&hm ",
+            "type": "man ",
             "values": [
-                "I",
+                "&hm_r RCTRL I",
                 "RCTRL"
             ],
             "keys": [],
@@ -3757,9 +3757,9 @@
         },
         {
             "keyNumber": 34,
-            "type": "&hm ",
+            "type": "man ",
             "values": [
-                "O",
+                "&hm_r RALT O",
                 "RALT"
             ],
             "keys": [],
