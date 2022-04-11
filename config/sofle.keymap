@@ -356,7 +356,7 @@
     Num_layer {
       label = "Num";
       bindings = <
-        &kp F12 &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &trans &none &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &kp PLUS &kp TILDE &none &none &none &none &trans &trans &kp ASTERISK &kp NUMBER_4 &kp NUMBER_5 &kp NUMBER_6 &kp EQUAL &kp PERCENT &kp RIGHT_SHIFT &kp RIGHT_GUI &kp RIGHT_CONTROL &kp RIGHT_ALT &trans &trans &kp SLASH &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &kp MINUS &trans &trans &kp UNDERSCORE &kp DOLLAR &kp COMMA &kp DOT &kp SLASH &trans &trans &trans &hm LGUI LEFT_PARENTHESIS &lt  NUMBER_0 &lt SYM RIGHT_PARENTHESIS &trans &trans &trans &trans &trans
+        &kp F12 &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &trans AS(LEFT_BRACKET) AS(N4) AS(N5) AS(N6) AS(RIGHT_BRACKET) &none &none &none &none &none &trans &trans AS(SEMICOLON) AS(N1) AS(N2) AS(N3) AS(EQUAL) &none &kp RIGHT_SHIFT &kp RIGHT_GUI &kp RIGHT_CONTROL &kp RIGHT_ALT &trans &trans AS(GRAVE) AS(N7) AS(N8) AS(N9) AS(BACKSLASH) &none &kp SPACE &none &none &none &none &none &trans &none AS(COMMA) AS(DOT) AS(MINUS) AS(NUMBER_0) &none &none &none &none &none
       >;
       sensor-bindings = <&inc_dec_kp C_BRI_DN C_BRI_UP &inc_dec_kp LEFT RIGHT>;
     };
