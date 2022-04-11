@@ -51,30 +51,6 @@
 
 / {
 
-  /*
-   * Conditional Layers
-   */
-
-  conditional_layers {
-      compatible = "zmk,conditional-layers";
-      func_layer {
-          if-layers = <SYM NUM>;
-          then-layer = <FUNC>;
-      };
-
-      // Both Hands
-      adjust_layer_1 {
-          if-layers = <NAV NUM>;
-          then-layer = <ADJUST>;
-      };
-
-      // Left Hand Only
-      adjust_layer_2 {
-          if-layers = <SYM NAV>;
-          then-layer = <ADJUST>;
-      };
-  };
-
   behaviors {
 
     /*
