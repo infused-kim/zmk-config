@@ -589,7 +589,7 @@
             "x": 92,
             "y": 212,
             "angle": 0,
-            "active": false,
+            "active": true,
             "row": 4,
             "column": 2,
             "side": "left",
@@ -611,7 +611,7 @@
             "x": 192,
             "y": 204,
             "angle": 0,
-            "active": true,
+            "active": false,
             "row": 4,
             "column": 4,
             "side": "left",
@@ -2258,7 +2258,7 @@
         },
         {
             "keyNumber": 19,
-            "type": "&none",
+            "type": "man ",
             "values": [],
             "keys": [],
             "codeId": "",
@@ -2662,7 +2662,7 @@
             "keyNumber": 25,
             "type": "man ",
             "values": [
-                "&hm_l LALT A",
+                "&hm_l LCTRL A",
                 "LALT"
             ],
             "keys": [],
@@ -2687,10 +2687,10 @@
             "keyNumber": 25,
             "type": "&kp ",
             "values": [
-                "LEFT_ALT"
+                "LEFT_CONTROL"
             ],
             "keys": [],
-            "codeId": "5cd6b7b9-b596-4600-92a1-67054af8663a",
+            "codeId": "8beb1c0e-ebfa-486d-967b-0157b13e90ae",
             "layerId": "91856afb-3fff-4a76-90b2-9629b6e31974",
             "targetLayerId": "",
             "targetLayerName": ""
@@ -2711,10 +2711,10 @@
             "keyNumber": 25,
             "type": "&kp ",
             "values": [
-                "LEFT_ALT"
+                "LEFT_CONTROL"
             ],
             "keys": [],
-            "codeId": "5cd6b7b9-b596-4600-92a1-67054af8663a",
+            "codeId": "8beb1c0e-ebfa-486d-967b-0157b13e90ae",
             "layerId": "47ce01c6-a191-4769-b4c1-2735c86f4808",
             "targetLayerId": "",
             "targetLayerName": ""
@@ -2747,7 +2747,7 @@
             "keyNumber": 26,
             "type": "man ",
             "values": [
-                "&hm_l LCTRL R",
+                "&hm_l LALT R",
                 "LCTRL"
             ],
             "keys": [],
@@ -2772,10 +2772,10 @@
             "keyNumber": 26,
             "type": "&kp ",
             "values": [
-                "LEFT_CONTROL"
+                "LEFT_ALT"
             ],
             "keys": [],
-            "codeId": "8beb1c0e-ebfa-486d-967b-0157b13e90ae",
+            "codeId": "5cd6b7b9-b596-4600-92a1-67054af8663a",
             "layerId": "91856afb-3fff-4a76-90b2-9629b6e31974",
             "targetLayerId": "",
             "targetLayerName": ""
@@ -2796,10 +2796,10 @@
             "keyNumber": 26,
             "type": "&kp ",
             "values": [
-                "LEFT_CONTROL"
+                "LEFT_ALT"
             ],
             "keys": [],
-            "codeId": "8beb1c0e-ebfa-486d-967b-0157b13e90ae",
+            "codeId": "5cd6b7b9-b596-4600-92a1-67054af8663a",
             "layerId": "47ce01c6-a191-4769-b4c1-2735c86f4808",
             "targetLayerId": "",
             "targetLayerName": ""
@@ -3326,7 +3326,7 @@
             "keyNumber": 33,
             "type": "man ",
             "values": [
-                "&hm_r RCTRL I",
+                "&hm_r RALT I",
                 "RCTRL"
             ],
             "keys": [],
@@ -3385,10 +3385,10 @@
             "keyNumber": 33,
             "type": "&kp ",
             "values": [
-                "RIGHT_CONTROL"
+                "RIGHT_ALT"
             ],
             "keys": [],
-            "codeId": "66010cf3-72d2-4371-9774-d517585044d8",
+            "codeId": "010acc2f-271e-4d39-a03a-8c5f7c47ad7a",
             "layerId": "43a94f6e-fafe-4403-b291-c1a9063d0775",
             "targetLayerId": "",
             "targetLayerName": ""
@@ -3397,10 +3397,10 @@
             "keyNumber": 33,
             "type": "&kp ",
             "values": [
-                "RIGHT_CONTROL"
+                "RIGHT_ALT"
             ],
             "keys": [],
-            "codeId": "66010cf3-72d2-4371-9774-d517585044d8",
+            "codeId": "010acc2f-271e-4d39-a03a-8c5f7c47ad7a",
             "layerId": "8ec2e604-f236-4269-bd63-688c41169499",
             "targetLayerId": "",
             "targetLayerName": ""
@@ -3409,7 +3409,7 @@
             "keyNumber": 34,
             "type": "man ",
             "values": [
-                "&hm_r RALT O",
+                "&hm_r RCTRL O",
                 "RALT"
             ],
             "keys": [],
@@ -3468,10 +3468,10 @@
             "keyNumber": 34,
             "type": "&kp ",
             "values": [
-                "RIGHT_ALT"
+                "RIGHT_CONTROL"
             ],
             "keys": [],
-            "codeId": "010acc2f-271e-4d39-a03a-8c5f7c47ad7a",
+            "codeId": "66010cf3-72d2-4371-9774-d517585044d8",
             "layerId": "43a94f6e-fafe-4403-b291-c1a9063d0775",
             "targetLayerId": "",
             "targetLayerName": ""
@@ -3480,10 +3480,10 @@
             "keyNumber": 34,
             "type": "&kp ",
             "values": [
-                "RIGHT_ALT"
+                "RIGHT_CONTROL"
             ],
             "keys": [],
-            "codeId": "010acc2f-271e-4d39-a03a-8c5f7c47ad7a",
+            "codeId": "66010cf3-72d2-4371-9774-d517585044d8",
             "layerId": "8ec2e604-f236-4269-bd63-688c41169499",
             "targetLayerId": "",
             "targetLayerName": ""
@@ -4676,10 +4676,10 @@
             "keyNumber": 50,
             "type": "&kp ",
             "values": [
-                "LEFT_ALT"
+                "LEFT_CONTROL"
             ],
             "keys": [],
-            "codeId": "5cd6b7b9-b596-4600-92a1-67054af8663a",
+            "codeId": "8beb1c0e-ebfa-486d-967b-0157b13e90ae",
             "layerId": "3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
             "targetLayerId": "",
             "targetLayerName": ""
@@ -4748,10 +4748,10 @@
             "keyNumber": 51,
             "type": "&kp ",
             "values": [
-                "LEFT_CONTROL"
+                "LEFT_ALT"
             ],
             "keys": [],
-            "codeId": "8beb1c0e-ebfa-486d-967b-0157b13e90ae",
+            "codeId": "5cd6b7b9-b596-4600-92a1-67054af8663a",
             "layerId": "3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
             "targetLayerId": "",
             "targetLayerName": ""
