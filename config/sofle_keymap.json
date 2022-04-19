@@ -259,7 +259,7 @@
             "x": 592,
             "y": 28,
             "angle": 0,
-            "active": true,
+            "active": false,
             "row": 1,
             "column": 10,
             "side": "right",
@@ -2259,7 +2259,9 @@
         {
             "keyNumber": 19,
             "type": "man ",
-            "values": [],
+            "values": [
+                "&mm_bracket_r"
+            ],
             "keys": [],
             "codeId": "",
             "layerId": "43a94f6e-fafe-4403-b291-c1a9063d0775",

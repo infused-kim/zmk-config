@@ -432,7 +432,7 @@
     Num_layer {
       label = "Num";
       bindings = <
-        &kp F12 &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &trans &none &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &kp PLUS &kp TILDE &none &none &none &none &trans &trans &kp ASTERISK &kp NUMBER_4 &kp NUMBER_5 &kp NUMBER_6 &kp EQUAL &kp PERCENT &kp RIGHT_SHIFT &kp RIGHT_GUI &kp RIGHT_ALT &kp RIGHT_CONTROL &trans &trans &kp SLASH &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &kp MINUS &trans &trans &kp UNDERSCORE &kp DOLLAR &kp COMMA &kp DOT &kp SLASH &trans &trans &trans &hm LGUI LEFT_PARENTHESIS &lt NAV NUMBER_0 &lt SYM RIGHT_PARENTHESIS &trans &trans &trans &trans &trans
+        &kp F12 &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &trans &none &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &kp PLUS &kp TILDE &mm_bracket_r &none &none &none &trans &trans &kp ASTERISK &kp NUMBER_4 &kp NUMBER_5 &kp NUMBER_6 &kp EQUAL &kp PERCENT &kp RIGHT_SHIFT &kp RIGHT_GUI &kp RIGHT_ALT &kp RIGHT_CONTROL &trans &trans &kp SLASH &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &kp MINUS &trans &trans &kp UNDERSCORE &kp DOLLAR &kp COMMA &kp DOT &kp SLASH &trans &trans &trans &hm LGUI LEFT_PARENTHESIS &lt NAV NUMBER_0 &lt SYM RIGHT_PARENTHESIS &trans &trans &trans &trans &trans
       >;
       sensor-bindings = <&inc_dec_kp C_BRI_DN C_BRI_UP &inc_dec_kp LEFT RIGHT>;
     };
@@ -448,7 +448,7 @@
     Adjust_layer {
       label = "Adjust";
       bindings = <
-        &bt BT_CLR &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_SEL 5 &none &none &none &none &none &none &ext_power EXT_POWER_TOGGLE_CMD &rgb_ug RGB_HUD &rgb_ug RGB_HUI &rgb_ug RGB_SAD &rgb_ug RGB_SAI &rgb_ug RGB_EFF &none &none &none &none &none &none &none &rgb_ug RGB_BRD &rgb_ug RGB_BRI &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &rgb_ug RGB_TOG &kp SPACE &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none
+        &bt BT_CLR &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_SEL 5 &none &none &none &none &none &none &ext_power EXT_POWER_TOGGLE_CMD &rgb_ug RGB_HUD &rgb_ug RGB_HUI &rgb_ug RGB_SAD &rgb_ug RGB_SAI &rgb_ug RGB_EFF &none &none &none &none &none &none &none &rgb_ug RGB_BRD &rgb_ug RGB_BRI &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &rgb_ug RGB_TOG &kp SPACE &none &none &none &none &none &none &trans &trans &trans &none &none &none &none &none &none &none
       >;
       sensor-bindings = <&inc_dec_kp C_BRI_DN C_BRI_UP &inc_dec_kp LEFT RIGHT>;
     };
