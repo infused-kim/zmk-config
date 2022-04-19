@@ -259,7 +259,7 @@
             "x": 592,
             "y": 28,
             "angle": 0,
-            "active": false,
+            "active": true,
             "row": 1,
             "column": 10,
             "side": "right",
@@ -589,7 +589,7 @@
             "x": 92,
             "y": 212,
             "angle": 0,
-            "active": true,
+            "active": false,
             "row": 4,
             "column": 2,
             "side": "left",
@@ -2248,7 +2248,7 @@
             "keyNumber": 19,
             "type": "man ",
             "values": [
-                "&am RPAR LPAR"
+                "&mm_bracket_r"
             ],
             "keys": [],
             "codeId": "bf3fe8cc-b18c-45e0-bd72-c248da86cc3e",
@@ -2326,7 +2326,7 @@
             "keyNumber": 20,
             "type": "man ",
             "values": [
-                "&am RBKT LBKT"
+                "&mm_bracket_sq"
             ],
             "keys": [],
             "codeId": "bf3fe8cc-b18c-45e0-bd72-c248da86cc3e",
@@ -2405,7 +2405,7 @@
             "keyNumber": 21,
             "type": "man ",
             "values": [
-                "&am RBRC LBRC"
+                "&mm_bracket_c"
             ],
             "keys": [],
             "codeId": "3a480911-2e01-4724-be17-193f0dfd0aa3",
