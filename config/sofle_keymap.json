@@ -369,7 +369,7 @@
             "x": 492,
             "y": 100,
             "angle": 0,
-            "active": true,
+            "active": false,
             "row": 2,
             "column": 8,
             "side": "right",
@@ -666,7 +666,7 @@
             "x": 560,
             "y": 208,
             "angle": 0,
-            "active": false,
+            "active": true,
             "row": 4,
             "column": 9,
             "side": "right",
@@ -2944,9 +2944,9 @@
         },
         {
             "keyNumber": 28,
-            "type": "&kp ",
+            "type": "man ",
             "values": [
-                "LEFT_SHIFT"
+                "&td_shift_l"
             ],
             "keys": [],
             "codeId": "d8bbb848-974a-4089-99c2-f98c663e983a",
@@ -2966,9 +2966,9 @@
         },
         {
             "keyNumber": 28,
-            "type": "&kp ",
+            "type": "man ",
             "values": [
-                "LEFT_SHIFT"
+                "&td_shift_l"
             ],
             "keys": [],
             "codeId": "d8bbb848-974a-4089-99c2-f98c663e983a",
@@ -3026,9 +3026,9 @@
         },
         {
             "keyNumber": 29,
-            "type": "man ",
+            "type": "&none",
             "values": [
-                "&td_shift"
+                ""
             ],
             "keys": [],
             "codeId": "f0bcc464-f2fd-4143-b944-cbbdaa118963",
@@ -3225,9 +3225,9 @@
         },
         {
             "keyNumber": 31,
-            "type": "&kp ",
+            "type": "man ",
             "values": [
-                "RIGHT_SHIFT"
+                "&td_shift_r"
             ],
             "keys": [],
             "codeId": "545ae1f2-d19d-49b3-9905-199f0b2887a0",
@@ -3237,9 +3237,9 @@
         },
         {
             "keyNumber": 31,
-            "type": "&kp ",
+            "type": "man ",
             "values": [
-                "RIGHT_SHIFT"
+                "&td_shift_r"
             ],
             "keys": [],
             "codeId": "545ae1f2-d19d-49b3-9905-199f0b2887a0",
@@ -3574,9 +3574,9 @@
         },
         {
             "keyNumber": 36,
-            "type": "&kp ",
+            "type": "man ",
             "values": [
-                "LEFT_SHIFT"
+                "&td_shift_l"
             ],
             "keys": [],
             "codeId": "d8bbb848-974a-4089-99c2-f98c663e983a",
@@ -4616,7 +4616,7 @@
             "keyNumber": 49,
             "type": "man ",
             "values": [
-                "&td_shift"
+                "&td_shift_r"
             ],
             "keys": [],
             "codeId": "545ae1f2-d19d-49b3-9905-199f0b2887a0",
@@ -5224,7 +5224,7 @@
             "keyNumber": 57,
             "type": "man ",
             "values": [
-                "&td_shift"
+                "&td_shift_r"
             ],
             "keys": [],
             "codeId": "545ae1f2-d19d-49b3-9905-199f0b2887a0",
