@@ -369,7 +369,7 @@
             "x": 492,
             "y": 100,
             "angle": 0,
-            "active": false,
+            "active": true,
             "row": 2,
             "column": 8,
             "side": "right",
@@ -1866,9 +1866,9 @@
         },
         {
             "keyNumber": 15,
-            "type": "&kp ",
+            "type": "man ",
             "values": [
-                "F"
+                "&hm_l LS(LC(LG(LALT))) F"
             ],
             "keys": [],
             "codeId": "f739b077-eed0-4a95-90d9-f2d1422c15f4",
@@ -1892,7 +1892,7 @@
             "keyNumber": 15,
             "type": "man ",
             "values": [
-                "&kp LS(LC(TAB))"
+                "&hm_l LS(LC(LG(LALT))) LS(LC(TAB))"
             ],
             "keys": [],
             "codeId": "",
@@ -1914,9 +1914,9 @@
         },
         {
             "keyNumber": 15,
-            "type": "&kp ",
+            "type": "man ",
             "values": [
-                "PIPE"
+                "&hm_l LS(LC(LG(LALT))) PIPE"
             ],
             "keys": [],
             "codeId": "3a480911-2e01-4724-be17-193f0dfd0aa3",
@@ -2061,7 +2061,7 @@
             "keyNumber": 17,
             "type": "man ",
             "values": [
-                "&kp LG(TAB)"
+                "&kp LG(GRAVE)"
             ],
             "keys": [],
             "codeId": "",
@@ -2280,9 +2280,9 @@
         },
         {
             "keyNumber": 20,
-            "type": "&kp ",
+            "type": "man ",
             "values": [
-                "U"
+                "&hm_r RS(RC(RG(RALT))) U"
             ],
             "keys": [],
             "codeId": "c5f22922-28e3-4cfa-95db-131a84c645c6",
@@ -2338,8 +2338,10 @@
         },
         {
             "keyNumber": 20,
-            "type": "&none",
-            "values": [],
+            "type": "man ",
+            "values": [
+                "&kp RS(RC(RG(RALT)))"
+            ],
             "keys": [],
             "codeId": "",
             "layerId": "43a94f6e-fafe-4403-b291-c1a9063d0775",
@@ -2348,8 +2350,10 @@
         },
         {
             "keyNumber": 20,
-            "type": "&none",
-            "values": [],
+            "type": "man ",
+            "values": [
+                "&kp RS(RC(RG(RALT)))"
+            ],
             "keys": [],
             "codeId": "",
             "layerId": "8ec2e604-f236-4269-bd63-688c41169499",
@@ -3024,7 +3028,7 @@
             "keyNumber": 29,
             "type": "man ",
             "values": [
-                "&kp LG(GRAVE)"
+                "&td_shift"
             ],
             "keys": [],
             "codeId": "f0bcc464-f2fd-4143-b944-cbbdaa118963",
@@ -3151,7 +3155,9 @@
         {
             "keyNumber": 30,
             "type": "&none",
-            "values": [],
+            "values": [
+                ""
+            ],
             "keys": [],
             "codeId": "",
             "layerId": "8ec2e604-f236-4269-bd63-688c41169499",
@@ -3802,9 +3808,9 @@
         },
         {
             "keyNumber": 39,
-            "type": "&kp ",
+            "type": "man ",
             "values": [
-                "C"
+                "&hm_l LC(LG(LALT)) C"
             ],
             "keys": [],
             "codeId": "b1fef191-864a-4f81-9169-72fdb3cceed7",
@@ -3828,7 +3834,7 @@
             "keyNumber": 39,
             "type": "man ",
             "values": [
-                "&kp LG(C)"
+                "&hm_l LC(LG(LALT)) LG(C)"
             ],
             "keys": [],
             "codeId": "fb6f822b-96aa-4862-8fa8-1261f9510b8f",
@@ -3848,8 +3854,10 @@
         },
         {
             "keyNumber": 39,
-            "type": "&none",
-            "values": [],
+            "type": "man ",
+            "values": [
+                "&kp LC(LG(LALT))"
+            ],
             "keys": [],
             "codeId": "",
             "layerId": "47ce01c6-a191-4769-b4c1-2735c86f4808",
@@ -4362,9 +4370,9 @@
         },
         {
             "keyNumber": 46,
-            "type": "&kp ",
+            "type": "man ",
             "values": [
-                "COMMA"
+                "&hm_r RC(RG(RALT)) COMMA"
             ],
             "keys": [],
             "codeId": "64b5e5a6-cce7-49b2-8650-0acb23bb2948",
@@ -4421,9 +4429,9 @@
         },
         {
             "keyNumber": 46,
-            "type": "&kp ",
+            "type": "man ",
             "values": [
-                "COMMA"
+                "&hm_r RC(RG(RALT)) COMMA"
             ],
             "keys": [],
             "codeId": "64b5e5a6-cce7-49b2-8650-0acb23bb2948",
@@ -4433,8 +4441,10 @@
         },
         {
             "keyNumber": 46,
-            "type": "&none",
-            "values": [],
+            "type": "man ",
+            "values": [
+                "&kp RC(RG(RALT))"
+            ],
             "keys": [],
             "codeId": "",
             "layerId": "8ec2e604-f236-4269-bd63-688c41169499",
