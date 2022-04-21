@@ -24,6 +24,7 @@
 // Personal includes
 #include "includes/settings.dtsi"
 #include "includes/conditional_layers.dtsi"
+#include "includes/macros.dtsi"
 #include "includes/behaviours_homerow_mods.dtsi"
 #include "includes/behaviours_mod_morph.dtsi"
 #include "includes/behaviours_other.dtsi"
@@ -58,7 +59,7 @@
     Sym_layer {
       label = "Sym";
       bindings = <
-        &trans &none &none &none &none &none &none &none &none &none &none &trans &trans &none &kp CARET &hm_l LS(LC(LG(LALT))) PIPE &kp AMPERSAND &kp PLUS &kp TILDE &mm_bracket_r &mm_bracket_sq &mm_bracket_c &kp GRAVE &trans &trans &kp LEFT_CONTROL &kp LEFT_ALT &kp LEFT_GUI &td_shift_l &kp EQUAL &kp PERCENT &kp EXCLAMATION &kp AT_SIGN &kp HASH &kp ASTERISK &trans &trans &kp SLASH &none &kp LC(LG(LALT)) &none &kp MINUS &trans &trans &kp UNDERSCORE &kp DOLLAR &kp SEMICOLON &kp COLON &kp BACKSLASH &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+        &trans &none &none &none &none &none &none &none &none &none &none &trans &trans &none &kp CARET &hm_l LS(LC(LG(LALT))) PIPE &kp AMPERSAND &kp PLUS &kp TILDE &mm_bracket_r &mm_bracket_sq &mm_bracket_c &kp GRAVE &trans &trans &kp LEFT_CONTROL &kp LEFT_ALT &kp LEFT_GUI &td_shift_l &kp EQUAL &kp PERCENT &kp EXCLAMATION &ht_type_email 0 AT_SIGN &kp HASH &kp ASTERISK &trans &trans &kp SLASH &none &kp LC(LG(LALT)) &none &kp MINUS &trans &trans &kp UNDERSCORE &kp DOLLAR &kp SEMICOLON &kp COLON &kp BACKSLASH &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
       >;
       sensor-bindings = <&inc_dec_kp C_BRI_DN C_BRI_UP &inc_dec_kp LEFT RIGHT>;
     };

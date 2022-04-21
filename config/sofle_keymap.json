@@ -391,7 +391,7 @@
             "x": 592,
             "y": 78,
             "angle": 0,
-            "active": false,
+            "active": true,
             "row": 2,
             "column": 10,
             "side": "right",
@@ -666,7 +666,7 @@
             "x": 560,
             "y": 208,
             "angle": 0,
-            "active": true,
+            "active": false,
             "row": 4,
             "column": 9,
             "side": "right",
@@ -3296,9 +3296,9 @@
         },
         {
             "keyNumber": 32,
-            "type": "&kp ",
+            "type": "man ",
             "values": [
-                "AT_SIGN"
+                "&ht_type_email 0 AT_SIGN"
             ],
             "keys": [],
             "codeId": "a04b2ffd-b520-4f2b-9985-7ef805b02067",
