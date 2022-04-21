@@ -3298,7 +3298,7 @@
             "keyNumber": 32,
             "type": "man ",
             "values": [
-                "&ht_type_email 0 AT_SIGN"
+                "&td_at_email"
             ],
             "keys": [],
             "codeId": "a04b2ffd-b520-4f2b-9985-7ef805b02067",

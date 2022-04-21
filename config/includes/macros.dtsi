@@ -6,6 +6,7 @@
  * Usage:
  *   - &m_type_email_p - Send macro
  *   - &ht_type_email 0 AT_SIGN - Send macro on hold / Send @ on tap
+ *  -  &td_at_email - Send at on tap, personal email on double tap and work email on tripple tap
  */
 / {
     macros {
@@ -17,20 +18,27 @@
             wait-ms = <30>;
             tap-ms = <40>;
             bindings = <
-                &kp N
-                &kp I
-                &kp L
+                &kp N &kp I &kp L
                 &kp AT_SIGN
-                &kp N
-                &kp I
-                &kp L
-                &kp M
-                &kp A
-                &kp I
-                &kp L
+                &kp N &kp I &kp L &kp M &kp A &kp I &kp L
                 &kp DOT
-                &kp C
-                &kp O
+                &kp C &kp O
+            >;
+        };
+
+        m_type_email_w: type_email_w {
+            compatible = "zmk,behavior-macro";
+            label = "type_email_w";
+            #binding-cells = <0>;
+            wait-ms = <30>;
+            tap-ms = <40>;
+            bindings = <
+                &kp H &kp O &kp S &kp T &kp M &kp A &kp S &kp T &kp E &kp R
+                &kp AT_SIGN
+                &kp I &kp N &kp F &kp U &kp S &kp E &kp D
+                &kp I &kp N &kp S &kp I &kp G &kp H &kp T
+                &kp DOT
+                &kp C &kp O &kp M
             >;
         };
 
@@ -47,6 +55,14 @@
             quick_tap_ms = <200>;
             flavor = "tap-preferred";
             bindings = <&m_type_email_p>, <&kp>;
+        };
+
+        td_at_email: td_at_email {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_AT_EMAIL";
+            #binding-cells = <0>;
+            tapping-term-ms = <TAPPING_TERM_MS>;
+            bindings = <&kp AT_SIGN>, <&m_type_email_p>, <&m_type_email_w>;
         };
 
     };
