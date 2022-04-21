@@ -391,7 +391,7 @@
             "x": 592,
             "y": 78,
             "angle": 0,
-            "active": true,
+            "active": false,
             "row": 2,
             "column": 10,
             "side": "right",
@@ -611,7 +611,7 @@
             "x": 192,
             "y": 204,
             "angle": 0,
-            "active": false,
+            "active": true,
             "row": 4,
             "column": 4,
             "side": "left",
@@ -1624,7 +1624,7 @@
             "keyNumber": 12,
             "type": "man ",
             "values": [
-                "&grescm"
+                "&mm_grescm"
             ],
             "keys": [],
             "codeId": "661abac9-968c-4fe5-90d3-4173f6ba2aaf",
@@ -4834,7 +4834,7 @@
             "keyNumber": 52,
             "type": "man ",
             "values": [
-                "&grescm_gui",
+                "&mm_grescm_gui",
                 "LGUI"
             ],
             "keys": [],
