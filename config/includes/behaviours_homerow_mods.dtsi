@@ -1,0 +1,122 @@
+// Make sure settings.dtsi is included before this file
+
+/ {
+
+    behaviors {
+
+        /*
+         * Homerow Mods
+         *
+         * Usage: &hm LSHFT T
+         * Tap: T
+         * Tap-Tap-Hold: Repeat T
+         * Hold: LSHIFT
+         */
+
+        // Homerow mods that work on all keys
+        hm: homerow_mods {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOMEROW_MODS";
+            #binding-cells = <2>;
+            tapping-term-ms = <TAPPING_TERM_MS>;
+            quick_tap_ms = <200>;
+            flavor = "tap-preferred";
+            bindings = <&kp>, <&kp>;
+        };
+
+
+        // Homerow mods with lower tapping term for shift
+        hm_fast: homerow_mods {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOMEROW_MODS_FAST";
+            #binding-cells = <2>;
+            tapping-term-ms = <TAPPING_TERM_MS_FAST>;
+            quick_tap_ms = <200>;
+            flavor = "tap-preferred";
+            bindings = <&kp>, <&kp>;
+        };
+
+
+        // Positional Homerow mods
+        // Homerow mods that prevent accidental activations when rolling keys,
+        // such as when typing `st` or `ne` on colemak-dh layouts or `as` on
+        // qwerty.
+        //
+        // Works by only allowing a mod to activate within tapping-term if it's
+        // on the opposite side of the keyboard or on the same side thumb keys.
+        hm_l: homerow_mods_left {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOMEROW_MODS_LEFT";
+            #binding-cells = <2>;
+            tapping-term-ms = <TAPPING_TERM_MS>;
+            quick_tap_ms = <200>;
+            flavor = "tap-preferred";
+            bindings = <&kp>, <&kp>;
+            hold-trigger-key-positions = <
+                6   7   8   9   10  11
+                18  19  20  21  22  23
+                30  31  32  33  34  35
+                43  44  45  46  47  48  49
+                        50  51  52  53  54
+                        55  56  57  58  59
+            >;
+        };
+
+        hm_r: homerow_mods_right {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOMEROW_MODS_RIGHT";
+            #binding-cells = <2>;
+            tapping-term-ms = <TAPPING_TERM_MS>;
+            quick_tap_ms = <200>;
+            flavor = "tap-preferred";
+            bindings = <&kp>, <&kp>;
+            hold-trigger-key-positions = <
+                0   1   2   3   4   5
+                12  13  14  15  16  17
+                24  25  26  27  28  29
+                36  37  38  39  40  41  42
+                        50  51  52  53  54
+                        55  56  57  58  59
+            >;
+        };
+
+
+        // Fast Positional Homerow mods
+        hm_fast_l: homerow_mods_left {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOMEROW_MODS_FAST_LEFT";
+            #binding-cells = <2>;
+            tapping-term-ms = <TAPPING_TERM_MS_FAST>;
+            quick_tap_ms = <200>;
+            flavor = "tap-preferred";
+            bindings = <&kp>, <&kp>;
+            hold-trigger-key-positions = <
+                6   7   8   9   10  11
+                18  19  20  21  22  23
+                30  31  32  33  34  35
+                43  44  45  46  47  48  49
+                        50  51  52  53  54
+                        55  56  57  58  59
+            >;
+        };
+
+        hm_fast_r: homerow_mods_right {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOMEROW_MODS_FAST_RIGHT";
+            #binding-cells = <2>;
+            tapping-term-ms = <TAPPING_TERM_MS_FAST>;
+            quick_tap_ms = <200>;
+            flavor = "tap-preferred";
+            bindings = <&kp>, <&kp>;
+            hold-trigger-key-positions = <
+                0   1   2   3   4   5
+                12  13  14  15  16  17
+                24  25  26  27  28  29
+                36  37  38  39  40  41  42
+                        50  51  52  53  54
+                        55  56  57  58  59
+            >;
+        };
+
+    };
+};

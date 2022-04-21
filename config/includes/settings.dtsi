@@ -1,0 +1,33 @@
+// Make sure this file is included before all other files
+
+#define TAPPING_TERM_MS 300
+#define TAPPING_TERM_MS_FAST 200
+
+/*
+ * Layer Tap Settings
+ */
+&lt {
+    // Increase layer tap time
+    tapping-term-ms = <TAPPING_TERM_MS>;
+
+    // Quickly tap-tap-holding the lt button will repeat the tap behavior
+    // For example enter-enter-hold, will output multiple enter while you
+    // keep holding the key.
+    // But holding enter without double tapping, will activate the layer.
+    quick_tap_ms = <200>;
+};
+
+/*
+ * Caps Word Settings
+ */
+&caps_word {
+    // Allow caps word to continue even when minus or underscore
+    // are pressed.
+    // Also prevent mod presses from cancelling caps word.
+    continue-list = <
+      UNDERSCORE MINUS
+      LCTRL LALT LGUI LSHFT
+      RCTRL RALT RGUI RSHFT
+      BACKSPACE
+    >;
+};
