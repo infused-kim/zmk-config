@@ -611,7 +611,7 @@
             "x": 192,
             "y": 204,
             "angle": 0,
-            "active": true,
+            "active": false,
             "row": 4,
             "column": 4,
             "side": "left",
@@ -655,7 +655,7 @@
             "x": 506,
             "y": 216,
             "angle": -7,
-            "active": false,
+            "active": true,
             "row": 4,
             "column": 8,
             "side": "right",
@@ -5153,8 +5153,8 @@
             "keys": [],
             "codeId": "a4c8dad5-35fd-4a36-97fc-4ccaa537c7ba",
             "layerId": "3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
-            "targetLayerId": "43a94f6e-fafe-4403-b291-c1a9063d0775",
-            "targetLayerName": "Num"
+            "targetLayerId": "06d57e77-9266-4682-bf0c-195bb12f1c07",
+            "targetLayerName": "Adjust"
         },
         {
             "keyNumber": 56,

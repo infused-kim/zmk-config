@@ -8,15 +8,9 @@
             then-layer = <FUNC>;
         };
 
-        // Both Hands
-        adjust_layer_1 {
-            if-layers = <NAV NUM>;
-            then-layer = <ADJUST>;
-        };
-
         // Left Hand Only
-        adjust_layer_2 {
-            if-layers = <SYM NAV>;
+        adjust_layer {
+            if-layers = <NAV SYM>;
             then-layer = <ADJUST>;
         };
     };
