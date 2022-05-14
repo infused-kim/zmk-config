@@ -164,5 +164,20 @@
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
+        /*
+         * Angled Bracket
+         *
+         * Usage: &mm_bracket_a
+         * Tap: <
+         * Shift-Tap: >
+         * Hold: >
+         */
+        mm_bracket_a: mm_bracket_a {
+            compatible = "zmk,behavior-mod-morph";
+            label = "{}";
+            #binding-cells = <0>;
+            bindings = <&am GT LT>, <&kp GT>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
     };
 };
