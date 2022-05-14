@@ -68,7 +68,7 @@
     Num_layer {
       label = "Num";
       bindings = <
-        &kp F12 &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &trans &none &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &kp PLUS &kp TILDE &mm_bracket_r &kp RS(RC(RG(RALT))) &none &none &trans &trans &kp ASTERISK &kp NUMBER_4 &kp NUMBER_5 &kp NUMBER_6 &kp EQUAL &kp PERCENT &td_shift_r &kp RIGHT_GUI &kp RIGHT_ALT &kp RIGHT_CONTROL &trans &trans &kp SLASH &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &kp MINUS &trans &trans &kp UNDERSCORE &kp DOLLAR &hm_r RC(RG(RALT)) COMMA &kp DOT &kp SLASH &trans &trans &trans &hm LGUI LEFT_PARENTHESIS &lt NAV NUMBER_0 &lt SYM RIGHT_PARENTHESIS &trans &trans &trans &trans &trans
+        &kp F12 &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &trans &none &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &kp PLUS &kp TILDE &mm_bracket_r &kp RS(RC(RG(RALT))) &none &none &trans &trans &kp ASTERISK &kp NUMBER_4 &kp NUMBER_5 &kp NUMBER_6 &kp EQUAL &kp PERCENT &td_shift_r &kp RIGHT_GUI &kp RIGHT_ALT &kp RIGHT_CONTROL &trans &trans &kp SLASH &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &kp MINUS &trans &trans &kp UNDERSCORE &kp DOLLAR &hm_r RC(RG(RALT)) COMMA &kp DOT &kp SLASH &trans &trans &kp LEFT_PARENTHESIS &hm LGUI RIGHT_PARENTHESIS &trans &kp NUMBER_0 &trans &trans &trans &trans &trans
       >;
       sensor-bindings = <&inc_dec_kp C_BRI_DN C_BRI_UP &inc_dec_kp LEFT RIGHT>;
     };

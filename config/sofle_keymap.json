@@ -134,7 +134,7 @@
             "label": "10"
         },
         {
-            "keyNumbern": 9,
+            "keyNumber": 9,
             "x": 642,
             "y": -10,
             "angle": 0,
@@ -314,7 +314,7 @@
             "x": 50,
             "y": 100,
             "angle": 0,
-            "active": true,
+            "active": false,
             "row": 2,
             "column": 1,
             "side": "left",
@@ -633,7 +633,7 @@
             "x": 302,
             "y": 238,
             "angle": 20,
-            "active": false,
+            "active": true,
             "row": 4,
             "column": 6,
             "side": "left",
@@ -4812,12 +4812,12 @@
         },
         {
             "keyNumber": 51,
-            "type": "&trans",
+            "type": "&kp ",
             "values": [
-                ""
+                "LEFT_PARENTHESIS"
             ],
             "keys": [],
-            "codeId": "64b5e5a6-cce7-49b2-8650-0acb23bb2948",
+            "codeId": "ea02a95d-1bdb-4983-b6b3-a185442f7094",
             "layerId": "43a94f6e-fafe-4403-b291-c1a9063d0775",
             "targetLayerId": "",
             "targetLayerName": ""
@@ -4889,11 +4889,11 @@
             "keyNumber": 52,
             "type": "&hm ",
             "values": [
-                "LEFT_PARENTHESIS",
+                "RIGHT_PARENTHESIS",
                 "LGUI"
             ],
             "keys": [],
-            "codeId": "ea02a95d-1bdb-4983-b6b3-a185442f7094",
+            "codeId": "dbe6f896-bc3c-480c-978c-6f7b2293fd37",
             "layerId": "43a94f6e-fafe-4403-b291-c1a9063d0775",
             "targetLayerId": "91856afb-3fff-4a76-90b2-9629b6e31974",
             "targetLayerName": "Nav"
@@ -4968,9 +4968,9 @@
         },
         {
             "keyNumber": 53,
-            "type": "&lt ",
+            "type": "&trans",
             "values": [
-                "NUMBER_0"
+                ""
             ],
             "keys": [],
             "codeId": "faf37fbe-6e6e-499c-83de-f5d50c603ed7",
@@ -5046,12 +5046,12 @@
         },
         {
             "keyNumber": 54,
-            "type": "&lt ",
+            "type": "&kp ",
             "values": [
-                "RIGHT_PARENTHESIS"
+                "NUMBER_0"
             ],
             "keys": [],
-            "codeId": "dbe6f896-bc3c-480c-978c-6f7b2293fd37",
+            "codeId": "faf37fbe-6e6e-499c-83de-f5d50c603ed7",
             "layerId": "43a94f6e-fafe-4403-b291-c1a9063d0775",
             "targetLayerId": "47ce01c6-a191-4769-b4c1-2735c86f4808",
             "targetLayerName": "Dev"
