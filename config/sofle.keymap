@@ -23,6 +23,7 @@
 
 // Personal includes
 #include "includes/settings.dtsi"
+#include "includes/settings_pd.dtsi"
 #include "includes/conditional_layers.dtsi"
 #include "includes/macros.dtsi"
 #include "includes/behaviours_homerow_mods.dtsi"
