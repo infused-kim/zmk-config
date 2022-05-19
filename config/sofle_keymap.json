@@ -182,7 +182,7 @@
             "x": 50,
             "y": 50,
             "angle": 0,
-            "active": true,
+            "active": false,
             "row": 1,
             "column": 1,
             "side": "left",
@@ -281,7 +281,7 @@
             "x": 692,
             "y": 50,
             "angle": 0,
-            "active": false,
+            "active": true,
             "row": 1,
             "column": 12,
             "side": "right",
@@ -2443,10 +2443,10 @@
             "keyNumber": 22,
             "type": "&kp ",
             "values": [
-                "SEMICOLON"
+                "SINGLE_QUOTE"
             ],
             "keys": [],
-            "codeId": "e8e0ee32-ae8b-49c6-be96-afa20e866d59",
+            "codeId": "eeaee249-944b-49d6-ac9a-018aa88b6ce8",
             "layerId": "3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
             "targetLayerId": "",
             "targetLayerName": ""
@@ -2488,9 +2488,9 @@
         },
         {
             "keyNumber": 22,
-            "type": "man ",
+            "type": "&kp ",
             "values": [
-                "&mm_bracket_a"
+                "GRAVE"
             ],
             "keys": [],
             "codeId": "dba820a3-432b-4d1c-b939-7773118f6b9d",
