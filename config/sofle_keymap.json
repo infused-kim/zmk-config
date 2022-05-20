@@ -281,7 +281,7 @@
             "x": 692,
             "y": 50,
             "angle": 0,
-            "active": true,
+            "active": false,
             "row": 1,
             "column": 12,
             "side": "right",
@@ -534,7 +534,7 @@
             "x": 542,
             "y": 138,
             "angle": 0,
-            "active": false,
+            "active": true,
             "row": 3,
             "column": 9,
             "side": "right",
@@ -545,7 +545,7 @@
             "x": 592,
             "y": 128,
             "angle": 0,
-            "active": false,
+            "active": true,
             "row": 3,
             "column": 10,
             "side": "right",
@@ -5441,6 +5441,109 @@
             "targetLayerName": ""
         }
     ],
-    "combos": [],
+    "combos": [
+        {
+            "id": 0,
+            "name": "bracket_round_l",
+            "timeout": 50,
+            "selectedBehaviorType": "&kp ",
+            "binding": "(",
+            "color": "",
+            "keys": [
+                27,
+                28
+            ],
+            "layers": [
+                "3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+                "47ce01c6-a191-4769-b4c1-2735c86f4808",
+                "43a94f6e-fafe-4403-b291-c1a9063d0775"
+            ]
+        },
+        {
+            "id": 0,
+            "name": "bracket_round_r",
+            "timeout": 50,
+            "selectedBehaviorType": "&kp ",
+            "binding": ")",
+            "color": "",
+            "keys": [
+                31,
+                32
+            ],
+            "layers": [
+                "3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+                "47ce01c6-a191-4769-b4c1-2735c86f4808",
+                "43a94f6e-fafe-4403-b291-c1a9063d0775"
+            ]
+        },
+        {
+            "id": 0,
+            "name": "bracket_square_l",
+            "timeout": 50,
+            "selectedBehaviorType": "&kp ",
+            "binding": "[",
+            "color": "",
+            "keys": [
+                15,
+                16
+            ],
+            "layers": [
+                "3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+                "47ce01c6-a191-4769-b4c1-2735c86f4808",
+                "43a94f6e-fafe-4403-b291-c1a9063d0775"
+            ]
+        },
+        {
+            "id": 0,
+            "name": "bracket_square_r",
+            "timeout": 50,
+            "selectedBehaviorType": "&kp ",
+            "binding": "]",
+            "color": "",
+            "keys": [
+                19,
+                20
+            ],
+            "layers": [
+                "3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+                "47ce01c6-a191-4769-b4c1-2735c86f4808",
+                "43a94f6e-fafe-4403-b291-c1a9063d0775"
+            ]
+        },
+        {
+            "id": 0,
+            "name": "bracket_curly_l",
+            "timeout": 50,
+            "selectedBehaviorType": "&kp ",
+            "binding": "{",
+            "color": "",
+            "keys": [
+                39,
+                40
+            ],
+            "layers": [
+                "3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+                "47ce01c6-a191-4769-b4c1-2735c86f4808",
+                "43a94f6e-fafe-4403-b291-c1a9063d0775"
+            ]
+        },
+        {
+            "id": 0,
+            "name": "bracket_curly_r",
+            "timeout": 50,
+            "selectedBehaviorType": "&kp ",
+            "binding": "}",
+            "color": "",
+            "keys": [
+                45,
+                46
+            ],
+            "layers": [
+                "3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
+                "47ce01c6-a191-4769-b4c1-2735c86f4808",
+                "43a94f6e-fafe-4403-b291-c1a9063d0775"
+            ]
+        }
+    ],
     "name": "Sofle"
 }
