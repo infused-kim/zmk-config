@@ -5445,7 +5445,7 @@
         {
             "id": 0,
             "name": "bracket_round_l",
-            "timeout": 50,
+            "timeout": 25,
             "selectedBehaviorType": "&kp ",
             "binding": "(",
             "color": "",
@@ -5462,7 +5462,7 @@
         {
             "id": 0,
             "name": "bracket_round_r",
-            "timeout": 50,
+            "timeout": 25,
             "selectedBehaviorType": "&kp ",
             "binding": ")",
             "color": "",
@@ -5479,7 +5479,7 @@
         {
             "id": 0,
             "name": "bracket_square_l",
-            "timeout": 50,
+            "timeout": 25,
             "selectedBehaviorType": "&kp ",
             "binding": "[",
             "color": "",
@@ -5496,7 +5496,7 @@
         {
             "id": 0,
             "name": "bracket_square_r",
-            "timeout": 50,
+            "timeout": 25,
             "selectedBehaviorType": "&kp ",
             "binding": "]",
             "color": "",
@@ -5513,7 +5513,7 @@
         {
             "id": 0,
             "name": "bracket_curly_l",
-            "timeout": 50,
+            "timeout": 25,
             "selectedBehaviorType": "&kp ",
             "binding": "{",
             "color": "",
@@ -5530,7 +5530,7 @@
         {
             "id": 0,
             "name": "bracket_curly_r",
-            "timeout": 50,
+            "timeout": 25,
             "selectedBehaviorType": "&kp ",
             "binding": "}",
             "color": "",
