@@ -45,7 +45,7 @@
     Base_layer {
       label = "Base";
       bindings = <
-        &kp GRAVE &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &kp NUMBER_4 &kp NUMBER_5 &kp NUMBER_6 &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &kp NUMBER_0 &kp RETURN &mm_grescm &kp Q &kp W &hm_l LS(LC(LG(LALT))) F &kp P &kp B &kp J &kp L &hm_r RS(RC(RG(RALT))) U &kp Y &kp SINGLE_QUOTE &mm_bspc_del &kp TAB &hm_l LCTRL A &hm_l LALT R &hm_l LGUI S &hm_fast_l LSHFT T &kp G &kp M &hm_fast_r RSHFT N &hm_r RGUI E &hm_r RALT I &hm_r RCTRL O &kp SINGLE_QUOTE &td_shift_l &kp Z &kp X &hm_l LC(LG(LALT)) C &kp D &kp V &kp C_MUTE &kp C_PLAY_PAUSE &kp K &kp H &hm_r RC(RG(RALT)) COMMA &kp DOT &kp SLASH &td_shift_r &kp LEFT_CONTROL &kp LEFT_ALT &mm_grescm_gui &mm_spc_unds_layer &lt SYM TAB &mm_bspc_del_layer &kp RETURN &td_shift_r &kp RIGHT_GUI &kp RIGHT_ALT
+        &kp GRAVE &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &kp NUMBER_4 &kp NUMBER_5 &kp NUMBER_6 &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &kp NUMBER_0 &kp RETURN &mm_grescm &kp Q &kp W &hm_l LS(LC(LG(LALT))) F &kp P &kp B &kp J &kp L &hm_r RS(RC(RG(RALT))) U &kp Y &kp SINGLE_QUOTE &mm_bspc_del &kp TAB &hm_l LCTRL A &hm_l LALT R &hm_l LGUI S &hm_fast_l LSHFT T &kp G &kp M &hm_fast_r RSHFT N &hm_r RGUI E &hm_r RALT I &hm_r RCTRL O &kp SINGLE_QUOTE &td_shift_l &kp Z &kp X &hm_l LC(LG(LALT)) C &kp D &kp V &kp C_MUTE &kp C_PLAY_PAUSE &kp K &kp H &hm_r RC(RG(RALT)) COMMA &kp DOT &kp SLASH &td_shift_r &kp LEFT_CONTROL &kp LEFT_ALT &mm_grescm_gui &mm_spc_unds_layer &lt SYM TAB &mm_bspc_del &lt NUM RETURN &td_shift_r &kp RIGHT_GUI &kp RIGHT_ALT
       >;
       sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp C_PREV C_NEXT>;
     };
