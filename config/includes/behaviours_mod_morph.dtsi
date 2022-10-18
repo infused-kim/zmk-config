@@ -67,7 +67,7 @@
 
             // Requires forked zmk that supports this feature
             // https://github.com/zmkfirmware/zmk/pull/1114
-            masked_mods = <(MOD_LSFT)>;
+            masked_mods = <(MOD_RSFT)>;
         };
 
 
