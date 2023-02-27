@@ -45,5 +45,12 @@
       layers = <SYM NUM>;
       bindings = <&kp RBRC>;
     };
+
+    combo_capsword {
+      timeout-ms = <COMBO_TIMEOUT>;
+      key-positions = <16 19>;
+      layers = <BASE>;
+      bindings = <&caps_word>;
+    };
   };
 };
