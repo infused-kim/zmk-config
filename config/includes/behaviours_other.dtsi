@@ -57,29 +57,5 @@
             tapping-term-ms = <TAPPING_TERM_MS>;
             bindings = <&kp RIGHT_SHIFT>, <&caps_word>, <&kp CAPSLOCK>;
         };
-
-        td_return_layers: td_return_layers {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_RETURN_LAYERS";
-            #binding-cells = <0>;
-            tapping-term-ms = <TAPPING_TERM_MS>;
-            bindings = <&kp RETURN>, <&tog NAV>;
-        };
-
-        td_tab_layers: td_tab_layers {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_TAB_LAYERS";
-            #binding-cells = <0>;
-            tapping-term-ms = <TAPPING_TERM_MS>;
-            bindings = <&lt SYM TAB>, <&tog NUM>;
-        };
-
-        td_mm_bspc_del_layers: td_mm_bspc_del_layers {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_BACKSPACE_LAYERS";
-            #binding-cells = <0>;
-            tapping-term-ms = <TAPPING_TERM_MS>;
-            bindings = <&mm_bspc_del_layer>, <&tog SYM>;
-        };
     };
 };

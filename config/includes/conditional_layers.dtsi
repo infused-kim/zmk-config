@@ -7,12 +7,6 @@
             if-layers = <SYM NUM>;
             then-layer = <FUNC>;
         };
-
-        // Left Hand Only
-        adjust_layer {
-            if-layers = <NAV SYM>;
-            then-layer = <ADJUST>;
-        };
     };
 
 };
