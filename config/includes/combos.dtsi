@@ -52,5 +52,12 @@
       layers = <BASE>;
       bindings = <&caps_word>;
     };
+
+    combo_space {
+      timeout-ms = <COMBO_TIMEOUT>;
+      key-positions = <36 37 38>;
+      layers = <BASE NAV NUM>;
+      bindings = <&kp SPACE>;
+    };
   };
 };

@@ -46,7 +46,7 @@
     Base_layer {
       label = "Base";
       bindings = <
-        &mm_grescm &kp Q &kp W &hm_l LS(LC(LG(LALT))) F &kp P &kp B &kp J &kp L &hm_r RS(RC(RG(RALT))) U &kp Y &kp SINGLE_QUOTE &mm_bspc_del &kp TAB &hm_l LCTRL A &hm_l LALT R &hm_l LGUI S &hm_fast_l LSHFT T &kp G &kp M &hm_fast_r RSHFT N &hm_r RGUI E &hm_r RALT I &hm_r RCTRL O &kp SINGLE_QUOTE &td_shift_l &kp Z &kp X &hm_l LC(LG(LALT)) C &kp D &kp V &kp K &kp H &hm_r RC(RG(RALT)) COMMA &kp DOT &kp SLASH &td_shift_r &mm_grescm_gui &td_mm_spc_unds_layers &lt SYM TAB &mm_bspc_del &lt NUM RETURN &td_shift_r
+        &mm_grescm &kp Q &kp W &hm_l LS(LC(LG(LALT))) F &kp P &kp B &kp J &kp L &hm_r RS(RC(RG(RALT))) U &kp Y &kp SINGLE_QUOTE &mm_bspc_del &kp TAB &hm_l LCTRL A &hm_l LALT R &hm_l LGUI S &hm_fast_l LSHFT T &kp G &kp M &hm_fast_r RSHFT N &hm_r RGUI E &hm_r RALT I &hm_r RCTRL O &kp SINGLE_QUOTE &td_shift_l &kp Z &kp X &hm_l LC(LG(LALT)) C &kp D &kp V &kp K &kp H &hm_r RC(RG(RALT)) COMMA &kp DOT &kp SLASH &td_shift_r &mm_grescm_gui &td_return_layers &td_tab_layers &td_mm_bspc_del_layers &mm_spc_unds_layer &td_shift_r
       >;
       sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp C_PREV C_NEXT>;
     };
@@ -61,7 +61,7 @@
     Nav_layer {
       label = "Nav";
       bindings = <
-        &trans &kp LG(Q) &kp LG(W) &hm_l LS(LC(LG(LALT))) LS(LC(TAB)) &kp LC(TAB) &kp LG(GRAVE) &kp PG_UP &kp LA(LEFT) &kp UP &kp LA(RIGHT) &none &trans &trans &kp LEFT_CONTROL &kp LEFT_ALT &kp LEFT_GUI &td_shift_l &none &kp PG_DN &kp LEFT &kp DOWN &kp RIGHT &none &trans &trans &kp LG(Z) &kp LG(X) &hm_l LC(LG(LALT)) LG(C) &kp LG(V) &kp LG(V) &none &kp LG(LEFT) &none &kp LG(RIGHT) &none &trans &trans &trans &trans &trans &trans &trans
+        &trans &none &kp LA(LEFT) &kp UP &kp LA(RIGHT) &kp PG_UP &none &none &none &none &none &trans &trans &none &kp LEFT &kp DOWN &kp RIGHT &kp PG_DN &none &td_shift_r &kp RIGHT_GUI &kp RIGHT_ALT &kp RIGHT_CONTROL &trans &trans &none &kp LG(LEFT) &none &kp LG(RIGHT) &none &none &none &none &none &none &trans &trans &trans &trans &trans &trans &trans
       >;
       sensor-bindings = <&inc_dec_kp C_BRI_DN C_BRI_UP &inc_dec_kp LEFT RIGHT>;
     };
