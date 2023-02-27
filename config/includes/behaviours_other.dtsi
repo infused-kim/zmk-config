@@ -58,5 +58,12 @@
             bindings = <&kp RIGHT_SHIFT>, <&caps_word>, <&kp CAPSLOCK>;
         };
 
+        td_mm_spc_unds_layers: tap_dance_2 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_SPACE_LAYERS";
+            #binding-cells = <0>;
+            tapping-term-ms = <TAPPING_TERM_MS>;
+            bindings = <&mm_spc_unds_layer>, <&to NAV>, <&to NUM>;
+        };
     };
 };
