@@ -1,0 +1,62 @@
+// Make sure settings.dtsi is included before this file
+
+/ {
+
+    behaviors {
+
+        /*
+         * Auto Mod
+         *
+         * Usage: &am RPAR LPAR
+         * Tap: (
+         * Hold: )
+         *
+         * --
+         *
+         * Auto Shift
+         *
+         * Usage: AS(A)
+         * Tap: a
+         * Hold: A (shifted 'a')
+         */
+
+        am: auto_mod {
+            compatible = "zmk,behavior-hold-tap";
+            label = "AUTO_MOD";
+            #binding-cells = <2>;
+            tapping_term_ms = <TAPPING_TERM_MS>;
+            quick_tap_ms = <0>;
+            flavor = "tap-preferred";
+            bindings = <&kp>, <&kp>;
+        };
+        #define AM(hold_keycode, tap_keycode) &am hold_keycode tap_keycode
+        #define AS(keycode) &am LS(keycode) keycode
+
+
+        /*
+        * Tap dancing shift
+        *
+        * Usage: &td_shift_l / &td_shift_r
+        * Hold: Shift
+        * Double Tap: Caps Word
+        * Triple Tap: Caps Lock
+        */
+
+        td_shift_l: tap_dance_0 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_SHIFT_LEFT";
+            #binding-cells = <0>;
+            tapping-term-ms = <TAPPING_TERM_MS>;
+            bindings = <&kp LEFT_SHIFT>, <&caps_word>, <&kp CAPSLOCK>;
+        };
+
+        td_shift_r: tap_dance_1 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_SHIFT_RIGHT";
+            #binding-cells = <0>;
+            tapping-term-ms = <TAPPING_TERM_MS>;
+            bindings = <&kp RIGHT_SHIFT>, <&caps_word>, <&kp CAPSLOCK>;
+        };
+
+    };
+};

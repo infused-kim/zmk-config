@@ -1,0 +1,157 @@
+// Make sure settings.dtsi is included before this file
+
+/ {
+
+    behaviors {
+
+        /*
+         * Shifted Backspace deletes
+         *
+         * Usage: &mm_bspc_del
+         * Tap: Backspace
+         * Shift-Tap: Delete
+         */
+        mm_bspc_del: bspc_del {
+            compatible = "zmk,behavior-mod-morph";
+            label = "BACKSPACE_DELETE";
+            #binding-cells = <0>;
+            bindings = <&kp BSPC>, <&kp DEL>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        /*
+         * Shifted Backspace deletes + Layer Tap
+         *
+         * Usage: &mm_bspc_del_layer
+         * Tap: Backspace
+         * Shift-Tap: Delete
+         * Hold: Switch layer
+         */
+        mm_bspc_del_layer: bspc_del_layer {
+            compatible = "zmk,behavior-mod-morph";
+            label = "BACKSPACE_DELETE_LAYER";
+            #binding-cells = <0>;
+            bindings = <&lt NUM BSPC>, <&kp DEL>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        /*
+         * Shifted Space underscores + Layer Tap
+         *
+         * Usage: &mm_spc_unds_layer
+         * Tap: Space
+         * LShift-Tap: -
+         * RShift-Tap: _
+         * Hold: Switch layer
+         */
+        mm_spc_unds_layer: mod_morph_underscore {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MM_UNDERSCORE";
+            #binding-cells = <0>;
+            bindings = <&lt NAV SPACE>, <&kp MINUS>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+            keep-mods = <(MOD_LSFT)>;
+        };
+
+
+        /*
+         * Grave Escape
+         *
+         * Usage: &mm_spc_unds_layer
+         * Tap: Escape
+         * LShift-Tap: `
+         * RShift-Tap: ~
+         */
+        mm_grescm: grave_escape_masked {
+            compatible = "zmk,behavior-mod-morph";
+            label = "GRESC";
+            #binding-cells = <0>;
+            bindings = <&kp ESCAPE>, <&kp GRAVE>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+            keep-mods = <(MOD_RSFT)>;
+
+        };
+
+        /*
+         * Grave Escape + GUI
+         *
+         * Usage: &grescm_gui
+         * Tap: Escape
+         * LShift-Tap: `
+         * RShift-Tap: ~
+         * Hold: GUI
+         */
+        mm_grescm_gui: grave_escape_masked_gui {
+            compatible = "zmk,behavior-mod-morph";
+            label = "GRESC_GUI";
+            #binding-cells = <0>;
+            bindings = <&hm LGUI ESCAPE>, <&kp GRAVE>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+            keep-mods = <(MOD_RSFT)>;
+        };
+
+        /*
+         * Round Bracket
+         *
+         * Usage: &mm_bracket_r
+         * Tap: (
+         * Shift-Tap: )
+         * Hold: )
+         */
+        mm_bracket_r: mm_bracket_r {
+            compatible = "zmk,behavior-mod-morph";
+            label = "()";
+            #binding-cells = <0>;
+            bindings = <&am RPAR LPAR>, <&kp RPAR>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        /*
+         * Square Bracket
+         *
+         * Usage: &mm_bracket_sq
+         * Tap: [
+         * Shift-Tap: ]
+         * Hold: ]
+         */
+        mm_bracket_sq: mm_bracket_sq {
+            compatible = "zmk,behavior-mod-morph";
+            label = "[]";
+            #binding-cells = <0>;
+            bindings = <&am RBKT LBKT>, <&kp RBKT>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        /*
+         * Curly Bracket
+         *
+         * Usage: &mm_bracket_c
+         * Tap: {
+         * Shift-Tap: }
+         * Hold: }
+         */
+        mm_bracket_c: mm_bracket_c {
+            compatible = "zmk,behavior-mod-morph";
+            label = "{}";
+            #binding-cells = <0>;
+            bindings = <&am RBRC LBRC>, <&kp RBRC>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        /*
+         * Angled Bracket
+         *
+         * Usage: &mm_bracket_a
+         * Tap: <
+         * Shift-Tap: >
+         * Hold: >
+         */
+        mm_bracket_a: mm_bracket_a {
+            compatible = "zmk,behavior-mod-morph";
+            label = "<>";
+            #binding-cells = <0>;
+            bindings = <&am GT LT>, <&kp GT>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+    };
+};

@@ -1,0 +1,49 @@
+#define COMBO_TIMEOUT 35
+
+/ {
+  combos {
+    compatible = "zmk,combos";
+
+    combo_bracket_round_l {
+      timeout-ms = <COMBO_TIMEOUT>;
+      key-positions = <27 28>;
+      layers = <SYM NUM>;
+      bindings = <&kp LPAR>;
+    };
+
+    combo_bracket_round_r {
+      timeout-ms = <COMBO_TIMEOUT>;
+      key-positions = <31 32>;
+      layers = <SYM NUM>;
+      bindings = <&kp RPAR>;
+    };
+
+    combo_bracket_square_l {
+      timeout-ms = <COMBO_TIMEOUT>;
+      key-positions = <15 16>;
+      layers = <SYM NUM>;
+      bindings = <&kp LBKT>;
+    };
+
+    combo_bracket_square_r {
+      timeout-ms = <COMBO_TIMEOUT>;
+      key-positions = <19 20>;
+      layers = <SYM NUM>;
+      bindings = <&kp RBKT>;
+    };
+
+    combo_bracket_curly_l {
+      timeout-ms = <COMBO_TIMEOUT>;
+      key-positions = <39 40>;
+      layers = <SYM NUM>;
+      bindings = <&kp LBRC>;
+    };
+
+    combo_bracket_curly_r {
+      timeout-ms = <COMBO_TIMEOUT>;
+      key-positions = <45 46>;
+      layers = <SYM NUM>;
+      bindings = <&kp RBRC>;
+    };
+  };
+};

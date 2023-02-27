@@ -1,0 +1,36 @@
+/*
+ * Power Domain Settings
+ */
+
+
+// Enable power domain on oled display
+&oled {
+    power-domain = <&pd_ext_power>;
+};
+
+// Enable power domain on rgb underglow led strip
+&led_strip {
+    power-domain = <&pd_ext_power>;
+};
+
+// Enable device power management policy on pd_ext_power
+/ {
+    dev_pm_policy_1 {
+        compatible = "zmk,dev-pm-policy";
+        label = "DEV_PM_POLICY_1";
+        device = <&pd_ext_power>;
+        auto-off-on-idle;
+        usb-auto-toggle;
+    };
+};
+
+// Additional power domain for keyboards with mosfet
+// / {
+//     pd_mosfet: pd_mosfet {
+//         compatible = "power-domain-gpio";
+//         power-domain = <&pd_ext_power>;
+//         label = "PD_MOSFET";
+//         enable-gpios = <&gpio0 22 GPIO_ACTIVE_HIGH>;
+//         startup-delay-us = <50000>;
+//     };
+// };
