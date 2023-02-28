@@ -1,3 +1,5 @@
+#include "../../zmk-nodefree-config/keypos_def/keypos_42keys.h"
+
 #define COMBO_TIMEOUT 35
 
 / {
@@ -6,56 +8,56 @@
 
     combo_bracket_round_l {
       timeout-ms = <COMBO_TIMEOUT>;
-      key-positions = <15 16>;
+      key-positions = <LM2 LM1>;
       layers = <SYM NUM>;
       bindings = <&kp LPAR>;
     };
 
     combo_bracket_round_r {
       timeout-ms = <COMBO_TIMEOUT>;
-      key-positions = <19 20>;
+      key-positions = <RM1 RM2>;
       layers = <SYM NUM>;
       bindings = <&kp RPAR>;
     };
 
     combo_bracket_square_l {
       timeout-ms = <COMBO_TIMEOUT>;
-      key-positions = <3 4>;
+      key-positions = <LT2 LT1>;
       layers = <SYM NUM>;
       bindings = <&kp LBKT>;
     };
 
     combo_bracket_square_r {
       timeout-ms = <COMBO_TIMEOUT>;
-      key-positions = <7 8>;
+      key-positions = <RT1 RT2>;
       layers = <SYM NUM>;
       bindings = <&kp RBKT>;
     };
 
     combo_bracket_curly_l {
       timeout-ms = <COMBO_TIMEOUT>;
-      key-positions = <27 28>;
+      key-positions = <LB2 LB1>;
       layers = <SYM NUM>;
       bindings = <&kp LBRC>;
     };
 
     combo_bracket_curly_r {
       timeout-ms = <COMBO_TIMEOUT>;
-      key-positions = <31 32>;
+      key-positions = <RB1 RB2>;
       layers = <SYM NUM>;
       bindings = <&kp RBRC>;
     };
 
     combo_capsword {
       timeout-ms = <COMBO_TIMEOUT>;
-      key-positions = <16 19>;
+      key-positions = <LM1 RM1>;
       layers = <BASE>;
       bindings = <&caps_word>;
     };
 
     combo_space {
       timeout-ms = <COMBO_TIMEOUT>;
-      key-positions = <36 37 38>;
+      key-positions = <LH2 LH1 LH0>;
       layers = <BASE NAV NUM>;
       bindings = <&kp SPACE>;
     };
