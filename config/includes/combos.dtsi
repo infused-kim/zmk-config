@@ -1,6 +1,7 @@
 #include "../../zmk-nodefree-config/keypos_def/keypos_42keys.h"
 
 #define COMBO_TIMEOUT 35
+#define COMBO_GLOBAL_QUICKTAP 75
 
 / {
   combos {
@@ -8,55 +9,71 @@
 
     combo_bracket_round_l {
       timeout-ms = <COMBO_TIMEOUT>;
+      global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
+
       key-positions = <LM2 LM1>;
-      layers = <SYM NUM>;
+      layers = <BASE BASE_QWERTY SYM NUM>;
       bindings = <&kp LPAR>;
     };
 
     combo_bracket_round_r {
       timeout-ms = <COMBO_TIMEOUT>;
+      global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
+
       key-positions = <RM1 RM2>;
-      layers = <SYM NUM>;
+      layers = <BASE BASE_QWERTY SYM NUM>;
       bindings = <&kp RPAR>;
     };
 
     combo_bracket_square_l {
       timeout-ms = <COMBO_TIMEOUT>;
+      global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
+
       key-positions = <LT2 LT1>;
-      layers = <SYM NUM>;
+      layers = <BASE BASE_QWERTY SYM NUM>;
       bindings = <&kp LBKT>;
     };
 
     combo_bracket_square_r {
       timeout-ms = <COMBO_TIMEOUT>;
+      global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
+
       key-positions = <RT1 RT2>;
-      layers = <SYM NUM>;
+      layers = <BASE BASE_QWERTY SYM NUM>;
       bindings = <&kp RBKT>;
     };
 
     combo_bracket_curly_l {
       timeout-ms = <COMBO_TIMEOUT>;
+      global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
+
       key-positions = <LB2 LB1>;
-      layers = <SYM NUM>;
+      layers = <BASE BASE_QWERTY SYM NUM>;
       bindings = <&kp LBRC>;
     };
 
     combo_bracket_curly_r {
       timeout-ms = <COMBO_TIMEOUT>;
+      global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
+
       key-positions = <RB1 RB2>;
-      layers = <SYM NUM>;
+      layers = <BASE BASE_QWERTY SYM NUM>;
       bindings = <&kp RBRC>;
     };
 
     combo_capsword {
       timeout-ms = <COMBO_TIMEOUT>;
+      global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
+
       key-positions = <LM1 RM1>;
-      layers = <BASE>;
+      layers = <BASE BASE_QWERTY>;
       bindings = <&caps_word>;
     };
 
     combo_space {
       timeout-ms = <COMBO_TIMEOUT>;
+      global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
+
       key-positions = <LH2 LH1 LH0>;
       layers = <BASE NAV NUM>;
       bindings = <&kp SPACE>;
@@ -64,6 +81,8 @@
 
     combo_bspc {
       timeout-ms = <COMBO_TIMEOUT>;
+      global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
+
       key-positions = <LH1 LH0>;
       layers = <BASE NAV NUM>;
       bindings = <&kp BSPC>;
