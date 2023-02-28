@@ -61,5 +61,12 @@
       layers = <BASE NAV NUM>;
       bindings = <&kp SPACE>;
     };
+
+    combo_bspc {
+      timeout-ms = <COMBO_TIMEOUT>;
+      key-positions = <LH1 LH0>;
+      layers = <BASE NAV NUM>;
+      bindings = <&kp BSPC>;
+    };
   };
 };
