@@ -23,10 +23,11 @@
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS";
             #binding-cells = <2>;
+            bindings = <&kp>, <&kp>;
+
+            flavor = "tap-preferred";
             tapping-term-ms = <TAPPING_TERM_MS>;
             quick_tap_ms = <200>;
-            flavor = "tap-preferred";
-            bindings = <&kp>, <&kp>;
         };
 
 
@@ -35,10 +36,11 @@
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS_FAST";
             #binding-cells = <2>;
+            bindings = <&kp>, <&kp>;
+
+            flavor = "tap-preferred";
             tapping-term-ms = <TAPPING_TERM_MS_FAST>;
             quick_tap_ms = <200>;
-            flavor = "tap-preferred";
-            bindings = <&kp>, <&kp>;
         };
 
 
@@ -47,52 +49,69 @@
         // such as when typing `st` or `ne` on colemak-dh layouts or `as` on
         // qwerty.
         //
-        // Works by only allowing a mod to activate within tapping-term if it's
-        // on the opposite side of the keyboard or on the same side thumb keys.
+        // Works by only allowing a mod to activate within tapping-term if
+        // it's on the opposite side of the keyboard or on the same side thumb
+        // keys.
+
+        // Further optimization using urob's timerless homerow mods method:
+        // https://github.com/urob/zmk-config#timeless-homerow-mods
         hm_l: homerow_mods_left {
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS_LEFT";
             #binding-cells = <2>;
+            bindings = <&kp>,  <&kp>;
+
+            flavor = "balanced";
             tapping-term-ms = <TAPPING_TERM_MS>;
-            quick_tap_ms = <200>;
-            flavor = "tap-preferred";
-            bindings = <&kp>, <&kp>;
+            quick-tap-ms = <175>;                // repeat on tap-into-hold
+            global-quick-tap-ms = <150>;         // requires PR #1387
             hold-trigger-key-positions = <KEYS_R KEYS_T>;
+            hold-trigger-on-release;             // requires PR #1423
         };
 
         hm_r: homerow_mods_right {
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS_RIGHT";
             #binding-cells = <2>;
-            tapping-term-ms = <TAPPING_TERM_MS>;
-            quick_tap_ms = <200>;
-            flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
+
+            flavor = "balanced";
+            tapping-term-ms = <TAPPING_TERM_MS>;
+            quick_tap_ms = <175>;
+            global-quick-tap-ms = <150>;         // requires PR #1387
             hold-trigger-key-positions = <KEYS_L KEYS_T>;
+            hold-trigger-on-release;             // requires PR #1423
         };
 
 
         // Fast Positional Homerow mods
+        // Disables global-quick-tap as it may result in false negatives
         hm_fast_l: homerow_mods_left {
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS_FAST_LEFT";
             #binding-cells = <2>;
-            tapping-term-ms = <TAPPING_TERM_MS_FAST>;
-            quick_tap_ms = <200>;
-            flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
+
+            flavor = "balanced";
+            tapping-term-ms = <TAPPING_TERM_MS_FAST>;
+            quick_tap_ms = <175>;
+            // global-quick-tap-ms = <150>;         // requires PR #1387
             hold-trigger-key-positions = <KEYS_R KEYS_T>;
+            hold-trigger-on-release;             // requires PR #1423
         };
 
         hm_fast_r: homerow_mods_right {
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS_FAST_RIGHT";
             #binding-cells = <2>;
-            tapping-term-ms = <TAPPING_TERM_MS_FAST>;
-            quick_tap_ms = <200>;
-            flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
+
+            flavor = "balanced";
+            tapping-term-ms = <TAPPING_TERM_MS_FAST>;
+            quick_tap_ms = <175>;
+            // global-quick-tap-ms = <150>;         // requires PR #1387
             hold-trigger-key-positions = <KEYS_L KEYS_T>;
+            hold-trigger-on-release;             // requires PR #1423
         };
 
     };
