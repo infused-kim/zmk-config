@@ -50,7 +50,7 @@
             #binding-cells = <0>;
             bindings = <&lt NAV SPACE>, <&kp MINUS>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
-            keep-mods = <(MOD_LSFT)>;
+            keep-mods = <(MOD_RSFT)>;
         };
 
 
