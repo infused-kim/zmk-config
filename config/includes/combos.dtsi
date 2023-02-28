@@ -88,13 +88,13 @@
       bindings = <&kp BSPC>;
     };
 
-    combo_tog_nav {
+    combo_tog_nav_word {
       timeout-ms = <COMBO_TIMEOUT>;
       global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
 
       key-positions = <LT3 LT2 LT1>;
-      layers = <BASE BASE_QWERTY NAV NUM SYM>;
-      bindings = <&tog NAV>;
+      layers = <BASE BASE_QWERTY NAV NAV_WORD NUM NUM_WORD SYM>;
+      bindings = <&nav_word>;
     };
 
     combo_tog_num_word {
@@ -102,7 +102,7 @@
       global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
 
       key-positions = <LB3 LB2 LB1>;
-      layers = <BASE BASE_QWERTY NAV NUM SYM>;
+      layers = <BASE BASE_QWERTY NAV NAV_WORD NUM NUM_WORD SYM>;
       bindings = <&num_word>;
     };
   };

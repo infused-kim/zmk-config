@@ -74,6 +74,7 @@
             bindings = <&kp RIGHT_SHIFT>, <&bt BT_CLR>;
         };
 
+
         /*
         * Tap dancing num layer
         *
@@ -87,8 +88,69 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_NUM_LAYER";
             #binding-cells = <0>;
-            tapping-term-ms = <TAPPING_TERM_MS>;
+            tapping-term-ms = <250>;
             bindings = <&lt NUM DEL>, <&num_word>, <&tog NUM>;
+        };
+
+        /*
+        * Tap dancing nav layer
+        *
+        * Usage: &td_nav_layer
+        * Tap: DEL
+        * Hold: NAV layer
+        * Double Tap: NAV_WORD layer
+        * Triple Tap: NAV layer toggled
+        */
+        td_nav_layer: td_nav_layer {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_NAV_LAYER";
+            #binding-cells = <0>;
+            tapping-term-ms = <250>;
+            bindings = <&lt NAV RET>, <&nav_word>, <&tog NAV>;
+        };
+
+        /*
+        * Tap dancing sym layer
+        *
+        * Usage: &td_sym_layer
+        * Tap: DEL
+        * Hold: NAV layer
+        * Double Tap: NAV_WORD layer
+        * Triple Tap: NAV layer toggled
+        */
+        td_sym_layer: td_sym_layer {
+            compatible = "zmk,behavior-tap-dance";
+            label = "td_sym_layer";
+            #binding-cells = <0>;
+            tapping-term-ms = <250>;
+            bindings = <&mm_spc_unds_layer>, <&sym_word>, <&tog SYM>;
+        };
+
+        nav_word: nav_word {
+            compatible = "zmk,behavior-caps-word";
+            label = "NAV_WORD";
+            #binding-cells = <0>;
+            layers = <NAV_WORD>;
+            continue-list = <
+                LEFT DOWN UP RIGHT
+                PG_UP PG_DN
+            >;
+            ignore-modifiers;  // modifiers don't deactivate the layer
+        };
+
+        sym_word: sym_word {
+            compatible = "zmk,behavior-caps-word";
+            label = "sym_word";
+            #binding-cells = <0>;
+            layers = <SYM_WORD>;
+            continue-list = <
+                CARET AMPERSAND PLUS EQUAL MINUS SLASH PIPE
+                TILDE PERCENT UNDERSCORE EXCLAMATION DOLLAR SEMICOLON
+                HASH COLON GRAVE ASTERISK BACKSLASH AT_SIGN
+                RPAR LPAR RBKT LBKT RBRC LBRC GT LT
+                BACKSPACE
+            >;
+            ignore-modifiers;  // modifiers don't deactivate the layer
         };
 
         /*
