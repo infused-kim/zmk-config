@@ -75,10 +75,27 @@
         };
 
         /*
+        * Tap dancing num layer
+        *
+        * Usage: &td_num_layer
+        * Tap: DEL
+        * Hold: NUM layer
+        * Double Tap: NUM_WORD layer
+        * Triple Tap: NUM layer toggled
+        */
+        td_num_layer: td_num_layer {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_NUM_LAYER";
+            #binding-cells = <0>;
+            tapping-term-ms = <TAPPING_TERM_MS>;
+            bindings = <&lt NUM DEL>, <&num_word>, <&tog NUM>;
+        };
+
+        /*
         * Swapper CMD + TAB
         *
         * Use CMD TAB app switcher with a single app press.
-        * Requires ZMK (PR #1366).
+        * Requires ZMK PR #1366.
         */
         swapper_cmd_tab: swapper {
              compatible = "zmk,behavior-tri-state";

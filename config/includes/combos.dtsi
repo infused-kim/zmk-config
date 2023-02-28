@@ -70,13 +70,13 @@
       bindings = <&caps_word>;
     };
 
-    combo_space {
+    combo_return {
       timeout-ms = <COMBO_TIMEOUT>;
       global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
 
       key-positions = <LH2 LH1 LH0>;
-      layers = <BASE NAV NUM>;
-      bindings = <&kp SPACE>;
+      layers = <BASE BASE_QWERTY NAV NUM SYM>;
+      bindings = <&kp RET>;
     };
 
     combo_bspc {
@@ -84,8 +84,26 @@
       global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
 
       key-positions = <LH1 LH0>;
-      layers = <BASE NAV NUM>;
+      layers = <BASE BASE_QWERTY NAV NUM SYM>;
       bindings = <&kp BSPC>;
+    };
+
+    combo_tog_nav {
+      timeout-ms = <COMBO_TIMEOUT>;
+      global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
+
+      key-positions = <LT3 LT2 LT1>;
+      layers = <BASE BASE_QWERTY NAV NUM SYM>;
+      bindings = <&tog NAV>;
+    };
+
+    combo_tog_num_word {
+      timeout-ms = <COMBO_TIMEOUT>;
+      global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
+
+      key-positions = <LB3 LB2 LB1>;
+      layers = <BASE BASE_QWERTY NAV NUM SYM>;
+      bindings = <&num_word>;
     };
   };
 };

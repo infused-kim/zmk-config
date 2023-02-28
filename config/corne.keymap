@@ -10,10 +10,10 @@
 #define NAV 2
 #define SYM 3
 #define NUM 4
-#define FUNC 5
-#define ADJUST 6
-#define LOWER 7
-
+#define NUM_WORD 5
+#define FUNC 6
+#define ADJUST 7
+#define LOWER 8
 
 // ZMK includes
 #include <behaviors.dtsi>
@@ -46,7 +46,7 @@
     Base_layer {
       label = "Base";
       bindings = <
-        &mm_grescm &kp Q &kp W &hm_l LS(LC(LG(LALT))) F &kp P &kp B &kp J &kp L &hm_r RS(RC(RG(RALT))) U &kp Y &kp SINGLE_QUOTE &mm_bspc_del &kp TAB &hm_l LCTRL A &hm_l LALT R &hm_l LGUI S &hm_fast_l LSHFT T &kp G &kp M &hm_fast_r RSHFT N &hm_r RGUI E &hm_r RALT I &hm_r RCTRL O &kp SINGLE_QUOTE &td_shift_l &kp Z &kp X &hm_l LC(LG(LALT)) C &kp D &kp V &kp K &kp H &hm_r RC(RG(RALT)) COMMA &kp DOT &kp SLASH &td_shift_r &mm_grescm_gui &lt ADJUST RETURN &lt SYM TAB &mm_bspc_del_layer &mm_spc_unds_layer &td_shift_r
+        &mm_grescm &kp Q &kp W &hm_l LS(LC(LG(LALT))) F &kp P &kp B &kp J &kp L &hm_r RS(RC(RG(RALT))) U &kp Y &kp SINGLE_QUOTE &mm_bspc_del &kp TAB &hm_l LCTRL A &hm_l LALT R &hm_l LGUI S &hm_fast_l LSHFT T &kp G &kp M &hm_fast_r RSHFT N &hm_r RGUI E &hm_r RALT I &hm_r RCTRL O &kp SINGLE_QUOTE &td_shift_l &kp Z &kp X &hm_l LC(LG(LALT)) C &kp D &kp V &kp K &kp H &hm_r RC(RG(RALT)) COMMA &kp DOT &kp SLASH &td_shift_r &mm_grescm_gui &mm_spc_unds_layer &lt ADJUST TAB &mm_bspc_del &lt NAV RETURN &td_num_layer
       >;
       sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp C_PREV C_NEXT>;
     };
@@ -78,6 +78,14 @@
       label = "Num";
       bindings = <
         &trans &kp DOT &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &kp PLUS &kp TILDE &mm_bracket_r &kp RS(RC(RG(RALT))) &none &none &trans &trans &kp ASTERISK &kp NUMBER_4 &kp NUMBER_5 &kp NUMBER_6 &kp EQUAL &kp PERCENT &td_shift_r &kp RIGHT_GUI &kp RIGHT_ALT &kp RIGHT_CONTROL &trans &trans &kp SLASH &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &kp MINUS &kp UNDERSCORE &kp DOLLAR &hm_r RC(RG(RALT)) COMMA &kp DOT &kp SLASH &trans &tog NUM &trans &kp NUMBER_0 &trans &trans &tog SYM
+      >;
+      sensor-bindings = <&inc_dec_kp C_BRI_DN C_BRI_UP &inc_dec_kp LEFT RIGHT>;
+    };
+
+    Num_Word_layer {
+      label = "Num Word";
+      bindings = <
+        &trans &trans &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &trans &trans &trans &trans &trans &trans &trans &trans &trans &kp NUMBER_4 &kp NUMBER_5 &kp NUMBER_6 &trans &trans &trans &trans &trans &trans &trans &trans &trans &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &trans &trans &trans &trans &trans &trans &trans &trans &trans &kp NUMBER_0 &trans &trans &trans
       >;
       sensor-bindings = <&inc_dec_kp C_BRI_DN C_BRI_UP &inc_dec_kp LEFT RIGHT>;
     };

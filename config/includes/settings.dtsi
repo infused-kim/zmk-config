@@ -31,3 +31,7 @@
       BACKSPACE
     >;
 };
+
+&num_word {
+    layers = <NUM_WORD>;  // replace NUM by the location of numbers layer
+};
