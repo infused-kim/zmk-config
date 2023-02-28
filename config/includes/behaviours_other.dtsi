@@ -57,5 +57,35 @@
             tapping-term-ms = <TAPPING_TERM_MS>;
             bindings = <&kp RIGHT_SHIFT>, <&caps_word>, <&kp CAPSLOCK>;
         };
+
+
+        /*
+        * Double Tap to clear BT
+        *
+        * Usage: &td_bt_clear
+        * Hold / Tap: Shift
+        * Double Tap: Clear BT
+        */
+        td_bt_clear: td_bt_clear {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_BT_CLEAR";
+            #binding-cells = <0>;
+            tapping-term-ms = <TAPPING_TERM_MS>;
+            bindings = <&kp RIGHT_SHIFT>, <&bt BT_CLR>;
+        };
+
+        /*
+        * Swapper CMD + TAB
+        *
+        * Use CMD TAB app switcher with a single app press.
+        * Requires ZMK (PR #1366).
+        */
+        swapper_cmd_tab: swapper {
+             compatible = "zmk,behavior-tri-state";
+             label = "SWAPPER";
+             #binding-cells = <0>;
+             bindings = <&kt LGUI>, <&kp TAB>, <&kt LGUI>;
+            //  ignored-key-positions = <x>;
+         };
     };
 };

@@ -93,7 +93,7 @@
     Adjust_layer {
       label = "Adjust";
       bindings = <
-        &ext_power EXT_POWER_TOGGLE_CMD &rgb_ug RGB_HUD &rgb_ug RGB_HUI &rgb_ug RGB_SAD &rgb_ug RGB_SAI &rgb_ug RGB_EFF &none &none &none &none &none &to BASE_QWERTY &none &rgb_ug RGB_BRD &rgb_ug RGB_BRI &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &tog NAV &none &none &none &none &tog ADJUST
+        &none &kp LG(Q) &kp LG(W) &none &none &kp LG(GRAVE) &td_bt_clear &bt BT_PRV &bt BT_NXT &ext_power EXT_POWER_TOGGLE_CMD &to BASE &to BASE_QWERTY &none &none &none &none &none &swapper_cmd_tab &kp C_MUTE &kp C_REWIND &kp C_VOLUME_DOWN &kp C_VOLUME_UP &kp C_FAST_FORWARD &none &none &kp LG(Z) &kp LG(X) &kp LG(C) &none &kp LG(V) &none &kp C_PAUSE &kp C_BRIGHTNESS_DEC &kp C_BRIGHTNESS_INC &none &none &tog NAV &trans &trans &trans &trans &tog ADJUST
       >;
       sensor-bindings = <&inc_dec_kp C_BRI_DN C_BRI_UP &inc_dec_kp LEFT RIGHT>;
     };
