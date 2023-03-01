@@ -89,7 +89,7 @@
             label = "TAP_DANCE_NUM_LAYER";
             #binding-cells = <0>;
             tapping-term-ms = <250>;
-            bindings = <&lt NUM DEL>, <&num_word>, <&tog NUM>;
+            bindings = <&lt NUM DEL>, <&num_word>;
         };
 
         /*
@@ -106,7 +106,7 @@
             label = "TAP_DANCE_NAV_LAYER";
             #binding-cells = <0>;
             tapping-term-ms = <250>;
-            bindings = <&lt NAV RET>, <&nav_word>, <&tog NAV>;
+            bindings = <&lt NAV RET>, <&nav_word>;
         };
 
         /*
@@ -123,7 +123,7 @@
             label = "td_sym_layer";
             #binding-cells = <0>;
             tapping-term-ms = <250>;
-            bindings = <&mm_spc_unds_layer>, <&sym_word>, <&tog SYM>;
+            bindings = <&mm_spc_unds_layer>, <&sym_word>;
         };
 
         nav_word: nav_word {
