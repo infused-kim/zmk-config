@@ -71,7 +71,7 @@
     Nav_Word_layer {
       label = "Nav Word";
       bindings = <
-        &trans &trans &kp LA(LEFT) &kp UP &kp LA(RIGHT) &kp PG_UP &trans &trans &trans &trans &trans &trans &trans &trans &kp LEFT &kp DOWN &kp RIGHT &kp PG_DN &trans &trans &trans &trans &trans &trans &trans &trans &kp LG(LEFT) &trans &kp LG(RIGHT) &trans &trans &trans &trans &trans &trans &trans &tog NAV_WORD &trans &trans &trans &trans &trans
+        &trans &trans &kp LA(LEFT) &kp UP &kp LA(RIGHT) &kp PG_UP &trans &trans &trans &trans &trans &trans &trans &trans &kp LEFT &kp DOWN &kp RIGHT &kp PG_DN &trans &trans &trans &trans &trans &trans &trans &trans &kp LG(LEFT) &trans &kp LG(RIGHT) &trans &trans &trans &trans &trans &trans &trans &tog NAV_WORD &trans &trans &trans &kp RETURN &trans
       >;
       sensor-bindings = <&inc_dec_kp C_BRI_DN C_BRI_UP &inc_dec_kp LEFT RIGHT>;
     };

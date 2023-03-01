@@ -491,7 +491,7 @@
             "x": 506,
             "y": 216,
             "angle": -7,
-            "active": false,
+            "active": true,
             "row": 4,
             "column": 8,
             "side": "right",
@@ -5162,10 +5162,12 @@
         },
         {
             "keyNumber": 40,
-            "type": "&trans",
-            "values": [],
+            "type": "&kp ",
+            "values": [
+                "RETURN"
+            ],
             "keys": [],
-            "codeId": "",
+            "codeId": "a4c8dad5-35fd-4a36-97fc-4ccaa537c7ba",
             "layerId": "384e88fd-0dd2-43db-8b67-39837d82f498",
             "targetLayerId": "",
             "targetLayerName": ""
