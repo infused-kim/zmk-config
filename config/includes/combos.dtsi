@@ -1,6 +1,7 @@
 #include "../../zmk-nodefree-config/keypos_def/keypos_42keys.h"
 
-#define COMBO_TIMEOUT 35
+#define COMBO_TERM_FAST 35
+#define COMBO_TERM_SLOW 50
 #define COMBO_GLOBAL_QUICKTAP 75
 
 / {
@@ -8,7 +9,7 @@
     compatible = "zmk,combos";
 
     combo_bracket_round_l {
-      timeout-ms = <COMBO_TIMEOUT>;
+      timeout-ms = <COMBO_TERM_FAST>;
       global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
 
       key-positions = <LM2 LM1>;
@@ -17,7 +18,7 @@
     };
 
     combo_bracket_round_r {
-      timeout-ms = <COMBO_TIMEOUT>;
+      timeout-ms = <COMBO_TERM_FAST>;
       global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
 
       key-positions = <RM1 RM2>;
@@ -26,7 +27,7 @@
     };
 
     combo_bracket_square_l {
-      timeout-ms = <COMBO_TIMEOUT>;
+      timeout-ms = <COMBO_TERM_FAST>;
       global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
 
       key-positions = <LT2 LT1>;
@@ -35,7 +36,7 @@
     };
 
     combo_bracket_square_r {
-      timeout-ms = <COMBO_TIMEOUT>;
+      timeout-ms = <COMBO_TERM_FAST>;
       global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
 
       key-positions = <RT1 RT2>;
@@ -44,7 +45,7 @@
     };
 
     combo_bracket_curly_l {
-      timeout-ms = <COMBO_TIMEOUT>;
+      timeout-ms = <COMBO_TERM_FAST>;
       global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
 
       key-positions = <LB2 LB1>;
@@ -53,16 +54,16 @@
     };
 
     combo_bracket_curly_r {
-      timeout-ms = <COMBO_TIMEOUT>;
+      timeout-ms = <COMBO_TERM_FAST>;
       global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
 
-      key-positions = <RB1 RB2>;
+      key-positions = <LB1 LB2>;
       layers = <BASE BASE_QWERTY SYM NUM>;
       bindings = <&kp RBRC>;
     };
 
     combo_capsword {
-      timeout-ms = <COMBO_TIMEOUT>;
+      timeout-ms = <COMBO_TERM_FAST>;
       global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
 
       key-positions = <LM1 RM1>;
@@ -71,7 +72,7 @@
     };
 
     combo_return {
-      timeout-ms = <COMBO_TIMEOUT>;
+      timeout-ms = <COMBO_TERM_FAST>;
       global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
 
       key-positions = <LH2 LH1 LH0>;
@@ -80,7 +81,7 @@
     };
 
     combo_bspc {
-      timeout-ms = <COMBO_TIMEOUT>;
+      timeout-ms = <COMBO_TERM_FAST>;
       global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
 
       key-positions = <LH1 LH0>;
@@ -88,8 +89,26 @@
       bindings = <&kp BSPC>;
     };
 
+    combo_grave {
+      timeout-ms = <COMBO_TERM_SLOW>;
+      global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
+
+      key-positions = <RM3 RM4>;
+      layers = <BASE BASE_QWERTY>;
+      bindings = <&kp GRAVE>;
+    };
+
+    combo_md_code_block {
+      timeout-ms = <COMBO_TERM_SLOW>;
+      global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
+
+      key-positions = <RM2 RM3 RM4>;
+      layers = <BASE BASE_QWERTY>;
+      bindings = <&m_type_md_code_block>;
+    };
+
     combo_tog_nav_word {
-      timeout-ms = <COMBO_TIMEOUT>;
+      timeout-ms = <COMBO_TERM_FAST>;
       global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
 
       key-positions = <LT3 LT2 LT1>;
@@ -98,7 +117,7 @@
     };
 
     combo_tog_num_word {
-      timeout-ms = <COMBO_TIMEOUT>;
+      timeout-ms = <COMBO_TERM_FAST>;
       global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
 
       key-positions = <LB3 LB2 LB1>;

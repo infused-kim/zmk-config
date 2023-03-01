@@ -42,6 +42,17 @@
             >;
         };
 
+        m_type_md_code_block: m_type_md_code_block {
+            compatible = "zmk,behavior-macro";
+            label = "m_type_md_code_block";
+            #binding-cells = <0>;
+            // wait-ms = <20>;
+            // tap-ms = <20>;
+            bindings = <
+                &kp GRAVE &kp GRAVE &kp GRAVE &kp LS(RET)
+                &kp GRAVE &kp GRAVE &kp GRAVE &kp UP
+            >;
+        };
     };
 
 
