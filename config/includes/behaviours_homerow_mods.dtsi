@@ -97,7 +97,7 @@
             quick_tap_ms = <175>;
             // global-quick-tap-ms = <150>;         // requires PR #1387
             hold-trigger-key-positions = <KEYS_R KEYS_T>;
-            hold-trigger-on-release;             // requires PR #1423
+            // hold-trigger-on-release;             // requires PR #1423
         };
 
         hm_fast_r: homerow_mods_right {
@@ -111,7 +111,7 @@
             quick_tap_ms = <175>;
             // global-quick-tap-ms = <150>;         // requires PR #1387
             hold-trigger-key-positions = <KEYS_L KEYS_T>;
-            hold-trigger-on-release;             // requires PR #1423
+            // hold-trigger-on-release;             // requires PR #1423
         };
 
     };
