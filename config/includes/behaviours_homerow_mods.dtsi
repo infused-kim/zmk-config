@@ -5,6 +5,9 @@
 #define KEYS_R RT0 RT1 RT2 RT3 RT4 RT5 RM0 RM1 RM2 RM3 RM4 LM5 RB0 RB1 RB2 RB3 RB4 RB5
 #define KEYS_T LH2 LH1 LH0 RH0 RH1 RH2
 
+#define HM_TAPPING_TERM 300
+#define HM_TAPPING_TERM_FAST 200
+
 / {
 
     behaviors {
@@ -26,7 +29,7 @@
             bindings = <&kp>, <&kp>;
 
             flavor = "tap-preferred";
-            tapping-term-ms = <TAPPING_TERM_MS>;
+            tapping-term-ms = <HM_TAPPING_TERM>;
             quick_tap_ms = <200>;
         };
 
@@ -39,7 +42,7 @@
             bindings = <&kp>, <&kp>;
 
             flavor = "tap-preferred";
-            tapping-term-ms = <TAPPING_TERM_MS_FAST>;
+            tapping-term-ms = <HM_TAPPING_TERM_FAST>;
             quick_tap_ms = <200>;
         };
 
@@ -62,7 +65,7 @@
             bindings = <&kp>,  <&kp>;
 
             flavor = "balanced";
-            tapping-term-ms = <TAPPING_TERM_MS>;
+            tapping-term-ms = <HM_TAPPING_TERM>;
             quick-tap-ms = <175>;                // repeat on tap-into-hold
             global-quick-tap-ms = <150>;         // requires PR #1387
             hold-trigger-key-positions = <KEYS_R KEYS_T>;
@@ -76,7 +79,7 @@
             bindings = <&kp>, <&kp>;
 
             flavor = "balanced";
-            tapping-term-ms = <TAPPING_TERM_MS>;
+            tapping-term-ms = <HM_TAPPING_TERM>;
             quick_tap_ms = <175>;
             global-quick-tap-ms = <150>;         // requires PR #1387
             hold-trigger-key-positions = <KEYS_L KEYS_T>;
@@ -93,7 +96,7 @@
             bindings = <&kp>, <&kp>;
 
             flavor = "balanced";
-            tapping-term-ms = <TAPPING_TERM_MS_FAST>;
+            tapping-term-ms = <HM_TAPPING_TERM_FAST>;
             quick_tap_ms = <175>;
             // global-quick-tap-ms = <150>;         // requires PR #1387
             hold-trigger-key-positions = <KEYS_R KEYS_T>;
@@ -107,7 +110,7 @@
             bindings = <&kp>, <&kp>;
 
             flavor = "balanced";
-            tapping-term-ms = <TAPPING_TERM_MS_FAST>;
+            tapping-term-ms = <HM_TAPPING_TERM_FAST>;
             quick_tap_ms = <175>;
             // global-quick-tap-ms = <150>;         // requires PR #1387
             hold-trigger-key-positions = <KEYS_L KEYS_T>;

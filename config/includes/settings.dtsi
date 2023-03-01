@@ -1,8 +1,5 @@
 // Make sure this file is included before all other files
 
-#define TAPPING_TERM_MS 300
-#define TAPPING_TERM_MS_FAST 200
-
 /*
  * Layer Tap Settings
  */
