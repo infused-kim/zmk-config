@@ -13,7 +13,7 @@
       global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
 
       key-positions = <LM2 LM1>;
-      layers = <BASE BASE_QWERTY SYM NUM>;
+      layers = <BASE BASE_QWERTY SYM NUM NUM_WORD>;
       bindings = <&kp LPAR>;
     };
 
@@ -22,7 +22,7 @@
       global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
 
       key-positions = <RM1 RM2>;
-      layers = <BASE BASE_QWERTY SYM NUM>;
+      layers = <BASE BASE_QWERTY SYM NUM NUM_WORD>;
       bindings = <&kp RPAR>;
     };
 

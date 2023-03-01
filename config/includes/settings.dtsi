@@ -30,5 +30,9 @@
 };
 
 &num_word {
-    layers = <NUM_WORD>;  // replace NUM by the location of numbers layer
+    layers = <NUM_WORD>;
+    continue-list = <
+        BACKSPACE DELETE DOT COMMA
+        LPAR RPAR SLASH ASTERISK PLUS MINUS EQUAL
+    >;
 };
