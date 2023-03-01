@@ -1,20 +1,24 @@
 // Make sure this file is included before all other files
 
 #define TAPPING_TERM_MS 300
-#define TAPPING_TERM_MS_FAST 200
+#define TAPPING_TERM_MS_FAST 100
 
 /*
  * Layer Tap Settings
  */
 &lt {
     // Increase layer tap time
-    tapping-term-ms = <TAPPING_TERM_MS>;
+    tapping-term-ms = <TAPPING_TERM_MS_FAST>;
 
     // Quickly tap-tap-holding the lt button will repeat the tap behavior
     // For example enter-enter-hold, will output multiple enter while you
     // keep holding the key.
     // But holding enter without double tapping, will activate the layer.
-    quick_tap_ms = <200>;
+    //
+    // Disabled since we use &lt with tap dance to "word layer" on which we
+    //  have a repeating key.
+    //
+    // quick_tap_ms = <200>;
 };
 
 /*
