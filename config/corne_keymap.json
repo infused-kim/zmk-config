@@ -491,7 +491,7 @@
             "x": 506,
             "y": 216,
             "angle": -7,
-            "active": true,
+            "active": false,
             "row": 4,
             "column": 8,
             "side": "right",
@@ -667,8 +667,10 @@
         },
         {
             "keyNumber": 1,
-            "type": "&none",
-            "values": [],
+            "type": "man ",
+            "values": [
+                "&kp LG(Q)"
+            ],
             "keys": [],
             "codeId": "",
             "layerId": "47ce01c6-a191-4769-b4c1-2735c86f4808",
@@ -780,9 +782,9 @@
         },
         {
             "keyNumber": 2,
-            "type": "&kp ",
+            "type": "man ",
             "values": [
-                "CARET"
+                "&kp LG(W)"
             ],
             "keys": [],
             "codeId": "a5b76a88-6a8d-4768-822f-6690e0a9a921",
@@ -898,9 +900,9 @@
         },
         {
             "keyNumber": 3,
-            "type": "man ",
+            "type": "&none",
             "values": [
-                "&hm_l LS(LC(LG(LALT))) PIPE"
+                "PIPE"
             ],
             "keys": [],
             "codeId": "3a480911-2e01-4724-be17-193f0dfd0aa3",
@@ -1019,7 +1021,7 @@
         },
         {
             "keyNumber": 4,
-            "type": "&kp ",
+            "type": "&none",
             "values": [
                 "AMPERSAND"
             ],
@@ -1139,9 +1141,9 @@
         },
         {
             "keyNumber": 5,
-            "type": "&kp ",
+            "type": "man ",
             "values": [
-                "PLUS"
+                "&kp LG(GRAVE)"
             ],
             "keys": [],
             "codeId": "6d5562aa-881c-481a-9722-2739f03a5d86",
@@ -1257,12 +1259,12 @@
         },
         {
             "keyNumber": 6,
-            "type": "&kp ",
+            "type": "man ",
             "values": [
-                "TILDE"
+                "&mm_minus_plus"
             ],
             "keys": [],
-            "codeId": "2f839c31-ad63-4838-849e-1e51b20e27f6",
+            "codeId": "11ca7037-82bd-4197-8692-5e7fbe5c5870",
             "layerId": "47ce01c6-a191-4769-b4c1-2735c86f4808",
             "targetLayerId": "",
             "targetLayerName": ""
@@ -1372,12 +1374,12 @@
         },
         {
             "keyNumber": 7,
-            "type": "man ",
+            "type": "&kp ",
             "values": [
-                "&mm_bracket_r"
+                "AMPERSAND"
             ],
             "keys": [],
-            "codeId": "bf3fe8cc-b18c-45e0-bd72-c248da86cc3e",
+            "codeId": "51b819d3-1228-4c70-85d7-5b9a3a0fe079",
             "layerId": "47ce01c6-a191-4769-b4c1-2735c86f4808",
             "targetLayerId": "",
             "targetLayerName": ""
@@ -1486,12 +1488,12 @@
         },
         {
             "keyNumber": 8,
-            "type": "man ",
+            "type": "&kp ",
             "values": [
-                "&mm_bracket_sq"
+                "PIPE"
             ],
             "keys": [],
-            "codeId": "bf3fe8cc-b18c-45e0-bd72-c248da86cc3e",
+            "codeId": "3a480911-2e01-4724-be17-193f0dfd0aa3",
             "layerId": "47ce01c6-a191-4769-b4c1-2735c86f4808",
             "targetLayerId": "",
             "targetLayerName": ""
@@ -1603,12 +1605,12 @@
         },
         {
             "keyNumber": 9,
-            "type": "man ",
+            "type": "&kp ",
             "values": [
-                "&mm_bracket_c"
+                "TILDE"
             ],
             "keys": [],
-            "codeId": "3a480911-2e01-4724-be17-193f0dfd0aa3",
+            "codeId": "2f839c31-ad63-4838-849e-1e51b20e27f6",
             "layerId": "47ce01c6-a191-4769-b4c1-2735c86f4808",
             "targetLayerId": "",
             "targetLayerName": ""
@@ -1714,9 +1716,9 @@
         },
         {
             "keyNumber": 10,
-            "type": "&kp ",
+            "type": "man ",
             "values": [
-                "GRAVE"
+                "&mm_grave_caret"
             ],
             "keys": [],
             "codeId": "dba820a3-432b-4d1c-b939-7773118f6b9d",
@@ -2510,9 +2512,9 @@
         },
         {
             "keyNumber": 17,
-            "type": "&kp ",
+            "type": "man ",
             "values": [
-                "EQUAL"
+                "&swapper_cmd_tab"
             ],
             "keys": [],
             "codeId": "0e4454e5-dc02-47fa-ae7a-43570cc170ec",
@@ -2628,10 +2630,10 @@
             "keyNumber": 18,
             "type": "&kp ",
             "values": [
-                "PERCENT"
+                "EQUAL"
             ],
             "keys": [],
-            "codeId": "411cade3-778a-45e8-bfc7-a9f25e3b9766",
+            "codeId": "0e4454e5-dc02-47fa-ae7a-43570cc170ec",
             "layerId": "47ce01c6-a191-4769-b4c1-2735c86f4808",
             "targetLayerId": "",
             "targetLayerName": ""
@@ -3420,9 +3422,9 @@
         },
         {
             "keyNumber": 25,
-            "type": "&kp ",
+            "type": "man ",
             "values": [
-                "SLASH"
+                "&kp LG(Z)"
             ],
             "keys": [],
             "codeId": "9ec5a902-b11a-4e3a-b2a2-b86f658c7a55",
@@ -3534,8 +3536,10 @@
         },
         {
             "keyNumber": 26,
-            "type": "&none",
-            "values": [],
+            "type": "man ",
+            "values": [
+                "&kp LG(X)"
+            ],
             "keys": [],
             "codeId": "",
             "layerId": "47ce01c6-a191-4769-b4c1-2735c86f4808",
@@ -3652,7 +3656,7 @@
             "keyNumber": 27,
             "type": "man ",
             "values": [
-                "&kp LC(LG(LALT))"
+                "&kp LG(C)"
             ],
             "keys": [],
             "codeId": "",
@@ -3767,9 +3771,11 @@
         {
             "keyNumber": 28,
             "type": "&none",
-            "values": [],
+            "values": [
+                null
+            ],
             "keys": [],
-            "codeId": "",
+            "codeId": "11ca7037-82bd-4197-8692-5e7fbe5c5870",
             "layerId": "47ce01c6-a191-4769-b4c1-2735c86f4808",
             "targetLayerId": "",
             "targetLayerName": ""
@@ -3884,9 +3890,9 @@
         },
         {
             "keyNumber": 29,
-            "type": "&kp ",
+            "type": "man ",
             "values": [
-                "MINUS"
+                "&kp LG(V)"
             ],
             "keys": [],
             "codeId": "11ca7037-82bd-4197-8692-5e7fbe5c5870",
@@ -3998,10 +4004,10 @@
             "keyNumber": 30,
             "type": "&kp ",
             "values": [
-                "UNDERSCORE"
+                "PERCENT"
             ],
             "keys": [],
-            "codeId": "c3ed8036-ec42-4bf7-b395-7da76687fd04",
+            "codeId": "411cade3-778a-45e8-bfc7-a9f25e3b9766",
             "layerId": "47ce01c6-a191-4769-b4c1-2735c86f4808",
             "targetLayerId": "",
             "targetLayerName": ""
@@ -4665,8 +4671,10 @@
         },
         {
             "keyNumber": 36,
-            "type": "&tog ",
-            "values": [],
+            "type": "&trans",
+            "values": [
+                "&tog SYM"
+            ],
             "keys": [],
             "codeId": "",
             "layerId": "47ce01c6-a191-4769-b4c1-2735c86f4808",
@@ -5196,7 +5204,7 @@
         },
         {
             "keyNumber": 41,
-            "type": "&tog ",
+            "type": "&trans",
             "values": [],
             "keys": [],
             "codeId": "",
@@ -5218,7 +5226,7 @@
         },
         {
             "keyNumber": 41,
-            "type": "man ",
+            "type": "&trans",
             "values": [
                 "&tog SYM"
             ],

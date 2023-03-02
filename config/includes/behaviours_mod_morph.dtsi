@@ -53,6 +53,35 @@
             keep-mods = <(MOD_LSFT)>;
         };
 
+        /*
+         * Shifted grave types caret (^)
+         *
+         * Usage: &mm_grave_caret
+         * Tap: `
+         * Shift-Tap: ^
+         */
+        mm_grave_caret: mm_grave_caret {
+            compatible = "zmk,behavior-mod-morph";
+            label = "mm_grave_caret";
+            #binding-cells = <0>;
+            bindings = <&kp GRAVE>, <&kp CARET>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        /*
+         * Shifted minus types plus (+)
+         *
+         * Usage: &mm_grave_caret
+         * Tap: `
+         * Shift-Tap: ^
+         */
+        mm_minus_plus: mm_minus_plus {
+            compatible = "zmk,behavior-mod-morph";
+            label = "mm_minus_plus";
+            #binding-cells = <0>;
+            bindings = <&kp MINUS>, <&kp PLUS>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
 
         /*
          * Grave Escape
