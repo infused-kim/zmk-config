@@ -106,8 +106,8 @@
          *
          * Usage: &grescm_gui
          * Tap: Escape
-         * LShift-Tap: `
-         * RShift-Tap: ~
+         * LShift-Tap: ~
+         * RShift-Tap: `
          * Hold: GUI
          */
         mm_grescm_gui: grave_escape_masked_gui {
@@ -116,7 +116,7 @@
             #binding-cells = <0>;
             bindings = <&hm LGUI ESCAPE>, <&kp GRAVE>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
-            keep-mods = <(MOD_RSFT)>;
+            keep-mods = <(MOD_LSFT)>;
         };
 
         /*

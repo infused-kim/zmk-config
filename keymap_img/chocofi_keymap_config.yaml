@@ -162,7 +162,7 @@ parse_config:
   raw_binding_map:
     '&mm_grescm': {t: 'ESC', s: '` ~'}
     '&mm_bspc_del': {t: '⌫', s: '⌦'}
-    '&mm_grescm_gui': {t: ESC, h: ⌘, s: '` ~'}
+    '&mm_grescm_gui': {t: ESC, h: ⌘, s: '~ `'}
     '&mm_spc_unds_layer': {t: '⎵', h: 'SYM', s: '_ -'}
     '&mm_plus_minus': {t: '+', s: '-'}
     '&mm_grave_caret': {t: '`', s: '^'}
