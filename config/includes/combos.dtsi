@@ -57,7 +57,7 @@
       timeout-ms = <COMBO_TERM_FAST>;
       global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
 
-      key-positions = <LB1 LB2>;
+      key-positions = <RB1 RB2>;
       layers = <BASE BASE_QWERTY SYM NUM>;
       bindings = <&kp RBRC>;
     };
