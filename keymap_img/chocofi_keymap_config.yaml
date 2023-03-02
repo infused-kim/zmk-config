@@ -187,25 +187,25 @@ parse_config:
     ASTRK: '*'
     AT: '@'
     AT_SIGN: '@'
-    BACKSLASH: \
+    BACKSLASH: {t: '\', s: '|'}
     BSLH: \
     CARET: ^
     COLON: ':'
-    COMMA: ','
+    COMMA: {t: ',', s: '<'}
     DLLR: $
     DOLLAR: $
-    DOT: .
+    DOT: {t: '.', s: '>'}
     DOUBLE_QUOTES: '"'
     DQT: '"'
-    EQUAL: '='
+    EQUAL: {t: '=', s: '+'}
     EXCL: '!'
     EXCLAMATION: '!'
     FSLH: /
-    GRAVE: '`'
+    GRAVE: {t: '`', s: '~'}
     GREATER_THAN: '>'
     GT: '>'
     HASH: '#'
-    LBKT: '['
+    LBKT: {t: '[', s: '{'}
     LBRC: '{'
     LEFT_BRACE: '{'
     LEFT_BRACKET: '['
@@ -213,7 +213,7 @@ parse_config:
     LESS_THAN: <
     LPAR: (
     LT: <
-    MINUS: '-'
+    MINUS: {t: '-', s: '_'}
     NON_US_BACKSLASH: \
     NON_US_BSLH: '|'
     NON_US_HASH: '#'
@@ -227,16 +227,17 @@ parse_config:
     PRCNT: '%'
     QMARK: '?'
     QUESTION: '?'
-    RBKT: ']'
+    RBKT: {t: ']', s: '}'}
     RBRC: '}'
     RIGHT_BRACE: '}'
     RIGHT_BRACKET: ']'
     RIGHT_PARENTHESIS: )
     RPAR: )
-    SEMI: ;
-    SEMICOLON: ;
-    SINGLE_QUOTE: ''''
-    SLASH: /
+    SEMI: {t: ';', s: ':'}
+    SEMICOLON:  {t: ';', s: ':'}
+    SINGLE_QUOTE:  {t: '''', s: '"'}
+    SLASH: {t: '/', s: '?'}
+    SLASH: {t: '/', s: '?'}
     SQT: ''''
     STAR: '*'
     TILDE: '~'

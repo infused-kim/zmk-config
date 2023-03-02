@@ -71,6 +71,7 @@ path {
     fill: none;
 }
 </style>
+<g class="layer-Base">
 <text x="30.0" y="28.0" class="label">Base:</text>
 <rect rx="6.0" ry="6.0" x="32.0" y="91.6" width="52.0" height="52.0" class=""/>
 <text x="58.0" y="117.6" class="tap">ESC</text>
@@ -97,6 +98,7 @@ path {
 <text x="730.0" y="106.4" class="tap">Y</text>
 <rect rx="6.0" ry="6.0" x="760.0" y="91.6" width="52.0" height="52.0" class=""/>
 <text x="786.0" y="117.6" class="tap">&#x27;</text>
+<text x="786.0" y="93.6" class="shifted">&quot;</text>
 <rect rx="6.0" ry="6.0" x="816.0" y="91.6" width="52.0" height="52.0" class=""/>
 <text x="842.0" y="117.6" class="tap">⌫</text>
 <text x="842.0" y="93.6" class="shifted">⌦</text>
@@ -132,6 +134,7 @@ path {
 <text x="786.0" y="197.6" class="hold">⎈</text>
 <rect rx="6.0" ry="6.0" x="816.0" y="147.6" width="52.0" height="52.0" class=""/>
 <text x="842.0" y="173.6" class="tap">&#x27;</text>
+<text x="842.0" y="149.6" class="shifted">&quot;</text>
 <rect rx="6.0" ry="6.0" x="32.0" y="203.59999999999997" width="52.0" height="52.0" class=""/>
 <text x="58.0" y="229.59999999999997" class="tap">⇧</text>
 <rect rx="6.0" ry="6.0" x="88.0" y="203.59999999999997" width="52.0" height="52.0" class=""/>
@@ -152,10 +155,13 @@ path {
 <rect rx="6.0" ry="6.0" x="648.0" y="186.8" width="52.0" height="52.0" class=""/>
 <text x="674.0" y="212.8" class="tap">,</text>
 <text x="674.0" y="236.8" class="hold">MEH</text>
+<text x="674.0" y="188.8" class="shifted">&lt;</text>
 <rect rx="6.0" ry="6.0" x="704.0" y="192.39999999999998" width="52.0" height="52.0" class=""/>
 <text x="730.0" y="218.39999999999998" class="tap">.</text>
+<text x="730.0" y="194.39999999999998" class="shifted">&gt;</text>
 <rect rx="6.0" ry="6.0" x="760.0" y="203.59999999999997" width="52.0" height="52.0" class=""/>
 <text x="786.0" y="229.59999999999997" class="tap">/</text>
+<text x="786.0" y="205.59999999999997" class="shifted">?</text>
 <rect rx="6.0" ry="6.0" x="816.0" y="203.59999999999997" width="52.0" height="52.0" class=""/>
 <text x="842.0" y="229.59999999999997" class="tap">⇧</text>
 <rect rx="6.0" ry="6.0" x="256.0" y="282.0" width="52.0" height="52.0" class=""/>
@@ -184,8 +190,10 @@ path {
 <text x="646.0" y="159.60000000000002" class="combo">)</text>
 <rect rx="6.0" ry="6.0" x="240.0" y="90.6" width="28.0" height="26.0" class="combo"/>
 <text x="254.0" y="103.6" class="combo">[</text>
+<text x="254.0" y="92.6" class="combo shifted">{</text>
 <rect rx="6.0" ry="6.0" x="632.0" y="90.6" width="28.0" height="26.0" class="combo"/>
 <text x="646.0" y="103.6" class="combo">]</text>
+<text x="646.0" y="92.6" class="combo shifted">}</text>
 <rect rx="6.0" ry="6.0" x="240.0" y="202.60000000000002" width="28.0" height="26.0" class="combo"/>
 <text x="254.0" y="215.60000000000002" class="combo">{</text>
 <rect rx="6.0" ry="6.0" x="240.0" y="202.60000000000002" width="28.0" height="26.0" class="combo"/>
@@ -204,6 +212,7 @@ path {
 <text x="366.0" y="301.0" class="combo">BSPC</text>
 <rect rx="6.0" ry="6.0" x="744.0" y="155.0" width="28.0" height="26.0" class="combo"/>
 <text x="758.0" y="168.0" class="combo">`</text>
+<text x="758.0" y="157.0" class="combo shifted">~</text>
 <path d="M730.0,127.8 h-50.0 a6.0,6.0 0 0 0 -6.0,6.0 v4.333333333333346"/>
 <path d="M730.0,127.8 h-6.0 a6.0,6.0 0 0 0 6.0,6.0 v17.40000000000001"/>
 <path d="M730.0,127.8 h50.0 a6.0,6.0 0 0 1 6.0,6.0 v21.13333333333333"/>
@@ -219,6 +228,8 @@ path {
 <path d="M226.0,183.8 h50.0 a6.0,6.0 0 0 1 6.0,6.0 v9.933333333333298"/>
 <rect rx="6.0" ry="6.0" x="212.0" y="170.8" width="28.0" height="26.0" class="combo"/>
 <text x="226.0" y="183.8" class="combo">NUM</text>
+</g>
+<g class="layer-Nav">
 <text x="30.0" y="380.80000000000007" class="label">Nav:</text>
 <rect rx="6.0" ry="6.0" x="32.0" y="444.4000000000001" width="52.0" height="52.0" class=""/>
 <rect rx="6.0" ry="6.0" x="88.0" y="444.4000000000001" width="52.0" height="52.0" class=""/>
@@ -297,6 +308,8 @@ path {
 <path d="M226.0,536.6000000000001 h50.0 a6.0,6.0 0 0 1 6.0,6.0 v9.933333333333241"/>
 <rect rx="6.0" ry="6.0" x="212.0" y="523.6000000000001" width="28.0" height="26.0" class="combo"/>
 <text x="226.0" y="536.6000000000001" class="combo">NUM</text>
+</g>
+<g class="layer-Sym">
 <text x="30.0" y="733.6000000000001" class="label">Sym:</text>
 <rect rx="6.0" ry="6.0" x="32.0" y="797.2" width="52.0" height="52.0" class=""/>
 <rect rx="6.0" ry="6.0" x="88.0" y="797.2" width="52.0" height="52.0" class=""/>
@@ -333,6 +346,7 @@ path {
 <text x="338.0" y="873.6000000000001" class="tap">⌘↹</text>
 <rect rx="6.0" ry="6.0" x="536.0" y="847.6000000000001" width="52.0" height="52.0" class=""/>
 <text x="562.0" y="873.6000000000001" class="tap">=</text>
+<text x="562.0" y="849.6000000000001" class="shifted">+</text>
 <rect rx="6.0" ry="6.0" x="592.0" y="842.0000000000001" width="52.0" height="52.0" class=""/>
 <text x="618.0" y="868.0000000000001" class="tap">!</text>
 <rect rx="6.0" ry="6.0" x="648.0" y="836.4000000000001" width="52.0" height="52.0" class=""/>
@@ -343,6 +357,7 @@ path {
 <text x="786.0" y="879.2" class="tap">*</text>
 <rect rx="6.0" ry="6.0" x="816.0" y="853.2" width="52.0" height="52.0" class=""/>
 <text x="842.0" y="879.2" class="tap">`</text>
+<text x="842.0" y="855.2" class="shifted">~</text>
 <rect rx="6.0" ry="6.0" x="32.0" y="909.2" width="52.0" height="52.0" class=""/>
 <rect rx="6.0" ry="6.0" x="88.0" y="909.2" width="52.0" height="52.0" class=""/>
 <text x="114.0" y="935.2" class="tap">⌘Z</text>
@@ -359,10 +374,12 @@ path {
 <text x="618.0" y="924.0000000000001" class="tap">$</text>
 <rect rx="6.0" ry="6.0" x="648.0" y="892.4000000000001" width="52.0" height="52.0" class=""/>
 <text x="674.0" y="918.4000000000001" class="tap">;</text>
+<text x="674.0" y="894.4000000000001" class="shifted">:</text>
 <rect rx="6.0" ry="6.0" x="704.0" y="898.0000000000001" width="52.0" height="52.0" class=""/>
 <text x="730.0" y="924.0000000000001" class="tap">:</text>
 <rect rx="6.0" ry="6.0" x="760.0" y="909.2" width="52.0" height="52.0" class=""/>
 <text x="786.0" y="935.2" class="tap">\</text>
+<text x="786.0" y="911.2" class="shifted">|</text>
 <rect rx="6.0" ry="6.0" x="816.0" y="909.2" width="52.0" height="52.0" class=""/>
 <rect rx="6.0" ry="6.0" x="256.0" y="987.6000000000001" width="52.0" height="52.0" class=""/>
 <rect rx="6.0" ry="6.0" x="312.0" y="987.6000000000001" width="52.0" height="52.0" class="held"/>
@@ -376,8 +393,10 @@ path {
 <text x="646.0" y="865.2" class="combo">)</text>
 <rect rx="6.0" ry="6.0" x="240.0" y="796.2" width="28.0" height="26.0" class="combo"/>
 <text x="254.0" y="809.2" class="combo">[</text>
+<text x="254.0" y="798.2" class="combo shifted">{</text>
 <rect rx="6.0" ry="6.0" x="632.0" y="796.2" width="28.0" height="26.0" class="combo"/>
 <text x="646.0" y="809.2" class="combo">]</text>
+<text x="646.0" y="798.2" class="combo shifted">}</text>
 <rect rx="6.0" ry="6.0" x="240.0" y="908.2" width="28.0" height="26.0" class="combo"/>
 <text x="254.0" y="921.2" class="combo">{</text>
 <rect rx="6.0" ry="6.0" x="240.0" y="908.2" width="28.0" height="26.0" class="combo"/>
@@ -399,10 +418,13 @@ path {
 <path d="M226.0,889.4000000000001 h50.0 a6.0,6.0 0 0 1 6.0,6.0 v9.933333333333355"/>
 <rect rx="6.0" ry="6.0" x="212.0" y="876.4000000000001" width="28.0" height="26.0" class="combo"/>
 <text x="226.0" y="889.4000000000001" class="combo">NUM</text>
+</g>
+<g class="layer-Num">
 <text x="30.0" y="1086.4" class="label">Num:</text>
 <rect rx="6.0" ry="6.0" x="32.0" y="1150.0" width="52.0" height="52.0" class=""/>
 <rect rx="6.0" ry="6.0" x="88.0" y="1150.0" width="52.0" height="52.0" class=""/>
 <text x="114.0" y="1176.0" class="tap">.</text>
+<text x="114.0" y="1152.0" class="shifted">&gt;</text>
 <rect rx="6.0" ry="6.0" x="144.0" y="1138.8" width="52.0" height="52.0" class=""/>
 <text x="170.0" y="1164.8" class="tap">7</text>
 <rect rx="6.0" ry="6.0" x="200.0" y="1133.2" width="52.0" height="52.0" class=""/>
@@ -432,6 +454,7 @@ path {
 <text x="282.0" y="1220.8" class="tap">6</text>
 <rect rx="6.0" ry="6.0" x="312.0" y="1200.4" width="52.0" height="52.0" class=""/>
 <text x="338.0" y="1226.4" class="tap">=</text>
+<text x="338.0" y="1202.4" class="shifted">+</text>
 <rect rx="6.0" ry="6.0" x="536.0" y="1200.4" width="52.0" height="52.0" class=""/>
 <text x="562.0" y="1226.4" class="tap">%</text>
 <rect rx="6.0" ry="6.0" x="592.0" y="1194.8" width="52.0" height="52.0" class=""/>
@@ -446,6 +469,7 @@ path {
 <rect rx="6.0" ry="6.0" x="32.0" y="1262.0" width="52.0" height="52.0" class=""/>
 <rect rx="6.0" ry="6.0" x="88.0" y="1262.0" width="52.0" height="52.0" class=""/>
 <text x="114.0" y="1288.0" class="tap">/</text>
+<text x="114.0" y="1264.0" class="shifted">?</text>
 <rect rx="6.0" ry="6.0" x="144.0" y="1250.8" width="52.0" height="52.0" class=""/>
 <text x="170.0" y="1276.8" class="tap">1</text>
 <rect rx="6.0" ry="6.0" x="200.0" y="1245.2" width="52.0" height="52.0" class=""/>
@@ -454,6 +478,7 @@ path {
 <text x="282.0" y="1276.8" class="tap">3</text>
 <rect rx="6.0" ry="6.0" x="312.0" y="1256.4" width="52.0" height="52.0" class=""/>
 <text x="338.0" y="1282.4" class="tap">-</text>
+<text x="338.0" y="1258.4" class="shifted">_</text>
 <rect rx="6.0" ry="6.0" x="536.0" y="1256.4" width="52.0" height="52.0" class=""/>
 <text x="562.0" y="1282.4" class="tap">_</text>
 <rect rx="6.0" ry="6.0" x="592.0" y="1250.8" width="52.0" height="52.0" class=""/>
@@ -461,10 +486,13 @@ path {
 <rect rx="6.0" ry="6.0" x="648.0" y="1245.2" width="52.0" height="52.0" class=""/>
 <text x="674.0" y="1271.2" class="tap">,</text>
 <text x="674.0" y="1295.2" class="hold">MEH</text>
+<text x="674.0" y="1247.2" class="shifted">&lt;</text>
 <rect rx="6.0" ry="6.0" x="704.0" y="1250.8" width="52.0" height="52.0" class=""/>
 <text x="730.0" y="1276.8" class="tap">.</text>
+<text x="730.0" y="1252.8" class="shifted">&gt;</text>
 <rect rx="6.0" ry="6.0" x="760.0" y="1262.0" width="52.0" height="52.0" class=""/>
 <text x="786.0" y="1288.0" class="tap">/</text>
+<text x="786.0" y="1264.0" class="shifted">?</text>
 <rect rx="6.0" ry="6.0" x="816.0" y="1262.0" width="52.0" height="52.0" class=""/>
 <rect rx="6.0" ry="6.0" x="256.0" y="1340.4" width="52.0" height="52.0" class=""/>
 <text x="282.0" y="1366.4" class="tap">Num</text>
@@ -481,8 +509,10 @@ path {
 <text x="646.0" y="1218.0" class="combo">)</text>
 <rect rx="6.0" ry="6.0" x="240.0" y="1149.0" width="28.0" height="26.0" class="combo"/>
 <text x="254.0" y="1162.0" class="combo">[</text>
+<text x="254.0" y="1151.0" class="combo shifted">{</text>
 <rect rx="6.0" ry="6.0" x="632.0" y="1149.0" width="28.0" height="26.0" class="combo"/>
 <text x="646.0" y="1162.0" class="combo">]</text>
+<text x="646.0" y="1151.0" class="combo shifted">}</text>
 <rect rx="6.0" ry="6.0" x="240.0" y="1261.0" width="28.0" height="26.0" class="combo"/>
 <text x="254.0" y="1274.0" class="combo">{</text>
 <rect rx="6.0" ry="6.0" x="240.0" y="1261.0" width="28.0" height="26.0" class="combo"/>
@@ -504,6 +534,8 @@ path {
 <path d="M226.0,1242.2 h50.0 a6.0,6.0 0 0 1 6.0,6.0 v9.933333333333241"/>
 <rect rx="6.0" ry="6.0" x="212.0" y="1229.2" width="28.0" height="26.0" class="combo"/>
 <text x="226.0" y="1242.2" class="combo">NUM</text>
+</g>
+<g class="layer-Func">
 <text x="30.0" y="1439.2" class="label">Func:</text>
 <rect rx="6.0" ry="6.0" x="32.0" y="1486.0" width="52.0" height="52.0" class=""/>
 <rect rx="6.0" ry="6.0" x="88.0" y="1486.0" width="52.0" height="52.0" class=""/>
@@ -565,6 +597,8 @@ path {
 <rect rx="6.0" ry="6.0" x="480.0" y="1648.4" width="52.0" height="80.0" class=""/>
 <rect rx="6.0" ry="6.0" x="536.0" y="1676.4" width="52.0" height="52.0" class=""/>
 <rect rx="6.0" ry="6.0" x="592.0" y="1676.4" width="52.0" height="52.0" class=""/>
+</g>
+<g class="layer-Adjust">
 <text x="30.0" y="1758.4" class="label">Adjust:</text>
 <rect rx="6.0" ry="6.0" x="32.0" y="1805.2" width="52.0" height="52.0" class=""/>
 <rect rx="6.0" ry="6.0" x="88.0" y="1805.2" width="52.0" height="52.0" class=""/>
@@ -639,4 +673,5 @@ path {
 <rect rx="6.0" ry="6.0" x="536.0" y="1995.6000000000001" width="52.0" height="52.0" class=""/>
 <rect rx="6.0" ry="6.0" x="592.0" y="1995.6000000000001" width="52.0" height="52.0" class=""/>
 <text x="618.0" y="2021.6000000000001" class="tap">Adjust</text>
+</g>
 </svg>
