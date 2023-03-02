@@ -69,17 +69,17 @@
         };
 
         /*
-         * Shifted minus types plus (+)
+         * Shifted plus types minus (-)
          *
-         * Usage: &mm_grave_caret
+         * Usage: &mm_plus_minus
          * Tap: `
          * Shift-Tap: ^
          */
-        mm_minus_plus: mm_minus_plus {
+        mm_plus_minus: mm_plus_minus {
             compatible = "zmk,behavior-mod-morph";
-            label = "mm_minus_plus";
+            label = "mm_plus_minus";
             #binding-cells = <0>;
-            bindings = <&kp MINUS>, <&kp PLUS>;
+            bindings = <&kp PLUS>, <&kp MINUS>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 

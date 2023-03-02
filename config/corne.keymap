@@ -79,7 +79,7 @@
     Sym_layer {
       label = "Sym";
       bindings = <
-        &trans &kp LG(Q) &kp LG(W) &none &none &kp LG(GRAVE) &mm_minus_plus &kp AMPERSAND &kp PIPE &kp TILDE &mm_grave_caret &trans &trans &kp LEFT_CONTROL &kp LEFT_ALT &kp LEFT_GUI &td_shift_l &swapper_cmd_tab &kp EQUAL &kp EXCLAMATION &td_at_email &kp HASH &kp ASTERISK &kp GRAVE &trans &kp LG(Z) &kp LG(X) &kp LG(C) &none &kp LG(V) &kp PERCENT &kp DOLLAR &kp SEMICOLON &kp COLON &kp BACKSLASH &trans &trans &trans &trans &trans &trans &trans
+        &trans &kp LG(Q) &kp LG(W) &none &none &kp LG(GRAVE) &mm_plus_minus &kp AMPERSAND &kp PIPE &kp TILDE &mm_grave_caret &trans &trans &kp LEFT_CONTROL &kp LEFT_ALT &kp LEFT_GUI &td_shift_l &swapper_cmd_tab &kp EQUAL &kp EXCLAMATION &td_at_email &kp HASH &kp ASTERISK &kp GRAVE &trans &kp LG(Z) &kp LG(X) &kp LG(C) &none &kp LG(V) &kp PERCENT &kp DOLLAR &kp SEMICOLON &kp COLON &kp BACKSLASH &trans &trans &trans &trans &trans &trans &trans
       >;
       sensor-bindings = <&inc_dec_kp C_BRI_DN C_BRI_UP &inc_dec_kp LEFT RIGHT>;
     };
@@ -87,7 +87,7 @@
     Sym_Word_layer {
       label = "Sym Word";
       bindings = <
-        &trans &kp LG(Q) &kp LG(W) &none &none &kp LG(GRAVE) &mm_minus_plus &kp AMPERSAND &kp PIPE &kp TILDE &mm_grave_caret &trans &trans &kp LEFT_CONTROL &kp LEFT_ALT &kp LEFT_GUI &td_shift_l &swapper_cmd_tab &kp EQUAL &kp EXCLAMATION &td_at_email &kp HASH &kp ASTERISK &kp GRAVE &trans &kp LG(Z) &kp LG(X) &kp LG(C) &none &kp LG(V) &kp PERCENT &kp DOLLAR &kp SEMICOLON &kp COLON &kp BACKSLASH &trans &trans &trans &trans &trans &trans &trans
+        &trans &kp LG(Q) &kp LG(W) &none &none &kp LG(GRAVE) &mm_plus_minus &kp AMPERSAND &kp PIPE &kp TILDE &mm_grave_caret &trans &trans &kp LEFT_CONTROL &kp LEFT_ALT &kp LEFT_GUI &td_shift_l &swapper_cmd_tab &kp EQUAL &kp EXCLAMATION &td_at_email &kp HASH &kp ASTERISK &kp GRAVE &trans &kp LG(Z) &kp LG(X) &kp LG(C) &none &kp LG(V) &kp PERCENT &kp DOLLAR &kp SEMICOLON &kp COLON &kp BACKSLASH &trans &trans &trans &trans &trans &trans &trans
       >;
       sensor-bindings = <&inc_dec_kp C_BRI_DN C_BRI_UP &inc_dec_kp LEFT RIGHT>;
     };
