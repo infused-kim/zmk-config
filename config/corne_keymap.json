@@ -139,7 +139,7 @@
             "x": 592,
             "y": 28,
             "angle": 0,
-            "active": false,
+            "active": true,
             "row": 1,
             "column": 10,
             "side": "right",
@@ -1261,7 +1261,7 @@
             "keyNumber": 6,
             "type": "man ",
             "values": [
-                "&mm_minus_plus"
+                "&mm_plus_minus"
             ],
             "keys": [],
             "codeId": "11ca7037-82bd-4197-8692-5e7fbe5c5870",
@@ -2347,7 +2347,7 @@
             "keyNumber": 16,
             "type": "man ",
             "values": [
-                "&hm_fast_l LSHFT T",
+                "&hm_shift_l LSHFT T",
                 "LSHFT"
             ],
             "keys": [],
@@ -2698,7 +2698,7 @@
             "keyNumber": 19,
             "type": "man ",
             "values": [
-                "&hm_fast_r RSHFT N",
+                "&hm_shift_r RSHFT N",
                 "RSHFT"
             ],
             "keys": [],
