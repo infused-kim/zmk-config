@@ -128,7 +128,7 @@
             "x": 542,
             "y": 38,
             "angle": 0,
-            "active": false,
+            "active": true,
             "row": 1,
             "column": 9,
             "side": "right",
@@ -1388,12 +1388,12 @@
         },
         {
             "keyNumber": 7,
-            "type": "&none",
+            "type": "&kp ",
             "values": [
-                ""
+                "MINUS"
             ],
             "keys": [],
-            "codeId": "",
+            "codeId": "11ca7037-82bd-4197-8692-5e7fbe5c5870",
             "layerId": "43a94f6e-fafe-4403-b291-c1a9063d0775",
             "targetLayerId": "",
             "targetLayerName": ""
@@ -1422,10 +1422,12 @@
         },
         {
             "keyNumber": 7,
-            "type": "&trans",
-            "values": [],
+            "type": "&kp ",
+            "values": [
+                "MINUS"
+            ],
             "keys": [],
-            "codeId": "",
+            "codeId": "11ca7037-82bd-4197-8692-5e7fbe5c5870",
             "layerId": "52fa653d-6647-4a80-8176-cba73d7b775d",
             "targetLayerId": "",
             "targetLayerName": ""
