@@ -24,6 +24,8 @@ delete_layers = [
 combo_locations = {
     (36, 37, 38): {'a': 'bottom', 'o': 0.3},
     (2, 3, 4): {'a': 'top', 'o': 0.3},
+    (14, 15, 16): {'a': 'bottom', 'o': 0.1},
+    (26, 27, 28): {'a': 'bottom', 'o': 0.2},
     (16, 19): {'k': 'Caps Word'},
 }
 

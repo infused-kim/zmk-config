@@ -89,29 +89,29 @@
       bindings = <&kp BSPC>;
     };
 
-    combo_grave {
-      timeout-ms = <COMBO_TERM_SLOW>;
-      global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
+    // combo_grave {
+    //   timeout-ms = <COMBO_TERM_SLOW>;
+    //   global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
 
-      key-positions = <RM3 RM4>;
-      layers = <>;
-      bindings = <&kp GRAVE>;
-    };
+    //   key-positions = <RM3 RM4>;
+    //   layers = <>;
+    //   bindings = <&kp GRAVE>;
+    // };
 
-    combo_md_code_block {
-      timeout-ms = <COMBO_TERM_SLOW>;
-      global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
+    // combo_md_code_block {
+    //   timeout-ms = <COMBO_TERM_SLOW>;
+    //   global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
 
-      key-positions = <RM2 RM3 RM4>;
-      layers = <>;
-      bindings = <&m_type_md_code_block>;
-    };
+    //   key-positions = <RM2 RM3 RM4>;
+    //   layers = <>;
+    //   bindings = <&m_type_md_code_block>;
+    // };
 
     combo_tog_nav_word {
       timeout-ms = <COMBO_TERM_FAST>;
       global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
 
-      key-positions = <LT3 LT2 LT1>;
+      key-positions = <LM3 LM2 LM1>;
       layers = <BASE BASE_QWERTY NAV NAV_WORD NUM NUM_WORD SYM>;
       bindings = <&nav_word>;
     };
