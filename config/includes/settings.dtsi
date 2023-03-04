@@ -34,6 +34,7 @@
     continue-list = <
         BACKSPACE DELETE DOT COMMA
         LPAR RPAR SLASH ASTERISK PLUS MINUS EQUAL
+        RS(SPACE)
     >;
     ignore-modifiers;  // modifiers don't deactivate the layer
 
