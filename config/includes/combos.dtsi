@@ -94,7 +94,7 @@
       global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
 
       key-positions = <RM3 RM4>;
-      layers = <BASE BASE_QWERTY>;
+      layers = <>;
       bindings = <&kp GRAVE>;
     };
 
@@ -103,7 +103,7 @@
       global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
 
       key-positions = <RM2 RM3 RM4>;
-      layers = <BASE BASE_QWERTY>;
+      layers = <>;
       bindings = <&m_type_md_code_block>;
     };
 

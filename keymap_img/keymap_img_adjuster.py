@@ -64,7 +64,7 @@ def remove_layers(keymap, remove_layers):
         for layer in remove_layers:
             try:
                 combo['l'].remove(layer)
-            except ValueError:
+            except (ValueError, KeyError):
                 pass
 
     return keymap
