@@ -425,8 +425,6 @@ path {
 <text x="562.0" y="1170.4" class="tap">+</text>
 <text x="562.0" y="1146.4" class="shifted">-</text>
 <rect rx="6.0" ry="6.0" x="592.0" y="1138.8" width="52.0" height="52.0" class=""/>
-<text x="618.0" y="1164.8" class="tap">-</text>
-<text x="618.0" y="1140.8" class="shifted">_</text>
 <rect rx="6.0" ry="6.0" x="648.0" y="1133.2" width="52.0" height="52.0" class=""/>
 <text x="674.0" y="1159.2" class="tap">HYPER</text>
 <rect rx="6.0" ry="6.0" x="704.0" y="1138.8" width="52.0" height="52.0" class=""/>
