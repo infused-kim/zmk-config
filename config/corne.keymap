@@ -95,7 +95,7 @@
     Num_layer {
       label = "Num";
       bindings = <
-        &trans &none &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &none &mm_plus_minus &kp MINUS &kp RS(RC(RG(RALT))) &none &none &trans &trans &none &kp NUMBER_4 &kp NUMBER_5 &kp NUMBER_6 &none &kp EQUAL &td_shift_r &kp RIGHT_GUI &kp RIGHT_ALT &hm_r RCTRL ASTERISK &trans &trans &none &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &none &kp PERCENT &kp DOLLAR &hm_r RC(RG(RALT)) COMMA &kp DOT &kp SLASH &trans &tog NUM &trans &kp NUMBER_0 &trans &trans &none
+        &trans &none &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &none &mm_plus_minus &kp MINUS &kp RS(RC(RG(RALT))) &none &none &trans &trans &none &hm_l LALT NUMBER_4 &kp NUMBER_5 &kp NUMBER_6 &none &kp EQUAL &td_shift_r &kp RIGHT_GUI &kp RIGHT_ALT &hm_r RCTRL ASTERISK &trans &trans &none &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &none &kp PERCENT &kp DOLLAR &hm_r RC(RG(RALT)) COMMA &kp DOT &kp SLASH &trans &tog NUM &trans &kp NUMBER_0 &trans &trans &none
       >;
       sensor-bindings = <&inc_dec_kp C_BRI_DN C_BRI_UP &inc_dec_kp LEFT RIGHT>;
     };
@@ -103,7 +103,7 @@
     Num_Word_layer {
       label = "Num Word";
       bindings = <
-        &trans &trans &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &trans &mm_plus_minus &kp MINUS &trans &trans &trans &trans &trans &trans &kp NUMBER_4 &kp NUMBER_5 &kp NUMBER_6 &trans &kp EQUAL &trans &trans &trans &hm_r RCTRL ASTERISK &trans &trans &trans &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &trans &kp PERCENT &kp DOLLAR &trans &trans &trans &trans &tog NUM_WORD &trans &kp NUMBER_0 &trans &trans &trans
+        &trans &trans &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &trans &mm_plus_minus &kp MINUS &trans &trans &trans &trans &trans &trans &hm_l LALT NUMBER_4 &kp NUMBER_5 &kp NUMBER_6 &trans &kp EQUAL &trans &trans &trans &hm_r RCTRL ASTERISK &trans &trans &trans &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &trans &kp PERCENT &kp DOLLAR &trans &trans &trans &trans &tog NUM_WORD &trans &kp NUMBER_0 &trans &trans &trans
       >;
       sensor-bindings = <&inc_dec_kp C_BRI_DN C_BRI_UP &inc_dec_kp LEFT RIGHT>;
     };

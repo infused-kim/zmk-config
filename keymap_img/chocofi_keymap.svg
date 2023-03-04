@@ -436,6 +436,7 @@ path {
 <rect rx="6.0" ry="6.0" x="88.0" y="1206.0" width="52.0" height="52.0" class=""/>
 <rect rx="6.0" ry="6.0" x="144.0" y="1194.8" width="52.0" height="52.0" class=""/>
 <text x="170.0" y="1220.8" class="tap">4</text>
+<text x="170.0" y="1244.8" class="hold">⎇</text>
 <rect rx="6.0" ry="6.0" x="200.0" y="1189.2" width="52.0" height="52.0" class=""/>
 <text x="226.0" y="1215.2" class="tap">5</text>
 <rect rx="6.0" ry="6.0" x="256.0" y="1194.8" width="52.0" height="52.0" class=""/>
