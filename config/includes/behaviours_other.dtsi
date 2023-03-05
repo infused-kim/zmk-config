@@ -143,6 +143,7 @@
             continue-list = <
                 LEFT DOWN UP RIGHT
                 PG_UP PG_DN
+                MY_UNDO MY_CUT MY_COPY MY_PASTE
             >;
             ignore-modifiers;  // modifiers don't deactivate the layer
         };
@@ -184,5 +185,21 @@
              bindings = <&kt LGUI>, <&kp TAB>, <&kt LGUI>;
             //  ignored-key-positions = <x>;
          };
+
+        /*
+        * Layer Toggle
+        *
+        * Usage: &ltog LGUI NAV
+        * Tap: Layer Toggle
+        * Hold: Keypress
+        */
+        ltog: ltog {
+            compatible = "zmk,behavior-hold-tap";
+            label = "ltog";
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <250>;
+            bindings = <&kp>, <&tog>;
+        };
     };
 };

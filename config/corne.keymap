@@ -25,6 +25,7 @@
 #include <dt-bindings/zmk/ext_power.h>
 
 // Personal includes
+#include "includes/custom_keycodes.dtsi"
 #include "includes/settings.dtsi"
 //#include "includes/settings_pd.dtsi"
 #include "includes/conditional_layers.dtsi"
@@ -63,7 +64,7 @@
     Nav_layer {
       label = "Nav";
       bindings = <
-        &trans &trans &kp LG(LEFT) &none &kp LG(RIGHT) &kp PG_UP &trans &trans &trans &trans &trans &trans &trans &trans &kp LEFT &kp UP &kp RIGHT &kp PG_DN &trans &trans &trans &trans &trans &trans &trans &trans &kp LA(LEFT) &kp DOWN &kp LA(RIGHT) &trans &trans &trans &trans &trans &trans &trans &tog NAV_WORD &trans &trans &trans &trans &trans
+        &trans &none &kp LG(LEFT) &none &kp LG(RIGHT) &kp PG_UP &none &none &kp RS(RC(RG(RALT))) &none &none &trans &trans &none &kp LEFT &kp UP &kp RIGHT &kp PG_DN &none &td_shift_r &kp RIGHT_GUI &kp RIGHT_ALT &kp RIGHT_CONTROL &trans &trans &mm_none_undo &mm_left_word_cut &mm_down_copy &kp MY_RIGHT_W &mm_none_paste &none &none &kp RC(RG(RALT)) &none &none &trans &ltog LGUI NAV &trans &trans &trans &trans &trans
       >;
       sensor-bindings = <&inc_dec_kp C_BRI_DN C_BRI_UP &inc_dec_kp LEFT RIGHT>;
     };
@@ -71,7 +72,7 @@
     Nav_Word_layer {
       label = "Nav Word";
       bindings = <
-        &trans &trans &kp LG(LEFT) &none &kp LG(RIGHT) &kp PG_UP &trans &trans &trans &trans &trans &trans &trans &trans &kp LEFT &kp UP &kp RIGHT &kp PG_DN &trans &trans &trans &trans &trans &trans &trans &trans &kp LA(LEFT) &kp DOWN &kp LA(RIGHT) &trans &trans &trans &trans &trans &trans &trans &tog NAV_WORD &trans &trans &trans &trans &trans
+        &trans &trans &kp LG(LEFT) &none &kp LG(RIGHT) &kp PG_UP &trans &trans &trans &trans &trans &trans &trans &trans &kp LEFT &mm_up_save &kp RIGHT &kp PG_DN &trans &trans &trans &trans &trans &trans &trans &mm_none_undo &mm_left_word_cut &mm_down_copy &kp MY_RIGHT_W &mm_none_paste &trans &trans &trans &trans &trans &trans &ltog LGUI NAV_WORD &trans &trans &trans &trans &trans
       >;
       sensor-bindings = <&inc_dec_kp C_BRI_DN C_BRI_UP &inc_dec_kp LEFT RIGHT>;
     };

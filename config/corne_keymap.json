@@ -962,7 +962,7 @@
             "keyNumber": 3,
             "type": "&none",
             "values": [
-                "UP"
+                null
             ],
             "keys": [],
             "codeId": "a6b9e317-2a81-43b5-81b6-2e4b08cc1f98",
@@ -3408,9 +3408,9 @@
         },
         {
             "keyNumber": 25,
-            "type": "&none",
+            "type": "man ",
             "values": [
-                ""
+                "&mm_none_undo"
             ],
             "keys": [],
             "codeId": "fb6f822b-96aa-4862-8fa8-1261f9510b8f",
@@ -3488,8 +3488,10 @@
         },
         {
             "keyNumber": 25,
-            "type": "&trans",
-            "values": [],
+            "type": "man ",
+            "values": [
+                "&mm_none_undo"
+            ],
             "keys": [],
             "codeId": "",
             "layerId": "384e88fd-0dd2-43db-8b67-39837d82f498",
@@ -3524,7 +3526,7 @@
             "keyNumber": 26,
             "type": "man ",
             "values": [
-                "&kp LA(LEFT)"
+                "&mm_left_word_cut"
             ],
             "keys": [],
             "codeId": "91af60ef-2a9c-4314-9ae7-96a1661cb885",
@@ -3606,7 +3608,7 @@
             "keyNumber": 26,
             "type": "man ",
             "values": [
-                "&kp LA(LEFT)"
+                "&mm_left_word_cut"
             ],
             "keys": [],
             "codeId": "",
@@ -3640,9 +3642,9 @@
         },
         {
             "keyNumber": 27,
-            "type": "&kp ",
+            "type": "man ",
             "values": [
-                "DOWN"
+                "&mm_down_copy"
             ],
             "keys": [],
             "codeId": "9b5c4f2b-b54d-4f96-b53f-9e81c5e748ea",
@@ -3724,9 +3726,9 @@
         },
         {
             "keyNumber": 27,
-            "type": "&kp ",
+            "type": "man ",
             "values": [
-                "DOWN"
+                "&mm_down_copy"
             ],
             "keys": [],
             "codeId": "9b5c4f2b-b54d-4f96-b53f-9e81c5e748ea",
@@ -3762,7 +3764,7 @@
             "keyNumber": 28,
             "type": "man ",
             "values": [
-                "&kp LA(RIGHT)"
+                "&kp MY_RIGHT_W"
             ],
             "keys": [],
             "codeId": "ee4ffe93-d4e5-4ce0-b4d1-f7df9aa1a2b0",
@@ -3844,7 +3846,7 @@
             "keyNumber": 28,
             "type": "man ",
             "values": [
-                "&kp LA(RIGHT)"
+                "&kp MY_RIGHT_W"
             ],
             "keys": [],
             "codeId": "",
@@ -3878,9 +3880,9 @@
         },
         {
             "keyNumber": 29,
-            "type": "&none",
+            "type": "man ",
             "values": [
-                "&kp LG(V)"
+                "&mm_none_paste"
             ],
             "keys": [],
             "codeId": "ee4ffe93-d4e5-4ce0-b4d1-f7df9aa1a2b0",
@@ -3960,8 +3962,10 @@
         },
         {
             "keyNumber": 29,
-            "type": "&trans",
-            "values": [],
+            "type": "man ",
+            "values": [
+                "&mm_none_paste"
+            ],
             "keys": [],
             "codeId": "",
             "layerId": "384e88fd-0dd2-43db-8b67-39837d82f498",

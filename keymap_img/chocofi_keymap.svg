@@ -236,6 +236,7 @@ path {
 <rect rx="6.0" ry="6.0" x="536.0" y="405.20000000000005" width="52.0" height="52.0" class=""/>
 <rect rx="6.0" ry="6.0" x="592.0" y="399.6000000000001" width="52.0" height="52.0" class=""/>
 <rect rx="6.0" ry="6.0" x="648.0" y="394.00000000000006" width="52.0" height="52.0" class=""/>
+<text x="674.0" y="420.00000000000006" class="tap">HYPER</text>
 <rect rx="6.0" ry="6.0" x="704.0" y="399.6000000000001" width="52.0" height="52.0" class=""/>
 <rect rx="6.0" ry="6.0" x="760.0" y="410.80000000000007" width="52.0" height="52.0" class=""/>
 <rect rx="6.0" ry="6.0" x="816.0" y="410.80000000000007" width="52.0" height="52.0" class=""/>
@@ -252,9 +253,13 @@ path {
 <tspan x="338.0" dy="-0.6em">PG</tspan><tspan x="338.0" dy="1.2em">DN</tspan></text>
 <rect rx="6.0" ry="6.0" x="536.0" y="461.20000000000005" width="52.0" height="52.0" class=""/>
 <rect rx="6.0" ry="6.0" x="592.0" y="455.6000000000001" width="52.0" height="52.0" class=""/>
+<text x="618.0" y="481.6000000000001" class="tap">⇧</text>
 <rect rx="6.0" ry="6.0" x="648.0" y="450.00000000000006" width="52.0" height="52.0" class=""/>
+<text x="674.0" y="476.00000000000006" class="tap">⌘</text>
 <rect rx="6.0" ry="6.0" x="704.0" y="455.6000000000001" width="52.0" height="52.0" class=""/>
+<text x="730.0" y="481.6000000000001" class="tap">⎇</text>
 <rect rx="6.0" ry="6.0" x="760.0" y="466.80000000000007" width="52.0" height="52.0" class=""/>
+<text x="786.0" y="492.80000000000007" class="tap">⎈</text>
 <rect rx="6.0" ry="6.0" x="816.0" y="466.80000000000007" width="52.0" height="52.0" class=""/>
 <rect rx="6.0" ry="6.0" x="32.0" y="522.8000000000001" width="52.0" height="52.0" class=""/>
 <rect rx="6.0" ry="6.0" x="88.0" y="522.8000000000001" width="52.0" height="52.0" class=""/>
@@ -268,12 +273,13 @@ path {
 <rect rx="6.0" ry="6.0" x="536.0" y="517.2" width="52.0" height="52.0" class=""/>
 <rect rx="6.0" ry="6.0" x="592.0" y="511.6" width="52.0" height="52.0" class=""/>
 <rect rx="6.0" ry="6.0" x="648.0" y="506.0" width="52.0" height="52.0" class=""/>
+<text x="674.0" y="532.0" class="tap">MEH</text>
 <rect rx="6.0" ry="6.0" x="704.0" y="511.6" width="52.0" height="52.0" class=""/>
 <rect rx="6.0" ry="6.0" x="760.0" y="522.8000000000001" width="52.0" height="52.0" class=""/>
 <rect rx="6.0" ry="6.0" x="816.0" y="522.8000000000001" width="52.0" height="52.0" class=""/>
 <rect rx="6.0" ry="6.0" x="256.0" y="601.2" width="52.0" height="52.0" class=""/>
-<text x="282.0" y="627.2" class="tap">
-<tspan x="282.0" dy="-0.6em">Nav</tspan><tspan x="282.0" dy="1.2em">Word</tspan></text>
+<text x="282.0" y="627.2" class="tap">2</text>
+<text x="282.0" y="651.2" class="hold">⌘</text>
 <rect rx="6.0" ry="6.0" x="312.0" y="601.2" width="52.0" height="52.0" class=""/>
 <rect rx="6.0" ry="6.0" x="368.0" y="573.2" width="52.0" height="80.0" class=""/>
 <rect rx="6.0" ry="6.0" x="480.0" y="573.2" width="52.0" height="80.0" class=""/>

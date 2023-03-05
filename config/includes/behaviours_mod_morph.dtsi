@@ -115,6 +115,93 @@
         };
 
         /*
+         * None and CMD+Z with CMD
+         * Used on nav layer to allow both navigation as well as
+         * cut, copy and paste
+         *
+         * Usage: &mm_left_word_cut
+         * Tap: Left Word
+         * CMD-Tap: CMD+X
+         */
+        mm_none_undo: mm_none_undo {
+            compatible = "zmk,behavior-mod-morph";
+            label = "mm_none_undo";
+            #binding-cells = <0>;
+            bindings = <&none>, <&kp MY_UNDO>;
+            mods = <(MOD_RGUI|MOD_LGUI)>;
+        };
+
+        /*
+         * Left Word and CMD+X with CMD
+         * Used on nav layer to allow both navigation as well as
+         * cut, copy and paste
+         *
+         * Usage: &mm_left_word_cut
+         * Tap: Left Word
+         * CMD-Tap: CMD+X
+         */
+        mm_left_word_cut: mm_left_word_cut {
+            compatible = "zmk,behavior-mod-morph";
+            label = "mm_left_word_cut";
+            #binding-cells = <0>;
+            bindings = <&kp MY_LEFT_W>, <&kp MY_CUT>;
+            mods = <(MOD_RGUI|MOD_LGUI)>;
+        };
+
+        /*
+         * Up and LCMD+S
+         * Used on nav layer to allow both navigation as well as
+         * cut, copy and paste.
+         *
+         * Usage: &mm_up_save
+         * Tap: Up
+         * LCMD-Tap: CMD+S
+         * RCMD-Tap: CMD+Up
+         */
+        mm_up_save: mm_up_save {
+            compatible = "zmk,behavior-mod-morph";
+            label = "mm_up_save";
+            #binding-cells = <0>;
+            bindings = <&kp UP>, <&kp LG(S)>;
+            mods = <(MOD_LGUI)>;
+        };
+
+        /*
+         * Down and CMD/CTRL+C
+         * Used on nav layer to allow both navigation as well as
+         * cut, copy and paste
+         *
+         * Usage: &mm_down_copy
+         * Tap: Down
+         * LCMD: CMD+C
+         * RCMD-Tap: CMD+Down
+         */
+        mm_down_copy: mm_down_copy {
+            compatible = "zmk,behavior-mod-morph";
+            label = "mm_down_copy";
+            #binding-cells = <0>;
+            bindings = <&kp DOWN>, <&kp MY_COPY>;
+            mods = <(MOD_LGUI)>;
+        };
+
+        /*
+         * None and CMD+V with CMD
+         * Used on nav layer to allow both navigation as well as
+         * cut, copy and paste
+         *
+         * Usage: &mm_none_copy
+         * Tap: Nothing
+         * CMD-Tap: CMD+V
+         */
+        mm_none_paste: mm_none_paste {
+            compatible = "zmk,behavior-mod-morph";
+            label = "mm_none_paste";
+            #binding-cells = <0>;
+            bindings = <&none>, <&kp MY_PASTE>;
+            mods = <(MOD_RGUI|MOD_LGUI)>;
+        };
+
+        /*
          * Grave Escape
          *
          * Usage: &mm_spc_unds_layer

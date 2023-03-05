@@ -169,6 +169,11 @@ parse_config:
     '&mm_bracket_r': {t: '(', s: ')'}
     '&mm_comma_semi_meh': {t: ',', s: ';', h: 'MEH'}
     '&mm_dot_colon': {t: '.', s: ':'}
+    '&mm_none_undo': ''
+    '&mm_left_word_cut': '↞'
+    '&mm_up_save': '↑'
+    '&mm_down_copy': '↓'
+    '&mm_none_paste': ''
     '&swapper_cmd_tab': {t: '⌘↹'}
     '&td_at_email': {t: '@'}
     '&num_word': 'NUM'
