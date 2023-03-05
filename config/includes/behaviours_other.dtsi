@@ -95,18 +95,27 @@
         /*
         * Tap dancing nav layer
         *
-        * Usage: &td_nav_layer
-        * Tap: DEL
-        * Hold: NAV layer
+        * Usage: &td_nav_layer NAV 0
+        * Tap: RET
         * Double Tap: NAV_WORD layer
-        * Triple Tap: NAV layer toggled
+        * Triple-Tap-Hold: RET repeated
+        * Hold: NAV layer
         */
-        td_nav_layer: td_nav_layer {
+        td_nav_layer_inner: td_nav_layer_inner {
             compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_NAV_LAYER";
+            label = "td_nav_layer_inner";
             #binding-cells = <0>;
             tapping-term-ms = <250>;
-            bindings = <&lt NAV RET>, <&nav_word>;
+            bindings = <&kp RET>, <&nav_word>, <&kp RET>;
+        };
+        td_nav_layer: td_nav_layer {
+            compatible = "zmk,behavior-hold-tap";
+            label = "td_nav_layer";
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <250>;
+            quick-tap-ms = <225>;
+            bindings = <&mo>, <&td_nav_layer_inner>;
         };
 
         /*
