@@ -1,8 +1,8 @@
 #include "../../zmk-nodefree-config/keypos_def/keypos_42keys.h"
 
 #define COMBO_TERM_FAST 35
-#define COMBO_TERM_SLOW 50
-#define COMBO_GLOBAL_QUICKTAP 75
+#define COMBO_TERM_SLOW 40
+#define COMBO_GLOBAL_QUICKTAP 85
 
 / {
   combos {
