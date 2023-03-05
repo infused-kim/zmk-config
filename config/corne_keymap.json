@@ -128,7 +128,7 @@
             "x": 542,
             "y": 38,
             "angle": 0,
-            "active": true,
+            "active": false,
             "row": 1,
             "column": 9,
             "side": "right",
@@ -759,7 +759,7 @@
             "keyNumber": 2,
             "type": "man ",
             "values": [
-                "&kp LA(LEFT)",
+                "&kp LG(LEFT)",
                 "LGUI"
             ],
             "keys": [],
@@ -842,7 +842,7 @@
             "keyNumber": 2,
             "type": "man ",
             "values": [
-                "&kp LA(LEFT)"
+                "&kp LG(LEFT)"
             ],
             "keys": [],
             "codeId": "",
@@ -876,7 +876,7 @@
         },
         {
             "keyNumber": 3,
-            "type": "&kp ",
+            "type": "&none",
             "values": [
                 "UP"
             ],
@@ -960,7 +960,7 @@
         },
         {
             "keyNumber": 3,
-            "type": "&kp ",
+            "type": "&none",
             "values": [
                 "UP"
             ],
@@ -998,7 +998,7 @@
             "keyNumber": 4,
             "type": "man ",
             "values": [
-                "&kp LA(RIGHT)",
+                "&kp LG(RIGHT)",
                 "LCTRL"
             ],
             "keys": [],
@@ -1083,7 +1083,7 @@
             "keyNumber": 4,
             "type": "man ",
             "values": [
-                "&kp LA(RIGHT)"
+                "&kp LG(RIGHT)"
             ],
             "keys": [],
             "codeId": "",
@@ -1259,19 +1259,19 @@
         },
         {
             "keyNumber": 6,
-            "type": "man ",
+            "type": "&kp ",
             "values": [
-                "&mm_plus_minus"
+                "TILDE"
             ],
             "keys": [],
-            "codeId": "11ca7037-82bd-4197-8692-5e7fbe5c5870",
+            "codeId": "2f839c31-ad63-4838-849e-1e51b20e27f6",
             "layerId": "47ce01c6-a191-4769-b4c1-2735c86f4808",
             "targetLayerId": "",
             "targetLayerName": ""
         },
         {
             "keyNumber": 6,
-            "type": "man ",
+            "type": "&none",
             "values": [
                 "&mm_plus_minus"
             ],
@@ -1305,7 +1305,7 @@
         },
         {
             "keyNumber": 6,
-            "type": "man ",
+            "type": "&trans",
             "values": [
                 "&mm_plus_minus"
             ],
@@ -1378,10 +1378,10 @@
             "keyNumber": 7,
             "type": "&kp ",
             "values": [
-                "AMPERSAND"
+                "DOLLAR"
             ],
             "keys": [],
-            "codeId": "51b819d3-1228-4c70-85d7-5b9a3a0fe079",
+            "codeId": "b0b159d8-c768-4392-8275-2b90ca9eb46c",
             "layerId": "47ce01c6-a191-4769-b4c1-2735c86f4808",
             "targetLayerId": "",
             "targetLayerName": ""
@@ -1390,10 +1390,10 @@
             "keyNumber": 7,
             "type": "&kp ",
             "values": [
-                "MINUS"
+                "DOLLAR"
             ],
             "keys": [],
-            "codeId": "11ca7037-82bd-4197-8692-5e7fbe5c5870",
+            "codeId": "b0b159d8-c768-4392-8275-2b90ca9eb46c",
             "layerId": "43a94f6e-fafe-4403-b291-c1a9063d0775",
             "targetLayerId": "",
             "targetLayerName": ""
@@ -1424,10 +1424,10 @@
             "keyNumber": 7,
             "type": "&kp ",
             "values": [
-                "MINUS"
+                "DOLLAR"
             ],
             "keys": [],
-            "codeId": "11ca7037-82bd-4197-8692-5e7fbe5c5870",
+            "codeId": "b0b159d8-c768-4392-8275-2b90ca9eb46c",
             "layerId": "52fa653d-6647-4a80-8176-cba73d7b775d",
             "targetLayerId": "",
             "targetLayerName": ""
@@ -1468,9 +1468,9 @@
         },
         {
             "keyNumber": 8,
-            "type": "&none",
+            "type": "man ",
             "values": [
-                "UP"
+                "&kp RS(RC(RG(RALT)))"
             ],
             "keys": [],
             "codeId": "a6b9e317-2a81-43b5-81b6-2e4b08cc1f98",
@@ -1494,10 +1494,10 @@
             "keyNumber": 8,
             "type": "&kp ",
             "values": [
-                "PIPE"
+                "AMPERSAND"
             ],
             "keys": [],
-            "codeId": "3a480911-2e01-4724-be17-193f0dfd0aa3",
+            "codeId": "51b819d3-1228-4c70-85d7-5b9a3a0fe079",
             "layerId": "47ce01c6-a191-4769-b4c1-2735c86f4808",
             "targetLayerId": "",
             "targetLayerName": ""
@@ -1611,10 +1611,10 @@
             "keyNumber": 9,
             "type": "&kp ",
             "values": [
-                "TILDE"
+                "PIPE"
             ],
             "keys": [],
-            "codeId": "2f839c31-ad63-4838-849e-1e51b20e27f6",
+            "codeId": "3a480911-2e01-4724-be17-193f0dfd0aa3",
             "layerId": "47ce01c6-a191-4769-b4c1-2735c86f4808",
             "targetLayerId": "",
             "targetLayerName": ""
@@ -2170,9 +2170,9 @@
         },
         {
             "keyNumber": 14,
-            "type": "&kp ",
+            "type": "man ",
             "values": [
-                "NUMBER_4"
+                "&hm_l LALT NUMBER_4"
             ],
             "keys": [],
             "codeId": "17915681-8b61-4cce-a17f-0f089a710833",
@@ -2206,9 +2206,9 @@
         },
         {
             "keyNumber": 14,
-            "type": "&kp ",
+            "type": "man ",
             "values": [
-                "NUMBER_4"
+                "&hm_l LALT NUMBER_4"
             ],
             "keys": [],
             "codeId": "17915681-8b61-4cce-a17f-0f089a710833",
@@ -2257,10 +2257,10 @@
             "keyNumber": 15,
             "type": "&kp ",
             "values": [
-                "DOWN"
+                "UP"
             ],
             "keys": [],
-            "codeId": "9b5c4f2b-b54d-4f96-b53f-9e81c5e748ea",
+            "codeId": "a6b9e317-2a81-43b5-81b6-2e4b08cc1f98",
             "layerId": "91856afb-3fff-4a76-90b2-9629b6e31974",
             "targetLayerId": "",
             "targetLayerName": ""
@@ -2339,10 +2339,10 @@
             "keyNumber": 15,
             "type": "&kp ",
             "values": [
-                "DOWN"
+                "UP"
             ],
             "keys": [],
-            "codeId": "9b5c4f2b-b54d-4f96-b53f-9e81c5e748ea",
+            "codeId": "a6b9e317-2a81-43b5-81b6-2e4b08cc1f98",
             "layerId": "384e88fd-0dd2-43db-8b67-39837d82f498",
             "targetLayerId": "",
             "targetLayerName": ""
@@ -2632,21 +2632,21 @@
         },
         {
             "keyNumber": 18,
-            "type": "&kp ",
+            "type": "man ",
             "values": [
-                "EQUAL"
+                "&td_at_email"
             ],
             "keys": [],
-            "codeId": "0e4454e5-dc02-47fa-ae7a-43570cc170ec",
+            "codeId": "b7439c90-6645-44bc-a4d1-6551c688e4e5",
             "layerId": "47ce01c6-a191-4769-b4c1-2735c86f4808",
             "targetLayerId": "",
             "targetLayerName": ""
         },
         {
             "keyNumber": 18,
-            "type": "&kp ",
+            "type": "&none",
             "values": [
-                "EQUAL"
+                null
             ],
             "keys": [],
             "codeId": "0e4454e5-dc02-47fa-ae7a-43570cc170ec",
@@ -2680,7 +2680,7 @@
         },
         {
             "keyNumber": 18,
-            "type": "&kp ",
+            "type": "&trans",
             "values": [
                 "EQUAL"
             ],
@@ -2868,21 +2868,21 @@
         },
         {
             "keyNumber": 20,
-            "type": "man ",
+            "type": "&kp ",
             "values": [
-                "&td_at_email"
+                "EQUAL"
             ],
             "keys": [],
-            "codeId": "a04b2ffd-b520-4f2b-9985-7ef805b02067",
+            "codeId": "0e4454e5-dc02-47fa-ae7a-43570cc170ec",
             "layerId": "47ce01c6-a191-4769-b4c1-2735c86f4808",
             "targetLayerId": "",
             "targetLayerName": ""
         },
         {
             "keyNumber": 20,
-            "type": "&kp ",
+            "type": "man ",
             "values": [
-                "RIGHT_GUI"
+                "&hm_r RGUI EQUAL"
             ],
             "keys": [],
             "codeId": "5feb1413-1511-46c9-8455-5c0688496c36",
@@ -2916,8 +2916,10 @@
         },
         {
             "keyNumber": 20,
-            "type": "&trans",
-            "values": [],
+            "type": "man ",
+            "values": [
+                "&hm_r RGUI EQUAL"
+            ],
             "keys": [],
             "codeId": "",
             "layerId": "52fa653d-6647-4a80-8176-cba73d7b775d",
@@ -3522,7 +3524,7 @@
             "keyNumber": 26,
             "type": "man ",
             "values": [
-                "&kp LG(LEFT)"
+                "&kp LA(LEFT)"
             ],
             "keys": [],
             "codeId": "91af60ef-2a9c-4314-9ae7-96a1661cb885",
@@ -3604,7 +3606,7 @@
             "keyNumber": 26,
             "type": "man ",
             "values": [
-                "&kp LG(LEFT)"
+                "&kp LA(LEFT)"
             ],
             "keys": [],
             "codeId": "",
@@ -3638,12 +3640,12 @@
         },
         {
             "keyNumber": 27,
-            "type": "&none",
+            "type": "&kp ",
             "values": [
-                ""
+                "DOWN"
             ],
             "keys": [],
-            "codeId": "fb6f822b-96aa-4862-8fa8-1261f9510b8f",
+            "codeId": "9b5c4f2b-b54d-4f96-b53f-9e81c5e748ea",
             "layerId": "91856afb-3fff-4a76-90b2-9629b6e31974",
             "targetLayerId": "",
             "targetLayerName": ""
@@ -3722,10 +3724,12 @@
         },
         {
             "keyNumber": 27,
-            "type": "&trans",
-            "values": [],
+            "type": "&kp ",
+            "values": [
+                "DOWN"
+            ],
             "keys": [],
-            "codeId": "",
+            "codeId": "9b5c4f2b-b54d-4f96-b53f-9e81c5e748ea",
             "layerId": "384e88fd-0dd2-43db-8b67-39837d82f498",
             "targetLayerId": "",
             "targetLayerName": ""
@@ -3758,7 +3762,7 @@
             "keyNumber": 28,
             "type": "man ",
             "values": [
-                "&kp LG(RIGHT)"
+                "&kp LA(RIGHT)"
             ],
             "keys": [],
             "codeId": "ee4ffe93-d4e5-4ce0-b4d1-f7df9aa1a2b0",
@@ -3840,7 +3844,7 @@
             "keyNumber": 28,
             "type": "man ",
             "values": [
-                "&kp LG(RIGHT)"
+                "&kp LA(RIGHT)"
             ],
             "keys": [],
             "codeId": "",
@@ -4126,9 +4130,9 @@
         },
         {
             "keyNumber": 31,
-            "type": "&kp ",
+            "type": "man ",
             "values": [
-                "DOLLAR"
+                "&mm_plus_minus"
             ],
             "keys": [],
             "codeId": "b0b159d8-c768-4392-8275-2b90ca9eb46c",
@@ -4138,9 +4142,9 @@
         },
         {
             "keyNumber": 31,
-            "type": "&kp ",
+            "type": "man ",
             "values": [
-                "DOLLAR"
+                "&mm_plus_minus"
             ],
             "keys": [],
             "codeId": "b0b159d8-c768-4392-8275-2b90ca9eb46c",
@@ -4172,9 +4176,9 @@
         },
         {
             "keyNumber": 31,
-            "type": "&kp ",
+            "type": "man ",
             "values": [
-                "DOLLAR"
+                "&mm_plus_minus"
             ],
             "keys": [],
             "codeId": "b0b159d8-c768-4392-8275-2b90ca9eb46c",
@@ -4196,7 +4200,7 @@
             "keyNumber": 32,
             "type": "man ",
             "values": [
-                "&hm_r RC(RG(RALT)) COMMA"
+                "&mm_comma_semi_meh"
             ],
             "keys": [],
             "codeId": "64b5e5a6-cce7-49b2-8650-0acb23bb2948",
@@ -4218,9 +4222,9 @@
         },
         {
             "keyNumber": 32,
-            "type": "&none",
+            "type": "man ",
             "values": [
-                "BACKSPACE",
+                "&kp RC(RG(RALT))",
                 "RGUI"
             ],
             "keys": [],
@@ -4245,10 +4249,10 @@
             "keyNumber": 32,
             "type": "&kp ",
             "values": [
-                "SEMICOLON"
+                "LT"
             ],
             "keys": [],
-            "codeId": "e8e0ee32-ae8b-49c6-be96-afa20e866d59",
+            "codeId": "5a27e6ef-91cf-47a3-b8d9-ccf868a15e09",
             "layerId": "47ce01c6-a191-4769-b4c1-2735c86f4808",
             "targetLayerId": "",
             "targetLayerName": ""
@@ -4257,7 +4261,7 @@
             "keyNumber": 32,
             "type": "man ",
             "values": [
-                "&hm_r RC(RG(RALT)) COMMA"
+                "&mm_comma_semi_meh"
             ],
             "keys": [],
             "codeId": "64b5e5a6-cce7-49b2-8650-0acb23bb2948",
@@ -4311,9 +4315,9 @@
         },
         {
             "keyNumber": 33,
-            "type": "&kp ",
+            "type": "man ",
             "values": [
-                "DOT"
+                "&mm_dot_colon"
             ],
             "keys": [],
             "codeId": "9cb5ca18-f5e3-4f27-9c88-7d9bf9bbeb2f",
@@ -4361,19 +4365,19 @@
             "keyNumber": 33,
             "type": "&kp ",
             "values": [
-                "COLON"
+                "GT"
             ],
             "keys": [],
-            "codeId": "e81e762f-f4d3-4c26-88b8-039082c6024b",
+            "codeId": "e44e44df-aced-4d80-a698-3751b6ca6fd4",
             "layerId": "47ce01c6-a191-4769-b4c1-2735c86f4808",
             "targetLayerId": "",
             "targetLayerName": ""
         },
         {
             "keyNumber": 33,
-            "type": "&kp ",
+            "type": "man ",
             "values": [
-                "DOT"
+                "&mm_dot_colon"
             ],
             "keys": [],
             "codeId": "9cb5ca18-f5e3-4f27-9c88-7d9bf9bbeb2f",
@@ -5084,9 +5088,9 @@
         },
         {
             "keyNumber": 40,
-            "type": "man ",
+            "type": "&lt ",
             "values": [
-                "&td_nav_layer"
+                "RETURN"
             ],
             "keys": [],
             "codeId": "a4c8dad5-35fd-4a36-97fc-4ccaa537c7ba",
@@ -5182,7 +5186,7 @@
         },
         {
             "keyNumber": 40,
-            "type": "&kp ",
+            "type": "&trans",
             "values": [
                 "RETURN"
             ],

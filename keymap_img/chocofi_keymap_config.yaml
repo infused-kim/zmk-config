@@ -167,6 +167,8 @@ parse_config:
     '&mm_plus_minus': {t: '+', s: '-'}
     '&mm_grave_caret': {t: '`', s: '^'}
     '&mm_bracket_r': {t: '(', s: ')'}
+    '&mm_comma_semi_meh': {t: ',', s: ';', h: 'MEH'}
+    '&mm_dot_colon': {t: '.', s: ':'}
     '&swapper_cmd_tab': {t: '⌘↹'}
     '&td_at_email': {t: '@'}
     '&num_word': 'NUM'

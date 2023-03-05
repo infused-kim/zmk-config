@@ -84,6 +84,37 @@
         };
 
         /*
+         * Shifted comma types semicoln
+         *
+         * Usage: &mm_comma_semi
+         * Tap: ,
+         * Shift-Tap: ;
+         * Hold: MEH
+         */
+        mm_comma_semi_meh: mm_comma_semiv {
+            compatible = "zmk,behavior-mod-morph";
+            label = "mm_comma_semi_meh";
+            #binding-cells = <0>;
+            bindings = <&hm_r RC(RG(RALT)) COMMA>, <&kp SEMICOLON>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        /*
+         * Shifted dot types colon
+         *
+         * Usage: &mm_dot_colon
+         * Tap: .
+         * Shift-Tap: :
+         */
+        mm_dot_colon: mm_dot_colon {
+            compatible = "zmk,behavior-mod-morph";
+            label = "mm_comma_semi";
+            #binding-cells = <0>;
+            bindings = <&kp DOT>, <&kp COLON>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        /*
          * Grave Escape
          *
          * Usage: &mm_spc_unds_layer

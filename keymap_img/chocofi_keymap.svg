@@ -155,10 +155,10 @@ path {
 <rect rx="6.0" ry="6.0" x="648.0" y="170.0" width="52.0" height="52.0" class=""/>
 <text x="674.0" y="196.0" class="tap">,</text>
 <text x="674.0" y="220.0" class="hold">MEH</text>
-<text x="674.0" y="172.0" class="shifted">&lt;</text>
+<text x="674.0" y="172.0" class="shifted">;</text>
 <rect rx="6.0" ry="6.0" x="704.0" y="175.6" width="52.0" height="52.0" class=""/>
 <text x="730.0" y="201.6" class="tap">.</text>
-<text x="730.0" y="177.6" class="shifted">&gt;</text>
+<text x="730.0" y="177.6" class="shifted">:</text>
 <rect rx="6.0" ry="6.0" x="760.0" y="186.79999999999998" width="52.0" height="52.0" class=""/>
 <text x="786.0" y="212.79999999999998" class="tap">/</text>
 <text x="786.0" y="188.79999999999998" class="shifted">?</text>
@@ -252,13 +252,9 @@ path {
 <tspan x="338.0" dy="-0.6em">PG</tspan><tspan x="338.0" dy="1.2em">DN</tspan></text>
 <rect rx="6.0" ry="6.0" x="536.0" y="461.20000000000005" width="52.0" height="52.0" class=""/>
 <rect rx="6.0" ry="6.0" x="592.0" y="455.6000000000001" width="52.0" height="52.0" class=""/>
-<text x="618.0" y="481.6000000000001" class="tap">⇧</text>
 <rect rx="6.0" ry="6.0" x="648.0" y="450.00000000000006" width="52.0" height="52.0" class=""/>
-<text x="674.0" y="476.00000000000006" class="tap">⌘</text>
 <rect rx="6.0" ry="6.0" x="704.0" y="455.6000000000001" width="52.0" height="52.0" class=""/>
-<text x="730.0" y="481.6000000000001" class="tap">⎇</text>
 <rect rx="6.0" ry="6.0" x="760.0" y="466.80000000000007" width="52.0" height="52.0" class=""/>
-<text x="786.0" y="492.80000000000007" class="tap">⎈</text>
 <rect rx="6.0" ry="6.0" x="816.0" y="466.80000000000007" width="52.0" height="52.0" class=""/>
 <rect rx="6.0" ry="6.0" x="32.0" y="522.8000000000001" width="52.0" height="52.0" class=""/>
 <rect rx="6.0" ry="6.0" x="88.0" y="522.8000000000001" width="52.0" height="52.0" class=""/>
@@ -276,7 +272,8 @@ path {
 <rect rx="6.0" ry="6.0" x="760.0" y="522.8000000000001" width="52.0" height="52.0" class=""/>
 <rect rx="6.0" ry="6.0" x="816.0" y="522.8000000000001" width="52.0" height="52.0" class=""/>
 <rect rx="6.0" ry="6.0" x="256.0" y="601.2" width="52.0" height="52.0" class=""/>
-<text x="282.0" y="627.2" class="tap">Nav</text>
+<text x="282.0" y="627.2" class="tap">
+<tspan x="282.0" dy="-0.6em">Nav</tspan><tspan x="282.0" dy="1.2em">Word</tspan></text>
 <rect rx="6.0" ry="6.0" x="312.0" y="601.2" width="52.0" height="52.0" class=""/>
 <rect rx="6.0" ry="6.0" x="368.0" y="573.2" width="52.0" height="80.0" class=""/>
 <rect rx="6.0" ry="6.0" x="480.0" y="573.2" width="52.0" height="80.0" class=""/>
@@ -307,14 +304,13 @@ path {
 <rect rx="6.0" ry="6.0" x="312.0" y="741.2000000000002" width="52.0" height="52.0" class=""/>
 <text x="338.0" y="767.2000000000002" class="tap">⌘`</text>
 <rect rx="6.0" ry="6.0" x="536.0" y="741.2000000000002" width="52.0" height="52.0" class=""/>
-<text x="562.0" y="767.2000000000002" class="tap">+</text>
-<text x="562.0" y="743.2000000000002" class="shifted">-</text>
+<text x="562.0" y="767.2000000000002" class="tap">~</text>
 <rect rx="6.0" ry="6.0" x="592.0" y="735.6000000000001" width="52.0" height="52.0" class=""/>
-<text x="618.0" y="761.6000000000001" class="tap">&amp;</text>
+<text x="618.0" y="761.6000000000001" class="tap">$</text>
 <rect rx="6.0" ry="6.0" x="648.0" y="730.0000000000001" width="52.0" height="52.0" class=""/>
-<text x="674.0" y="756.0000000000001" class="tap">|</text>
+<text x="674.0" y="756.0000000000001" class="tap">&amp;</text>
 <rect rx="6.0" ry="6.0" x="704.0" y="735.6000000000001" width="52.0" height="52.0" class=""/>
-<text x="730.0" y="761.6000000000001" class="tap">~</text>
+<text x="730.0" y="761.6000000000001" class="tap">|</text>
 <rect rx="6.0" ry="6.0" x="760.0" y="746.8000000000001" width="52.0" height="52.0" class=""/>
 <text x="786.0" y="772.8000000000001" class="tap">`</text>
 <text x="786.0" y="748.8000000000001" class="shifted">^</text>
@@ -331,12 +327,12 @@ path {
 <rect rx="6.0" ry="6.0" x="312.0" y="797.2000000000002" width="52.0" height="52.0" class=""/>
 <text x="338.0" y="823.2000000000002" class="tap">⌘↹</text>
 <rect rx="6.0" ry="6.0" x="536.0" y="797.2000000000002" width="52.0" height="52.0" class=""/>
-<text x="562.0" y="823.2000000000002" class="tap">=</text>
-<text x="562.0" y="799.2000000000002" class="shifted">+</text>
+<text x="562.0" y="823.2000000000002" class="tap">@</text>
 <rect rx="6.0" ry="6.0" x="592.0" y="791.6000000000001" width="52.0" height="52.0" class=""/>
 <text x="618.0" y="817.6000000000001" class="tap">!</text>
 <rect rx="6.0" ry="6.0" x="648.0" y="786.0000000000001" width="52.0" height="52.0" class=""/>
-<text x="674.0" y="812.0000000000001" class="tap">@</text>
+<text x="674.0" y="812.0000000000001" class="tap">=</text>
+<text x="674.0" y="788.0000000000001" class="shifted">+</text>
 <rect rx="6.0" ry="6.0" x="704.0" y="791.6000000000001" width="52.0" height="52.0" class=""/>
 <text x="730.0" y="817.6000000000001" class="tap">#</text>
 <rect rx="6.0" ry="6.0" x="760.0" y="802.8000000000001" width="52.0" height="52.0" class=""/>
@@ -357,12 +353,12 @@ path {
 <rect rx="6.0" ry="6.0" x="536.0" y="853.2000000000002" width="52.0" height="52.0" class=""/>
 <text x="562.0" y="879.2000000000002" class="tap">%</text>
 <rect rx="6.0" ry="6.0" x="592.0" y="847.6000000000001" width="52.0" height="52.0" class=""/>
-<text x="618.0" y="873.6000000000001" class="tap">$</text>
+<text x="618.0" y="873.6000000000001" class="tap">+</text>
+<text x="618.0" y="849.6000000000001" class="shifted">-</text>
 <rect rx="6.0" ry="6.0" x="648.0" y="842.0000000000001" width="52.0" height="52.0" class=""/>
-<text x="674.0" y="868.0000000000001" class="tap">;</text>
-<text x="674.0" y="844.0000000000001" class="shifted">:</text>
+<text x="674.0" y="868.0000000000001" class="tap">&lt;</text>
 <rect rx="6.0" ry="6.0" x="704.0" y="847.6000000000001" width="52.0" height="52.0" class=""/>
-<text x="730.0" y="873.6000000000001" class="tap">:</text>
+<text x="730.0" y="873.6000000000001" class="tap">&gt;</text>
 <rect rx="6.0" ry="6.0" x="760.0" y="858.8000000000001" width="52.0" height="52.0" class=""/>
 <text x="786.0" y="884.8000000000001" class="tap">\</text>
 <text x="786.0" y="860.8000000000001" class="shifted">|</text>
@@ -407,9 +403,8 @@ path {
 <text x="282.0" y="1097.6000000000001" class="tap">9</text>
 <rect rx="6.0" ry="6.0" x="312.0" y="1077.2000000000003" width="52.0" height="52.0" class=""/>
 <rect rx="6.0" ry="6.0" x="536.0" y="1077.2000000000003" width="52.0" height="52.0" class=""/>
-<text x="562.0" y="1103.2000000000003" class="tap">+</text>
-<text x="562.0" y="1079.2000000000003" class="shifted">-</text>
 <rect rx="6.0" ry="6.0" x="592.0" y="1071.6000000000001" width="52.0" height="52.0" class=""/>
+<text x="618.0" y="1097.6000000000001" class="tap">$</text>
 <rect rx="6.0" ry="6.0" x="648.0" y="1066.0000000000002" width="52.0" height="52.0" class=""/>
 <text x="674.0" y="1092.0000000000002" class="tap">HYPER</text>
 <rect rx="6.0" ry="6.0" x="704.0" y="1071.6000000000001" width="52.0" height="52.0" class=""/>
@@ -426,12 +421,12 @@ path {
 <text x="282.0" y="1153.6000000000001" class="tap">6</text>
 <rect rx="6.0" ry="6.0" x="312.0" y="1133.2000000000003" width="52.0" height="52.0" class=""/>
 <rect rx="6.0" ry="6.0" x="536.0" y="1133.2000000000003" width="52.0" height="52.0" class=""/>
-<text x="562.0" y="1159.2000000000003" class="tap">=</text>
-<text x="562.0" y="1135.2000000000003" class="shifted">+</text>
 <rect rx="6.0" ry="6.0" x="592.0" y="1127.6000000000001" width="52.0" height="52.0" class=""/>
 <text x="618.0" y="1153.6000000000001" class="tap">⇧</text>
 <rect rx="6.0" ry="6.0" x="648.0" y="1122.0000000000002" width="52.0" height="52.0" class=""/>
-<text x="674.0" y="1148.0000000000002" class="tap">⌘</text>
+<text x="674.0" y="1148.0000000000002" class="tap">=</text>
+<text x="674.0" y="1172.0000000000002" class="hold">⌘</text>
+<text x="674.0" y="1124.0000000000002" class="shifted">+</text>
 <rect rx="6.0" ry="6.0" x="704.0" y="1127.6000000000001" width="52.0" height="52.0" class=""/>
 <text x="730.0" y="1153.6000000000001" class="tap">⎇</text>
 <rect rx="6.0" ry="6.0" x="760.0" y="1138.8000000000002" width="52.0" height="52.0" class=""/>
@@ -450,14 +445,15 @@ path {
 <rect rx="6.0" ry="6.0" x="536.0" y="1189.2000000000003" width="52.0" height="52.0" class=""/>
 <text x="562.0" y="1215.2000000000003" class="tap">%</text>
 <rect rx="6.0" ry="6.0" x="592.0" y="1183.6000000000001" width="52.0" height="52.0" class=""/>
-<text x="618.0" y="1209.6000000000001" class="tap">$</text>
+<text x="618.0" y="1209.6000000000001" class="tap">+</text>
+<text x="618.0" y="1185.6000000000001" class="shifted">-</text>
 <rect rx="6.0" ry="6.0" x="648.0" y="1178.0000000000002" width="52.0" height="52.0" class=""/>
 <text x="674.0" y="1204.0000000000002" class="tap">,</text>
 <text x="674.0" y="1228.0000000000002" class="hold">MEH</text>
-<text x="674.0" y="1180.0000000000002" class="shifted">&lt;</text>
+<text x="674.0" y="1180.0000000000002" class="shifted">;</text>
 <rect rx="6.0" ry="6.0" x="704.0" y="1183.6000000000001" width="52.0" height="52.0" class=""/>
 <text x="730.0" y="1209.6000000000001" class="tap">.</text>
-<text x="730.0" y="1185.6000000000001" class="shifted">&gt;</text>
+<text x="730.0" y="1185.6000000000001" class="shifted">:</text>
 <rect rx="6.0" ry="6.0" x="760.0" y="1194.8000000000002" width="52.0" height="52.0" class=""/>
 <text x="786.0" y="1220.8000000000002" class="tap">/</text>
 <text x="786.0" y="1196.8000000000002" class="shifted">?</text>
