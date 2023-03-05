@@ -9,7 +9,7 @@
     compatible = "zmk,combos";
 
     combo_bracket_round_l {
-      timeout-ms = <COMBO_TERM_FAST>;
+      timeout-ms = <COMBO_TERM_SLOW>;
       global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
 
       key-positions = <LM2 LM1>;
@@ -18,7 +18,7 @@
     };
 
     combo_bracket_round_r {
-      timeout-ms = <COMBO_TERM_FAST>;
+      timeout-ms = <COMBO_TERM_SLOW>;
       global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
 
       key-positions = <RM1 RM2>;
@@ -27,7 +27,7 @@
     };
 
     combo_bracket_square_l {
-      timeout-ms = <COMBO_TERM_FAST>;
+      timeout-ms = <COMBO_TERM_SLOW>;
       global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
 
       key-positions = <LB2 LB1>;
@@ -36,7 +36,7 @@
     };
 
     combo_bracket_square_r {
-      timeout-ms = <COMBO_TERM_FAST>;
+      timeout-ms = <COMBO_TERM_SLOW>;
       global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
 
       key-positions = <RB1 RB2>;
@@ -45,7 +45,7 @@
     };
 
     combo_bracket_curly_l {
-      timeout-ms = <COMBO_TERM_FAST>;
+      timeout-ms = <COMBO_TERM_SLOW>;
       global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
 
       key-positions = <LT2 LT1>;
@@ -63,7 +63,7 @@
     };
 
     combo_capsword {
-      timeout-ms = <COMBO_TERM_FAST>;
+      timeout-ms = <COMBO_TERM_SLOW>;
       global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
 
       key-positions = <LM1 RM1>;
