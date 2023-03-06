@@ -186,7 +186,7 @@
             //  ignored-key-positions = <x>;
          };
 
-        /*
+       /*
         * Layer Toggle
         *
         * Usage: &ltog LGUI NAV
@@ -200,6 +200,22 @@
             flavor = "tap-preferred";
             tapping-term-ms = <250>;
             bindings = <&kp>, <&tog>;
+        };
+
+       /*
+        * Layer Sticky Key Tap Toggle
+        *
+        * Usage: &sklt NUM RSHFT
+        * Tap: Sticky Key
+        * Hold: Layer
+        */
+        sklt: sklt {
+            compatible = "zmk,behavior-hold-tap";
+            label = "sklt";
+            #binding-cells = <2>;
+            flavor = "balanced";
+            tapping-term-ms = <250>;
+            bindings = <&mo>, <&sk>;
         };
     };
 };

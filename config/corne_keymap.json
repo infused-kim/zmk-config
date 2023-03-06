@@ -260,7 +260,7 @@
             "x": 542,
             "y": 88,
             "angle": 0,
-            "active": false,
+            "active": true,
             "row": 2,
             "column": 9,
             "side": "right",
@@ -2337,9 +2337,9 @@
         },
         {
             "keyNumber": 15,
-            "type": "&kp ",
+            "type": "man ",
             "values": [
-                "UP"
+                "&mm_up_save"
             ],
             "keys": [],
             "codeId": "a6b9e317-2a81-43b5-81b6-2e4b08cc1f98",
@@ -2351,7 +2351,7 @@
             "keyNumber": 16,
             "type": "man ",
             "values": [
-                "&hm_shift_l LSHFT T",
+                "&hm_l LSHFT T",
                 "LSHFT"
             ],
             "keys": [],
@@ -2704,7 +2704,7 @@
             "keyNumber": 19,
             "type": "man ",
             "values": [
-                "&hm_shift_r RSHFT N",
+                "&hm_r RSHFT N",
                 "RSHFT"
             ],
             "keys": [],
@@ -4671,7 +4671,7 @@
             "keyNumber": 36,
             "type": "man ",
             "values": [
-                "&tog NAV"
+                "&ltog LGUI NAV"
             ],
             "keys": [],
             "codeId": "",
@@ -4752,7 +4752,7 @@
             "keyNumber": 36,
             "type": "man ",
             "values": [
-                "&tog NAV_WORD"
+                "&ltog LGUI NAV_WORD"
             ],
             "keys": [],
             "codeId": "",
@@ -4982,19 +4982,19 @@
         },
         {
             "keyNumber": 39,
-            "type": "man ",
+            "type": "&kp ",
             "values": [
-                "&mm_bspc_del"
+                "RETURN"
             ],
             "keys": [],
-            "codeId": "feaeee56-7a95-4460-bf5e-5973830ed1f0",
+            "codeId": "a4c8dad5-35fd-4a36-97fc-4ccaa537c7ba",
             "layerId": "3b78f6ec-e664-4d4b-9c5b-89a9f89f698d",
             "targetLayerId": "",
             "targetLayerName": ""
         },
         {
             "keyNumber": 39,
-            "type": "&kp ",
+            "type": "&trans",
             "values": [
                 "DEL"
             ],
@@ -5092,9 +5092,9 @@
         },
         {
             "keyNumber": 40,
-            "type": "&lt ",
+            "type": "man ",
             "values": [
-                "RETURN"
+                "&sklt NUM RSHFT"
             ],
             "keys": [],
             "codeId": "a4c8dad5-35fd-4a36-97fc-4ccaa537c7ba",
@@ -5204,7 +5204,7 @@
             "keyNumber": 41,
             "type": "man ",
             "values": [
-                "&lt_num_word NUM 0"
+                "&mm_bspc_del_layer"
             ],
             "keys": [],
             "codeId": "545ae1f2-d19d-49b3-9905-199f0b2887a0",
@@ -5234,7 +5234,7 @@
         },
         {
             "keyNumber": 41,
-            "type": "man ",
+            "type": "&trans",
             "values": [
                 "&tog ADJUST"
             ],
@@ -5258,7 +5258,7 @@
         },
         {
             "keyNumber": 41,
-            "type": "&none",
+            "type": "&trans",
             "values": [],
             "keys": [],
             "codeId": "",
