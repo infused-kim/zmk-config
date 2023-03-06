@@ -480,7 +480,7 @@
             "x": 454,
             "y": 234,
             "angle": -21,
-            "active": false,
+            "active": true,
             "row": 4,
             "column": 7,
             "side": "right",
@@ -2351,7 +2351,7 @@
             "keyNumber": 16,
             "type": "man ",
             "values": [
-                "&hm_l LSHFT T",
+                "&hm_shift_l LSHFT T",
                 "LSHFT"
             ],
             "keys": [],
@@ -2704,7 +2704,7 @@
             "keyNumber": 19,
             "type": "man ",
             "values": [
-                "&hm_r RSHFT N",
+                "&hm_shift_r RSHFT N",
                 "RSHFT"
             ],
             "keys": [],
@@ -5204,7 +5204,7 @@
             "keyNumber": 41,
             "type": "man ",
             "values": [
-                "&sklt NUM RSHFT"
+                "&lt_num_word NUM 0"
             ],
             "keys": [],
             "codeId": "545ae1f2-d19d-49b3-9905-199f0b2887a0",
