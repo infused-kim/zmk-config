@@ -184,6 +184,7 @@ parse_config:
     '&td_nav_layer': {t: '⏎', h: 'NAV'}
     '&td_bt_clear': 'BT CLR'
     '&m_type_md_code_block': '```'
+    '&kt LSHFT': "⇧\nLock"
   skip_binding_parsing: false
   zmk_keycode_map:
     AMPERSAND: '&'

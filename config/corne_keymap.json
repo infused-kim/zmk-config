@@ -480,7 +480,7 @@
             "x": 454,
             "y": 234,
             "angle": -21,
-            "active": true,
+            "active": false,
             "row": 4,
             "column": 7,
             "side": "right",
@@ -2017,9 +2017,9 @@
         },
         {
             "keyNumber": 13,
-            "type": "&none",
+            "type": "man ",
             "values": [
-                "LEFT_CONTROL"
+                "&kt LSHFT"
             ],
             "keys": [],
             "codeId": "8beb1c0e-ebfa-486d-967b-0157b13e90ae",
@@ -2099,8 +2099,10 @@
         },
         {
             "keyNumber": 13,
-            "type": "&trans",
-            "values": [],
+            "type": "man ",
+            "values": [
+                "&kt LSHFT"
+            ],
             "keys": [],
             "codeId": "",
             "layerId": "384e88fd-0dd2-43db-8b67-39837d82f498",

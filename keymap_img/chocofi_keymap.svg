@@ -242,6 +242,8 @@ path {
 <rect rx="6.0" ry="6.0" x="816.0" y="410.80000000000007" width="52.0" height="52.0" class=""/>
 <rect rx="6.0" ry="6.0" x="32.0" y="466.80000000000007" width="52.0" height="52.0" class=""/>
 <rect rx="6.0" ry="6.0" x="88.0" y="466.80000000000007" width="52.0" height="52.0" class=""/>
+<text x="114.0" y="492.80000000000007" class="tap">
+<tspan x="114.0" dy="-0.6em">⇧</tspan><tspan x="114.0" dy="1.2em">Lock</tspan></text>
 <rect rx="6.0" ry="6.0" x="144.0" y="455.6000000000001" width="52.0" height="52.0" class=""/>
 <text x="170.0" y="481.6000000000001" class="tap">←</text>
 <rect rx="6.0" ry="6.0" x="200.0" y="450.00000000000006" width="52.0" height="52.0" class=""/>
