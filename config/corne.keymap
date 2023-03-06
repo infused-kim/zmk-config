@@ -80,7 +80,7 @@
     Sym_layer {
       label = "Sym";
       bindings = <
-        &trans &kp LG(Q) &kp LG(W) &none &none &kp LG(GRAVE) &kp TILDE &kp DOLLAR &kp AMPERSAND &kp PIPE &mm_grave_caret &trans &trans &kp LEFT_CONTROL &kp LEFT_ALT &kp LEFT_GUI &td_shift_l &swapper_cmd_tab &td_at_email &kp EXCLAMATION &kp EQUAL &kp HASH &kp ASTERISK &kp GRAVE &trans &kp LG(Z) &kp LG(X) &kp LG(C) &none &kp LG(V) &kp PERCENT &mm_plus_minus &kp LT &kp GT &kp BACKSLASH &trans &trans &trans &trans &trans &trans &trans
+        &trans &kp LG(Q) &kp LG(W) &none &none &kp LG(GRAVE) &kp TILDE &kp DOLLAR &kp AMPERSAND &kp PIPE &mm_grave_caret &trans &trans &kp LEFT_CONTROL &kp LEFT_ALT &kp LEFT_GUI &td_shift_l &swapper_cmd_tab &kp PLUS &kp EXCLAMATION &kp EQUAL &kp HASH &kp ASTERISK &kp GRAVE &trans &kp LG(Z) &kp LG(X) &kp LG(C) &none &kp LG(V) &kp PERCENT &kp MINUS &kp UNDERSCORE &td_at_email &kp BACKSLASH &trans &trans &trans &trans &trans &trans &trans
       >;
       sensor-bindings = <&inc_dec_kp C_BRI_DN C_BRI_UP &inc_dec_kp LEFT RIGHT>;
     };
@@ -96,7 +96,7 @@
     Num_layer {
       label = "Num";
       bindings = <
-        &trans &none &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &none &none &kp DOLLAR &kp RS(RC(RG(RALT))) &none &none &trans &trans &none &hm_l LALT NUMBER_4 &kp NUMBER_5 &kp NUMBER_6 &none &none &td_shift_r &hm_r RGUI EQUAL &kp RIGHT_ALT &hm_r RCTRL ASTERISK &trans &trans &none &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &none &kp PERCENT &mm_plus_minus &mm_comma_semi_meh &mm_dot_colon &kp SLASH &trans &tog NUM &trans &kp NUMBER_0 &trans &trans &trans
+        &trans &none &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &none &none &kp DOLLAR &kp RS(RC(RG(RALT))) &none &none &trans &trans &none &hm_l LALT NUMBER_4 &kp NUMBER_5 &kp NUMBER_6 &none &kp PLUS &td_shift_r &hm_r RGUI EQUAL &kp RIGHT_ALT &hm_r RCTRL ASTERISK &trans &trans &none &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &none &kp PERCENT &kp MINUS &mm_comma_semi_meh &mm_dot_colon &kp SLASH &trans &tog NUM &trans &kp NUMBER_0 &trans &trans &trans
       >;
       sensor-bindings = <&inc_dec_kp C_BRI_DN C_BRI_UP &inc_dec_kp LEFT RIGHT>;
     };
@@ -104,7 +104,7 @@
     Num_Word_layer {
       label = "Num Word";
       bindings = <
-        &trans &trans &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &trans &trans &kp DOLLAR &trans &trans &trans &trans &trans &trans &hm_l LALT NUMBER_4 &kp NUMBER_5 &kp NUMBER_6 &trans &trans &trans &hm_r RGUI EQUAL &trans &hm_r RCTRL ASTERISK &trans &trans &trans &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &trans &kp PERCENT &mm_plus_minus &trans &trans &trans &trans &tog NUM_WORD &trans &kp NUMBER_0 &trans &trans &trans
+        &trans &trans &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &trans &trans &kp DOLLAR &trans &trans &trans &trans &trans &trans &hm_l LALT NUMBER_4 &kp NUMBER_5 &kp NUMBER_6 &trans &kp PLUS &trans &hm_r RGUI EQUAL &trans &hm_r RCTRL ASTERISK &trans &trans &trans &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &trans &kp PERCENT &kp MINUS &trans &trans &trans &trans &tog NUM_WORD &trans &kp NUMBER_0 &trans &trans &trans
       >;
       sensor-bindings = <&inc_dec_kp C_BRI_DN C_BRI_UP &inc_dec_kp LEFT RIGHT>;
     };
