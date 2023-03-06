@@ -49,7 +49,7 @@
     Base_layer {
       label = "Base";
       bindings = <
-        &mm_grescm &kp Q &kp W &hm_l LS(LC(LG(LALT))) F &kp P &kp B &kp J &kp L &hm_r RS(RC(RG(RALT))) U &kp Y &kp SINGLE_QUOTE &mm_bspc_del &kp TAB &hm_l LCTRL A &hm_l LALT R &hm_l LGUI S &hm_l LSHFT T &kp G &kp M &hm_r RSHFT N &hm_r RGUI E &hm_r RALT I &hm_r RCTRL O &kp SINGLE_QUOTE &td_shift_l &kp Z &kp X &hm_l LC(LG(LALT)) C &kp D &kp V &kp K &kp H &mm_comma_semi_meh &mm_dot_colon &kp SLASH &td_shift_r &mm_grescm_gui &mm_spc_unds_layer &lt ADJUST TAB &kp RETURN &sklt NUM RSHFT &mm_bspc_del_layer
+        &mm_grescm &kp Q &kp W &hm_l LS(LC(LG(LALT))) F &kp P &kp B &kp J &kp L &hm_r RS(RC(RG(RALT))) U &kp Y &kp SINGLE_QUOTE &mm_bspc_del &kp TAB &hm_l LCTRL A &hm_l LALT R &hm_l LGUI S &hm_l LSHFT T &kp G &kp M &hm_r RSHFT N &hm_r RGUI E &hm_r RALT I &hm_r RCTRL O &kp SINGLE_QUOTE &td_shift_l &kp Z &kp X &hm_l LC(LG(LALT)) C &kp D &kp V &kp K &kp H &mm_comma_semi_meh &mm_dot_colon &kp SLASH &td_shift_r &mm_grescm_gui &mm_spc_unds_layer &lt ADJUST TAB &mm_bspc_del &lt NAV RETURN &sklt NUM RSHFT
       >;
       sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp C_PREV C_NEXT>;
     };
