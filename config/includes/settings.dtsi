@@ -12,6 +12,8 @@
     // keep holding the key.
     // But holding enter without double tapping, will activate the layer.
      quick_tap_ms = <200>;
+
+     flavor = "balanced";
 };
 
 /*
