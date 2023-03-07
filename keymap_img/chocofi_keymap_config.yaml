@@ -160,9 +160,9 @@ parse_config:
     UNDS: _
     SPACE: ⎵
   raw_binding_map:
-    '&mm_grescm': {t: 'ESC', s: '` ~'}
+    '&mm_grescm': {t: '⎋', s: '` ~'}
     '&mm_bspc_del': {t: '⌫', s: '⌦'}
-    '&mm_grescm_gui': {t: ESC, h: ⌘, s: '~ `'}
+    '&mm_grescm_gui': {t: ⎋, h: ⌘, s: '~ `'}
     '&mm_spc_unds_layer': {t: '⎵', h: 'SYM', s: '_ -'}
     '&mm_plus_minus': {t: '+', s: '-'}
     '&mm_grave_caret': {t: '`', s: '^'}
@@ -255,19 +255,19 @@ parse_config:
     TILDE2: '~'
     UNDER: _
     UNDERSCORE: _
-    LCTRL: ⎈
+    LCTRL: ⌃
     LALT: ⎇
     LGUI: ⌘
     LSHFT: ⇧
-    RCTRL: ⎈
-    LEFT_CONTROL: ⎈
+    RCTRL: ⌃
+    LEFT_CONTROL: ⌃
     LEFT_ALT: ⎇
     LEFT_GUI: ⌘
     LEFT_SHFT: ⇧
     RALT: ⎇
     RGUI: ⌘
     RSHFT: ⇧
-    RIGHT_CONTROL: ⎈
+    RIGHT_CONTROL: ⌃
     RIGHT_ALT: ⎇
     RIGHT_GUI: ⌘
     RIGHT_SHFT: ⇧
@@ -276,6 +276,8 @@ parse_config:
     UP: ↑
     DOWN: ↓
     TAB: ↹
+    RETURN: '⏎'
+    ESCAPE: '⎋'
     C_REWIND: '⏮'
     C_FAST_FORWARD: '⏭'
     C_PAUSE: '⏯'
