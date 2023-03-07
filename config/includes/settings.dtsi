@@ -29,6 +29,7 @@
       RCTRL RALT RGUI RSHFT
       BACKSPACE
     >;
+    /delete-property/ ignore-modifiers;
 };
 
 &num_word {
