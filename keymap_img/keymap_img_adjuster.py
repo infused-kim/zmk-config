@@ -10,6 +10,8 @@ pressed_buttons = [
     ('Nav', 41),
     ('Sym', 38),
     ('Num', 42),
+    ('Func', 38),
+    ('Func', 42),
     ('Adjust', 39),
 ]
 
