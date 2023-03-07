@@ -184,24 +184,24 @@ path {
 <rect rx="6.0" ry="6.0" x="592.0" y="265.20000000000005" width="52.0" height="52.0" class=""/>
 <text x="618.0" y="291.20000000000005" class="tap">0</text>
 <text x="618.0" y="315.20000000000005" class="hold">Num</text>
-<rect rx="6.0" ry="6.0" x="240.0" y="129.8" width="28.0" height="26.0" class="combo"/>
-<text x="254.0" y="142.8" class="combo">(</text>
-<rect rx="6.0" ry="6.0" x="632.0" y="129.8" width="28.0" height="26.0" class="combo"/>
-<text x="646.0" y="142.8" class="combo">)</text>
-<rect rx="6.0" ry="6.0" x="240.0" y="185.8" width="28.0" height="26.0" class="combo"/>
-<text x="254.0" y="198.8" class="combo">[</text>
-<text x="254.0" y="187.8" class="combo shifted">{</text>
-<rect rx="6.0" ry="6.0" x="632.0" y="185.8" width="28.0" height="26.0" class="combo"/>
-<text x="646.0" y="198.8" class="combo">]</text>
-<text x="646.0" y="187.8" class="combo shifted">}</text>
-<rect rx="6.0" ry="6.0" x="240.0" y="73.8" width="28.0" height="26.0" class="combo"/>
-<text x="254.0" y="86.8" class="combo">{</text>
-<rect rx="6.0" ry="6.0" x="632.0" y="73.8" width="28.0" height="26.0" class="combo"/>
-<text x="646.0" y="86.8" class="combo">}</text>
-<rect rx="6.0" ry="6.0" x="184.0" y="73.8" width="28.0" height="26.0" class="combo"/>
-<text x="198.0" y="86.8" class="combo">&lt;</text>
-<rect rx="6.0" ry="6.0" x="688.0" y="73.8" width="28.0" height="26.0" class="combo"/>
-<text x="702.0" y="86.8" class="combo">&gt;</text>
+<rect rx="6.0" ry="6.0" x="268.0" y="104.60000000000001" width="28.0" height="26.0" class="combo"/>
+<text x="282.0" y="117.60000000000001" class="combo">(</text>
+<rect rx="6.0" ry="6.0" x="604.0" y="104.60000000000001" width="28.0" height="26.0" class="combo"/>
+<text x="618.0" y="117.60000000000001" class="combo">)</text>
+<rect rx="6.0" ry="6.0" x="212.0" y="99.0" width="28.0" height="26.0" class="combo"/>
+<text x="226.0" y="112.0" class="combo">[</text>
+<text x="226.0" y="101.0" class="combo shifted">{</text>
+<rect rx="6.0" ry="6.0" x="660.0" y="99.0" width="28.0" height="26.0" class="combo"/>
+<text x="674.0" y="112.0" class="combo">]</text>
+<text x="674.0" y="101.0" class="combo shifted">}</text>
+<rect rx="6.0" ry="6.0" x="156.0" y="104.60000000000001" width="28.0" height="26.0" class="combo"/>
+<text x="170.0" y="117.60000000000001" class="combo">{</text>
+<rect rx="6.0" ry="6.0" x="716.0" y="104.60000000000001" width="28.0" height="26.0" class="combo"/>
+<text x="730.0" y="117.60000000000001" class="combo">}</text>
+<rect rx="6.0" ry="6.0" x="324.0" y="110.2" width="28.0" height="26.0" class="combo"/>
+<text x="338.0" y="123.2" class="combo">&lt;</text>
+<rect rx="6.0" ry="6.0" x="548.0" y="110.2" width="28.0" height="26.0" class="combo"/>
+<text x="562.0" y="123.2" class="combo">&gt;</text>
 <path d="M450.0,145.60000000000002 l-149.33333333333331,0.0"/>
 <path d="M450.0,145.60000000000002 l149.33333333333331,0.0"/>
 <rect rx="6.0" ry="6.0" x="436.0" y="132.60000000000002" width="28.0" height="26.0" class="combo"/>
@@ -381,24 +381,24 @@ path {
 <rect rx="6.0" ry="6.0" x="480.0" y="909.2000000000002" width="52.0" height="80.0" class=""/>
 <rect rx="6.0" ry="6.0" x="536.0" y="937.2000000000002" width="52.0" height="52.0" class=""/>
 <rect rx="6.0" ry="6.0" x="592.0" y="937.2000000000002" width="52.0" height="52.0" class=""/>
-<rect rx="6.0" ry="6.0" x="240.0" y="801.8000000000002" width="28.0" height="26.0" class="combo"/>
-<text x="254.0" y="814.8000000000002" class="combo">(</text>
-<rect rx="6.0" ry="6.0" x="632.0" y="801.8000000000002" width="28.0" height="26.0" class="combo"/>
-<text x="646.0" y="814.8000000000002" class="combo">)</text>
-<rect rx="6.0" ry="6.0" x="240.0" y="857.8000000000002" width="28.0" height="26.0" class="combo"/>
-<text x="254.0" y="870.8000000000002" class="combo">[</text>
-<text x="254.0" y="859.8000000000002" class="combo shifted">{</text>
-<rect rx="6.0" ry="6.0" x="632.0" y="857.8000000000002" width="28.0" height="26.0" class="combo"/>
-<text x="646.0" y="870.8000000000002" class="combo">]</text>
-<text x="646.0" y="859.8000000000002" class="combo shifted">}</text>
-<rect rx="6.0" ry="6.0" x="240.0" y="745.8000000000001" width="28.0" height="26.0" class="combo"/>
-<text x="254.0" y="758.8000000000001" class="combo">{</text>
-<rect rx="6.0" ry="6.0" x="632.0" y="745.8000000000001" width="28.0" height="26.0" class="combo"/>
-<text x="646.0" y="758.8000000000001" class="combo">}</text>
-<rect rx="6.0" ry="6.0" x="184.0" y="745.8000000000001" width="28.0" height="26.0" class="combo"/>
-<text x="198.0" y="758.8000000000001" class="combo">&lt;</text>
-<rect rx="6.0" ry="6.0" x="688.0" y="745.8000000000001" width="28.0" height="26.0" class="combo"/>
-<text x="702.0" y="758.8000000000001" class="combo">&gt;</text>
+<rect rx="6.0" ry="6.0" x="268.0" y="776.6000000000001" width="28.0" height="26.0" class="combo"/>
+<text x="282.0" y="789.6000000000001" class="combo">(</text>
+<rect rx="6.0" ry="6.0" x="604.0" y="776.6000000000001" width="28.0" height="26.0" class="combo"/>
+<text x="618.0" y="789.6000000000001" class="combo">)</text>
+<rect rx="6.0" ry="6.0" x="212.0" y="771.0000000000001" width="28.0" height="26.0" class="combo"/>
+<text x="226.0" y="784.0000000000001" class="combo">[</text>
+<text x="226.0" y="773.0000000000001" class="combo shifted">{</text>
+<rect rx="6.0" ry="6.0" x="660.0" y="771.0000000000001" width="28.0" height="26.0" class="combo"/>
+<text x="674.0" y="784.0000000000001" class="combo">]</text>
+<text x="674.0" y="773.0000000000001" class="combo shifted">}</text>
+<rect rx="6.0" ry="6.0" x="156.0" y="776.6000000000001" width="28.0" height="26.0" class="combo"/>
+<text x="170.0" y="789.6000000000001" class="combo">{</text>
+<rect rx="6.0" ry="6.0" x="716.0" y="776.6000000000001" width="28.0" height="26.0" class="combo"/>
+<text x="730.0" y="789.6000000000001" class="combo">}</text>
+<rect rx="6.0" ry="6.0" x="324.0" y="782.2000000000002" width="28.0" height="26.0" class="combo"/>
+<text x="338.0" y="795.2000000000002" class="combo">&lt;</text>
+<rect rx="6.0" ry="6.0" x="548.0" y="782.2000000000002" width="28.0" height="26.0" class="combo"/>
+<text x="562.0" y="795.2000000000002" class="combo">&gt;</text>
 <path d="M338.0,1009.0000000000002 h-50.0 a6.0,6.0 0 0 1 -6.0,-6.0 v-21.1333333333334"/>
 <path d="M338.0,1009.0000000000002 h-6.0 a6.0,6.0 0 0 1 6.0,-6.0 v-28.60000000000007"/>
 <path d="M338.0,1009.0000000000002 h50.0 a6.0,6.0 0 0 0 6.0,-6.0 v-25.800000000000068"/>
@@ -483,24 +483,24 @@ path {
 <rect rx="6.0" ry="6.0" x="480.0" y="1245.2000000000003" width="52.0" height="80.0" class=""/>
 <rect rx="6.0" ry="6.0" x="536.0" y="1273.2000000000003" width="52.0" height="52.0" class=""/>
 <rect rx="6.0" ry="6.0" x="592.0" y="1273.2000000000003" width="52.0" height="52.0" class="held"/>
-<rect rx="6.0" ry="6.0" x="240.0" y="1137.8000000000002" width="28.0" height="26.0" class="combo"/>
-<text x="254.0" y="1150.8000000000002" class="combo">(</text>
-<rect rx="6.0" ry="6.0" x="632.0" y="1137.8000000000002" width="28.0" height="26.0" class="combo"/>
-<text x="646.0" y="1150.8000000000002" class="combo">)</text>
-<rect rx="6.0" ry="6.0" x="240.0" y="1193.8000000000002" width="28.0" height="26.0" class="combo"/>
-<text x="254.0" y="1206.8000000000002" class="combo">[</text>
-<text x="254.0" y="1195.8000000000002" class="combo shifted">{</text>
-<rect rx="6.0" ry="6.0" x="632.0" y="1193.8000000000002" width="28.0" height="26.0" class="combo"/>
-<text x="646.0" y="1206.8000000000002" class="combo">]</text>
-<text x="646.0" y="1195.8000000000002" class="combo shifted">}</text>
-<rect rx="6.0" ry="6.0" x="240.0" y="1081.8000000000002" width="28.0" height="26.0" class="combo"/>
-<text x="254.0" y="1094.8000000000002" class="combo">{</text>
-<rect rx="6.0" ry="6.0" x="632.0" y="1081.8000000000002" width="28.0" height="26.0" class="combo"/>
-<text x="646.0" y="1094.8000000000002" class="combo">}</text>
-<rect rx="6.0" ry="6.0" x="184.0" y="1081.8000000000002" width="28.0" height="26.0" class="combo"/>
-<text x="198.0" y="1094.8000000000002" class="combo">&lt;</text>
-<rect rx="6.0" ry="6.0" x="688.0" y="1081.8000000000002" width="28.0" height="26.0" class="combo"/>
-<text x="702.0" y="1094.8000000000002" class="combo">&gt;</text>
+<rect rx="6.0" ry="6.0" x="268.0" y="1112.6000000000001" width="28.0" height="26.0" class="combo"/>
+<text x="282.0" y="1125.6000000000001" class="combo">(</text>
+<rect rx="6.0" ry="6.0" x="604.0" y="1112.6000000000001" width="28.0" height="26.0" class="combo"/>
+<text x="618.0" y="1125.6000000000001" class="combo">)</text>
+<rect rx="6.0" ry="6.0" x="212.0" y="1107.0000000000002" width="28.0" height="26.0" class="combo"/>
+<text x="226.0" y="1120.0000000000002" class="combo">[</text>
+<text x="226.0" y="1109.0000000000002" class="combo shifted">{</text>
+<rect rx="6.0" ry="6.0" x="660.0" y="1107.0000000000002" width="28.0" height="26.0" class="combo"/>
+<text x="674.0" y="1120.0000000000002" class="combo">]</text>
+<text x="674.0" y="1109.0000000000002" class="combo shifted">}</text>
+<rect rx="6.0" ry="6.0" x="156.0" y="1112.6000000000001" width="28.0" height="26.0" class="combo"/>
+<text x="170.0" y="1125.6000000000001" class="combo">{</text>
+<rect rx="6.0" ry="6.0" x="716.0" y="1112.6000000000001" width="28.0" height="26.0" class="combo"/>
+<text x="730.0" y="1125.6000000000001" class="combo">}</text>
+<rect rx="6.0" ry="6.0" x="324.0" y="1118.2000000000003" width="28.0" height="26.0" class="combo"/>
+<text x="338.0" y="1131.2000000000003" class="combo">&lt;</text>
+<rect rx="6.0" ry="6.0" x="548.0" y="1118.2000000000003" width="28.0" height="26.0" class="combo"/>
+<text x="562.0" y="1131.2000000000003" class="combo">&gt;</text>
 <path d="M338.0,1345.0000000000002 h-50.0 a6.0,6.0 0 0 1 -6.0,-6.0 v-21.133333333333287"/>
 <path d="M338.0,1345.0000000000002 h-6.0 a6.0,6.0 0 0 1 6.0,-6.0 v-28.599999999999955"/>
 <path d="M338.0,1345.0000000000002 h50.0 a6.0,6.0 0 0 0 6.0,-6.0 v-25.799999999999955"/>

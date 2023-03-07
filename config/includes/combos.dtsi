@@ -12,7 +12,7 @@
       timeout-ms = <COMBO_TERM_FAST>;
       global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
 
-      key-positions = <LM2 LM1>;
+      key-positions = <LM1 LT1>;
       layers = <BASE BASE_QWERTY SYM NUM NUM_WORD>;
       bindings = <&kp LPAR>;
     };
@@ -21,7 +21,7 @@
       timeout-ms = <COMBO_TERM_FAST>;
       global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
 
-      key-positions = <RM1 RM2>;
+      key-positions = <RM1 RT1>;
       layers = <BASE BASE_QWERTY SYM NUM NUM_WORD>;
       bindings = <&kp RPAR>;
     };
@@ -30,7 +30,7 @@
       timeout-ms = <COMBO_TERM_SLOW>;
       global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
 
-      key-positions = <LB2 LB1>;
+      key-positions = <LM2 LT2>;
       layers = <BASE BASE_QWERTY SYM NUM NUM_WORD>;
       bindings = <&kp LBKT>;
     };
@@ -39,7 +39,7 @@
       timeout-ms = <COMBO_TERM_SLOW>;
       global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
 
-      key-positions = <RB1 RB2>;
+      key-positions = <RM2 RT2>;
       layers = <BASE BASE_QWERTY SYM NUM NUM_WORD>;
       bindings = <&kp RBKT>;
     };
@@ -48,7 +48,7 @@
       timeout-ms = <COMBO_TERM_SLOW>;
       global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
 
-      key-positions = <LT2 LT1>;
+      key-positions = <LM3 LT3>;
       layers = <BASE BASE_QWERTY SYM NUM NUM_WORD>;
       bindings = <&kp LBRC>;
     };
@@ -57,7 +57,7 @@
       timeout-ms = <COMBO_TERM_SLOW>;
       global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
 
-      key-positions = <RT2 RT1>;
+      key-positions = <RM3 RT3>;
       layers = <BASE BASE_QWERTY SYM NUM NUM_WORD>;
       bindings = <&kp RBRC>;
     };
@@ -66,7 +66,7 @@
       timeout-ms = <COMBO_TERM_SLOW>;
       global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
 
-      key-positions = <LT3 LT2>;
+      key-positions = <LM0 LT0>;
       layers = <BASE BASE_QWERTY SYM NUM NUM_WORD>;
       bindings = <&kp LT>;
     };
@@ -75,7 +75,7 @@
       timeout-ms = <COMBO_TERM_SLOW>;
       global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
 
-      key-positions = <RT3 RT2>;
+      key-positions = <RM0 RT0>;
       layers = <BASE BASE_QWERTY SYM NUM NUM_WORD>;
       bindings = <&kp GT>;
     };
