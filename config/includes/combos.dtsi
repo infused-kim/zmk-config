@@ -30,7 +30,7 @@
       timeout-ms = <COMBO_TERM_SLOW>;
       global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
 
-      key-positions = <LM2 LT2>;
+      key-positions = <LB1 LM1>;
       layers = <BASE BASE_QWERTY SYM NUM NUM_WORD>;
       bindings = <&kp LBKT>;
     };
@@ -39,7 +39,7 @@
       timeout-ms = <COMBO_TERM_SLOW>;
       global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
 
-      key-positions = <RM2 RT2>;
+      key-positions = <RB1 RM1>;
       layers = <BASE BASE_QWERTY SYM NUM NUM_WORD>;
       bindings = <&kp RBKT>;
     };
@@ -48,7 +48,7 @@
       timeout-ms = <COMBO_TERM_SLOW>;
       global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
 
-      key-positions = <LM3 LT3>;
+      key-positions = <LM2 LT2>;
       layers = <BASE BASE_QWERTY SYM NUM NUM_WORD>;
       bindings = <&kp LBRC>;
     };
@@ -57,7 +57,7 @@
       timeout-ms = <COMBO_TERM_SLOW>;
       global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
 
-      key-positions = <RM3 RT3>;
+      key-positions = <RM2 RT2>;
       layers = <BASE BASE_QWERTY SYM NUM NUM_WORD>;
       bindings = <&kp RBRC>;
     };
@@ -66,7 +66,7 @@
       timeout-ms = <COMBO_TERM_SLOW>;
       global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
 
-      key-positions = <LM0 LT0>;
+      key-positions = <LB2 LM2>;
       layers = <BASE BASE_QWERTY SYM NUM NUM_WORD>;
       bindings = <&kp LT>;
     };
@@ -75,7 +75,7 @@
       timeout-ms = <COMBO_TERM_SLOW>;
       global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
 
-      key-positions = <RM0 RT0>;
+      key-positions = <RM2 RB2>;
       layers = <BASE BASE_QWERTY SYM NUM NUM_WORD>;
       bindings = <&kp GT>;
     };
