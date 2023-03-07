@@ -66,7 +66,7 @@
       timeout-ms = <COMBO_TERM_SLOW>;
       global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
 
-      key-positions = <LT3 LT2>;
+      key-positions = <LT1 LT0>;
       layers = <BASE BASE_QWERTY SYM NUM NUM_WORD>;
       bindings = <&kp LT>;
     };
@@ -75,7 +75,7 @@
       timeout-ms = <COMBO_TERM_SLOW>;
       global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
 
-      key-positions = <RT3 RT2>;
+      key-positions = <RT1 RT0>;
       layers = <BASE BASE_QWERTY SYM NUM NUM_WORD>;
       bindings = <&kp GT>;
     };

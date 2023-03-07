@@ -337,7 +337,7 @@
             "x": 100,
             "y": 140,
             "angle": 0,
-            "active": false,
+            "active": true,
             "row": 3,
             "column": 2,
             "side": "left",
@@ -2291,9 +2291,9 @@
         },
         {
             "keyNumber": 15,
-            "type": "&kp ",
+            "type": "man ",
             "values": [
-                "NUMBER_5"
+                "&mm_5_save"
             ],
             "keys": [],
             "codeId": "aa145df8-da21-4251-b63b-64051b9522dd",
@@ -2327,9 +2327,9 @@
         },
         {
             "keyNumber": 15,
-            "type": "&kp ",
+            "type": "man ",
             "values": [
-                "NUMBER_5"
+                "&mm_5_save"
             ],
             "keys": [],
             "codeId": "aa145df8-da21-4251-b63b-64051b9522dd",
@@ -2634,24 +2634,24 @@
         },
         {
             "keyNumber": 18,
-            "type": "man ",
+            "type": "&kp ",
             "values": [
-                "&td_at_email"
+                "PLUS"
             ],
             "keys": [],
-            "codeId": "b7439c90-6645-44bc-a4d1-6551c688e4e5",
+            "codeId": "6d5562aa-881c-481a-9722-2739f03a5d86",
             "layerId": "47ce01c6-a191-4769-b4c1-2735c86f4808",
             "targetLayerId": "",
             "targetLayerName": ""
         },
         {
             "keyNumber": 18,
-            "type": "&none",
+            "type": "&kp ",
             "values": [
-                null
+                "PLUS"
             ],
             "keys": [],
-            "codeId": "0e4454e5-dc02-47fa-ae7a-43570cc170ec",
+            "codeId": "6d5562aa-881c-481a-9722-2739f03a5d86",
             "layerId": "43a94f6e-fafe-4403-b291-c1a9063d0775",
             "targetLayerId": "",
             "targetLayerName": ""
@@ -2682,12 +2682,12 @@
         },
         {
             "keyNumber": 18,
-            "type": "&trans",
+            "type": "&kp ",
             "values": [
-                "EQUAL"
+                "PLUS"
             ],
             "keys": [],
-            "codeId": "0e4454e5-dc02-47fa-ae7a-43570cc170ec",
+            "codeId": "6d5562aa-881c-481a-9722-2739f03a5d86",
             "layerId": "52fa653d-6647-4a80-8176-cba73d7b775d",
             "targetLayerId": "",
             "targetLayerName": ""
@@ -3446,9 +3446,9 @@
         },
         {
             "keyNumber": 25,
-            "type": "&none",
+            "type": "man ",
             "values": [
-                "SLASH"
+                "&mm_none_undo"
             ],
             "keys": [],
             "codeId": "9ec5a902-b11a-4e3a-b2a2-b86f658c7a55",
@@ -3562,9 +3562,9 @@
         },
         {
             "keyNumber": 26,
-            "type": "&kp ",
+            "type": "man ",
             "values": [
-                "NUMBER_1"
+                "&mm_1_cut"
             ],
             "keys": [],
             "codeId": "4487e63f-ff10-475d-a282-e4f3e51dc523",
@@ -3596,9 +3596,9 @@
         },
         {
             "keyNumber": 26,
-            "type": "&kp ",
+            "type": "man ",
             "values": [
-                "NUMBER_1"
+                "&mm_1_cut"
             ],
             "keys": [],
             "codeId": "4487e63f-ff10-475d-a282-e4f3e51dc523",
@@ -3680,9 +3680,9 @@
         },
         {
             "keyNumber": 27,
-            "type": "&kp ",
+            "type": "man ",
             "values": [
-                "NUMBER_2"
+                "&mm_2_copy"
             ],
             "keys": [],
             "codeId": "388777d6-6ff8-4a81-81e5-36c5395c3160",
@@ -3716,9 +3716,9 @@
         },
         {
             "keyNumber": 27,
-            "type": "&kp ",
+            "type": "man ",
             "values": [
-                "NUMBER_2"
+                "&mm_2_copy"
             ],
             "keys": [],
             "codeId": "388777d6-6ff8-4a81-81e5-36c5395c3160",
@@ -3918,9 +3918,9 @@
         },
         {
             "keyNumber": 29,
-            "type": "&none",
+            "type": "man ",
             "values": [
-                "MINUS"
+                "&mm_none_paste"
             ],
             "keys": [],
             "codeId": "11ca7037-82bd-4197-8692-5e7fbe5c5870",
@@ -4136,24 +4136,24 @@
         },
         {
             "keyNumber": 31,
-            "type": "man ",
+            "type": "&kp ",
             "values": [
-                "&mm_plus_minus"
+                "MINUS"
             ],
             "keys": [],
-            "codeId": "b0b159d8-c768-4392-8275-2b90ca9eb46c",
+            "codeId": "11ca7037-82bd-4197-8692-5e7fbe5c5870",
             "layerId": "47ce01c6-a191-4769-b4c1-2735c86f4808",
             "targetLayerId": "",
             "targetLayerName": ""
         },
         {
             "keyNumber": 31,
-            "type": "man ",
+            "type": "&kp ",
             "values": [
-                "&mm_plus_minus"
+                "MINUS"
             ],
             "keys": [],
-            "codeId": "b0b159d8-c768-4392-8275-2b90ca9eb46c",
+            "codeId": "11ca7037-82bd-4197-8692-5e7fbe5c5870",
             "layerId": "43a94f6e-fafe-4403-b291-c1a9063d0775",
             "targetLayerId": "",
             "targetLayerName": ""
@@ -4182,12 +4182,12 @@
         },
         {
             "keyNumber": 31,
-            "type": "man ",
+            "type": "&kp ",
             "values": [
-                "&mm_plus_minus"
+                "MINUS"
             ],
             "keys": [],
-            "codeId": "b0b159d8-c768-4392-8275-2b90ca9eb46c",
+            "codeId": "11ca7037-82bd-4197-8692-5e7fbe5c5870",
             "layerId": "52fa653d-6647-4a80-8176-cba73d7b775d",
             "targetLayerId": "",
             "targetLayerName": ""
@@ -4255,10 +4255,10 @@
             "keyNumber": 32,
             "type": "&kp ",
             "values": [
-                "LT"
+                "UNDERSCORE"
             ],
             "keys": [],
-            "codeId": "5a27e6ef-91cf-47a3-b8d9-ccf868a15e09",
+            "codeId": "c3ed8036-ec42-4bf7-b395-7da76687fd04",
             "layerId": "47ce01c6-a191-4769-b4c1-2735c86f4808",
             "targetLayerId": "",
             "targetLayerName": ""
@@ -4369,12 +4369,12 @@
         },
         {
             "keyNumber": 33,
-            "type": "&kp ",
+            "type": "man ",
             "values": [
-                "GT"
+                "&td_at_email"
             ],
             "keys": [],
-            "codeId": "e44e44df-aced-4d80-a698-3751b6ca6fd4",
+            "codeId": "c3ed8036-ec42-4bf7-b395-7da76687fd04",
             "layerId": "47ce01c6-a191-4769-b4c1-2735c86f4808",
             "targetLayerId": "",
             "targetLayerName": ""
@@ -4707,7 +4707,7 @@
             "keyNumber": 36,
             "type": "man ",
             "values": [
-                "&tog NUM",
+                "&ltog LGUI NUM",
                 "LGUI"
             ],
             "keys": [],
@@ -4742,7 +4742,7 @@
             "keyNumber": 36,
             "type": "man ",
             "values": [
-                "&tog NUM_WORD"
+                "&ltog LGUI NUM_WORD"
             ],
             "keys": [],
             "codeId": "",

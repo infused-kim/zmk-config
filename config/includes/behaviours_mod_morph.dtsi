@@ -114,14 +114,20 @@
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
+
+        /*********************************
+         * Shortcuts on left layer - NAV *
+         *********************************/
+
+
         /*
          * None and CMD+Z with CMD
          * Used on nav layer to allow both navigation as well as
          * cut, copy and paste
          *
-         * Usage: &mm_left_word_cut
-         * Tap: Left Word
-         * CMD-Tap: CMD+X
+         * Usage: &mm_none_undo
+         * Tap: None
+         * CMD-Tap: CMD+Z
          */
         mm_none_undo: mm_none_undo {
             compatible = "zmk,behavior-mod-morph";
@@ -199,6 +205,63 @@
             #binding-cells = <0>;
             bindings = <&none>, <&kp MY_PASTE>;
             mods = <(MOD_RGUI|MOD_LGUI)>;
+        };
+
+        /*********************************
+         * Shortcuts on left layer - NUM *
+         *********************************/
+
+        /*
+         * 1 and CMD+X with CMD
+         * Used on num layer to allow both navigation as well as
+         * cut, copy and paste shortcuts.
+         *
+         * Usage: &mm_1_cut
+         * Tap: 1
+         * CMD-Tap: CMD+X
+         */
+        mm_1_cut: mm_1_cut {
+            compatible = "zmk,behavior-mod-morph";
+            label = "mm_1_cut";
+            #binding-cells = <0>;
+            bindings = <&kp NUMBER_1>, <&kp MY_CUT>;
+            mods = <(MOD_RGUI|MOD_LGUI)>;
+        };
+
+        /*
+         * Down and CMD/CTRL+C
+         * Used on nav layer to allow both navigation as well as
+         * cut, copy and paste shortcuts.
+         *
+         * Usage: &mm_2_copy
+         * Tap: 2
+         * LCMD: CMD+C
+         * RCMD-Tap: CMD+2
+         */
+        mm_2_copy: mm_2_copy {
+            compatible = "zmk,behavior-mod-morph";
+            label = "mm_2_copy";
+            #binding-cells = <0>;
+            bindings = <&kp NUMBER_2>, <&kp MY_COPY>;
+            mods = <(MOD_LGUI)>;
+        };
+
+        /*
+         * 5 and LCMD+S
+         * Used on num layer to allow both numbers as well as
+         * cut, copy and paste shortcuts.
+         *
+         * Usage: &mm_5_save
+         * Tap: 5
+         * LCMD-Tap: CMD+S
+         * RCMD-Tap: CMD+5
+         */
+        mm_5_save: mm_5_save {
+            compatible = "zmk,behavior-mod-morph";
+            label = "mm_5_save";
+            #binding-cells = <0>;
+            bindings = <&kp NUMBER_5>, <&kp LG(S)>;
+            mods = <(MOD_LGUI)>;
         };
 
         /*

@@ -198,10 +198,10 @@ path {
 <text x="254.0" y="86.8" class="combo">{</text>
 <rect rx="6.0" ry="6.0" x="632.0" y="73.8" width="28.0" height="26.0" class="combo"/>
 <text x="646.0" y="86.8" class="combo">}</text>
-<rect rx="6.0" ry="6.0" x="184.0" y="73.8" width="28.0" height="26.0" class="combo"/>
-<text x="198.0" y="86.8" class="combo">&lt;</text>
-<rect rx="6.0" ry="6.0" x="688.0" y="73.8" width="28.0" height="26.0" class="combo"/>
-<text x="702.0" y="86.8" class="combo">&gt;</text>
+<rect rx="6.0" ry="6.0" x="296.0" y="79.4" width="28.0" height="26.0" class="combo"/>
+<text x="310.0" y="92.4" class="combo">&lt;</text>
+<rect rx="6.0" ry="6.0" x="576.0" y="79.4" width="28.0" height="26.0" class="combo"/>
+<text x="590.0" y="92.4" class="combo">&gt;</text>
 <path d="M450.0,145.60000000000002 l-149.33333333333331,0.0"/>
 <path d="M450.0,145.60000000000002 l149.33333333333331,0.0"/>
 <rect rx="6.0" ry="6.0" x="436.0" y="132.60000000000002" width="28.0" height="26.0" class="combo"/>
@@ -395,10 +395,10 @@ path {
 <text x="254.0" y="758.8000000000001" class="combo">{</text>
 <rect rx="6.0" ry="6.0" x="632.0" y="745.8000000000001" width="28.0" height="26.0" class="combo"/>
 <text x="646.0" y="758.8000000000001" class="combo">}</text>
-<rect rx="6.0" ry="6.0" x="184.0" y="745.8000000000001" width="28.0" height="26.0" class="combo"/>
-<text x="198.0" y="758.8000000000001" class="combo">&lt;</text>
-<rect rx="6.0" ry="6.0" x="688.0" y="745.8000000000001" width="28.0" height="26.0" class="combo"/>
-<text x="702.0" y="758.8000000000001" class="combo">&gt;</text>
+<rect rx="6.0" ry="6.0" x="296.0" y="751.4000000000001" width="28.0" height="26.0" class="combo"/>
+<text x="310.0" y="764.4000000000001" class="combo">&lt;</text>
+<rect rx="6.0" ry="6.0" x="576.0" y="751.4000000000001" width="28.0" height="26.0" class="combo"/>
+<text x="590.0" y="764.4000000000001" class="combo">&gt;</text>
 <path d="M338.0,1009.0000000000002 h-50.0 a6.0,6.0 0 0 1 -6.0,-6.0 v-21.1333333333334"/>
 <path d="M338.0,1009.0000000000002 h-6.0 a6.0,6.0 0 0 1 6.0,-6.0 v-28.60000000000007"/>
 <path d="M338.0,1009.0000000000002 h50.0 a6.0,6.0 0 0 0 6.0,-6.0 v-25.800000000000068"/>
@@ -476,7 +476,8 @@ path {
 <text x="786.0" y="1196.8000000000002" class="shifted">?</text>
 <rect rx="6.0" ry="6.0" x="816.0" y="1194.8000000000002" width="52.0" height="52.0" class=""/>
 <rect rx="6.0" ry="6.0" x="256.0" y="1273.2000000000003" width="52.0" height="52.0" class=""/>
-<text x="282.0" y="1299.2000000000003" class="tap">Num</text>
+<text x="282.0" y="1299.2000000000003" class="tap">6</text>
+<text x="282.0" y="1323.2000000000003" class="hold">⌘</text>
 <rect rx="6.0" ry="6.0" x="312.0" y="1273.2000000000003" width="52.0" height="52.0" class=""/>
 <rect rx="6.0" ry="6.0" x="368.0" y="1245.2000000000003" width="52.0" height="80.0" class=""/>
 <text x="394.0" y="1285.2000000000003" class="tap">0</text>
@@ -497,10 +498,10 @@ path {
 <text x="254.0" y="1094.8000000000002" class="combo">{</text>
 <rect rx="6.0" ry="6.0" x="632.0" y="1081.8000000000002" width="28.0" height="26.0" class="combo"/>
 <text x="646.0" y="1094.8000000000002" class="combo">}</text>
-<rect rx="6.0" ry="6.0" x="184.0" y="1081.8000000000002" width="28.0" height="26.0" class="combo"/>
-<text x="198.0" y="1094.8000000000002" class="combo">&lt;</text>
-<rect rx="6.0" ry="6.0" x="688.0" y="1081.8000000000002" width="28.0" height="26.0" class="combo"/>
-<text x="702.0" y="1094.8000000000002" class="combo">&gt;</text>
+<rect rx="6.0" ry="6.0" x="296.0" y="1087.4000000000003" width="28.0" height="26.0" class="combo"/>
+<text x="310.0" y="1100.4000000000003" class="combo">&lt;</text>
+<rect rx="6.0" ry="6.0" x="576.0" y="1087.4000000000003" width="28.0" height="26.0" class="combo"/>
+<text x="590.0" y="1100.4000000000003" class="combo">&gt;</text>
 <path d="M338.0,1345.0000000000002 h-50.0 a6.0,6.0 0 0 1 -6.0,-6.0 v-21.133333333333287"/>
 <path d="M338.0,1345.0000000000002 h-6.0 a6.0,6.0 0 0 1 6.0,-6.0 v-28.599999999999955"/>
 <path d="M338.0,1345.0000000000002 h50.0 a6.0,6.0 0 0 0 6.0,-6.0 v-25.799999999999955"/>
