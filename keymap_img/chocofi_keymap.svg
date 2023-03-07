@@ -376,6 +376,8 @@ path {
 <text x="786.0" y="860.8000000000001" class="shifted">|</text>
 <rect rx="6.0" ry="6.0" x="816.0" y="858.8000000000001" width="52.0" height="52.0" class=""/>
 <rect rx="6.0" ry="6.0" x="256.0" y="937.2000000000002" width="52.0" height="52.0" class=""/>
+<text x="282.0" y="963.2000000000002" class="tap">3</text>
+<text x="282.0" y="987.2000000000002" class="hold">⌘</text>
 <rect rx="6.0" ry="6.0" x="312.0" y="937.2000000000002" width="52.0" height="52.0" class="held"/>
 <rect rx="6.0" ry="6.0" x="368.0" y="909.2000000000002" width="52.0" height="80.0" class=""/>
 <rect rx="6.0" ry="6.0" x="480.0" y="909.2000000000002" width="52.0" height="80.0" class=""/>
@@ -646,7 +648,6 @@ path {
 <rect rx="6.0" ry="6.0" x="760.0" y="1850.0000000000002" width="52.0" height="52.0" class=""/>
 <rect rx="6.0" ry="6.0" x="816.0" y="1850.0000000000002" width="52.0" height="52.0" class=""/>
 <rect rx="6.0" ry="6.0" x="256.0" y="1928.4000000000003" width="52.0" height="52.0" class=""/>
-<text x="282.0" y="1954.4000000000003" class="tap">Nav</text>
 <rect rx="6.0" ry="6.0" x="312.0" y="1928.4000000000003" width="52.0" height="52.0" class=""/>
 <rect rx="6.0" ry="6.0" x="368.0" y="1900.4000000000003" width="52.0" height="80.0" class="held"/>
 <rect rx="6.0" ry="6.0" x="480.0" y="1900.4000000000003" width="52.0" height="80.0" class=""/>
