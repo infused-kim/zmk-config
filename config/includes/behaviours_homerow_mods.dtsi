@@ -98,7 +98,7 @@
             #binding-cells = <2>;
             bindings = <&kp>, <&kp>;
 
-            flavor = "tap-preferred";
+            flavor = "balanced";
             tapping-term-ms = <HM_TAPPING_TERM>;
             quick_tap_ms = <200>;
         };
