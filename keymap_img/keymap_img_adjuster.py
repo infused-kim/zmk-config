@@ -6,13 +6,17 @@ import sys
 import oyaml as yaml
 
 # Settings
+# To get key numbers, check...
+# zmk-nodefree-config/keypos_def/keypos_36keys.h
+#
+# Increment the numbers from there by 1
 pressed_buttons = [
-    ('Nav', 41),
-    ('Sym', 38),
-    ('Num', 42),
-    ('Func', 38),
-    ('Func', 42),
-    ('Adjust', 39),
+    ('Nav', 35),
+    ('Sym', 32),
+    ('Num', 36),
+    ('Func', 32),
+    ('Func', 36),
+    ('Adjust', 33),
 ]
 
 delete_layers = [
@@ -24,11 +28,11 @@ delete_layers = [
 ]
 
 combo_locations = {
-    (36, 37, 38): {'a': 'bottom', 'o': 0.3},
+    (30, 31, 32): {'a': 'bottom', 'o': 0.3},
     (2, 3, 4): {'a': 'top', 'o': 0.3},
-    (14, 15, 16): {'a': 'bottom', 'o': 0.1},
-    (26, 27, 28): {'a': 'bottom', 'o': 0.2},
-    (16, 19): {'k': 'Caps Word'},
+    (11, 12, 13): {'a': 'bottom', 'o': -0.25},
+    (21, 22, 23): {'a': 'bottom', 'o': 0.0},
+    (13, 16): {'k': "Caps\nWord"},
 }
 
 

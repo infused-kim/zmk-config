@@ -181,6 +181,7 @@ parse_config:
     '&td_at_email': {t: '@'}
     '&num_word': 'NUM'
     '&nav_word': 'NAV'
+    '&caps_word_capslock': "Caps\nWord"
     '&caps_word': '⇪'
     '&td_shift_l': '⇧'
     '&td_shift_r': '⇧'

@@ -1,4 +1,4 @@
-#include "../../zmk-nodefree-config/keypos_def/keypos_42keys.h"
+#include "../../zmk-nodefree-config/keypos_def/keypos_36keys.h"
 
 #define COMBO_TERM_FAST 35
 #define COMBO_TERM_SLOW 40
