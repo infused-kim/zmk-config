@@ -189,6 +189,11 @@ parse_config:
     '&td_bt_clear': 'BT CLR'
     '&m_type_md_code_block': '```'
     '&kt LSHFT': "⇧\nLock"
+    '&lt_num_word 4 0': {t: "Num\nWord", h: 'Num'}
+    '&ltog LGUI 2': {t: "Nav", h: '⌘'}
+    '&ltog LGUI 3': {t: "Sym", h: '⌘'}
+    '&ltog LGUI 4': {t: "Num", h: '⌘'}
+
   skip_binding_parsing: false
   zmk_keycode_map:
     AMPERSAND: '&'

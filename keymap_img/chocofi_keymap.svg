@@ -175,7 +175,8 @@ path {
 <text x="563.148" y="316.096" class="hold">Nav</text>
 </g>
 <rect rx="6.0" ry="6.0" x="601.5759999999999" y="257.584" width="55.303999999999995" height="52.0" class=""/>
-<text x="629.228" y="283.584" class="tap">0</text>
+<text x="629.228" y="283.584" class="tap">
+<tspan x="629.228" dy="-1.2em">Num</tspan><tspan x="629.228" dy="1.2em">Word</tspan></text>
 <text x="629.228" y="307.584" class="hold">Num</text>
 <rect rx="6.0" ry="6.0" x="193.912" y="137.892" width="28.0" height="26.0" class="combo"/>
 <text x="207.912" y="150.892" class="combo">(</text>
@@ -269,7 +270,7 @@ path {
 <rect rx="6.0" ry="6.0" x="700.696" y="553.712" width="55.303999999999995" height="52.0" class=""/>
 <rect rx="6.0" ry="6.0" x="760.0" y="593.248" width="55.303999999999995" height="52.0" class=""/>
 <rect rx="6.0" ry="6.0" x="190.42400000000004" y="621.528" width="55.303999999999995" height="52.0" class=""/>
-<text x="218.07600000000002" y="647.528" class="tap">2</text>
+<text x="218.07600000000002" y="647.528" class="tap">Nav</text>
 <text x="218.07600000000002" y="671.528" class="hold">⌘</text>
 <g transform="rotate(15.0, 284.18399999999997, 656.04)">
 <rect rx="6.0" ry="6.0" x="256.504" y="630.04" width="55.303999999999995" height="52.0" class=""/>
@@ -360,7 +361,7 @@ path {
 <text x="787.652" y="983.192" class="tap">/</text>
 <text x="787.652" y="959.192" class="shifted">?</text>
 <rect rx="6.0" ry="6.0" x="190.42400000000004" y="985.472" width="55.303999999999995" height="52.0" class=""/>
-<text x="218.07600000000002" y="1011.472" class="tap">4</text>
+<text x="218.07600000000002" y="1011.472" class="tap">Num</text>
 <text x="218.07600000000002" y="1035.472" class="hold">⌘</text>
 <g transform="rotate(15.0, 284.18399999999997, 1019.984)">
 <rect rx="6.0" ry="6.0" x="256.504" y="993.984" width="55.303999999999995" height="52.0" class=""/>
@@ -534,7 +535,7 @@ path {
 <text x="787.652" y="1694.2800000000002" class="tap">\</text>
 <text x="787.652" y="1670.2800000000002" class="shifted">|</text>
 <rect rx="6.0" ry="6.0" x="190.42400000000004" y="1696.5600000000002" width="55.303999999999995" height="52.0" class=""/>
-<text x="218.07600000000002" y="1722.5600000000002" class="tap">3</text>
+<text x="218.07600000000002" y="1722.5600000000002" class="tap">Sym</text>
 <text x="218.07600000000002" y="1746.5600000000002" class="hold">⌘</text>
 <g transform="rotate(15.0, 284.18399999999997, 1731.0720000000001)">
 <rect rx="6.0" ry="6.0" x="256.504" y="1705.0720000000001" width="55.303999999999995" height="52.0" class="held"/>
