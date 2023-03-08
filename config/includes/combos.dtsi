@@ -86,7 +86,7 @@
 
       key-positions = <LM1 RM1>;
       layers = <BASE BASE_QWERTY>;
-      bindings = <&caps_word>;
+      bindings = <&caps_word_capslock >;
     };
 
     combo_return {
