@@ -33,7 +33,12 @@
 };
 
 &caps_word_capslock {
-	disable-on-keys = <SPACE TAB ENTER ESCAPE>;
+	disable-on-keys = <
+        SPACE TAB ENTER ESCAPE
+        COMMA DOT SEMI COLON QUESTION EXCLAMATION
+        SLASH BACKSLASH SINGLE_QUOTE DOUBLE_QUOTES GRAVE
+        LPAR RPAR LBKT RBKT LBRC RBRC LT GT
+    >;
 };
 
 &num_word {
