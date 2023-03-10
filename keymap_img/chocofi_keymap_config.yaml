@@ -307,3 +307,5 @@ parse_config:
     'LG(X)': '⌘X'
     'LG(C)': '⌘C'
     'LG(V)': '⌘V'
+    'LC(TAB)': '⌃↹'
+    'LS(LC(TAB))': '⌃⇧↹'
