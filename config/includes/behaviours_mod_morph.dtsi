@@ -253,6 +253,7 @@
          *
          * Usage: &mm_5_save
          * Tap: 5
+         * Hold: LGUI
          * LCMD-Tap: CMD+S
          * RCMD-Tap: CMD+5
          */
@@ -260,7 +261,7 @@
             compatible = "zmk,behavior-mod-morph";
             label = "mm_5_save";
             #binding-cells = <0>;
-            bindings = <&kp NUMBER_5>, <&kp LG(S)>;
+            bindings = <&hm_l LGUI NUMBER_5>, <&kp LG(S)>;
             mods = <(MOD_LGUI)>;
         };
 
