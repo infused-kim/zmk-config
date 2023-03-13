@@ -190,10 +190,11 @@ parse_config:
     '&m_type_md_code_block': '```'
     '&kt LSHFT': "⇧\nLock"
     '&lt_num_word 4 0': {t: "Num\nWord", h: 'Num'}
-    '&ltog LGUI 2': {t: "Nav", h: '⌘'}
-    '&ltog LGUI 3': {t: "Sym", h: '⌘'}
-    '&ltog LGUI 4': {t: "Num", h: '⌘'}
-
+    '&ltog LGUI 5': {t: "Cancel\nNav", h: '⌘'}
+    '&ltog LGUI 6': {t: "Cancel\nNum", h: '⌘'}
+    '&ltog LGUI 7': {t: "Cancel\nSym", h: '⌘'}
+    '&ltog LGUI 8': {t: "Cancel\nFunc", h: '⌘'}
+    '&ltog LGUI 9': {t: "Cancel\nAdjust", h: '⌘'}
   skip_binding_parsing: false
   zmk_keycode_map:
     AMPERSAND: '&'
