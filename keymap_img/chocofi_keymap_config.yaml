@@ -310,3 +310,8 @@ parse_config:
     'LG(V)': '⌘V'
     'LC(TAB)': '⌃↹'
     'LS(LC(TAB))': '⌃⇧↹'
+#   zmk_combos:
+#     combo_tog_nav_word: {'a': 'bottom', 'o': -0.25}
+#     combo_tog_num_word: {'a': 'bottom', 'o': 0.0}
+#     combo_return: {'a': 'bottom', 'o': 0.3}
+#     combo_capsword: {'k': "Caps\nWord"}

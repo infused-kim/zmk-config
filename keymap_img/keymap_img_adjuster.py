@@ -11,27 +11,27 @@ import oyaml as yaml
 #
 # Increment the numbers from there by 1
 pressed_buttons = [
-    ('Nav', 35),
-    ('Sym', 32),
-    ('Num', 36),
-    ('Func', 32),
-    ('Func', 36),
-    ('Adjust', 33),
+    # ('Nav', 35),
+    # ('Sym', 32),
+    # ('Num', 36),
+    # ('Func', 32),
+    # ('Func', 36),
+    # ('Adjust', 33),
 ]
 
 delete_layers = [
-    'QWERTY',
-    'Nav Word',
-    'Sym Word',
-    'Num Word',
-    'Lower',
+    # 'QWERTY',
+    # 'Nav Word',
+    # 'Sym Word',
+    # 'Num Word',
+    # 'Lower',
 ]
 
 combo_locations = {
-    (30, 31, 32): {'a': 'bottom', 'o': 0.3},
-    (2, 3, 4): {'a': 'top', 'o': 0.3},
-    (11, 12, 13): {'a': 'bottom', 'o': -0.25},
-    (21, 22, 23): {'a': 'bottom', 'o': 0.0},
+    # (30, 31, 32): {'a': 'bottom', 'o': 0.3},
+    # (2, 3, 4): {'a': 'top', 'o': 0.3},
+    # (11, 12, 13): {'a': 'bottom', 'o': -0.25},
+    # (21, 22, 23): {'a': 'bottom', 'o': 0.0},
     (13, 16): {'k': "Caps\nWord"},
 }
 
@@ -52,8 +52,8 @@ def adjust_combo(keymap, combo_locations):
     keymap = copy.deepcopy(keymap)
 
     for combo in keymap['combos']:
-        if len(combo['p']) > 2:
-            combo['a'] = 'top'
+        # if len(combo['p']) > 2:
+        #     combo['a'] = 'top'
 
         combo_location = combo_locations.get(tuple(combo['p']), None)
         if combo_location is not None:
