@@ -1,4 +1,4 @@
-# Kim's ZMK Config
+# Matheus' ZMK Config
 
 ## Keymap
 
