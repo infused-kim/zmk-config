@@ -8,105 +8,124 @@
   combos {
     compatible = "zmk,combos";
 
-    combo_bracket_round_l {
+    
+    combo_esc {
       timeout-ms = <COMBO_TERM_FAST>;
       global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
 
       key-positions = <LM2 LM1>;
-      layers = <BASE BASE_QWERTY SYM NUM NUM_WORD>;
-      bindings = <&kp LPAR>;
+      layers = <BAS>;
+      bindings = <&kp ESC>;
     };
 
-    combo_bracket_round_r {
+    combo_tab {
       timeout-ms = <COMBO_TERM_FAST>;
       global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
 
-      key-positions = <RM1 RM2>;
-      layers = <BASE BASE_QWERTY SYM NUM NUM_WORD>;
-      bindings = <&kp RPAR>;
+      key-positions = <RM3 RM2>;
+      layers = <BAS>;
+      bindings = <&kp TAB>;
     };
 
-    combo_bracket_square_l {
-      timeout-ms = <COMBO_TERM_SLOW>;
-      global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
-
-      key-positions = <LB2 LB1>;
-      layers = <BASE BASE_QWERTY SYM NUM NUM_WORD>;
-      bindings = <&kp LBKT>;
-    };
-
-    combo_bracket_square_r {
-      timeout-ms = <COMBO_TERM_SLOW>;
-      global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
-
-      key-positions = <RB1 RB2>;
-      layers = <BASE BASE_QWERTY SYM NUM NUM_WORD>;
-      bindings = <&kp RBKT>;
-    };
-
-    combo_bracket_curly_l {
-      timeout-ms = <COMBO_TERM_SLOW>;
-      global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
-
-      key-positions = <LT2 LT1>;
-      layers = <BASE BASE_QWERTY SYM NUM NUM_WORD>;
-      bindings = <&kp LBRC>;
-    };
-
-    combo_bracket_curly_r {
-      timeout-ms = <COMBO_TERM_SLOW>;
-      global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
-
-      key-positions = <RT2 RT1>;
-      layers = <BASE BASE_QWERTY SYM NUM NUM_WORD>;
-      bindings = <&kp RBRC>;
-    };
-
-    combo_bracket_angled_l {
-      timeout-ms = <COMBO_TERM_SLOW>;
-      global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
-
-      key-positions = <LT1 LT0>;
-      layers = <BASE BASE_QWERTY SYM NUM NUM_WORD>;
-      bindings = <&kp LT>;
-    };
-
-    combo_bracket_angled_r {
-      timeout-ms = <COMBO_TERM_SLOW>;
-      global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
-
-      key-positions = <RT1 RT0>;
-      layers = <BASE BASE_QWERTY SYM NUM NUM_WORD>;
-      bindings = <&kp GT>;
-    };
-
-    combo_capsword {
-      timeout-ms = <COMBO_TERM_SLOW>;
-      global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
-
-      key-positions = <LM1 RM1>;
-      layers = <BASE BASE_QWERTY>;
-      bindings = <&caps_word_capslock >;
-    };
-
-    combo_return {
-      timeout-ms = <COMBO_TERM_FAST>;
-      global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
-
-      key-positions = <LH2 LH1 LH0>;
-      layers = <BASE BASE_QWERTY NAV NUM SYM>;
-      bindings = <&kp RET>;
-    };
-
-    combo_bspc {
-      timeout-ms = <COMBO_TERM_FAST>;
-      global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
-
-      key-positions = <LH1 LH0>;
-      layers = <BASE BASE_QWERTY NAV NUM SYM>;
-      bindings = <&kp BSPC>;
-    };
-
+    /* combo_bracket_round_l { */
+    /*   timeout-ms = <COMBO_TERM_FAST>; */
+    /*   global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>; */
+    /**/
+    /*   key-positions = <LM2 LM1>; */
+    /*   layers = <BASE BASE_QWERTY SYM NUM NUM_WORD>; */
+    /*   bindings = <&kp LPAR>; */
+    /* }; */
+    /**/
+    /* combo_bracket_round_r { */
+    /*   timeout-ms = <COMBO_TERM_FAST>; */
+    /*   global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>; */
+    /**/
+    /*   key-positions = <RM1 RM2>; */
+    /*   layers = <BASE BASE_QWERTY SYM NUM NUM_WORD>; */
+    /*   bindings = <&kp RPAR>; */
+    /* }; */
+    /**/
+    /* combo_bracket_square_l { */
+    /*   timeout-ms = <COMBO_TERM_SLOW>; */
+    /*   global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>; */
+    /**/
+    /*   key-positions = <LB2 LB1>; */
+    /*   layers = <BASE BASE_QWERTY SYM NUM NUM_WORD>; */
+    /*   bindings = <&kp LBKT>; */
+    /* }; */
+    /**/
+    /* combo_bracket_square_r { */
+    /*   timeout-ms = <COMBO_TERM_SLOW>; */
+    /*   global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>; */
+    /**/
+    /*   key-positions = <RB1 RB2>; */
+    /*   layers = <BASE BASE_QWERTY SYM NUM NUM_WORD>; */
+    /*   bindings = <&kp RBKT>; */
+    /* }; */
+    /**/
+    /* combo_bracket_curly_l { */
+    /*   timeout-ms = <COMBO_TERM_SLOW>; */
+    /*   global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>; */
+    /**/
+    /*   key-positions = <LT2 LT1>; */
+    /*   layers = <BASE BASE_QWERTY SYM NUM NUM_WORD>; */
+    /*   bindings = <&kp LBRC>; */
+    /* }; */
+    /**/
+    /* combo_bracket_curly_r { */
+    /*   timeout-ms = <COMBO_TERM_SLOW>; */
+    /*   global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>; */
+    /**/
+    /*   key-positions = <RT2 RT1>; */
+    /*   layers = <BASE BASE_QWERTY SYM NUM NUM_WORD>; */
+    /*   bindings = <&kp RBRC>; */
+    /* }; */
+    /**/
+    /* combo_bracket_angled_l { */
+    /*   timeout-ms = <COMBO_TERM_SLOW>; */
+    /*   global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>; */
+    /**/
+    /*   key-positions = <LT1 LT0>; */
+    /*   layers = <BASE BASE_QWERTY SYM NUM NUM_WORD>; */
+    /*   bindings = <&kp LT>; */
+    /* }; */
+    /**/
+    /* combo_bracket_angled_r { */
+    /*   timeout-ms = <COMBO_TERM_SLOW>; */
+    /*   global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>; */
+    /**/
+    /*   key-positions = <RT1 RT0>; */
+    /*   layers = <BASE BASE_QWERTY SYM NUM NUM_WORD>; */
+    /*   bindings = <&kp GT>; */
+    /* }; */
+    /**/
+    /* combo_capsword { */
+    /*   timeout-ms = <COMBO_TERM_SLOW>; */
+    /*   global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>; */
+    /**/
+    /*   key-positions = <LM1 RM1>; */
+    /*   layers = <BASE BASE_QWERTY>; */
+    /*   bindings = <&caps_word_capslock >; */
+    /* }; */
+    /**/
+    /* combo_return { */
+    /*   timeout-ms = <COMBO_TERM_FAST>; */
+    /*   global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>; */
+    /**/
+    /*   key-positions = <LH2 LH1 LH0>; */
+    /*   layers = <BASE BASE_QWERTY NAV NUM SYM>; */
+    /*   bindings = <&kp RET>; */
+    /* }; */
+    /**/
+    /* combo_bspc { */
+    /*   timeout-ms = <COMBO_TERM_FAST>; */
+    /*   global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>; */
+    /**/
+    /*   key-positions = <LH1 LH0>; */
+    /*   layers = <BASE BASE_QWERTY NAV NUM SYM>; */
+    /*   bindings = <&kp BSPC>; */
+    /* }; */
+    /**/
     // combo_grave {
     //   timeout-ms = <COMBO_TERM_SLOW>;
     //   global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
@@ -125,22 +144,22 @@
     //   bindings = <&m_type_md_code_block>;
     // };
 
-    combo_tog_nav_word {
-      timeout-ms = <COMBO_TERM_SLOW>;
-      global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
-
-      key-positions = <LM3 LM2 LM1>;
-      layers = <BASE BASE_QWERTY NUM NUM_WORD>;
-      bindings = <&nav_word>;
-    };
-
-    combo_tog_num_word {
-      timeout-ms = <COMBO_TERM_SLOW>;
-      global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
-
-      key-positions = <LB3 LB2 LB1>;
-      layers = <BASE BASE_QWERTY NAV NAV_WORD>;
-      bindings = <&num_word>;
-    };
+    /* combo_tog_nav_word { */
+    /*   timeout-ms = <COMBO_TERM_SLOW>; */
+    /*   global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>; */
+    /**/
+    /*   key-positions = <LM3 LM2 LM1>; */
+    /*   layers = <BASE BASE_QWERTY NUM NUM_WORD>; */
+    /*   bindings = <&nav_word>; */
+    /* }; */
+    /**/
+    /* combo_tog_num_word { */
+    /*   timeout-ms = <COMBO_TERM_SLOW>; */
+    /*   global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>; */
+    /**/
+    /*   key-positions = <LB3 LB2 LB1>; */
+    /*   layers = <BASE BASE_QWERTY NAV NAV_WORD>; */
+    /*   bindings = <&num_word>; */
+    /* }; */
   };
 };
