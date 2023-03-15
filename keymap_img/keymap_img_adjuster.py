@@ -7,28 +7,15 @@ import oyaml as yaml
 
 # Settings
 pressed_buttons = [
-    ('Nav', 41),
-    ('Sym', 38),
-    ('Num', 42),
-    ('Func', 38),
-    ('Func', 42),
-    ('Adjust', 39),
+    ('123', 34),
+    ('hjkl', 31),
+    ('ext', 31),
+    ('ext', 34),
 ]
 
-delete_layers = [
-    'QWERTY',
-    'Nav Word',
-    'Sym Word',
-    'Num Word',
-    'Lower',
-]
+delete_layers = []
 
 combo_locations = {
-    (36, 37, 38): {'a': 'bottom', 'o': 0.3},
-    (2, 3, 4): {'a': 'top', 'o': 0.3},
-    (14, 15, 16): {'a': 'bottom', 'o': 0.1},
-    (26, 27, 28): {'a': 'bottom', 'o': 0.2},
-    (16, 19): {'k': 'Caps Word'},
 }
 
 
@@ -40,7 +27,7 @@ def get_keymap_yaml(file_path):
 
 
 def write_keymap_yaml(file_path, keymap):
-    with open(file_path, 'w') as f:
+    with open(file_path + "updated", 'w') as f:
         yaml.dump(keymap, f)
 
 
@@ -79,28 +66,19 @@ def highlight_buttons(keymap, buttons):
 
     for button in buttons:
         b_layer = button[0]
-        b_num = button[1] - 1
+        b_num = button[1]
 
         layer = keymap['layers'].get(b_layer, None)
         if layer is None:
             print(f"Can't highlight button: {button}: Layer not found")
             continue
 
-        # The buttons aren't stored as rows that correspond to the rows on the
-        # keyboard. Instead it seems that they are stored in rows of 10 buttons
-        # We loop through them until we find the button with the right number.
-        b_row = None
-        b_index = None
-        prev_layer_buttons = 0
-        for layer_row in layer:
-            if prev_layer_buttons + len(layer_row) > b_num:
-                b_row = layer_row
-                b_index = b_num - prev_layer_buttons
-                break
-            else:
-                prev_layer_buttons += len(layer_row)
+        # print(f"INDEX: {b_num}")
+        # print(f"LAYER: {layer}")
+        # print(f"MATH: [{int(b_num/10)}][{b_num % 10}]")
+        button_item = layer[int(b_num/10)][b_num % 10]
 
-        button_item = b_row[b_index]
+        print(f"ITEM: {button_item}")
         if type(button_item) is dict:
             button_item['type'] = 'held'
         else:
@@ -108,8 +86,9 @@ def highlight_buttons(keymap, buttons):
                 't': button_item,
                 'type': 'held',
             }
-            b_row[b_index] = button_dict
+            layer[int(b_num/10)][b_num % 10] = button_dict
 
+    print(f"HIGHLIGHTED: {keymap}")
     return keymap
 
 
@@ -152,10 +131,8 @@ def main():
     keymap = remove_layers(keymap, delete_layers)
     keymap = highlight_buttons(keymap, pressed_buttons)
     undefined_behaviors = check_undefined_behaviors(keymap)
-
     write_keymap_yaml(args.keymap_yaml_path, keymap)
-
-    if(undefined_behaviors > 0):
+    if (undefined_behaviors > 0):
         exit(1)
 
 

@@ -1,4 +1,4 @@
-#include "../../zmk-nodefree-config/keypos_def/keypos_42keys.h"
+#include "../../zmk-nodefree-config/keypos_def/keypos_36keys.h"
 
 #define COMBO_TERM_FAST 35
 #define COMBO_TERM_SLOW 40
@@ -13,7 +13,7 @@
       timeout-ms = <COMBO_TERM_FAST>;
       global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
 
-      key-positions = <LM2 LM1>;
+      key-positions = <RM1 RM2>;
       layers = <BAS>;
       bindings = <&kp ESC>;
     };
@@ -22,7 +22,7 @@
       timeout-ms = <COMBO_TERM_FAST>;
       global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
 
-      key-positions = <RM3 RM2>;
+      key-positions = <LM2 LM3>;
       layers = <BAS>;
       bindings = <&kp TAB>;
     };
