@@ -180,13 +180,13 @@
         * Use CMD TAB app switcher with a single app press.
         * Requires ZMK PR #1366.
         */
-        swapper_cmd_tab: swapper {
-             compatible = "zmk,behavior-tri-state";
-             label = "SWAPPER";
-             #binding-cells = <0>;
-             bindings = <&kt LGUI>, <&kp TAB>, <&kt LGUI>;
-            //  ignored-key-positions = <x>;
-         };
+        // swapper_cmd_tab: swapper {
+        //      compatible = "zmk,behavior-tri-state";
+        //      label = "SWAPPER";
+        //      #binding-cells = <0>;
+        //      bindings = <&kt LGUI>, <&kp TAB>, <&kt LGUI>;
+        //     //  ignored-key-positions = <x>;
+        //  };
 
        /*
         * Layer Toggle
