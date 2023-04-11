@@ -91,7 +91,7 @@
             label = "TAP_DANCE_NUM_LAYER";
             #binding-cells = <0>;
             tapping-term-ms = <250>;
-            bindings = <&lt NUM DEL>, <&num_word>;
+            bindings = <&lt NUM DEL>, <&tog NUM_WORD>;
         };
 
         /*
@@ -171,7 +171,7 @@
             #binding-cells = <2>;
             flavor = "balanced";
             tapping-term-ms = <200>;
-            bindings = <&mo>, <&num_word>;
+            bindings = <&mo>, <&tog NUM_WORD>;
         };
 
         /*

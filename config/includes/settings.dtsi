@@ -41,13 +41,13 @@
 //     >;
 // };
 
-&num_word {
-    layers = <NUM_WORD>;
-    continue-list = <
-        BACKSPACE DELETE DOT COMMA
-        SLASH ASTERISK PLUS MINUS EQUAL DOLLAR
-        RS(SPACE)
-    >;
-    ignore-modifiers;  // modifiers don't deactivate the layer
+// &num_word {
+//     layers = <NUM_WORD>;
+//     continue-list = <
+//         BACKSPACE DELETE DOT COMMA
+//         SLASH ASTERISK PLUS MINUS EQUAL DOLLAR
+//         RS(SPACE)
+//     >;
+//     ignore-modifiers;  // modifiers don't deactivate the layer
 
-};
+// };

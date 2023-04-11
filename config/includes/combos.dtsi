@@ -140,7 +140,7 @@
 
       key-positions = <LB3 LB2 LB1>;
       layers = <BASE BASE_QWERTY NAV NAV_WORD>;
-      bindings = <&num_word>;
+      bindings = <&tog NUM_WORD>;
     };
   };
 };
