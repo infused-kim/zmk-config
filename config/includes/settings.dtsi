@@ -19,18 +19,18 @@
 /*
  * Caps Word Settings
  */
-&caps_word {
-    // Allow caps word to continue even when minus or underscore
-    // are pressed.
-    // Also prevent mod presses from cancelling caps word.
-    continue-list = <
-      UNDERSCORE MINUS
-      LCTRL LALT LGUI LSHFT
-      RCTRL RALT RGUI RSHFT
-      BACKSPACE
-    >;
-    /delete-property/ ignore-modifiers;
-};
+// &caps_word {
+//     // Allow caps word to continue even when minus or underscore
+//     // are pressed.
+//     // Also prevent mod presses from cancelling caps word.
+//     continue-list = <
+//       UNDERSCORE MINUS
+//       LCTRL LALT LGUI LSHFT
+//       RCTRL RALT RGUI RSHFT
+//       BACKSPACE
+//     >;
+//     /delete-property/ ignore-modifiers;
+// };
 
 // &caps_word_capslock {
 // 	disable-on-keys = <
