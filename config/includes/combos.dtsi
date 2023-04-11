@@ -131,7 +131,7 @@
 
       key-positions = <LM3 LM2 LM1>;
       layers = <BASE BASE_QWERTY NUM NUM_WORD>;
-      bindings = <&nav_word>;
+      bindings = <&tog NAV_WORD>;
     };
 
     combo_tog_num_word {

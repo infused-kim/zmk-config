@@ -108,7 +108,7 @@
             label = "td_nav_layer_inner";
             #binding-cells = <0>;
             tapping-term-ms = <250>;
-            bindings = <&kp RET>, <&nav_word>, <&kp RET>;
+            bindings = <&kp RET>, <&tog NAV_WORD>, <&kp RET>;
         };
         td_nav_layer: td_nav_layer {
             compatible = "zmk,behavior-hold-tap";
@@ -137,18 +137,18 @@
             bindings = <&mm_spc_unds_layer>, <&sym_word>;
         };
 
-        nav_word: nav_word {
-            compatible = "zmk,behavior-caps-word";
-            label = "NAV_WORD";
-            #binding-cells = <0>;
-            layers = <NAV_WORD>;
-            continue-list = <
-                LEFT DOWN UP RIGHT
-                PG_UP PG_DN
-                MY_UNDO MY_CUT MY_COPY MY_PASTE
-            >;
-            ignore-modifiers;  // modifiers don't deactivate the layer
-        };
+        // nav_word: nav_word {
+        //     compatible = "zmk,behavior-caps-word";
+        //     label = "NAV_WORD";
+        //     #binding-cells = <0>;
+        //     layers = <NAV_WORD>;
+        //     continue-list = <
+        //         LEFT DOWN UP RIGHT
+        //         PG_UP PG_DN
+        //         MY_UNDO MY_CUT MY_COPY MY_PASTE
+        //     >;
+        //     ignore-modifiers;  // modifiers don't deactivate the layer
+        // };
 
         sym_word: sym_word {
             compatible = "zmk,behavior-caps-word";
