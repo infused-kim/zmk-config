@@ -148,7 +148,7 @@
       // global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
 
       key-positions = <LT3 LT2 LT1>;
-      layers = <BASE BASE_QWERTY NAV NAV_WORD>;
+      layers = <BASE BASE_QWERTY NAV NAV_WORD MOUSE_KEYS>;
       bindings = <&tog MOUSE_SET>;
     };
   };
