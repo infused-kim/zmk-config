@@ -9,7 +9,7 @@ manifest:
   projects:
     - name: zmk
       remote: infused-kim
-      revision: testing/urob-changes
+      revision: pr-testing/mouse_ps2
       import: app/west.yml
   self:
     path: config
