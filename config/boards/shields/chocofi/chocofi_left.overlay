@@ -16,3 +16,28 @@
 		, <&pro_micro 14 GPIO_ACTIVE_HIGH>
 		;
 };
+
+// Put this in the overlay of the central side (usually left).
+// The mouse driver doesn't work on the peripheral.
+// If you have your trackpoint on the right side, you need to
+// make it the central side first.
+//
+// Check the Kconfig.defconfig and the `ZMK_SPLIT_ROLE_CENTRAL`
+// setting.
+&gpio_ps2 {
+	status = "okay";
+};
+
+&mouse_ps2 {
+	status = "okay";
+};
+
+// Adjust GPIO interrupt priority to the highest level.
+// PS/2 events must be processed within 30-50us. Therefore we change the
+// default gpio priority to the highest and we demote all BT interrupt
+// priorities by one level.
+//
+// This allows the PS/2 interrupts to be triggered in time.
+&gpiote {
+	interrupts = < 0x6 0 >;
+};

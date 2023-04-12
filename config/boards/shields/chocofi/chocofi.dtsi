@@ -58,3 +58,30 @@ RC(2,1) RC(2,2) RC(2,3) RC(2,4) RC(2,5)  RC(2,6) RC(2,7) RC(2,8) RC(2,9) RC(2,10
 		prechargep = <0x22>;
 	};
 };
+
+// The PS/2 GPIO and mouse drivers.
+/ {
+    gpio_ps2: gpio_ps2 {
+		status = "disabled";
+        compatible = "gpio-ps2";
+
+        // The two bottom left pins of the nice!nano (when it is facing down)
+        scl-gpios = <&pro_micro 16 0>;
+        sda-gpios = <&pro_micro 10 0>;
+    };
+};
+
+/ {
+    mouse_ps2: mouse_ps2 {
+		status = "disabled";
+        compatible = "zmk,mouse-ps2";
+        ps2-device = <&gpio_ps2>;
+
+        // Uncomment this if you have an extra free pin and
+        // want the controller to perform the Power-On-Reset
+        // instead of using a reset circuit.
+        //
+        // The bottom right pin of the nice!nano (when it is facing down)
+        rst-gpios = <&pro_micro 9 0>;
+    };
+};

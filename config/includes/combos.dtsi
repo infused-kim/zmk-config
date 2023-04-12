@@ -142,5 +142,14 @@
       layers = <BASE BASE_QWERTY NAV NAV_WORD>;
       bindings = <&tog NUM_WORD>;
     };
+
+    combo_tog_mouse_settings {
+      timeout-ms = <COMBO_TERM_SLOW>;
+      // global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
+
+      key-positions = <LT3 LT2 LT1>;
+      layers = <BASE BASE_QWERTY NAV NAV_WORD>;
+      bindings = <&tog MOUSE_SET>;
+    };
   };
 };
