@@ -80,6 +80,78 @@
       bindings = <&kp GT>;
     };
 
+    combo_bracket_v_round_l {
+      timeout-ms = <COMBO_TERM_FAST>;
+      global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
+
+      key-positions = <LT1 LM1>;
+      layers = <BASE BASE_QWERTY SYM NUM NUM_WORD>;
+      bindings = <&kp LPAR>;
+    };
+
+    combo_bracket_v_round_r {
+      timeout-ms = <COMBO_TERM_FAST>;
+      global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
+
+      key-positions = <RT1 RM1>;
+      layers = <BASE BASE_QWERTY SYM NUM NUM_WORD>;
+      bindings = <&kp RPAR>;
+    };
+
+    combo_bracket_v_square_l {
+      timeout-ms = <COMBO_TERM_SLOW>;
+      global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
+
+      key-positions = <LT2 LM2>;
+      layers = <BASE BASE_QWERTY SYM NUM NUM_WORD>;
+      bindings = <&kp LBKT>;
+    };
+
+    combo_bracket_v_square_r {
+      timeout-ms = <COMBO_TERM_SLOW>;
+      global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
+
+      key-positions = <RT2 RM2>;
+      layers = <BASE BASE_QWERTY SYM NUM NUM_WORD>;
+      bindings = <&kp RBKT>;
+    };
+
+    combo_bracket_v_curly_l {
+      timeout-ms = <COMBO_TERM_SLOW>;
+      global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
+
+      key-positions = <LT3 LM3>;
+      layers = <BASE BASE_QWERTY SYM NUM NUM_WORD>;
+      bindings = <&kp LBRC>;
+    };
+
+    combo_bracket_v_curly_r {
+      timeout-ms = <COMBO_TERM_SLOW>;
+      global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
+
+      key-positions = <RT3 RM3>;
+      layers = <BASE BASE_QWERTY SYM NUM NUM_WORD>;
+      bindings = <&kp RBRC>;
+    };
+
+    combo_bracket_v_angled_l {
+      timeout-ms = <COMBO_TERM_SLOW>;
+      global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
+
+      key-positions = <LM1 LB1>;
+      layers = <BASE BASE_QWERTY SYM NUM NUM_WORD>;
+      bindings = <&kp LT>;
+    };
+
+    combo_bracket_v_angled_r {
+      timeout-ms = <COMBO_TERM_SLOW>;
+      global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
+
+      key-positions = <RM1 RB1>;
+      layers = <BASE BASE_QWERTY SYM NUM NUM_WORD>;
+      bindings = <&kp GT>;
+    };
+
     combo_capsword {
       timeout-ms = <COMBO_TERM_SLOW>;
       global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
