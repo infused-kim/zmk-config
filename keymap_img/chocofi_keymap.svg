@@ -177,22 +177,6 @@ path {
 <rect rx="6.0" ry="6.0" x="601.5759999999999" y="257.584" width="55.303999999999995" height="52.0" class="key"/>
 <text x="629.228" y="283.584" class="tap">0</text>
 <text x="629.228" y="307.584" class="hold">Num</text>
-<rect rx="6.0" ry="6.0" x="193.912" y="137.892" width="28.0" height="26.0" class="combo"/>
-<text x="207.912" y="150.892" class="combo tap">(</text>
-<rect rx="6.0" ry="6.0" x="625.392" y="137.892" width="28.0" height="26.0" class="combo"/>
-<text x="639.392" y="150.892" class="combo tap">)</text>
-<rect rx="6.0" ry="6.0" x="193.912" y="193.92000000000002" width="28.0" height="26.0" class="combo"/>
-<text x="207.912" y="206.92000000000002" class="combo tap">[</text>
-<rect rx="6.0" ry="6.0" x="625.392" y="193.92000000000002" width="28.0" height="26.0" class="combo"/>
-<text x="639.392" y="206.92000000000002" class="combo tap">]</text>
-<rect rx="6.0" ry="6.0" x="193.912" y="81.892" width="28.0" height="26.0" class="combo"/>
-<text x="207.912" y="94.892" class="combo tap">{</text>
-<rect rx="6.0" ry="6.0" x="625.392" y="81.892" width="28.0" height="26.0" class="combo"/>
-<text x="639.392" y="94.892" class="combo tap">}</text>
-<rect rx="6.0" ry="6.0" x="134.608" y="136.88400000000001" width="28.0" height="26.0" class="combo"/>
-<text x="148.608" y="149.88400000000001" class="combo tap">&lt;</text>
-<rect rx="6.0" ry="6.0" x="684.696" y="136.88400000000001" width="28.0" height="26.0" class="combo"/>
-<text x="698.696" y="149.88400000000001" class="combo tap">&gt;</text>
 <rect rx="6.0" ry="6.0" x="223.56400000000002" y="120.78399999999999" width="28.0" height="26.0" class="combo"/>
 <text x="237.56400000000002" y="133.784" class="combo tap">(</text>
 <rect rx="6.0" ry="6.0" x="595.74" y="120.78399999999999" width="28.0" height="26.0" class="combo"/>
@@ -404,22 +388,6 @@ path {
 <text x="563.0344648531952" y="1033.583522049461" class="trans tap">▽</text>
 </g>
 <rect rx="6.0" ry="6.0" x="601.5759999999999" y="999.9339071077425" width="55.303999999999995" height="52.0" class="held key"/>
-<rect rx="6.0" ry="6.0" x="193.912" y="880.2419071077425" width="28.0" height="26.0" class="combo"/>
-<text x="207.912" y="893.2419071077425" class="combo tap">(</text>
-<rect rx="6.0" ry="6.0" x="625.392" y="880.2419071077425" width="28.0" height="26.0" class="combo"/>
-<text x="639.392" y="893.2419071077425" class="combo tap">)</text>
-<rect rx="6.0" ry="6.0" x="193.912" y="936.2699071077425" width="28.0" height="26.0" class="combo"/>
-<text x="207.912" y="949.2699071077425" class="combo tap">[</text>
-<rect rx="6.0" ry="6.0" x="625.392" y="936.2699071077425" width="28.0" height="26.0" class="combo"/>
-<text x="639.392" y="949.2699071077425" class="combo tap">]</text>
-<rect rx="6.0" ry="6.0" x="193.912" y="824.2419071077425" width="28.0" height="26.0" class="combo"/>
-<text x="207.912" y="837.2419071077425" class="combo tap">{</text>
-<rect rx="6.0" ry="6.0" x="625.392" y="824.2419071077425" width="28.0" height="26.0" class="combo"/>
-<text x="639.392" y="837.2419071077425" class="combo tap">}</text>
-<rect rx="6.0" ry="6.0" x="134.608" y="879.2339071077425" width="28.0" height="26.0" class="combo"/>
-<text x="148.608" y="892.2339071077425" class="combo tap">&lt;</text>
-<rect rx="6.0" ry="6.0" x="684.696" y="879.2339071077425" width="28.0" height="26.0" class="combo"/>
-<text x="698.696" y="892.2339071077425" class="combo tap">&gt;</text>
 <rect rx="6.0" ry="6.0" x="223.56400000000002" y="863.1339071077425" width="28.0" height="26.0" class="combo"/>
 <text x="237.56400000000002" y="876.1339071077425" class="combo tap">(</text>
 <rect rx="6.0" ry="6.0" x="595.74" y="863.1339071077425" width="28.0" height="26.0" class="combo"/>
@@ -536,22 +504,6 @@ path {
 </g>
 <rect rx="6.0" ry="6.0" x="601.5759999999999" y="1371.1088606616138" width="55.303999999999995" height="52.0" class="trans key"/>
 <text x="629.228" y="1397.1088606616138" class="trans tap">▽</text>
-<rect rx="6.0" ry="6.0" x="193.912" y="1251.4168606616138" width="28.0" height="26.0" class="combo"/>
-<text x="207.912" y="1264.4168606616138" class="combo tap">(</text>
-<rect rx="6.0" ry="6.0" x="625.392" y="1251.4168606616138" width="28.0" height="26.0" class="combo"/>
-<text x="639.392" y="1264.4168606616138" class="combo tap">)</text>
-<rect rx="6.0" ry="6.0" x="193.912" y="1307.4448606616138" width="28.0" height="26.0" class="combo"/>
-<text x="207.912" y="1320.4448606616138" class="combo tap">[</text>
-<rect rx="6.0" ry="6.0" x="625.392" y="1307.4448606616138" width="28.0" height="26.0" class="combo"/>
-<text x="639.392" y="1320.4448606616138" class="combo tap">]</text>
-<rect rx="6.0" ry="6.0" x="193.912" y="1195.4168606616138" width="28.0" height="26.0" class="combo"/>
-<text x="207.912" y="1208.4168606616138" class="combo tap">{</text>
-<rect rx="6.0" ry="6.0" x="625.392" y="1195.4168606616138" width="28.0" height="26.0" class="combo"/>
-<text x="639.392" y="1208.4168606616138" class="combo tap">}</text>
-<rect rx="6.0" ry="6.0" x="134.608" y="1250.4088606616137" width="28.0" height="26.0" class="combo"/>
-<text x="148.608" y="1263.4088606616137" class="combo tap">&lt;</text>
-<rect rx="6.0" ry="6.0" x="684.696" y="1250.4088606616137" width="28.0" height="26.0" class="combo"/>
-<text x="698.696" y="1263.4088606616137" class="combo tap">&gt;</text>
 <rect rx="6.0" ry="6.0" x="223.56400000000002" y="1234.3088606616138" width="28.0" height="26.0" class="combo"/>
 <text x="237.56400000000002" y="1247.3088606616138" class="combo tap">(</text>
 <rect rx="6.0" ry="6.0" x="595.74" y="1234.3088606616138" width="28.0" height="26.0" class="combo"/>
