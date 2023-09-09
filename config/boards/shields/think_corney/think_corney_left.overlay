@@ -1,0 +1,26 @@
+/*
+ * Copyright (c) 2020 Pete Johanson
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include "think_corney.dtsi"
+
+&kscan0 {
+	col-gpios
+		= <&pro_micro 21 GPIO_ACTIVE_HIGH>
+		, <&pro_micro 20 GPIO_ACTIVE_HIGH>
+		, <&pro_micro 19 GPIO_ACTIVE_HIGH>
+		, <&pro_micro 18 GPIO_ACTIVE_HIGH>
+		, <&pro_micro 15 GPIO_ACTIVE_HIGH>
+		, <&pro_micro 14 GPIO_ACTIVE_HIGH>
+		;
+};
+
+
+// Actually, needs to be adjusted in
+// config/boards/shields/nice_view_adapter/boards/nice_nano_v2.overlay
+//
+// &nice_view_spi {
+//     cs-gpios = <&pro_micro 10 GPIO_ACTIVE_HIGH>;
+// };
