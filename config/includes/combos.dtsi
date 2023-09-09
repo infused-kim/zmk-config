@@ -1,4 +1,4 @@
-#include "../../zmk-nodefree-config/keypos_def/keypos_36keys.h"
+#include "../../zmk-nodefree-config/keypos_def/keypos_42keys.h"
 
 #define COMBO_TERM_FAST 35
 #define COMBO_TERM_SLOW 40
@@ -213,6 +213,15 @@
       key-positions = <LB3 LB2 LB1>;
       layers = <BASE BASE_QWERTY NAV NAV_WORD>;
       bindings = <&num_word>;
+    };
+
+    combo_tog_mouse_settings {
+      timeout-ms = <COMBO_TERM_SLOW>;
+      // global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
+
+      key-positions = <RT1 RT2 RT3>;
+      layers = <BASE BASE_QWERTY NAV NAV_WORD MOUSE_KEYS>;
+      bindings = <&tog MOUSE_SET>;
     };
   };
 };

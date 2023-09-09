@@ -23,7 +23,27 @@
 
 // Actually, needs to be adjusted in
 // config/boards/shields/nice_view_adapter/boards/nice_nano_v2.overlay
-
 &nice_view_spi {
     cs-gpios = <&pro_micro 10 GPIO_ACTIVE_HIGH>;
+};
+
+
+// Enable PS/2 drivers on this side of the keyboard.
+// MUST be the central
+&gpio_ps2 {
+	status = "okay";
+};
+
+&mouse_ps2 {
+	status = "okay";
+};
+
+// Adjust GPIO interrupt priority to the highest level.
+// PS/2 events must be processed within 30-50us. Therefore we change the
+// default gpio priority to the highest and we demote all BT interrupt
+// priorities by one level.
+//
+// This allows the PS/2 interrupts to be triggered in time.
+&gpiote {
+	interrupts = < 0x6 0 >;
 };
