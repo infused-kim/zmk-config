@@ -215,7 +215,24 @@
       bindings = <&num_word>;
     };
 
-    combo_tog_mouse_settings {
+    combo_tog_mouse_settings_l {
+      timeout-ms = <COMBO_TERM_SLOW>;
+      // global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
+
+      key-positions = <LT1 LT2 LT3>;
+      layers = <BASE BASE_QWERTY NAV NAV_WORD MOUSE_KEYS>;
+      bindings = <&tog MOUSE_SET>;
+    };
+    combo_tog_mouse_keys_l {
+      timeout-ms = <COMBO_TERM_SLOW>;
+      // global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
+
+      key-positions = <LM1 LM2 LM3>;
+      layers = <BASE BASE_QWERTY NAV NAV_WORD MOUSE_KEYS>;
+      bindings = <&tog MOUSE_KEYS>;
+    };
+
+    combo_tog_mouse_settings_r {
       timeout-ms = <COMBO_TERM_SLOW>;
       // global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
 
@@ -223,7 +240,7 @@
       layers = <BASE BASE_QWERTY NAV NAV_WORD MOUSE_KEYS>;
       bindings = <&tog MOUSE_SET>;
     };
-    combo_tog_mouse_keys {
+    combo_tog_mouse_keys_r {
       timeout-ms = <COMBO_TERM_SLOW>;
       // global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
 
