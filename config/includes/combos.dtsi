@@ -223,5 +223,13 @@
       layers = <BASE BASE_QWERTY NAV NAV_WORD MOUSE_KEYS>;
       bindings = <&tog MOUSE_SET>;
     };
+    combo_tog_mouse_keys {
+      timeout-ms = <COMBO_TERM_SLOW>;
+      // global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
+
+      key-positions = <RM1 RM2 RM3>;
+      layers = <BASE BASE_QWERTY NAV NAV_WORD MOUSE_KEYS>;
+      bindings = <&tog MOUSE_KEYS>;
+    };
   };
 };
