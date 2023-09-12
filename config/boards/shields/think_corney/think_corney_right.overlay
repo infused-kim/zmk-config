@@ -21,13 +21,6 @@
 		;
 };
 
-// Actually, needs to be adjusted in
-// config/boards/shields/nice_view_adapter/boards/nice_nano_v2.overlay
-&nice_view_spi {
-    cs-gpios = <&pro_micro 9 GPIO_ACTIVE_HIGH>;
-};
-
-
 // Enable PS/2 drivers on this side of the keyboard.
 // MUST be the central
 &gpio_ps2 {

@@ -16,11 +16,3 @@
 		, <&pro_micro 14 GPIO_ACTIVE_HIGH>
 		;
 };
-
-
-// Actually, needs to be adjusted in
-// config/boards/shields/nice_view_adapter/boards/nice_nano_v2.overlay
-
-&nice_view_spi {
-    cs-gpios = <&pro_micro 9 GPIO_ACTIVE_HIGH>;
-};

@@ -8,7 +8,6 @@
 
 / {
 	chosen {
-		zephyr,display = &oled;
 		zmk,kscan = &kscan0;
 		zmk,matrix_transform = &default_transform;
 	};
@@ -38,24 +37,10 @@ RC(2,0) RC(2,1) RC(2,2) RC(2,3) RC(2,4) RC(2,5)  RC(2,6) RC(2,7) RC(2,8) RC(2,9)
 
 	};
 };
-&pro_micro_i2c {
-	status = "okay";
 
-	oled: ssd1306@3c {
-		compatible = "solomon,ssd1306fb";
-		reg = <0x3c>;
-		label = "DISPLAY";
-		width = <128>;
-		height = <32>;
-		segment-offset = <0>;
-		page-offset = <0>;
-		display-offset = <0>;
-		multiplex-ratio = <31>;
-		segment-remap;
-		com-invdir;
-		com-sequential;
-		prechargep = <0x22>;
-	};
+// Nice View
+&nice_view_spi {
+    cs-gpios = <&pro_micro 9 GPIO_ACTIVE_HIGH>;
 };
 
 // The PS/2 GPIO and mouse drivers.
