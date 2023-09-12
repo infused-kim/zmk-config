@@ -5,6 +5,48 @@
     behaviors {
 
         /*
+         * Sticky shift + Caps Word
+         *
+         * Usage: &mm_shift_caps_word_l or &mm_shift_caps_word_r
+         * Tap: Sticky shift
+         * HMR-Shift-Tap: Caps Word
+         * Double Tap: Caps Word
+         *   - The first tap activates sticky shift mod
+         *   - The second tap is now a shift + press, which activates
+         *     the mod morph
+         * Hold: Shift
+         *
+         * Credits to urob for this genius combo.
+         */
+        mm_shift_caps_word_l: mm_shift_caps_word_l {
+            compatible = "zmk,behavior-mod-morph";
+            label = "mm_shift_caps_word_l";
+            #binding-cells = <0>;
+
+            #ifdef HAS_CAPSLOCK
+                bindings = <&sk LSHFT>, <&caps_word_capslock>;
+            #else
+                bindings = <&sk LSHFT>, <&caps_word>;
+            #endif
+
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        mm_shift_caps_word_r: mm_shift_caps_word_r {
+            compatible = "zmk,behavior-mod-morph";
+            label = "mm_shift_caps_word_r";
+            #binding-cells = <0>;
+
+            #ifdef HAS_CAPSLOCK
+                bindings = <&sk RSHFT>, <&caps_word_capslock>;
+            #else
+                bindings = <&sk RSHFT>, <&caps_word>;
+            #endif
+
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        /*
          * Shifted Backspace deletes
          *
          * Usage: &mm_bspc_del
