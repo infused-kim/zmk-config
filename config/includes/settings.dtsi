@@ -29,25 +29,30 @@
       RCTRL RALT RGUI RSHFT
       BACKSPACE
     >;
-    /delete-property/ ignore-modifiers;
+    #ifdef HAS_UROB
+        /delete-property/ ignore-modifiers;
+    #endif
 };
 
-&caps_word_capslock {
-	disable-on-keys = <
-        SPACE TAB ENTER ESCAPE
-        COMMA DOT SEMI COLON QUESTION EXCLAMATION
-        SLASH BACKSLASH SINGLE_QUOTE DOUBLE_QUOTES GRAVE
-        LPAR RPAR LBKT RBKT LBRC RBRC LT GT
-    >;
-};
+#ifdef HAS_CAPSLOCK
+    &caps_word_capslock {
+        disable-on-keys = <
+            SPACE TAB ENTER ESCAPE
+            COMMA DOT SEMI COLON QUESTION EXCLAMATION
+            SLASH BACKSLASH SINGLE_QUOTE DOUBLE_QUOTES GRAVE
+            LPAR RPAR LBKT RBKT LBRC RBRC LT GT
+        >;
+    };
+#endif
 
-&num_word {
-    layers = <NUM_WORD>;
-    continue-list = <
-        BACKSPACE DELETE DOT COMMA
-        SLASH ASTERISK PLUS MINUS EQUAL DOLLAR
-        RS(SPACE)
-    >;
-    ignore-modifiers;  // modifiers don't deactivate the layer
-
-};
+#ifdef HAS_UROB
+    &num_word {
+        layers = <NUM_WORD>;
+        continue-list = <
+            BACKSPACE DELETE DOT COMMA
+            SLASH ASTERISK PLUS MINUS EQUAL DOLLAR
+            RS(SPACE)
+        >;
+        ignore-modifiers;  // modifiers don't deactivate the layer
+    };
+#endif

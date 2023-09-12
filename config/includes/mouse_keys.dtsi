@@ -1,5 +1,10 @@
+#ifdef HAS_UROB
 #include <dt-bindings/zmk/mouse.h>
-// #include <dt-bindings/zmk/mouse_settings.h>
+#endif
+
+#ifdef HAS_PS2
+#include <dt-bindings/zmk/mouse_settings.h>
+#endif
 
 
 // These are defines to make the keymap behavior for adjusting
