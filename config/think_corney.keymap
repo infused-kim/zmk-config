@@ -6,7 +6,7 @@
 
 // Comment out to disable features that require zmk features that
 // are not in main
-// #define HAS_UROB
+#define HAS_UROB
 // #define HAS_PS2
 // #define HAS_CAPSLOCK
 
