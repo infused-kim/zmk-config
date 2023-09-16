@@ -9,7 +9,7 @@ manifest:
   projects:
     - name: zmk
       remote: infused-kim
-      revision: testing/urob-changes-tp
+      revision: testing/urob-no-changes-tp
       import: app/west.yml
   self:
     path: config
