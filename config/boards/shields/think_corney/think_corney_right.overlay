@@ -23,7 +23,7 @@
 
 // Enable PS/2 drivers on this side of the keyboard.
 // MUST be the central
-&gpio_ps2 {
+&ps2_spi {
 	status = "okay";
 };
 
@@ -37,6 +37,6 @@
 // priorities by one level.
 //
 // This allows the PS/2 interrupts to be triggered in time.
-&gpiote {
-	interrupts = < 0x6 0 >;
-};
+// &gpiote {
+// 	interrupts = < 0x6 0 >;
+// };
