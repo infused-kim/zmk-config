@@ -23,7 +23,7 @@
 
 // Enable PS/2 drivers on this side of the keyboard.
 // MUST be the central
-&ps2_spi {
+&uart_ps2 {
 	status = "okay";
 };
 
