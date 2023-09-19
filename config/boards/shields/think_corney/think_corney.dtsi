@@ -55,19 +55,50 @@ RC(2,0) RC(2,1) RC(2,2) RC(2,3) RC(2,4) RC(2,5)  RC(2,6) RC(2,7) RC(2,8) RC(2,9)
 //     };
 // };
 
+
+// UART is designed to use separate pins for receiving and sending.
+// But in PS/2 the same pin is used for both.
+//
+// Here we add two pinctrl states where in one the SDA pin is used for
+// receiving and in another where it is used for sending.
+// The driver switches between the two states when reading and writing.
 &pinctrl {
-	uart0_default_ps2: uart0_default_ps2 {
+	// This pinctrl state is used for receiving
+	// For `UART_TX`, set an unused and unexposed pin
+	// For `UART_RX`, set the PS2 SDA pin number
+	uart0_ps2_default: uart0_ps2_default {
 		group1 {
-			psels = <NRF_PSEL(UART_TX, 0, 6)>,  // Not exposed / P0.27
+			psels = <NRF_PSEL(UART_TX, 0, 27)>,  // Not exposed / P0.27
 					<NRF_PSEL(UART_RX, 0, 8)>;  // D0 / P0.08
 		};
 	};
 
-	uart0_sleep_ps2: uart0_sleep_ps2 {
+	// Set this to the same pins as uart0_ps2_default
+	uart0_ps2_sleep: uart0_ps2_sleep {
 		group1 {
-			psels = <NRF_PSEL(UART_TX, 0, 6)>,  // Not exposed / P0.27
+			psels = <NRF_PSEL(UART_TX, 0, 27)>,  // Not exposed / P0.27
 					<NRF_PSEL(UART_RX, 0, 8)>;  // D0 / P0.08
 			low-power-enable;
+		};
+	};
+
+	// This pinctrl state is used for sending
+	// For `UART_TX`, set the PS2 SDA pin number
+	// For `UART_RX`, set an unused and unexposed pin
+	uart0_ps2_tx: uart0_ps2_tx {
+		group1 {
+			psels = <NRF_PSEL(UART_TX, 0, 8)>,  // Not exposed / P0.27
+					<NRF_PSEL(UART_RX, 0, 27)>;  // D0 / P0.08
+		};
+	};
+
+	// This pinctrl state is used when transmitting data.
+	// It sets the UART pins to unused pins so that we can control
+	// the data pin through GPIO.
+	uart0_ps2_off: uart0_ps2_off {
+		group1 {
+			psels = <NRF_PSEL(UART_TX, 0, 28)>,  // Not exposed / P0.28
+					<NRF_PSEL(UART_RX, 0, 27)>;  // Not exposed / P0.27
 		};
 	};
 };
@@ -93,13 +124,16 @@ RC(2,0) RC(2,1) RC(2,2) RC(2,3) RC(2,4) RC(2,5)  RC(2,6) RC(2,7) RC(2,8) RC(2,9)
 	// 1 / 14400 * 1000000 = 69.44
 	//
 	current-speed = <14400>;
-	pinctrl-0 = <&uart0_default_ps2>;
-	pinctrl-1 = <&uart0_sleep_ps2>;
+	pinctrl-0 = <&uart0_ps2_default>;
+	pinctrl-1 = <&uart0_ps2_off>;
+
 	pinctrl-names = "default", "sleep";
 
     uart_ps2: uart_ps2 {
         status="disabled";
         compatible = "uart-ps2";
+        scl-gpios = <&pro_micro 1 0>;
+        sda-gpios = <&pro_micro 0 0>;
     };
 };
 
