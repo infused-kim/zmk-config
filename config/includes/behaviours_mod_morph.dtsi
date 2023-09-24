@@ -73,7 +73,7 @@
             compatible = "zmk,behavior-mod-morph";
             label = "BACKSPACE_DELETE_LAYER";
             #binding-cells = <0>;
-            bindings = <&lt NAV BSPC>, <&kp DEL>;
+            bindings = <&lt MOUSE_TP BSPC>, <&kp DEL>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
