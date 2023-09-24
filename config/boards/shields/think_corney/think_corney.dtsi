@@ -104,7 +104,7 @@ RC(2,0) RC(2,1) RC(2,2) RC(2,3) RC(2,4) RC(2,5)  RC(2,6) RC(2,7) RC(2,8) RC(2,9)
 };
 
 &uart0 {
-	status = "okay";
+	status = "disabled";
 	compatible = "nordic,nrf-uarte";
 
 	// Actual frequency of PS2 trackpoint: 67us
@@ -130,7 +130,7 @@ RC(2,0) RC(2,1) RC(2,2) RC(2,3) RC(2,4) RC(2,5)  RC(2,6) RC(2,7) RC(2,8) RC(2,9)
 	pinctrl-names = "default", "sleep";
 
     uart_ps2: uart_ps2 {
-        status="disabled";
+        status="okay";
         compatible = "uart-ps2";
         scl-gpios = <&pro_micro 1 0>;
         sda-gpios = <&pro_micro 0 0>;
