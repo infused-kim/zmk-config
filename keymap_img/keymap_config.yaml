@@ -161,6 +161,8 @@ parse_config:
     SPACE: ⎵
   raw_binding_map:
     '&mm_grescm': {t: '⎋', s: '` ~'}
+    '&mm_shift_caps_word_l': {t: '⇧', s: ' ', h: ' '}
+    '&mm_shift_caps_word_r': {t: '⇧', s: ' ', h: ' '}
     '&mm_bspc_del': {t: '⌫', s: '⌦'}
     '&mm_grescm_gui': {t: ⎋, h: ⌘, s: '~ `'}
     '&mm_spc_unds_layer': {t: '⎵', h: 'SYM', s: '_ -'}
@@ -189,14 +191,18 @@ parse_config:
     '&td_bt_clear': 'BT CLR'
     '&m_type_md_code_block': '```'
     '&kt LSHFT': "⇧\nLock"
-    '&lt_num_word 4 0': {t: "Num\nWord", h: 'Num'}
+    '&num_word 6': {t: "Num\nWord", h: ""}
+    '&lt_num_word 4 0': {t: "Num\nWord", h: ''}
     '&ltog LGUI 5': {t: "Cancel\nNav", h: '⌘'}
     '&ltog LGUI 6': {t: "Cancel\nNum", h: '⌘'}
     '&ltog LGUI 7': {t: "Cancel\nSym", h: '⌘'}
     '&ltog LGUI 8': {t: "Cancel\nFunc", h: '⌘'}
     '&ltog LGUI 9': {t: "Cancel\nAdjust", h: '⌘'}
+    '&trans': {t: ' '}
   skip_binding_parsing: false
   zmk_keycode_map:
+    BSPC: '⌫'
+    DEL: '⌦'
     AMPERSAND: '&'
     AMPS: '&'
     APOS: .
@@ -310,8 +316,10 @@ parse_config:
     'LG(V)': '⌘V'
     'LC(TAB)': '⌃↹'
     'LS(LC(TAB))': '⌃⇧↹'
-#   zmk_combos:
-#     combo_tog_nav_word: {'a': 'bottom', 'o': -0.25}
-#     combo_tog_num_word: {'a': 'bottom', 'o': 0.0}
-#     combo_return: {'a': 'bottom', 'o': 0.3}
-#     combo_capsword: {'k': "Caps\nWord"}
+  zmk_combos:
+    combo_tog_nav_word: {'a': 'bottom', 'o': +0.05}
+    combo_tog_num_word: {'a': 'bottom', 'o': +0.25}
+    combo_return: {'a': 'bottom', 'o': 0.3}
+    combo_capsword: {'k': "Caps\nWord"}
+    combo_tog_mouse_keys_l: {'a': 'bottom', 'o': +2}
+    combo_tog_mouse_keys_r: {'a': 'bottom', 'o': +2}

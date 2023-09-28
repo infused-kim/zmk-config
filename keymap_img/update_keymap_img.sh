@@ -1,10 +1,10 @@
 #!/bin/sh
 
 echo 'Parsing ZMK keymap...'
-keymap -c chocofi_keymap_config.yaml parse -c 10 -z ../config/chocofi.keymap --base-keymap chocofi_keymap_base.yaml > chocofi_keymap.yaml
+keymap -c keymap_config.yaml parse -c 12 -z ../config/think_corney.keymap > keymap.yaml
 
-echo '\n\nAdjusting keymap yaml...'
-./keymap_img_adjuster.py chocofi_keymap.yaml
+# echo '\n\nAdjusting keymap yaml...'
+# ./keymap_img_adjuster.py keymap.yaml
 
 echo '\n\nDrawing keymap...'
-keymap -c chocofi_keymap_config.yaml draw --select-layers Base Nav Num Func Sym Adjust -k chocofi chocofi_keymap.yaml > chocofi_keymap.svg
+keymap -c keymap_config.yaml draw --qmk-keyboard crkbd/rev1 --qmk-layout LAYOUT_split_3x6_3 keymap.yaml -s Base Nav Num Func Sym Adjust > keymap.svg
