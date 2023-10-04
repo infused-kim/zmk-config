@@ -11,7 +11,7 @@
     // For example enter-enter-hold, will output multiple enter while you
     // keep holding the key.
     // But holding enter without double tapping, will activate the layer.
-     quick_tap_ms = <200>;
+     quick-tap-ms = <200>;
 
      flavor = "balanced";
 };

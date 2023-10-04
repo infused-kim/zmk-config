@@ -47,7 +47,7 @@
 
             flavor = "balanced";
             tapping-term-ms = <HM_TAPPING_TERM>;
-            quick_tap_ms = <175>;
+            quick-tap-ms = <175>;
             require-prior-idle-ms = <HM_PRIOR_IDLE>;
 
             hold-trigger-key-positions = <KEYS_L KEYS_T>;
@@ -66,7 +66,7 @@
 
             flavor = "balanced";
             tapping-term-ms = <HM_TAPPING_TERM_FAST>;
-            quick_tap_ms = <175>;
+            quick-tap-ms = <175>;
             require-prior-idle-ms = <HM_PRIOR_IDLE>;
 
             hold-trigger-key-positions = <KEYS_R KEYS_T>;
@@ -81,7 +81,7 @@
 
             flavor = "balanced";
             tapping-term-ms = <HM_TAPPING_TERM_FAST>;
-            quick_tap_ms = <175>;
+            quick-tap-ms = <175>;
             require-prior-idle-ms = <HM_PRIOR_IDLE>;
 
             hold-trigger-key-positions = <KEYS_L KEYS_T>;
@@ -105,7 +105,7 @@
 
             flavor = "balanced";
             tapping-term-ms = <HM_TAPPING_TERM>;
-            quick_tap_ms = <200>;
+            quick-tap-ms = <200>;
         };
 
     };
