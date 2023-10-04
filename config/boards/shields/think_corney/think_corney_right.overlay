@@ -24,11 +24,16 @@
 // Enable PS/2 drivers on this side of the keyboard.
 // MUST be the central
 &uart0 {
+	status = "disabled";
+};
+
+&gpio_ps2 {
 	status = "okay";
 };
 
 &mouse_ps2 {
 	status = "okay";
+	ps2-device = <&gpio_ps2>;
 };
 
 // Adjust GPIO interrupt priority to the highest level.
@@ -37,6 +42,6 @@
 // priorities by one level.
 //
 // This allows the PS/2 interrupts to be triggered in time.
-// &gpiote {
-// 	interrupts = < 0x6 0 >;
-// };
+&gpiote {
+	interrupts = < 0x6 0 >;
+};
