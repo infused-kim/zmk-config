@@ -7,6 +7,7 @@
 
 #define HM_TAPPING_TERM 300
 #define HM_TAPPING_TERM_FAST 200
+#define HM_PRIOR_IDLE 150
 
 / {
 
@@ -32,9 +33,8 @@
             flavor = "balanced";
             tapping-term-ms = <HM_TAPPING_TERM>;
             quick-tap-ms = <175>;                // repeat on tap-into-hold
-            #ifdef HAS_UROB
-                global-quick-tap-ms = <150>;         // requires PR #1387
-            #endif
+            require-prior-idle-ms = <HM_PRIOR_IDLE>;
+
             hold-trigger-key-positions = <KEYS_R KEYS_T>;
             hold-trigger-on-release;
         };
@@ -48,9 +48,8 @@
             flavor = "balanced";
             tapping-term-ms = <HM_TAPPING_TERM>;
             quick_tap_ms = <175>;
-            #ifdef HAS_UROB
-                global-quick-tap-ms = <150>;         // requires PR #1387
-            #endif
+            require-prior-idle-ms = <HM_PRIOR_IDLE>;
+
             hold-trigger-key-positions = <KEYS_L KEYS_T>;
             hold-trigger-on-release;
         };
@@ -68,10 +67,7 @@
             flavor = "balanced";
             tapping-term-ms = <HM_TAPPING_TERM_FAST>;
             quick_tap_ms = <175>;
-
-            #ifdef HAS_UROB
-                // global-quick-tap-ms = <150>;         // requires PR #1387
-            #endif
+            require-prior-idle-ms = <HM_PRIOR_IDLE>;
 
             hold-trigger-key-positions = <KEYS_R KEYS_T>;
             // hold-trigger-on-release;
@@ -86,10 +82,7 @@
             flavor = "balanced";
             tapping-term-ms = <HM_TAPPING_TERM_FAST>;
             quick_tap_ms = <175>;
-
-            #ifdef HAS_UROB
-                // global-quick-tap-ms = <150>;         // requires PR #1387
-            #endif
+            require-prior-idle-ms = <HM_PRIOR_IDLE>;
 
             hold-trigger-key-positions = <KEYS_L KEYS_T>;
             // hold-trigger-on-release;

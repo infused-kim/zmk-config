@@ -92,9 +92,9 @@
             #binding-cells = <0>;
             tapping-term-ms = <250>;
             #ifdef HAS_UROB
-            bindings = <&lt NUM DEL>, <&num_word>;
+                bindings = <&lt NUM DEL>, <&num_word>;
             #else
-            bindings = <&lt NUM DEL>, <&tog NUM>;
+                bindings = <&lt NUM DEL>, <&tog NUM>;
             #endif
         };
 

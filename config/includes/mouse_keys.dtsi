@@ -1,9 +1,9 @@
 #ifdef HAS_UROB
-#include <dt-bindings/zmk/mouse.h>
+  #include <dt-bindings/zmk/mouse.h>
 #endif
 
 #ifdef HAS_PS2
-#include <dt-bindings/zmk/mouse_settings.h>
+  #include <dt-bindings/zmk/mouse_settings.h>
 #endif
 
 
