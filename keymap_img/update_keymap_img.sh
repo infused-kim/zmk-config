@@ -1,7 +1,7 @@
 #!/bin/sh
 
 echo 'Parsing ZMK keymap...'
-keymap -c keymap_config.yaml parse -c 12 -z ../config/think_corney.keymap > keymap.yaml
+keymap -c keymap_config.yaml parse -c 12 -z ../config/corne.keymap > keymap.yaml
 
 # echo '\n\nAdjusting keymap yaml...'
 # ./keymap_img_adjuster.py keymap.yaml
