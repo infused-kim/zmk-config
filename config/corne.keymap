@@ -1,0 +1,11 @@
+/* source keypos definitions */
+#include "../zmk-nodefree-config/keypos_def/keypos_42keys.h"
+
+/* Enable keymap features that require forks */
+// #define HAS_UROB
+// #define HAS_PS2
+// #define HAS_CAPSLOCK
+
+/* source the main keymap */
+#include "base.keymap"
+
