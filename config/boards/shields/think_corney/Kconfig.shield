@@ -1,8 +1,0 @@
-# Copyright (c) 2020 Pete Johanson
-# SPDX-License-Identifier: MIT
-
-config SHIELD_THINK_CORNEY_LEFT
-	def_bool $(shields_list_contains,think_corney_left)
-
-config SHIELD_THINK_CORNEY_RIGHT
-	def_bool $(shields_list_contains,think_corney_right)
