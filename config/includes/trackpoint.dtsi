@@ -1,0 +1,13 @@
+#ifdef HAS_PS2
+  #include <dt-bindings/zmk/mouse_settings.h>
+#endif
+
+#ifdef HAS_PS2
+
+  // Set the layer that should automatically activate when the mouse is
+  // moving
+  &mouse_ps2 {
+    layer-toggle = <MOUSE_TP>;
+  };
+
+#endif
