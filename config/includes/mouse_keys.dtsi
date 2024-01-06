@@ -1,4 +1,4 @@
-#ifdef HAS_UROB
+#ifdef HAS_MOUSE_KEYS
   #include <dt-bindings/zmk/mouse.h>
 #endif
 

@@ -225,7 +225,7 @@
     // };
 #endif
 
-#ifdef HAS_UROB
+#ifdef HAS_MOUSE_KEYS
     combo_tog_mouse_keys_l {
       timeout-ms = <COMBO_TERM_SLOW>;
       // require-prior-idle-ms = <COMBO_PRIOR_IDLE>;

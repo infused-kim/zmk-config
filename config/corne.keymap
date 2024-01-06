@@ -7,6 +7,7 @@
 
 /* Enable keymap features that require forks */
 #define HAS_UROB
+// #define HAS_MOUSE_KEYS
 // #define HAS_PS2
 // #define HAS_CAPSLOCK
 
