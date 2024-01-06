@@ -2,11 +2,6 @@
   #include <dt-bindings/zmk/mouse.h>
 #endif
 
-#ifdef HAS_PS2
-  #include <dt-bindings/zmk/mouse_settings.h>
-#endif
-
-
 // These are defines to make the keymap behavior for adjusting
 // trackpoint settings shorter.
 //
@@ -28,16 +23,6 @@
 
 #define U_MSS_TP_PT_I &mms MS_TP_PTS_THRESHOLD_INCR
 #define U_MSS_TP_PT_D &mms MS_TP_PTS_THRESHOLD_DECR
-
-#ifdef HAS_PS2
-
-  // Set the layer that should automatically activate when the mouse is
-  // moving
-  &mouse_ps2 {
-    layer-toggle = <MOUSE_TP>;
-  };
-
-#endif
 
 // Below are settings and behavior defines for mouse keys.
 // If your mouse/trackpoint is not working, try if the
