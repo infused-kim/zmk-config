@@ -20,7 +20,6 @@
          */
         mm_shift_caps_word_l: mm_shift_caps_word_l {
             compatible = "zmk,behavior-mod-morph";
-            label = "mm_shift_caps_word_l";
             #binding-cells = <0>;
 
             #ifdef HAS_CAPSLOCK
@@ -34,7 +33,6 @@
 
         mm_shift_caps_word_r: mm_shift_caps_word_r {
             compatible = "zmk,behavior-mod-morph";
-            label = "mm_shift_caps_word_r";
             #binding-cells = <0>;
 
             #ifdef HAS_CAPSLOCK
@@ -55,7 +53,6 @@
          */
         mm_bspc_del: bspc_del {
             compatible = "zmk,behavior-mod-morph";
-            label = "BACKSPACE_DELETE";
             #binding-cells = <0>;
             bindings = <&kp BSPC>, <&kp DEL>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -71,7 +68,6 @@
          */
         mm_bspc_del_layer: bspc_del_layer {
             compatible = "zmk,behavior-mod-morph";
-            label = "BACKSPACE_DELETE_LAYER";
             #binding-cells = <0>;
             #ifdef HAS_PS2
                 bindings = <&lt MOUSE_TP BSPC>, <&kp DEL>;
@@ -92,7 +88,6 @@
          */
         mm_spc_unds_layer: mod_morph_underscore {
             compatible = "zmk,behavior-mod-morph";
-            label = "MM_UNDERSCORE";
             #binding-cells = <0>;
             bindings = <&lt SYM SPACE>, <&kp MINUS>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -108,7 +103,6 @@
          */
         mm_grave_caret: mm_grave_caret {
             compatible = "zmk,behavior-mod-morph";
-            label = "mm_grave_caret";
             #binding-cells = <0>;
             bindings = <&kp GRAVE>, <&kp CARET>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -123,7 +117,6 @@
          */
         mm_plus_minus: mm_plus_minus {
             compatible = "zmk,behavior-mod-morph";
-            label = "mm_plus_minus";
             #binding-cells = <0>;
             bindings = <&kp PLUS>, <&kp MINUS>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -139,7 +132,6 @@
          */
         mm_comma_semi_meh: mm_comma_semiv {
             compatible = "zmk,behavior-mod-morph";
-            label = "mm_comma_semi_meh";
             #binding-cells = <0>;
             bindings = <&hm_r RC(RG(RALT)) COMMA>, <&kp SEMICOLON>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -154,7 +146,6 @@
          */
         mm_dot_colon: mm_dot_colon {
             compatible = "zmk,behavior-mod-morph";
-            label = "mm_comma_semi";
             #binding-cells = <0>;
             bindings = <&kp DOT>, <&kp COLON>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -177,7 +168,6 @@
          */
         mm_none_undo: mm_none_undo {
             compatible = "zmk,behavior-mod-morph";
-            label = "mm_none_undo";
             #binding-cells = <0>;
             bindings = <&none>, <&kp MY_UNDO>;
             mods = <(MOD_RGUI|MOD_LGUI)>;
@@ -194,7 +184,6 @@
          */
         mm_left_word_cut: mm_left_word_cut {
             compatible = "zmk,behavior-mod-morph";
-            label = "mm_left_word_cut";
             #binding-cells = <0>;
             bindings = <&kp MY_LEFT_W>, <&kp MY_CUT>;
             mods = <(MOD_RGUI|MOD_LGUI)>;
@@ -212,7 +201,6 @@
          */
         mm_up_save: mm_up_save {
             compatible = "zmk,behavior-mod-morph";
-            label = "mm_up_save";
             #binding-cells = <0>;
             bindings = <&kp UP>, <&kp LG(S)>;
             mods = <(MOD_LGUI)>;
@@ -230,7 +218,6 @@
          */
         mm_down_copy: mm_down_copy {
             compatible = "zmk,behavior-mod-morph";
-            label = "mm_down_copy";
             #binding-cells = <0>;
             bindings = <&kp DOWN>, <&kp MY_COPY>;
             mods = <(MOD_LGUI)>;
@@ -247,7 +234,6 @@
          */
         mm_none_paste: mm_none_paste {
             compatible = "zmk,behavior-mod-morph";
-            label = "mm_none_paste";
             #binding-cells = <0>;
             bindings = <&none>, <&kp MY_PASTE>;
             mods = <(MOD_RGUI|MOD_LGUI)>;
@@ -268,7 +254,6 @@
          */
         mm_1_cut: mm_1_cut {
             compatible = "zmk,behavior-mod-morph";
-            label = "mm_1_cut";
             #binding-cells = <0>;
             bindings = <&kp NUMBER_1>, <&kp MY_CUT>;
             mods = <(MOD_RGUI|MOD_LGUI)>;
@@ -286,7 +271,6 @@
          */
         mm_2_copy: mm_2_copy {
             compatible = "zmk,behavior-mod-morph";
-            label = "mm_2_copy";
             #binding-cells = <0>;
             bindings = <&kp NUMBER_2>, <&kp MY_COPY>;
             mods = <(MOD_LGUI)>;
@@ -305,7 +289,6 @@
          */
         mm_5_save: mm_5_save {
             compatible = "zmk,behavior-mod-morph";
-            label = "mm_5_save";
             #binding-cells = <0>;
             bindings = <&hm_l LGUI NUMBER_5>, <&kp LG(S)>;
             mods = <(MOD_LGUI)>;
@@ -321,7 +304,6 @@
          */
         mm_grescm: grave_escape_masked {
             compatible = "zmk,behavior-mod-morph";
-            label = "GRESC";
             #binding-cells = <0>;
             bindings = <&kp ESCAPE>, <&kp GRAVE>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -340,7 +322,6 @@
          */
         mm_grescm_gui: grave_escape_masked_gui {
             compatible = "zmk,behavior-mod-morph";
-            label = "GRESC_GUI";
             #binding-cells = <0>;
             bindings = <&hm LGUI ESCAPE>, <&kp GRAVE>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -357,7 +338,6 @@
          */
         mm_bracket_r: mm_bracket_r {
             compatible = "zmk,behavior-mod-morph";
-            label = "()";
             #binding-cells = <0>;
             bindings = <&am RPAR LPAR>, <&kp RPAR>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -373,7 +353,6 @@
          */
         mm_bracket_sq: mm_bracket_sq {
             compatible = "zmk,behavior-mod-morph";
-            label = "[]";
             #binding-cells = <0>;
             bindings = <&am RBKT LBKT>, <&kp RBKT>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -389,7 +368,6 @@
          */
         mm_bracket_c: mm_bracket_c {
             compatible = "zmk,behavior-mod-morph";
-            label = "{}";
             #binding-cells = <0>;
             bindings = <&am RBRC LBRC>, <&kp RBRC>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -405,7 +383,6 @@
          */
         mm_bracket_a: mm_bracket_a {
             compatible = "zmk,behavior-mod-morph";
-            label = "<>";
             #binding-cells = <0>;
             bindings = <&am GT LT>, <&kp GT>;
             mods = <(MOD_LSFT|MOD_RSFT)>;

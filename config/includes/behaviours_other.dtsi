@@ -24,7 +24,6 @@
 
         am: auto_mod {
             compatible = "zmk,behavior-hold-tap";
-            label = "AUTO_MOD";
             #binding-cells = <2>;
             tapping-term-ms = <300>;
             quick-tap-ms = <0>;
@@ -46,7 +45,6 @@
 
         td_shift_l: td_shift_l {
             compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_SHIFT_LEFT";
             #binding-cells = <0>;
             tapping-term-ms = <TD_TAPPING_TERM>;
             bindings = <&kp LEFT_SHIFT>, <&caps_word>, <&kp CAPSLOCK>;
@@ -54,7 +52,6 @@
 
         td_shift_r: td_shift_r {
             compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_SHIFT_RIGHT";
             #binding-cells = <0>;
             tapping-term-ms = <TD_TAPPING_TERM>;
             bindings = <&kp RIGHT_SHIFT>, <&caps_word>, <&kp CAPSLOCK>;
@@ -70,7 +67,6 @@
         */
         td_out_bt_clear: td_out_bt_clear {
             compatible = "zmk,behavior-tap-dance";
-            label = "td_out_bt_clear";
             #binding-cells = <0>;
             tapping-term-ms = <TD_TAPPING_TERM>;
             bindings = <&out OUT_TOG>, <&bt BT_CLR>;
@@ -88,7 +84,6 @@
         */
         td_num_layer: td_num_layer {
             compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_NUM_LAYER";
             #binding-cells = <0>;
             tapping-term-ms = <250>;
             #ifdef HAS_UROB
@@ -109,7 +104,6 @@
         */
         td_nav_layer_inner: td_nav_layer_inner {
             compatible = "zmk,behavior-tap-dance";
-            label = "td_nav_layer_inner";
             #binding-cells = <0>;
             tapping-term-ms = <250>;
             #ifdef HAS_UROB
@@ -120,7 +114,6 @@
         };
         td_nav_layer: td_nav_layer {
             compatible = "zmk,behavior-hold-tap";
-            label = "td_nav_layer";
             #binding-cells = <2>;
             flavor = "tap-preferred";
             tapping-term-ms = <250>;
@@ -139,7 +132,6 @@
         */
         td_sym_layer: td_sym_layer {
             compatible = "zmk,behavior-tap-dance";
-            label = "td_sym_layer";
             #binding-cells = <0>;
             tapping-term-ms = <250>;
             #ifdef HAS_UROB
@@ -152,7 +144,6 @@
         #ifdef HAS_UROB
             nav_word: nav_word {
                 compatible = "zmk,behavior-caps-word";
-                label = "NAV_WORD";
                 #binding-cells = <0>;
                 layers = <NAV_WORD>;
                 continue-list = <
@@ -165,7 +156,6 @@
         #else
             nav_word: nav_word {
                 compatible = "zmk,behavior-none";
-                label = "NAV_WORD";
                 #binding-cells = <0>;
             };
         #endif
@@ -173,7 +163,6 @@
         #ifdef HAS_UROB
             sym_word: sym_word {
                 compatible = "zmk,behavior-caps-word";
-                label = "sym_word";
                 #binding-cells = <0>;
                 layers = <SYM_WORD>;
                 continue-list = <
@@ -188,7 +177,6 @@
         #else
             sym_word: sym_word {
                 compatible = "zmk,behavior-none";
-                label = "sym_word";
                 #binding-cells = <0>;
             };
         #endif
@@ -203,7 +191,6 @@
             */
             swapper_cmd_tab: swapper {
                 compatible = "zmk,behavior-tri-state";
-                label = "SWAPPER";
                 #binding-cells = <0>;
                 bindings = <&kt LGUI>, <&kp TAB>, <&kt LGUI>;
                 //  ignored-key-positions = <x>;
@@ -211,7 +198,6 @@
         #else
             swapper_cmd_tab: swapper {
                 compatible = "zmk,behavior-none";
-                label = "SWAPPER";
                 #binding-cells = <0>;
             };
         #endif
@@ -219,7 +205,6 @@
 
         lt_num_word: lt_num_word {
             compatible = "zmk,behavior-hold-tap";
-            label = "lt_num_word";
             #binding-cells = <2>;
             flavor = "balanced";
             tapping-term-ms = <200>;
@@ -240,7 +225,6 @@
         */
         ltog: ltog {
             compatible = "zmk,behavior-hold-tap";
-            label = "ltog";
             #binding-cells = <2>;
             flavor = "tap-preferred";
             tapping-term-ms = <250>;
@@ -256,7 +240,6 @@
         */
         sklt: sklt {
             compatible = "zmk,behavior-hold-tap";
-            label = "sklt";
             #binding-cells = <2>;
             flavor = "balanced";
             tapping-term-ms = <250>;

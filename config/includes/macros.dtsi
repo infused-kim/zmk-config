@@ -13,7 +13,6 @@
 
         m_type_email_p: type_email_p {
             compatible = "zmk,behavior-macro";
-            label = "type_email_p";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <40>;
@@ -28,7 +27,6 @@
 
         m_type_email_w: type_email_w {
             compatible = "zmk,behavior-macro";
-            label = "type_email_w";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <40>;
@@ -44,7 +42,6 @@
 
         m_type_md_code_block: m_type_md_code_block {
             compatible = "zmk,behavior-macro";
-            label = "m_type_md_code_block";
             #binding-cells = <0>;
             // wait-ms = <20>;
             // tap-ms = <20>;
@@ -60,7 +57,6 @@
 
         ht_type_email: ht_type_email {
             compatible = "zmk,behavior-hold-tap";
-            label = "AT_EMAIL";
             #binding-cells = <2>;
             tapping-term-ms = <300>;
             quick-tap-ms = <200>;
@@ -70,7 +66,6 @@
 
         td_at_email: td_at_email {
             compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_AT_EMAIL";
             #binding-cells = <0>;
             tapping-term-ms = <300>;
             bindings = <&kp AT_SIGN>, <&m_type_email_p>, <&m_type_email_w>;
