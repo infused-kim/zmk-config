@@ -73,7 +73,11 @@
             compatible = "zmk,behavior-mod-morph";
             label = "BACKSPACE_DELETE_LAYER";
             #binding-cells = <0>;
-            bindings = <&lt MOUSE_TP BSPC>, <&kp DEL>;
+            #ifdef HAS_PS2
+                bindings = <&lt MOUSE_TP BSPC>, <&kp DEL>;
+            #else
+                bindings = <&lt NAV BSPC>, <&kp DEL>;
+            #endif
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 

@@ -207,6 +207,7 @@
 
     };
 
+#ifdef HAS_PS2
     // combo_tog_mouse_settings_l {
     //   timeout-ms = <COMBO_TERM_SLOW>;
     //   // require-prior-idle-ms = <COMBO_PRIOR_IDLE>;
@@ -214,13 +215,6 @@
     //   layers = <BASE BASE_QWERTY NAV NAV_WORD MOUSE_KEYS>;
     //   bindings = <&tog MOUSE_SET>;
     // };
-    combo_tog_mouse_keys_l {
-      timeout-ms = <COMBO_TERM_SLOW>;
-      // require-prior-idle-ms = <COMBO_PRIOR_IDLE>;
-      key-positions = <LM2 LM3 LM4>;
-      layers = <BASE BASE_QWERTY NAV NAV_WORD MOUSE_KEYS>;
-      bindings = <&tog MOUSE_KEYS>;
-    };
 
     // combo_tog_mouse_settings_r {
     //   timeout-ms = <COMBO_TERM_SLOW>;
@@ -229,6 +223,16 @@
     //   layers = <BASE BASE_QWERTY NAV NAV_WORD MOUSE_KEYS>;
     //   bindings = <&tog MOUSE_SET>;
     // };
+#endif
+
+#ifdef HAS_UROB
+    combo_tog_mouse_keys_l {
+      timeout-ms = <COMBO_TERM_SLOW>;
+      // require-prior-idle-ms = <COMBO_PRIOR_IDLE>;
+      key-positions = <LM2 LM3 LM4>;
+      layers = <BASE BASE_QWERTY NAV NAV_WORD MOUSE_KEYS>;
+      bindings = <&tog MOUSE_KEYS>;
+    };
 
     combo_tog_mouse_keys_r {
       timeout-ms = <COMBO_TERM_SLOW>;
@@ -237,5 +241,7 @@
       layers = <BASE BASE_QWERTY NAV NAV_WORD MOUSE_KEYS>;
       bindings = <&tog MOUSE_KEYS>;
     };
+#endif
+
   };
 };
