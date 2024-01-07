@@ -29,11 +29,11 @@
 #include <dt-bindings/zmk/ext_power.h>
 
 #ifdef HAS_MOUSE_KEYS
-#include <dt-bindings/zmk/mouse.h>
+     #include <dt-bindings/zmk/mouse.h>
 #endif
 
-#ifdef HAS_PS2
-#include <dt-bindings/zmk/mouse_settings.h>
+#ifdef HAS_MOUSE_TP
+     #include <dt-bindings/zmk/mouse_settings.h>
 #endif
 
 
@@ -48,12 +48,13 @@
 #include "includes/behaviours_mod_morph.dtsi"
 #include "includes/behaviours_other.dtsi"
 
-// Enable Mouse Keys
-
 #ifdef HAS_MOUSE_KEYS
-#include "includes/mouse_keys.dtsi"
+     #include "includes/mouse_keys.dtsi"
 #endif
 
+#ifdef HAS_MOUSE_TP
+     #include "includes/mouse_tp.dtsi"
+#endif
 
 / {
 
@@ -254,7 +255,7 @@
     };
 #endif
 
-#ifdef HAS_PS2
+#ifdef HAS_MOUSE_TP
     MouseTP_layer {
       display-name = "TP";
       bindings = <

@@ -207,7 +207,7 @@
 
     };
 
-#ifdef HAS_PS2
+#ifdef HAS_MOUSE_TP
     // combo_tog_mouse_settings_l {
     //   timeout-ms = <COMBO_TERM_SLOW>;
     //   // require-prior-idle-ms = <COMBO_PRIOR_IDLE>;
