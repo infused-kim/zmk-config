@@ -272,7 +272,9 @@ path {
 </g>
 <g transform="translate(588, 235)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">Num</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-1.2em">Num</tspan><tspan x="0" dy="1.2em">Word</tspan>
+</text>
 <text x="0" y="24" class="key hold">Num</text>
 </g>
 <g class="combo combopos-0">
@@ -331,16 +333,30 @@ path {
 <path d="M196,121 l0,-19" class="combo"/>
 <path d="M196,121 h50 a6.0,6.0 0 0 0 6.0,-6.0 v-7" class="combo"/>
 <rect rx="6" ry="6" x="182" y="108" width="28" height="26" class="combo"/>
-<text x="196" y="121" class="combo tap"><tspan style="font-size: 88%">Nav_Word</tspan></text>
-<text x="196" y="132" class="combo hold">toggle</text>
+<text x="196" y="121" class="combo tap">NAV</text>
 </g>
 <g class="combo combopos-12">
 <path d="M196,189 h-50 a6.0,6.0 0 0 1 -6.0,-6.0 v-18" class="combo"/>
 <path d="M196,189 l0,-30" class="combo"/>
 <path d="M196,189 h50 a6.0,6.0 0 0 0 6.0,-6.0 v-18" class="combo"/>
 <rect rx="6" ry="6" x="182" y="176" width="28" height="26" class="combo"/>
-<text x="196" y="189" class="combo tap"><tspan style="font-size: 88%">Num_Word</tspan></text>
-<text x="196" y="200" class="combo hold">toggle</text>
+<text x="196" y="189" class="combo tap">NUM</text>
+</g>
+<g class="combo combopos-13">
+<path d="M140,242 h50 a6.0,6.0 0 0 0 6.0,-6.0 v-133" class="combo"/>
+<path d="M140,242 l0,-134" class="combo"/>
+<path d="M140,242 h-50 a6.0,6.0 0 0 1 -6.0,-6.0 v-116" class="combo"/>
+<rect rx="6" ry="6" x="126" y="229" width="28" height="26" class="combo"/>
+<text x="140" y="242" class="combo tap"><tspan style="font-size: 78%">MouseKeys</tspan></text>
+<text x="140" y="253" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-14">
+<path d="M700,242 h-50 a6.0,6.0 0 0 1 -6.0,-6.0 v-133" class="combo"/>
+<path d="M700,242 l0,-134" class="combo"/>
+<path d="M700,242 h50 a6.0,6.0 0 0 0 6.0,-6.0 v-116" class="combo"/>
+<rect rx="6" ry="6" x="686" y="229" width="28" height="26" class="combo"/>
+<text x="700" y="242" class="combo tap"><tspan style="font-size: 78%">MouseKeys</tspan></text>
+<text x="700" y="253" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -516,8 +532,23 @@ path {
 <path d="M196,189 l0,-30" class="combo"/>
 <path d="M196,189 h50 a6.0,6.0 0 0 0 6.0,-6.0 v-18" class="combo"/>
 <rect rx="6" ry="6" x="182" y="176" width="28" height="26" class="combo"/>
-<text x="196" y="189" class="combo tap"><tspan style="font-size: 88%">Num_Word</tspan></text>
-<text x="196" y="200" class="combo hold">toggle</text>
+<text x="196" y="189" class="combo tap">NUM</text>
+</g>
+<g class="combo combopos-3">
+<path d="M140,242 h50 a6.0,6.0 0 0 0 6.0,-6.0 v-133" class="combo"/>
+<path d="M140,242 l0,-134" class="combo"/>
+<path d="M140,242 h-50 a6.0,6.0 0 0 1 -6.0,-6.0 v-116" class="combo"/>
+<rect rx="6" ry="6" x="126" y="229" width="28" height="26" class="combo"/>
+<text x="140" y="242" class="combo tap"><tspan style="font-size: 78%">MouseKeys</tspan></text>
+<text x="140" y="253" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-4">
+<path d="M700,242 h-50 a6.0,6.0 0 0 1 -6.0,-6.0 v-133" class="combo"/>
+<path d="M700,242 l0,-134" class="combo"/>
+<path d="M700,242 h50 a6.0,6.0 0 0 0 6.0,-6.0 v-116" class="combo"/>
+<rect rx="6" ry="6" x="686" y="229" width="28" height="26" class="combo"/>
+<text x="700" y="242" class="combo tap"><tspan style="font-size: 78%">MouseKeys</tspan></text>
+<text x="700" y="253" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -735,8 +766,7 @@ path {
 <path d="M196,121 l0,-19" class="combo"/>
 <path d="M196,121 h50 a6.0,6.0 0 0 0 6.0,-6.0 v-7" class="combo"/>
 <rect rx="6" ry="6" x="182" y="108" width="28" height="26" class="combo"/>
-<text x="196" y="121" class="combo tap"><tspan style="font-size: 88%">Nav_Word</tspan></text>
-<text x="196" y="132" class="combo hold">toggle</text>
+<text x="196" y="121" class="combo tap">NAV</text>
 </g>
 </g>
 </g>
