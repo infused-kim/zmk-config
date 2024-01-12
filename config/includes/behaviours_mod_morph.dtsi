@@ -70,7 +70,7 @@
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             #ifdef HAS_MOUSE_TP
-                bindings = <&lt MOUSE_TP BSPC>, <&kp DEL>;
+                bindings = <&lt MOUSE_KEYS BSPC>, <&kp DEL>;
             #else
                 bindings = <&lt NAV BSPC>, <&kp DEL>;
             #endif
