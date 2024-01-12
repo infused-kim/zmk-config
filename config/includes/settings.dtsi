@@ -17,6 +17,16 @@
 };
 
 /*
+ * Sticky Key Settings
+ */
+&sk {
+    // Deactivate shift on press of next key instead of on release
+    // to prevent capitalization of multiple characters when rolling
+    // keys (such as `ST`).
+    quick-release;
+};
+
+/*
  * Caps Word Settings
  */
 &caps_word {
