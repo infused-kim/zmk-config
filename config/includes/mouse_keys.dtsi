@@ -4,32 +4,12 @@
 
 
 // Below are settings and behavior defines for mouse keys.
-//
-// You can add them to your keymap using the defines
-// below, such as `U_MS_U` for the up key.
-//
-// Credits for these settings go to urob.
-
 &mmv {
-  acceleration-exponent = <1>;      // 1
-  time-to-max-speed-ms = <1500>;    // 40
-  delay-ms = <0>;                   // 0
+  acceleration-exponent = <1>;      // Default: 1
+  time-to-max-speed-ms = <300>;    // Default: 300
 };
 
 &msc {
-  acceleration-exponent = <1>;      // 0
-  time-to-max-speed-ms = <5000>;    // 40
-  delay-ms = <0>;                   // 10
+  acceleration-exponent = <0>;      // Default: 0
+  time-to-max-speed-ms = <300>;    // Default: 300
 };
-
-#define U_BTN1 &mkp LCLK
-#define U_BTN2 &mkp RCLK
-#define U_BTN3 &mkp MCLK
-#define U_MS_U &mmv MOVE_UP
-#define U_MS_D &mmv MOVE_DOWN
-#define U_MS_L &mmv MOVE_LEFT
-#define U_MS_R &mmv MOVE_RIGHT
-#define U_WH_U &msc SCRL_UP
-#define U_WH_D &msc SCRL_DOWN
-#define U_WH_L &msc SCRL_LEFT
-#define U_WH_R &msc SCRL_RIGHT
