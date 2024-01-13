@@ -14,3 +14,5 @@
 #define MY_CUT LG(X)
 #define MY_COPY LG(C)
 #define MY_PASTE LG(V)
+#define MY_BACK LG(LBKT)
+#define MY_FWD LG(RBKT)
