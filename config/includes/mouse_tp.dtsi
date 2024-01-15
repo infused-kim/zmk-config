@@ -23,3 +23,6 @@
 
 #define U_MSS_TP_PT_I &mms MS_TP_PTS_THRESHOLD_INCR
 #define U_MSS_TP_PT_D &mms MS_TP_PTS_THRESHOLD_DECR
+
+#define U_MSS_RESET   &mms MS_RESET
+#define U_MSS_LOG     &mms MS_LOG
