@@ -1,6 +1,6 @@
 # The side with the PS2 Mouse / TP has to be the central half
 
-if SHIELD_THINK_CORNEY_RIGHT
+if SHIELD_THINK_CORNEY_LEFT
 
 config ZMK_KEYBOARD_NAME
 	default "ThinkCorney"
