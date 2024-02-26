@@ -1,5 +1,6 @@
 #ifdef HAS_MOUSE_KEYS
   #include <dt-bindings/zmk/mouse.h>
+  #include <behaviors/mouse_keys.dtsi>
 #endif
 
 

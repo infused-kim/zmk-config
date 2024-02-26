@@ -1,5 +1,6 @@
 #ifdef HAS_MOUSE_TP
   #include <dt-bindings/zmk/mouse_settings.h>
+  #include <behaviors/mouse_setting.dtsi>
 
  /*
   * Key Behaviors to adjust settings
@@ -120,7 +121,7 @@
   * Input Config
   */
 
-  &mouse_ps2_config {
+  &mouse_ps2_input_listener {
     xy-swap;
     x-invert;
     y-invert;
