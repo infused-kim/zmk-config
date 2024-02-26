@@ -75,3 +75,177 @@ nice_view_spi: &spi0 {
 &pro_micro_i2c {
     status = "disabled";
 };
+
+/*
+ * PS/2 Mouse / Trackpoint
+ */
+
+// Configure the SCL and SDA pins of the PS/2 mouse/tp using the `&pro_micro`
+// notation.
+//
+// If possible, try to choose the blue high frequency pins to avoid
+// bluetooth interference.
+//
+// On the nice!nano documentation these are green DX pins:
+// https://nicekeyboards.com/docs/nice-nano/pinout-schematic
+//
+#define MOUSE_PS2_PIN_SCL_PRO_MICRO <&pro_micro 1 GPIO_ACTIVE_HIGH>
+#define MOUSE_PS2_PIN_SDA_PRO_MICRO <&pro_micro 0 GPIO_ACTIVE_HIGH>
+
+
+// Uncomment and configure this pin if you have an extra free pin and want the
+// controller to perform the Power-On-Reset sequence, which many trackpoints
+// require, instead of using a trackpoint reset circuit.
+//
+// It's ok to use a low-frequency pin for this.
+// #define MOUSE_PS2_PIN_RST_PRO_MICRO <&pro_micro 9 GPIO_ACTIVE_HIGH>
+
+
+// Now configure the same SDA pin using the pinctrl notation.
+//
+// For that you have to use the PX.XX notation of the nrf52 chip.
+//
+// On the nice!nano pinout they are shown in blue and purple next to the green
+// DX pin.
+//
+// Enter it like `X, Y` without leading zeroes.
+// Examples:
+// 		D0 - P0.08: 0, 8
+//		D15 - P1.13: 1, 13
+//
+// We don't define the SCL pin, because UART uses a baud rate instead of
+// a clock pin.
+#define MOUSE_PS2_PIN_SDA_PINCTRL <NRF_PSEL(UART_RX, 0, 8)>
+
+
+// In UART two different pins are used for receiving and transmitting, but PS/2
+// uses the same pin for both.
+//
+// The UART config still requires both pins to be configured. So we use one of
+// the nrf52 pins that are not exposed on the nice!nano board.
+#define MOUSE_PS2_PIN_UNEXPOSED_TX <NRF_PSEL(UART_TX, 0, 27)>
+#define MOUSE_PS2_PIN_UNEXPOSED_RX <NRF_PSEL(UART_RX, 0, 28)>
+
+
+// The PS/2 GPIO driver
+/ {
+    gpio_ps2: gpio_ps2 {
+		status = "disabled";
+        compatible = "gpio-ps2";
+        scl-gpios = MOUSE_PS2_PIN_SCL_PRO_MICRO;
+        sda-gpios = MOUSE_PS2_PIN_SDA_PRO_MICRO;
+    };
+};
+
+
+&pinctrl {
+	// This pinctrl state is used for receiving
+	// For `UART_TX`, set an unused and unexposed pin
+	// For `UART_RX`, set the PS/2 SDA pin number
+	uart0_ps2_default: uart0_ps2_default {
+		group1 {
+			psels = MOUSE_PS2_PIN_UNEXPOSED_TX,
+					MOUSE_PS2_PIN_SDA_PINCTRL;
+		};
+	};
+
+	// Set this to the same pins as uart0_ps2_default
+	uart0_ps2_sleep: uart0_ps2_sleep {
+		group1 {
+			psels = MOUSE_PS2_PIN_UNEXPOSED_TX,
+					MOUSE_PS2_PIN_SDA_PINCTRL;
+			low-power-enable;
+		};
+	};
+
+	// The nrf52 UART controller is not compatible with the PS/2
+	// transmission frame. So we don't use UART for transmissions
+	// and instead use GPIO bitbanging.
+	//
+	// When we switch to transmit mode, we free up the SDA pin by switching
+	// UART to unexposed/unused pins.
+	//
+	// Then we can configure the pins to be used with the GPIO controller.
+	uart0_ps2_off: uart0_ps2_off {
+		group1 {
+			psels = MOUSE_PS2_PIN_UNEXPOSED_TX,
+					MOUSE_PS2_PIN_UNEXPOSED_RX;
+		};
+	};
+};
+
+
+&uart0 {
+	status = "disabled";
+	compatible = "nordic,nrf-uarte";
+
+	// PS/2 uses a clock pin to syncronize data transmissions. UART on the
+	// other hand uses a pre-defined frequency (baud rate).
+	//
+	// Fortunately, one of the available baud rates is very close to the
+	// frequency used in IBM/Lenovo trackpoints.
+	//
+	// You can find other configurable baud rates here:
+	// https://docs.zephyrproject.org/latest/build/dts/api/bindings/serial/nordic,nrf-uarte.html
+	//
+	// But most likely you won't need to adjust this.
+	//
+	// You can measure the frequency of your mouse/TP using a $5 logic
+	// analyzer from AliExpress.
+	//
+	// Actual frequency of PS/2 trackpoint: 67us
+	// Correspondent baud rate: 14,925
+	//
+	// Closest available baud rate in zephyr: 14,400
+	// Correspondent cycle length: 69.44 microseconds
+	//
+	// Calculations:
+	//
+	// Convert cycle length in microseconds into baud:
+	// 1 / PS2_CYCLE_LENGTH * 1000000 =  BAUD
+	// 1 / 67 * 1000000 = 14,925 BAUD
+	//
+	// Convert baud into cycle length:
+	// 1 / BAUD * 1000000 = CYCLE_LEN (in microseconds)
+	// 1 / 14400 * 1000000 = 69.44
+	//
+	current-speed = <14400>;
+	pinctrl-0 = <&uart0_ps2_default>;
+	pinctrl-1 = <&uart0_ps2_off>;
+
+	pinctrl-names = "default", "sleep";
+
+    uart_ps2: uart_ps2 {
+        status="disabled";
+        compatible = "uart-ps2";
+        scl-gpios = MOUSE_PS2_PIN_SCL_PRO_MICRO;
+        sda-gpios = MOUSE_PS2_PIN_SDA_PRO_MICRO;
+    };
+};
+
+
+/ {
+    mouse_ps2: mouse_ps2 {
+		status = "disabled";
+        compatible = "zmk,input-mouse-ps2";
+
+		// This will be overriden in your `xxx_right.overlay file`.
+        // ps2-device = <&gpio_ps2>;
+        ps2-device = <&uart_ps2>;
+
+#ifdef MOUSE_PS2_PIN_RST_PRO_MICRO
+        rst-gpios = MOUSE_PS2_PIN_RST_PRO_MICRO;
+#endif
+    };
+
+    mouse_ps2_input_listener: mouse_ps2_input_listener {
+        compatible = "zmk,input-listener";
+	    status = "disabled";
+
+        device = <&mouse_ps2>;
+
+		// Some of the available settings depend on the keymap. So they
+		// are adjusted in...
+		// ../../../includes/trackpoint.dtsi
+    };
+};

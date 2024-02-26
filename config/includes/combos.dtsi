@@ -206,5 +206,42 @@
       #endif
 
     };
+
+#ifdef HAS_MOUSE_TP
+    combo_tog_mouse_settings_l {
+      timeout-ms = <COMBO_TERM_SLOW>;
+      // require-prior-idle-ms = <COMBO_PRIOR_IDLE>;
+      key-positions = <LT2 LT3 LT4>;
+      layers = <BASE BASE_QWERTY NAV NAV_WORD MOUSE_KEYS>;
+      bindings = <&tog MOUSE_SET>;
+    };
+
+    combo_tog_mouse_settings_r {
+      timeout-ms = <COMBO_TERM_SLOW>;
+      // require-prior-idle-ms = <COMBO_PRIOR_IDLE>;
+      key-positions = <RT2 RT3 RT4>;
+      layers = <BASE BASE_QWERTY NAV NAV_WORD MOUSE_KEYS>;
+      bindings = <&tog MOUSE_SET>;
+    };
+#endif
+
+#ifdef HAS_MOUSE_KEYS
+    combo_tog_mouse_keys_l {
+      timeout-ms = <COMBO_TERM_SLOW>;
+      // require-prior-idle-ms = <COMBO_PRIOR_IDLE>;
+      key-positions = <LM2 LM3 LM4>;
+      layers = <BASE BASE_QWERTY NAV NAV_WORD MOUSE_KEYS>;
+      bindings = <&tog MOUSE_KEYS>;
+    };
+
+    combo_tog_mouse_keys_r {
+      timeout-ms = <COMBO_TERM_SLOW>;
+      // require-prior-idle-ms = <COMBO_PRIOR_IDLE>;
+      key-positions = <RM2 RM3 RM4>;
+      layers = <BASE BASE_QWERTY NAV NAV_WORD MOUSE_KEYS>;
+      bindings = <&tog MOUSE_KEYS>;
+    };
+#endif
+
   };
 };
