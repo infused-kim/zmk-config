@@ -239,7 +239,7 @@ nice_view_spi: &spi0 {
     };
 
     mouse_ps2_input_listener: mouse_ps2_input_listener {
-        compatible = "zmk,input-listener";
+        compatible = "zmk,input-listener-ps2";
 	    status = "disabled";
 
         device = <&mouse_ps2>;
