@@ -6,7 +6,7 @@
 #define KEYS_T LH2 LH1 LH0 RH0 RH1 RH2
 
 /* Enable keymap features that require forks */
-#define HAS_UROB
+// #define HAS_UROB
 #define HAS_MOUSE_KEYS
 #define HAS_MOUSE_TP
 // #define HAS_CAPSLOCK

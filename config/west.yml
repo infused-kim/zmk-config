@@ -6,10 +6,15 @@ manifest:
       url-base: https://github.com/urob
     - name: infused-kim
       url-base: https://github.com/infused-kim
+    - name: petejohanson
+      url-base: https://github.com/petejohanson
   projects:
     - name: zmk
-      remote: infused-kim
-      revision: pr-testing/mouse_ps2_v2
+      remote: petejohanson
+      revision: feat/pointers-move-scroll
       import: app/west.yml
+    - name: kb_zmk_ps2_mouse_trackpoint_driver
+      remote: infused-kim
+      revision: main
   self:
     path: config
