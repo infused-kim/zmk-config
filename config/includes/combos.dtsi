@@ -213,7 +213,7 @@
       // require-prior-idle-ms = <COMBO_PRIOR_IDLE>;
       key-positions = <LT2 LT3 LT4>;
       layers = <BASE BASE_QWERTY NAV NAV_WORD MOUSE_KEYS>;
-      bindings = <&tog MOUSE_SET>;
+      bindings = <&tog MOUSE_TP_SET>;
     };
 
     combo_tog_mouse_settings_r {
@@ -221,7 +221,7 @@
       // require-prior-idle-ms = <COMBO_PRIOR_IDLE>;
       key-positions = <RT2 RT3 RT4>;
       layers = <BASE BASE_QWERTY NAV NAV_WORD MOUSE_KEYS>;
-      bindings = <&tog MOUSE_SET>;
+      bindings = <&tog MOUSE_TP_SET>;
     };
 #endif
 
