@@ -1,0 +1,80 @@
+// Important:
+// Make sure this file is included AFTER `mouse_tp.dtsi`.
+
+#ifdef HAS_MOUSE_TP_BADJEFF_INPUT_LISTENER
+  #ifdef HAS_MOUSE_TP
+
+    // Disable original input listener
+    &mouse_ps2_input_listener {
+      status = "disabled";
+    };
+
+    / {
+      // Badjeff's input listener for mouse movement
+      mouse_ps2_input_listener_move {
+        compatible = "zmk,input-behavior-listener";
+        device = <&mouse_ps2>;
+
+        // The TP will move the mouse on all layers except for
+        // SYM and NAV
+        layers = <
+          BASE
+          BASE_QWERTY
+          NUM_WORD
+          NAV
+          NUM
+          FUNC
+          ADJUST
+          LOWER
+          MOUSE_KEYS
+          MOUSE_TP
+          MOUSE_TP_SET
+        >;
+
+        // Auto toggle Mouse_TP layer when the mouse moves
+        bindings = <&mouse_ps2_move_tog_layer MOUSE_TP>;
+
+        // Use mouse movement event codes
+        evt-type = <INPUT_EV_REL>;
+        x-input-code = <INPUT_REL_X>;
+        y-input-code = <INPUT_REL_Y>;
+
+        scale-multiplier = <1>;
+        scale-divisor = <1>;
+      };
+
+      // Input listener for scrolling
+      mouse_ps2_input_listener_scroll {
+        compatible = "zmk,input-behavior-listener";
+        device = <&mouse_ps2>;
+
+        // The TP will scroll only on the SYM layer
+        layers = <
+          SYM
+          SYM_WORD
+          NAV
+          NAV_WORD
+        >;
+
+        // Use scroll event codes
+        evt-type = <INPUT_EV_REL>;
+        x-input-code = <INPUT_REL_MISC>;
+        y-input-code = <INPUT_REL_WHEEL>;
+
+        // Slow down the scrolling
+        scale-multiplier = <1>;
+        scale-divisor = <8>;
+
+        // Invert scroll direction
+        y-invert;
+      };
+
+      mouse_ps2_move_tog_layer: mouse_ps2_move_tog_layer {
+              compatible = "zmk,input-behavior-tog-layer";
+              #binding-cells = <1>;
+              time-to-live-ms = <500>;
+      };
+    };
+
+  #endif  // HAS_MOUSE_TP
+#endif  // HAS_MOUSE_TP_BADJEFF_INPUT_LISTENER

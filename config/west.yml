@@ -8,6 +8,8 @@ manifest:
       url-base: https://github.com/petejohanson
     - name: urob
       url-base: https://github.com/urob
+    - name: badjeff
+      url-base: https://github.com/badjeff/
 
   projects:
 
@@ -27,7 +29,7 @@ manifest:
     # is known to be compatible with the PS/2 mouse & TP driver module.
     - name: zmk
       remote: infused-kim
-      revision: pr-testing/mouse_ps2_module_base_urob
+      revision: pr-testing/mouse_ps2_module_base
       import: app/west.yml
 
     # pete's zmk fork with the most up to date mouse PR, which is more
@@ -60,6 +62,12 @@ manifest:
     # Module for PS/2 mouse & TP driver
     - name: kb_zmk_ps2_mouse_trackpoint_driver
       remote: infused-kim
+      revision: main
+
+    # Badjeff's input listener that can turn mouse movement
+    # into scroll movement
+    - name: zmk-input-behavior-listener
+      remote: badjeff
       revision: main
 
   self:

@@ -41,6 +41,7 @@
 #include "includes/behaviours_other.dtsi"
 #include "includes/mouse_keys.dtsi"
 #include "includes/mouse_tp.dtsi"
+#include "includes/mouse_tp_badjeff_input_listener.dtsi"
 
 
 #ifdef HAS_MOUSE_TP
