@@ -1,0 +1,8 @@
+#ifdef HAS_MOUSE_KEYS
+
+  // This file has no further settings. It's only used to guard
+  // the mouse key includes behind the #ifdef
+  #include <dt-bindings/zmk/mouse.h>
+  #include <behaviors/mouse_keys.dtsi>
+
+#endif
