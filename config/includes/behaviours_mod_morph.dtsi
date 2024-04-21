@@ -89,7 +89,7 @@
         mm_spc_unds_layer: mod_morph_underscore {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&lt SYM SPACE>, <&kp MINUS>;
+            bindings = <&lt_l SYM SPACE>, <&kp MINUS>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
             keep-mods = <(MOD_LSFT)>;
         };
