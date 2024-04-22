@@ -70,5 +70,10 @@ manifest:
       remote: badjeff
       revision: main
 
+    # Urob's zmk helpers that contain key position defines
+    - name: zmk-helpers
+      remote: urob
+      revision: v2 # this will eventually become main
+
   self:
     path: config
