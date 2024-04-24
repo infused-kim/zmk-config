@@ -182,7 +182,7 @@
         #endif
 
 
-        #ifdef HAS_UROB
+        #ifdef HAS_TRI_STATE
             /*
             * Swapper CMD + TAB
             *

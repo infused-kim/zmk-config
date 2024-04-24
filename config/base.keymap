@@ -20,6 +20,10 @@
 #define MOUSE_TP 12
 #define MOUSE_TP_SET 13
 
+#ifdef HAS_UROB
+  #define HAS_TRI_STATE
+  #define HAS_NUM_WORD
+#endif
 
 // ZMK includes
 #include <behaviors.dtsi>
