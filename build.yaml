@@ -16,7 +16,7 @@ include:
   - board: nice_nano_v2
     shield: think_corney_left nice_view
   - board: nice_nano_v2
-    shield: think_corney_right nice_view
+    shield: think_corney_right nice_peri_view
 
   - board: nice_nano_v2
     shield: corne_left

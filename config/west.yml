@@ -66,6 +66,11 @@ manifest:
       remote: infused-kim
       revision: main
 
+    # zmk module for nice_peri_view
+    - name: tmp-npv
+      remote: infused-kim
+      revision: main
+
     # Badjeff's input listener that can turn mouse movement
     # into scroll movement
     - name: zmk-input-behavior-listener
