@@ -262,7 +262,6 @@
             // Activate layer function immediately if a key on the right
             // side of the keyboard is used.
             hold-trigger-key-positions = <KEYS_R>;
-            hold-trigger-on-release;
 
             bindings = <&mo>, <&kp>;
         };
@@ -274,7 +273,7 @@
             tapping-term-ms = <300>;
 			quick-tap-ms = <200>;
 
-            // Activate layer function immediately if a key on the right
+            // Activate layer function immediately if a key on the left
             // side of the keyboard is used.
             hold-trigger-key-positions = <KEYS_L>;
 
