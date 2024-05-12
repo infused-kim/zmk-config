@@ -16,3 +16,8 @@
 #define MY_PASTE LG(V)
 #define MY_BACK LG(LBKT)
 #define MY_FWD LG(RBKT)
+
+// macOS Mission Control
+#define MY_MC_ALL LC(UP)
+#define MY_MC_APP LC(DOWN)
+#define MY_MC_DESK F11
