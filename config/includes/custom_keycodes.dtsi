@@ -16,6 +16,10 @@
 #define MY_PASTE LG(V)
 #define MY_BACK LG(LBKT)
 #define MY_FWD LG(RBKT)
+#define MY_TAB_PREV LS(LC(TAB))
+#define MY_TAB_NEXT LC(TAB)
+#define MY_SPACE_PREV LC(LEFT)
+#define MY_SPACE_NEXT LC(RIGHT)
 
 // macOS Mission Control
 #define MY_MC_ALL LC(UP)
