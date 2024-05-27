@@ -294,20 +294,20 @@
 
             bindings = <&mo>, <&kp>;
         };
-    };
 
        /*
         * Layer & mouse key
         *
-        * Usage: &kp_sk RSHFT RSHFT
-        * Tap: Sticky Key RSHIFT
-        * Hold: Regular RSHIFT
+        * Usage: &lt_mkp NUM RCLK
+        * Tap: Mouse RCLK
+        * Hold: Layer NUM
         */
         lt_mkp: lt_mkp {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            flavor = "hold-preferred";
+            flavor = "tap-preferred";
             tapping-term-ms = <250>;
             bindings = <&mo>, <&mkp>;
         };
+    };
 };
