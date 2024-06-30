@@ -1,5 +1,5 @@
 // Make sure settings.dtsi is included before this file
-#include <dt-bindings/zmk/mouse.h>
+
 /*
  * Type Personal Email Macro
  *
@@ -74,19 +74,18 @@
     };
 };
 
+/*
+ * Mouse Click with layer activation
+ *
+ * While holding, it performs both a mouse click hold
+ * as well as a layer activation.
+ *
+ * Usage:
+ *   - &mkp_lt NAV LCLK
+ */
+
 / {
     macros {
-
-       /*
-        * Mouse Click with layer activation
-        *
-        * While holding, it performs both a mouse click hold
-        * as well as a layer activation.
-        *
-        * Usage:
-        *   - &mkp_lt NAV LCLK
-        */
-
         m_lt_mkp: m_lt_mkp {
             compatible = "zmk,behavior-macro-two-param";
             wait-ms = <0>;
@@ -103,14 +102,6 @@
                 , <&macro_param_1to1>
                 , <&macro_release &mo MACRO_PLACEHOLDER>
                 ;
-        };
-
-        m_double_left_click: m_double_left_click {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            tap-ms = <20>;
-            wait-ms = <20>;
-            bindings = <&mkp LCLK>, <&mkp LCLK>;
         };
     };
 };
