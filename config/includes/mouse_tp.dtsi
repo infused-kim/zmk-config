@@ -63,6 +63,9 @@
   // key code to output the settings to the log.
   //
   // Then you can add those values to `&mouse_ps2`
+
+
+
   #define U_MSS_LOG     &mms MS_LOG
 
 
@@ -70,11 +73,54 @@
   // (usually the right side)
   #ifdef MOUSE_PS2_DT_PRESENT
 
+   #define PS2_MOUSE_SAMPLING_RATE 100
+
+   /*
+    * Input Accelerator Config
+    */
+
+    / {
+        input_accelerator_move: input_accelerator_move {
+          status = "okay";
+          compatible = "zmk,input-accelerator";
+
+          acceleration-curve = "sigmoid";
+          acceleration-factor-base = <60>;
+          acceleration-factor-max = <120>;
+          acceleration-factor-rate = <40>;
+          acceleration-start-offset = <7>;
+          max-speed = <50>;
+
+          enable-interval-based-speed;
+          input-default-sending-rate = <PS2_MOUSE_SAMPLING_RATE>;
+        };
+
+        input_accelerator_scroll: input_accelerator_scroll {
+          status = "okay";
+          compatible = "zmk,input-accelerator";
+
+          acceleration-curve = "scroll";
+          acceleration-factor-rate = <20>;
+          acceleration-start-offset = <10>;
+          max-speed = <20>;
+          divisor = <20>;
+
+          enable-interval-based-speed;
+          input-default-sending-rate = <PS2_MOUSE_SAMPLING_RATE>;
+        };
+    };
+
    /*
     * Input Listener Config
     */
 
     &mouse_ps2_input_listener {
+      move-accelerator = <&input_accelerator_move>;
+      scroll-accelerator = <&input_accelerator_scroll>;
+
+      scroll-layers = <SYM MOUSE_TP_KEYS>;
+      scroll-layers-reverse-direction-horizontal;
+
       xy-swap;
       x-invert;
       y-invert;
@@ -89,7 +135,12 @@
 
       // How long to wait, after the last mouse movement, before deactivating
       // the layer (Default: 250)
-      layer-toggle-timeout-ms = <250>;
+      layer-toggle-timeout-ms = <300>;
+
+      // Require at least this amount of time since the last key tap to
+      // activate the layer toggle. Prevents  activations of the mouse layer
+      // when you accidentally touch the TrackPoint while typing
+      layer-toggle-require-prior-idle-ms = <200>;
     };
 
 
@@ -100,16 +151,16 @@
     &mouse_ps2 {
 
       // How sensitive the TP is (Default: 128)
-      tp-sensitivity = <135>;
+      // tp-sensitivity = <48>;
 
 
       // The maximum mouse movement speed the TP will accelarate to
       // (Default: 97)
-      tp-val6-upper-speed = <182>;
+      // tp-val6-upper-speed = <130>;
 
 
       // Not quite sure what it does tbh :) (Default: 6)
-      tp-neg-inertia = <6>;
+      // tp-neg-inertia = <6>;
 
 
       // Enable clicking by tapping on the TP.
@@ -140,7 +191,10 @@
       // increase battery life and potentially errors in transmissions.
       //
       // These values are allowed: 10,20,40,60,80,100,200
-      // sampling-rate = <60>;
+      //
+      // If you are using mouse acceleration, please make sure to set the
+      // same value for the input-default-sending-rate option.
+      // sampling-rate = <PS2_MOUSE_SAMPLING_RATE>;
 
 
       // Disables clicking.
