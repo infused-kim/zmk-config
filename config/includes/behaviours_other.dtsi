@@ -309,5 +309,21 @@
             tapping-term-ms = <250>;
             bindings = <&mo>, <&mkp>;
         };
+
+        /*
+        * Tap dancing mouse left click
+        *
+        * Usage: &td_mouse_left_click
+        * Tap or hold: Left Click
+        * Double Tap: A double click is sent, which is much quicker that what
+        *             you can tap.
+        */
+        td_mouse_left_click: td_mouse_left_click {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <150>;
+                bindings = <&mkp_lt NAV LCLK>, <&m_double_left_click>;
+        };
+
     };
 };
