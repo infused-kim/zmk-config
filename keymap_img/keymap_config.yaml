@@ -88,6 +88,8 @@ draw_config:
         fill: none;
     }
 parse_config:
+  zmk_additional_includes:
+   - "../../zmk-modules/zmk-helpers/include"
   assign_combos_to_layers: false
   preprocess: true
   qmk_keycode_map:

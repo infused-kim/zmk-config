@@ -13,5 +13,7 @@
 // #define HAS_MOUSE_TP
 // #define HAS_CAPSLOCK
 
+#define BASE_LAYOUT_QWERTY
+
 /* source the main keymap */
 #include "base.keymap"
