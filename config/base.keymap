@@ -45,9 +45,6 @@
 #include "includes/behaviours_mod_morph.dtsi"
 #include "includes/behaviours_other.dtsi"
 #include "includes/mouse_keys.dtsi"
-#include "includes/mouse_tp.dtsi"
-#include "includes/mouse_tp_badjeff_input_listener.dtsi"
-
 
 #ifdef HAS_MOUSE_TP
   #define U_TOG_TP_SET &tog MOUSE_TP_SET
