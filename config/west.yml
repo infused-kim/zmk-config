@@ -9,9 +9,9 @@ manifest:
     - name: urob
       url-base: https://github.com/urob
     - name: badjeff
-      url-base: https://github.com/badjeff/
-    - name: dhruvinsh
-      url-base: https://github.com/dhruvinsh
+      url-base: https://github.com/badjeff
+    - name: ilp0
+      url-base: https://github.com/ilp0
 
   projects:
 
