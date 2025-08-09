@@ -82,5 +82,9 @@ manifest:
       remote: dhruvinsh
       revision: main
 
+    - name: eyelash_corne
+      url: https://github.com/a741725193/zmk-new_corn
+      revision: main
+
   self:
     path: config
