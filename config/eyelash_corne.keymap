@@ -123,10 +123,10 @@
 
         base_layer {
             bindings = <
-&kp TAB        &kp Q               &kp W           &kp F               &kp P             &kp B                                &kp UP               &kp J          &kp L              &kp U                &kp Y            &kp SEMICOLON        &kp MINUS
-&kp GRAVE      &mt LEFT_CONTROL A  &mt LEFT_ALT R  &mt LEFT_COMMAND S  &mt LEFT_SHIFT T  &kp G                      &kp LEFT  &kp RET   &kp RIGHT  &kp M          &mt RIGHT_SHIFT N  &mt RIGHT_COMMAND E  &mt RIGHT_ALT I  &mt RIGHT_CONTROL O  &kp SQT
-&kp BACKSLASH  &kp Z               &kp X           &kp C               &kp D             &kp V  &kp C_PLAY_PAUSE              &kp DOWN             &kp K          &kp H              &kp COMMA            &kp PERIOD       &kp SLASH            &kp EQUAL
-                                                   &lt 3 ESCAPE        &kp SPACE         &mo 2                                                     &kp BACKSPACE  &kp ENTER          &lt 1 DELETE
+&kp TAB        &kp Q                 &kp W             &kp F                 &kp P                    &kp B                                &kp UP               &kp J          &kp L              &kp U                &kp Y            &kp SEMICOLON        &kp MINUS
+&kp GRAVE      &hm_l LEFT_CONTROL A  &hm_l LEFT_ALT R  &hm_l LEFT_COMMAND S  &hm_shift_l LEFT_SHIFT T       &kp G                      &kp LEFT  &kp RET   &kp RIGHT  &kp M          &hm_shift_r RIGHT_SHIFT N  &hm_r RIGHT_COMMAND E  &hm_r RIGHT_ALT I  &hm_r RIGHT_CONTROL O  &kp SQT
+&kp BACKSLASH  &kp Z                 &kp X             &kp C                 &kp D                    &kp V  &kp C_PLAY_PAUSE              &kp DOWN             &kp K          &kp H              &kp COMMA            &kp PERIOD       &kp SLASH            &kp EQUAL
+                                                       &lt 3 ESCAPE          &kp SPACE                &mo 2                                                     &kp BACKSPACE  &kp ENTER          &lt 1 DELETE
             >;
 
             sensor-bindings = <&scroll_encoder>;
