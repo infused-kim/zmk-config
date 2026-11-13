@@ -44,7 +44,6 @@ manifest:
     # Urob's zmk helpers that contain key position defines
     - name: zmk-helpers
       remote: urob
-      revision: v2 # this will eventually become main
 
     # Tri-state behavior to make cmd+tab switching key
     # Used to be a key feature in urob's fork
