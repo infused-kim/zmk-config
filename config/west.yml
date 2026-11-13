@@ -18,8 +18,6 @@ manifest:
       url-base: https://github.com/urob
     - name: badjeff
       url-base: https://github.com/badjeff/
-    - name: dhruvinsh
-      url-base: https://github.com/dhruvinsh
 
   projects:
     - name: zmk
@@ -46,10 +44,8 @@ manifest:
       remote: urob
 
     # Tri-state behavior to make cmd+tab switching key
-    # Used to be a key feature in urob's fork
     - name: zmk-tri-state
-      remote: dhruvinsh
-      revision: main
+      remote: urob
 
   self:
     path: config
