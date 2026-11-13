@@ -12,7 +12,7 @@
 // #define HAS_CAPSLOCK
 
 #define HAS_MOUSE_KEYS
-#define HAS_MOUSE_TP
+// #define HAS_MOUSE_TP
 // #define HAS_MOUSE_TP_BADJEFF_INPUT_LISTENER
 
 /* source the main keymap */

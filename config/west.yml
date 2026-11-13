@@ -30,9 +30,12 @@ manifest:
     #
 
     # Module for PS/2 mouse & TP driver
-    - name: kb_zmk_ps2_mouse_trackpoint_driver
-      remote: infused-kim
-      revision: dev/2024-04-acceleration
+    # Disabled until it is ported to upstream pointing / input processors.
+    # Also re-enable HAS_MOUSE_TP in think_corney.keymap and THINK_CORNEY_PS2
+    # in think_corney_right.overlay.
+    # - name: kb_zmk_ps2_mouse_trackpoint_driver
+    #   remote: infused-kim
+    #   revision: dev/2024-04-acceleration
 
     # zmk module for nice_peri_view
     - name: tmp-npv
