@@ -38,12 +38,8 @@ manifest:
     #   revision: dev/2024-04-acceleration
 
     # zmk module for nice_peri_view
-    # Disabled while testing the stock nice_view on the right half. To switch
-    # back, uncomment this, use `nice_peri_view` in build.yaml and re-enable
-    # the CONFIG_NICE_PERI_VIEW_* settings in think_corney.conf.
-    # - name: tmp-npv
-    #   remote: infused-kim
-    #   revision: main
+    - name: tmp-npv
+      remote: infused-kim
 
     # Urob's zmk helpers that contain key position defines
     - name: zmk-helpers
