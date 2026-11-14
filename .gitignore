@@ -10,3 +10,6 @@
 /.build/
 /build/
 /firmware/
+
+# Local mise overrides, e.g. ZMK_LOCAL_MODULES (see mise.local.toml.example)
+/mise.local.toml

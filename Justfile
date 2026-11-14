@@ -31,6 +31,7 @@ init: _workspace update
 # Fetch ZMK, Zephyr and the modules from config/west.yml and their Python deps
 [group("setup")]
 update:
+    @just _local-modules >/dev/null
     cd "{{ workspace }}" && west update --fetch-opt=--filter=blob:none
     uv pip install --quiet -r "{{ workspace }}/zephyr/scripts/requirements-base.txt"
 alias u := update
@@ -77,13 +78,16 @@ build filter="all" *west-args:
         just list >&2
         exit 1
     fi
+    # This repo is a module (boards/shields), plus any local module overrides
+    local_modules=$(just _local-modules)
+    extra_modules="{{ root }}${local_modules:+;$local_modules}"
     mkdir -p "{{ out }}"
     cd "{{ workspace }}"
     while IFS=$'\t' read -r name board shield snippet cmake_args; do
         echo "==> Building $name"
         west build -s zmk/app -d "{{ build-dir }}/$name" -b "$board" \
             ${snippet:+-S "$snippet"} {{ west-args }} -- \
-            -DZMK_CONFIG="{{ config }}" -DZMK_EXTRA_MODULES="{{ root }}" \
+            -DZMK_CONFIG="{{ config }}" -DZMK_EXTRA_MODULES="$extra_modules" \
             ${shield:+-DSHIELD="$shield"} $cmake_args
         fw="{{ build-dir }}/$name/zephyr/zmk.uf2"
         [[ -f "$fw" ]] || fw="{{ build-dir }}/$name/zephyr/zmk.bin"
@@ -119,6 +123,48 @@ clean:
 [confirm("Delete .zmk/ (west workspace)?")]
 clean-workspace:
     rm -rf "{{ workspace }}"
+
+# Show which modules come from local checkouts (ZMK_LOCAL_MODULES in mise.local.toml)
+[group("build")]
+local-modules:
+    @just _local-modules >/dev/null
+
+# Apply ZMK_LOCAL_MODULES (see mise.local.toml.example): deactivate the west
+# projects it replaces, then print the local module paths as a CMake list.
+# Without overrides, it clears the filter again so west.yml is used as is.
+[private]
+_local-modules:
+    #!/usr/bin/env -S mise exec -- bash
+    set -euo pipefail
+    filter=()
+    paths=()
+    for entry in ${ZMK_LOCAL_MODULES:-}; do
+        if [[ "$entry" == *=* ]]; then
+            project="${entry%%=*}"
+            path="${entry#*=}"
+        else
+            project=""
+            path="$entry"
+        fi
+        if ! abs=$(cd "{{ root }}" && cd "$path" 2>/dev/null && pwd); then
+            echo "Local module not found: $path" >&2
+            exit 1
+        fi
+        if [[ ! -f "$abs/zephyr/module.yml" ]]; then
+            echo "Not a Zephyr module (no zephyr/module.yml): $abs" >&2
+            exit 1
+        fi
+        [[ -n "$project" ]] && filter+=("-$project")
+        paths+=("$abs")
+        echo "Local module: ${project:-(not in west.yml)} -> $abs" >&2
+    done
+    cd "{{ workspace }}"
+    if (( ${#filter[@]} )); then
+        west config manifest.project-filter -- "$(IFS=,; echo "${filter[*]}")"
+    else
+        west config -d manifest.project-filter 2>/dev/null || true
+    fi
+    (IFS=';'; echo "${paths[*]}")
 
 # One tab-separated line per build.yaml target: name, board, shield, snippet, cmake-args
 [private]

@@ -1,0 +1,17 @@
+# Local module overrides for `just build` and `just update`.
+#
+# Copy this file to mise.local.toml (gitignored) to build with your own module
+# checkouts instead of the revisions in config/west.yml. It only affects local
+# builds: GitHub Actions doesn't read it and always uses config/west.yml.
+#
+# ZMK_LOCAL_MODULES is a space-separated list of entries:
+#   <west project>=<path>  replaces that project from config/west.yml
+#                          (it gets deactivated in the local west workspace)
+#   <path>                 adds a module that isn't in config/west.yml
+#
+# Paths are relative to this repo. Run `just local-modules` to check them.
+
+[env]
+ZMK_LOCAL_MODULES = """
+tmp-npv=../zmk-modules/nice-peri-view
+"""
