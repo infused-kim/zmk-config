@@ -1,170 +1,38 @@
+# keymap-drawer config, used by `just draw`.
+#
+# Only settings that differ from keymap-drawer's defaults belong here. See
+# `keymap dump-config` for the defaults and
+# https://github.com/caksoylar/keymap-drawer/blob/main/CONFIGURATION.md
+# for all options.
+
 draw_config:
-  append_colon_to_layer_header: true
-  arc_radius: 6.0
-  arc_scale: 1.0
-  combo_h: 26.0
-  combo_w: 28.0
-  inner_pad_h: 2.0
-  inner_pad_w: 2.0
-  key_h: 56.0
-  key_rx: 6.0
-  key_ry: 6.0
-  key_w: 60.0
-  line_spacing: 1.2
-  outer_pad_h: 56.0
-  outer_pad_w: 30.0
-  small_pad: 2.0
-  split_gap: 30.0
-  svg_style: |
-    /* font and background color specifications */
-    svg {
-        font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
-        font-size: 14px;
-        font-kerning: normal;
-        text-rendering: optimizeLegibility;
-        fill: #24292e;
-    }
+  # Follow the viewer's light/dark mode (e.g. GitHub's theme in the README)
+  dark_mode: auto
 
-    /* default key styling */
-    rect {
-        fill: #f6f8fa;
-        stroke: #c9cccf;
-        stroke-width: 1;
-    }
-
-    /* color accent for combo boxes */
-    rect.combo {
-        fill: #cdf;
-    }
-
-    /* color accent for held keys */
-    rect.held, rect.combo.held {
-        fill: #fdd;
-    }
-
-    /* color accent for ghost (optional) keys */
-    rect.ghost, rect.combo.ghost {
-        fill: #ddd;
-    }
-
-    text {
-        text-anchor: middle;
-        dominant-baseline: middle;
-    }
-
-    /* styling for layer labels */
-    text.label {
-        font-weight: bold;
-        text-anchor: start;
-        stroke: white;
-        stroke-width: 2;
-        paint-order: stroke;
-    }
-
-    /* styling for combo tap, and key hold/shifted label text */
-    text.combo, text.hold, text.shifted {
-        font-size: 11px;
-    }
-
-    text.hold {
-        text-anchor: middle;
-        dominant-baseline: auto;
-    }
-
-    text.shifted {
-        text-anchor: middle;
-        dominant-baseline: hanging;
-    }
-
-    /* styling for hold/shifted label text in combo box */
-    text.combo.hold, text.combo.shifted {
-        font-size: 8px;
-    }
-
-    /* styling for combo dendrons */
-    path {
-        stroke-width: 1;
-        stroke: gray;
-        fill: none;
-    }
 parse_config:
-  assign_combos_to_layers: false
-  preprocess: true
   # Resolves `#include "zmk-helpers/..."` (key position labels like LT1).
   # Relative to the repo root, where `just draw` runs. Needs `just init`.
   zmk_additional_includes:
     - .zmk/zmk-helpers/include
-  qmk_keycode_map:
-    AMPERSAND: '&'
-    AMPR: '&'
-    ASTERISK: '*'
-    ASTR: '*'
-    AT: '@'
-    BACKSLASH: \
-    BSLS: \
-    CIRC: ^
-    CIRCUMFLEX: ^
-    COLN: ':'
-    COLON: ':'
-    COMM: ','
-    COMMA: ','
-    DLR: $
-    DOLLAR: $
-    DOT: .
-    DOUBLE_QUOTE: '"'
-    DQT: '"'
-    DQUO: '"'
-    EQL: '='
-    EQUAL: '='
-    EXCLAIM: '!'
-    EXLM: '!'
-    GRAVE: '`'
-    GRV: '`'
-    GT: '>'
-    HASH: '#'
-    LABK: <
-    LBRC: '['
-    LCBR: '{'
-    LEFT_ANGLE_BRACKET: <
-    LEFT_BRACKET: '['
-    LEFT_CURLY_BRACE: '{'
-    LEFT_PAREN: (
-    LPRN: (
-    LT: <
-    MINS: '-'
-    MINUS: '-'
-    'NO': ''
-    NONUS_HASH: '#'
-    NUHS: '#'
-    PERC: '%'
-    PERCENT: '%'
-    PIPE: '|'
-    PLUS: +
-    QUES: '?'
-    QUESTION: '?'
-    QUOT: ''''
-    QUOTE: ''''
-    RABK: '>'
-    RBRC: ']'
-    RCBR: '}'
-    RIGHT_ANGLE_BRACKET: '>'
-    RIGHT_BRACKET: ']'
-    RIGHT_CURLY_BRACE: '}'
-    RIGHT_PAREN: )
-    RPRN: )
-    SCLN: ;
-    SEMICOLON: ;
-    SLASH: /
-    SLSH: /
-    TILD: '~'
-    TILDE: '~'
-    TRANSPARENT: ''
-    TRNS: ''
-    UNDERSCORE: _
-    UNDS: _
-    SPACE: ⎵
+
+  # Leave transparent keys blank instead of showing ▽
+  trans_legend: {t: '', type: trans}
+
+  # Draw modifier functions like LG(Q) as ⌘Q instead of Gui+Q
+  modifier_fn_map:
+    left_ctrl: ⌃
+    right_ctrl: ⌃
+    left_shift: ⇧
+    right_shift: ⇧
+    left_alt: ⎇
+    right_alt: ⎇
+    left_gui: ⌘
+    right_gui: ⌘
+    keycode_combiner: '{mods}{key}'
+    mod_combiner: '{mod_1}{mod_2}'
+
+  # Exact bindings, mostly custom behaviors from config/includes/
   raw_binding_map:
-    '&mm_grescm': {t: '⎋', s: '` ~'}
     '&mm_shift_caps_word_l': {t: '⇧', s: ' ', h: ' '}
     '&mm_shift_caps_word_r': {t: '⇧', s: ' ', h: ' '}
     '&mm_bspc_del': {t: '⌫', s: '⌦'}
@@ -192,9 +60,10 @@ parse_config:
     '&td_shift_l': '⇧'
     '&td_shift_r': '⇧'
     '&td_nav_layer': {t: '⏎', h: 'NAV'}
-    '&td_bt_clear': 'BT CLR'
     '&m_type_md_code_block': '```'
     '&kt LSHFT': "⇧\nLock"
+    # These match layer numbers from base.keymap and need updating if the
+    # layers are reordered.
     '&num_word 6': {t: "Num\nWord", h: ""}
     '&lt_num_word 4 0': {t: "Num\nWord", h: ''}
     '&ltog LGUI 5': {t: "Cancel\nNav", h: '⌘'}
@@ -202,128 +71,155 @@ parse_config:
     '&ltog LGUI 7': {t: "Cancel\nSym", h: '⌘'}
     '&ltog LGUI 8': {t: "Cancel\nFunc", h: '⌘'}
     '&ltog LGUI 9': {t: "Cancel\nAdjust", h: '⌘'}
-    '&trans': {t: ' '}
-  skip_binding_parsing: false
+    '&ltog LGUI 11': {t: "Cancel\nMouse", h: '⌘'}
+
+    # Mouse keys
+    '&mkp LCLK': {t: LMB, h: click}
+    '&mkp RCLK': {t: RMB, h: click}
+    '&mkp MCLK': {t: MMB, h: click}
+    '&mmv MOVE_UP': {t: '↑', h: move}
+    '&mmv MOVE_DOWN': {t: '↓', h: move}
+    '&mmv MOVE_LEFT': {t: '←', h: move}
+    '&mmv MOVE_RIGHT': {t: '→', h: move}
+    '&msc SCRL_UP': {t: '↑', h: scroll}
+    '&msc SCRL_DOWN': {t: '↓', h: scroll}
+
+  # Keycode legends. Setting this replaces keymap-drawer's default map instead
+  # of extending it, so the defaults are repeated at the end.
   zmk_keycode_map:
-    BSPC: '⌫'
-    DEL: '⌦'
-    AMPERSAND: '&'
-    AMPS: '&'
-    APOS: .
-    APOSTROPHE: <
-    ASTERISK: '*'
-    ASTRK: '*'
-    AT: '@'
-    AT_SIGN: '@'
-    BACKSLASH: {t: '\', s: '|'}
-    BSLH: \
-    CARET: ^
-    COLON: ':'
-    COMMA: {t: ',', s: '<'}
-    DLLR: $
-    DOLLAR: $
-    DOT: {t: '.', s: '>'}
-    DOUBLE_QUOTES: '"'
-    DQT: '"'
-    EQUAL: {t: '=', s: '+'}
-    EXCL: '!'
-    EXCLAMATION: '!'
-    FSLH: /
-    GRAVE: {t: '`', s: '~'}
-    GREATER_THAN: '>'
-    GT: '>'
-    HASH: '#'
-    LBKT: {t: '[', s: '{'}
-    LBRC: '{'
-    LEFT_BRACE: '{'
-    LEFT_BRACKET: '['
-    LEFT_PARENTHESIS: (
-    LESS_THAN: <
-    LPAR: (
-    LT: <
-    MINUS: {t: '-', s: '_'}
-    NON_US_BACKSLASH: \
-    NON_US_BSLH: '|'
-    NON_US_HASH: '#'
-    NUHS: '#'
-    PERCENT: '%'
-    PERIOD: .
-    PIPE: '|'
-    PIPE2: '|'
-    PLUS: +
-    POUND: '#'
-    PRCNT: '%'
-    QMARK: '?'
-    QUESTION: '?'
-    RBKT: {t: ']', s: '}'}
-    RBRC: '}'
-    RIGHT_BRACE: '}'
-    RIGHT_BRACKET: ']'
-    RIGHT_PARENTHESIS: )
-    RPAR: )
-    SEMI: {t: ';', s: ':'}
-    SEMICOLON:  {t: ';', s: ':'}
-    SINGLE_QUOTE:  {t: '''', s: '"'}
-    SLASH: {t: '/', s: '?'}
-    SLASH: {t: '/', s: '?'}
-    SQT: ''''
-    STAR: '*'
-    TILDE: '~'
-    TILDE2: '~'
-    UNDER: _
-    UNDERSCORE: _
-    LCTRL: ⌃
-    LALT: ⎇
-    LGUI: ⌘
-    LSHFT: ⇧
-    RCTRL: ⌃
-    LEFT_CONTROL: ⌃
-    LEFT_ALT: ⎇
-    LEFT_GUI: ⌘
-    LEFT_SHFT: ⇧
-    RALT: ⎇
-    RGUI: ⌘
-    RSHFT: ⇧
-    RIGHT_CONTROL: ⌃
-    RIGHT_ALT: ⎇
-    RIGHT_GUI: ⌘
-    RIGHT_SHFT: ⇧
+    # Editing and navigation
+    SPACE: ⎵
+    BSPC: ⌫
+    DEL: ⌦
+    TAB: ↹
+    RETURN: ⏎
+    ESCAPE: ⎋
     LEFT: ←
     RIGHT: →
     UP: ↑
     DOWN: ↓
-    TAB: ↹
-    RETURN: '⏎'
-    ESCAPE: '⎋'
-    C_REWIND: '⏮'
-    C_FAST_FORWARD: '⏭'
-    C_PAUSE: '⏯'
-    C_MUTE: "VOL\nMUTE"
-    C_VOLUME_DOWN: "VOL\nDOWN"
-    C_VOLUME_UP: "VOL\nUP"
-    C_BRIGHTNESS_DEC: '☀↓'
-    C_BRIGHTNESS_INC: '☀↑'
     LA(LEFT): ↞
     LA(RIGHT): ↠
     LG(LEFT): ⇤
     LG(RIGHT): ⇥
-    'LS(LC(LG(LALT)))': 'HYPER'
-    'RS(RC(RG(RALT)))': 'HYPER'
-    'LC(LG(LALT))': 'MEH'
-    'RC(RG(RALT))': 'MEH'
-    'LG(Q)': '⌘Q'
-    'LG(W)': '⌘W'
-    'LG(GRAVE)': '⌘`'
-    'LG(Z)': '⌘Z'
-    'LG(X)': '⌘X'
-    'LG(C)': '⌘C'
-    'LG(V)': '⌘V'
-    'LC(TAB)': '⌃↹'
-    'LS(LC(TAB))': '⌃⇧↹'
+
+    # Symbols with their shifted variant
+    BACKSLASH: {t: '\', s: '|'}
+    COMMA: {t: ',', s: '<'}
+    DOT: {t: '.', s: '>'}
+    EQUAL: {t: '=', s: '+'}
+    GRAVE: {t: '`', s: '~'}
+    LBKT: {t: '[', s: '{'}
+    RBKT: {t: ']', s: '}'}
+    MINUS: {t: '-', s: '_'}
+    SEMI: {t: ';', s: ':'}
+    SEMICOLON: {t: ';', s: ':'}
+    SINGLE_QUOTE: {t: '''', s: '"'}
+    SLASH: {t: '/', s: '?'}
+
+    # Modifiers
+    LCTRL: ⌃
+    RCTRL: ⌃
+    LEFT_CONTROL: ⌃
+    RIGHT_CONTROL: ⌃
+    LSHFT: ⇧
+    RSHFT: ⇧
+    LEFT_SHFT: ⇧
+    RIGHT_SHFT: ⇧
+    LALT: ⎇
+    RALT: ⎇
+    LEFT_ALT: ⎇
+    RIGHT_ALT: ⎇
+    LGUI: ⌘
+    RGUI: ⌘
+    LEFT_GUI: ⌘
+    RIGHT_GUI: ⌘
+
+    # Media
+    C_REWIND: ⏮
+    C_FAST_FORWARD: ⏭
+    C_PAUSE: ⏯
+    C_MUTE: "VOL\nMUTE"
+    C_VOLUME_DOWN: "VOL\nDOWN"
+    C_VOLUME_UP: "VOL\nUP"
+    C_BRIGHTNESS_DEC: ☀↓
+    C_BRIGHTNESS_INC: ☀↑
+
+    # Hyper, Meh (MY_HYPER / MY_MEH in custom_keycodes.dtsi) and shortcuts
+    # that modifier_fn_map doesn't draw as intended
+    LS(LC(LG(LALT))): HYPER
+    RS(RC(RG(RALT))): HYPER
+    LC(LG(LALT)): MEH
+    RC(RG(RALT)): MEH
+    LG(GRAVE): ⌘`
+
+    # keymap-drawer's defaults (v0.23.0) for everything not set above
+    EXCLAMATION: '!'
+    EXCL: '!'
+    AT_SIGN: '@'
+    AT: '@'
+    HASH: '#'
+    POUND: '#'
+    DOLLAR: $
+    DLLR: $
+    PERCENT: '%'
+    PRCNT: '%'
+    CARET: ^
+    AMPERSAND: '&'
+    AMPS: '&'
+    ASTERISK: '*'
+    ASTRK: '*'
+    STAR: '*'
+    LEFT_PARENTHESIS: (
+    LPAR: (
+    RIGHT_PARENTHESIS: )
+    RPAR: )
+    PLUS: +
+    UNDERSCORE: _
+    UNDER: _
+    FSLH: /
+    QUESTION: '?'
+    QMARK: '?'
+    BSLH: \
+    PIPE: '|'
+    NON_US_BACKSLASH: \
+    PIPE2: '|'
+    NON_US_BSLH: '|'
+    COLON: ':'
+    SQT: ''''
+    APOSTROPHE: ''''
+    APOS: ''''
+    DOUBLE_QUOTES: '"'
+    DQT: '"'
+    LESS_THAN: <
+    LT: <
+    PERIOD: .
+    GREATER_THAN: '>'
+    GT: '>'
+    LEFT_BRACKET: '['
+    LEFT_BRACE: '{'
+    LBRC: '{'
+    RIGHT_BRACKET: ']'
+    RIGHT_BRACE: '}'
+    RBRC: '}'
+    TILDE: '~'
+    NON_US_HASH: '#'
+    NUHS: '#'
+    TILDE2: '~'
+
+  # Combo placement, by combo node name in config/includes/combos.dtsi
   zmk_combos:
-    combo_tog_nav_word: {'a': 'bottom', 'o': +0.05}
-    combo_tog_num_word: {'a': 'bottom', 'o': +0.25}
-    combo_return: {'a': 'bottom', 'o': 0.3}
-    combo_capsword: {'k': "Caps\nWord"}
-    combo_tog_mouse_keys_l: {'a': 'bottom', 'o': +2}
-    combo_tog_mouse_keys_r: {'a': 'bottom', 'o': +2}
+    # Plain legends: LBKT/RBKT above also define a shifted variant, which
+    # combos would otherwise show as well
+    combo_bracket_v_square_l: {k: '['}
+    combo_bracket_v_square_r: {k: ']'}
+    # Slide the box toward the lower key so it doesn't cover the home row
+    # mod legend (higher values start covering the lower key's letter)
+    combo_bracket_v_angled_l: {s: 0.3}
+    combo_bracket_v_angled_r: {s: 0.3}
+    combo_tog_nav_word: {a: bottom, o: 0.05}
+    combo_tog_num_word: {a: bottom, o: 0.25}
+    combo_return: {a: bottom, o: 0.3}
+    combo_capsword: {k: "Caps\nWord"}
+    combo_tog_mouse_keys_l: {a: bottom, o: 2}
+    combo_tog_mouse_keys_r: {a: bottom, o: 2}
