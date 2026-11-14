@@ -1,0 +1,43 @@
+# Local ZMK build toolchain. Run `just init` once, then `just build`.
+
+# Zephyr SDK plugin, pinned to a reviewed commit. It installs the SDK's minimal
+# bundle plus the listed toolchains, and sets ZEPHYR_SDK_INSTALL_DIR,
+# ZEPHYR_TOOLCHAIN_VARIANT and PATH.
+[plugins]
+zephyr-sdk = "https://github.com/klab365/mise-zephyr-sdk.git#21f174eb941ced1062e3dc8f72cf51cb56a7da7e" # main (2026-09-14)
+
+[tools]
+python = "3.12"
+uv = "latest"
+# ZMK warns that CMake 4 breaks some Zephyr modules, so stay on 3.x
+cmake = "3"
+ninja = "latest"
+just = "latest"
+# mikefarah/yq, used to read build.yaml
+yq = "latest"
+# Provides the `keymap` command for `just draw`
+"pypi:keymap-drawer" = "latest"
+
+# Zephyr SDK. Use the same version as ZMK's CI build container, so local
+# builds match GitHub Actions. Update it together with the ZMK `revision` in
+# config/west.yml and the workflow in .github/workflows/build.yml.
+#
+# To find the right version:
+#   1. Look up the Zephyr version ZMK uses: the `zephyr` revision in
+#      https://github.com/zmkfirmware/zmk/blob/<zmk revision>/app/west.yml
+#      (e.g. v3.5.0+zmk-fixes)
+#   2. Read `zephyr-sdk-version` in ZMK's container build for that Zephyr version:
+#      https://github.com/zmkfirmware/zmk-docker/blob/<major.minor>-branch/.github/workflows/containers.yml
+#
+# Known pairs: ZMK v0.3 = Zephyr 3.5 = SDK 0.16.3,
+#              ZMK main (future v0.4) = Zephyr 4.1 = SDK 0.16.9
+#
+# Host tools (QEMU, OpenOCD) aren't needed for ZMK.
+zephyr-sdk = { version = "0.16.3", toolchains = "arm-zephyr-eabi", skip_hosttools = "1" }
+
+[env]
+# West workspace (zmk, zephyr and modules) lives in .zmk/, so the Zephyr
+# checkout doesn't collide with this repo's zephyr/module.yml.
+ZMK_WORKSPACE = "{{config_root}}/.zmk"
+ZEPHYR_BASE = "{{config_root}}/.zmk/zephyr"
+_.python.venv = { path = ".zmk/.venv", create = true }
