@@ -226,11 +226,14 @@
 #endif
 
 #ifdef HAS_MOUSE_KEYS
+    // Toggle the mouse keys layer from the Adjust layer. MOUSE_KEYS is listed
+    // too, because combos only check the highest active layer, so the combo
+    // can also turn the mouse layer off again.
     combo_tog_mouse_keys_l {
       timeout-ms = <COMBO_TERM_SLOW>;
       // require-prior-idle-ms = <COMBO_PRIOR_IDLE>;
       key-positions = <LM2 LM3 LM4>;
-      layers = <BASE BASE_QWERTY NAV NAV_WORD MOUSE_KEYS>;
+      layers = <ADJUST MOUSE_KEYS>;
       bindings = <&tog MOUSE_KEYS>;
     };
 
@@ -238,7 +241,7 @@
       timeout-ms = <COMBO_TERM_SLOW>;
       // require-prior-idle-ms = <COMBO_PRIOR_IDLE>;
       key-positions = <RM2 RM3 RM4>;
-      layers = <BASE BASE_QWERTY NAV NAV_WORD MOUSE_KEYS>;
+      layers = <ADJUST MOUSE_KEYS>;
       bindings = <&tog MOUSE_KEYS>;
     };
 #endif
