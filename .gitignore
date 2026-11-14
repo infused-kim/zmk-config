@@ -1,2 +1,12 @@
+# OS Files
 .DS_Store
+
+# Project files
+/_tmp
 /keymap_img/keymap.yaml
+
+# Local build dirs
+/.zmk/
+/.build/
+/build/
+/firmware/
