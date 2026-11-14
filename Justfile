@@ -181,8 +181,23 @@ _targets:
 # Draw the keymap into keymap_img/keymap.svg
 [group("keymap")]
 draw:
-    cd "{{ root }}/keymap_img" && keymap -c keymap_config.yaml parse -c 12 -z ../config/corne.keymap > keymap.yaml
-    cd "{{ root }}/keymap_img" && keymap -c keymap_config.yaml draw --qmk-keyboard crkbd/rev1 --qmk-layout LAYOUT_split_3x6_3 keymap.yaml -s Base Nav Num Func Sym Adjust > keymap.svg
+    #!/usr/bin/env -S mise exec -- bash
+    set -euo pipefail
+    # Runs from the repo root, so the include path in keymap_config.yaml resolves
+    cd "{{ root }}"
+    if [[ ! -d .zmk/zmk-helpers/include ]]; then
+        echo "zmk-helpers isn't checked out yet. Run 'just init' first." >&2
+        exit 1
+    fi
+    # Write to temp files first, so a failed run doesn't leave an empty keymap.svg
+    tmp=$(mktemp -d)
+    trap 'rm -rf "$tmp"' EXIT
+    keymap -c keymap_img/keymap_config.yaml parse -c 12 -z config/corne.keymap > "$tmp/keymap.yaml"
+    keymap -c keymap_img/keymap_config.yaml draw --qmk-keyboard crkbd/rev1 --qmk-layout LAYOUT_split_3x6_3 \
+        "$tmp/keymap.yaml" -s Base Nav Num Func Sym Adjust > "$tmp/keymap.svg"
+    mv "$tmp/keymap.yaml" keymap_img/keymap.yaml
+    mv "$tmp/keymap.svg" keymap_img/keymap.svg
+    echo "Wrote keymap_img/keymap.svg"
 
 #
 # Other

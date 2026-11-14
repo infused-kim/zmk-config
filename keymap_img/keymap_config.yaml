@@ -90,6 +90,10 @@ draw_config:
 parse_config:
   assign_combos_to_layers: false
   preprocess: true
+  # Resolves `#include "zmk-helpers/..."` (key position labels like LT1).
+  # Relative to the repo root, where `just draw` runs. Needs `just init`.
+  zmk_additional_includes:
+    - .zmk/zmk-helpers/include
   qmk_keycode_map:
     AMPERSAND: '&'
     AMPR: '&'
